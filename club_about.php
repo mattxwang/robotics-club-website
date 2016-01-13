@@ -18,7 +18,7 @@
 			<?php include_once("site_wide.php") ?>
 			<div class="jumbotron">
 				<h3>Upper Canada College Robotics</h3>
-				<blockquote><h1>"Robotics is more than just a science. It's an art."</h1></blockquote>
+				<blockquote><h1>Robotics is more than just a science. It's an art.</h1></blockquote>
 				<h4 style="text-align:right;">- Kevin Olds, Faculty Supervisor</h4>
 			</div>
 			<div class="row">
