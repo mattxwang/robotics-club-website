@@ -32,12 +32,12 @@
 				</div>
 				<div class="col-lg-6">
 					<div class="panel-group" id="information" role="tablist">
-						<div class="panel panel-info">
+						<div class="panel panel-success">
 							<div class="panel-heading" role="tab">
 								<h4 class="panel-title">
 									<a role="button" data-toggle="collapse" data-parent"#information" href="#thumbnailOne">
 										<div class="thumbnail">
-											<img src="img/placeholder.png" height="128px"></img>
+											<img src="img/placeholder.png" height="128"></img>
 										</div>
 									</a>
 								</h4>
@@ -48,12 +48,12 @@
 								</div>
 							</div>
 						</div>
-						<div class="panel panel-info">
+						<div class="panel panel-success">
 							<div class="panel-heading" role="tab">
 								<h4 class="panel-title">
 									<a role="button" data-toggle="collapse" data-parent"#information" href="#thumbnailThree">
 										<div class="thumbnail">
-											<img src="img/placeholder.png" height="128px"></img>
+											<img src="img/placeholder.png" height="128"></img>
 										</div>
 									</a>
 								</h4>
@@ -64,12 +64,12 @@
 								</div>
 							</div>
 						</div>
-						<div class="panel panel-info">
+						<div class="panel panel-success">
 							<div class="panel-heading" role="tab">
 								<h4 class="panel-title">
 									<a role="button" data-toggle="collapse" data-parent"#information" href="#thumbnailThree">
 										<div class="thumbnail">
-											<img src="img/placeholder.png" height="128px"></img>
+											<img src="img/placeholder.png" height="128"></img>
 										</div>
 									</a>
 								</h4>
