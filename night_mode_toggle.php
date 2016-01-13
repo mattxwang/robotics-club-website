@@ -8,4 +8,6 @@ else if ($_SESSION['nightmode'] = False){
 else{
 	$_SESSION['nightmode'] = False;
 }
+header("Location: index.php"); 
+die("Redirecting to: index.php"); 
 ?>
