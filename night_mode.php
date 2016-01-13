@@ -1,10 +1,10 @@
 <?php 
 
 if(empty($_SESSION)$_SESSION['nightmode'] = False) {
-	var nightmode = False;
+	$nightmode = False;
 }
 else{
-	var nightmode = True;
+	$nightmode = True;
 }
 
 if($nightmode == True){
