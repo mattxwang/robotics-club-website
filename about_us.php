@@ -16,7 +16,7 @@
 		<div class="container">
 			<div class="jumbotron">
 				<h3>Upper Canada College Robotics</h3>
-				<h1>"Robotics is more than just a science. It's an art."</h1>
+				<blockquote><h1>"Robotics is more than just a science. It's an art."</h1></blockquote>
 				<h4>- Kevin Olds, Faculty Supervisor</h4>
 			</div>
 			<div class="row">
