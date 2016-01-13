@@ -25,3 +25,7 @@ body {
         padding: 0;
     }
 }
+
+.carousel-control.left, .carousel-control.right {
+    background-image: none
+}
