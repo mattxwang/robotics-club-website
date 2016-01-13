@@ -6,7 +6,7 @@
 		<meta name="description" content="UCC Robotics">
 		<title>Home | UCC Robotics</title>
 		<link rel="icon" href="css/favicon.ico" />
-		<link href="css/bootstrap.css" rel="stylesheet">
+		<?php include_once("night_mode.php") ?>
 		<link rel="stylesheet" href="css/style.css" />
 	</head>
 
