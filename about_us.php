@@ -37,7 +37,7 @@
 								<h4 class="panel-title">
 									<a role="button" data-toggle="collapse" data-parent"#information" href="#thumbnailOne">
 										<div class="thumbnail">
-											<img src="img/placeholder.png" height="128"></img>
+											<img src="img/placeholder.png"></img>
 										</div>
 									</a>
 								</h4>
@@ -51,14 +51,14 @@
 						<div class="panel panel-success">
 							<div class="panel-heading" role="tab">
 								<h4 class="panel-title">
-									<a role="button" data-toggle="collapse" data-parent"#information" href="#thumbnailThree">
+									<a role="button" data-toggle="collapse" data-parent"#information" href="#thumbnailTwo">
 										<div class="thumbnail">
-											<img src="img/placeholder.png" height="128"></img>
+											<img src="img/placeholder.png"></img>
 										</div>
 									</a>
 								</h4>
 							</div>
-							<div id="thumbnailThree" class="panel-collapse collapse in" role="tabpanel">
+							<div id="thumbnailTwo" class="panel-collapse collapse in" role="tabpanel">
 								<div class="panel-body">
 									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ultrices, sapien sit amet vestibulum tincidunt, sapien arcu laoreet diam, vel convallis felis tellus a est.
 								</div>
@@ -69,7 +69,7 @@
 								<h4 class="panel-title">
 									<a role="button" data-toggle="collapse" data-parent"#information" href="#thumbnailThree">
 										<div class="thumbnail">
-											<img src="img/placeholder.png" height="128"></img>
+											<img src="img/placeholder.png"></img>
 										</div>
 									</a>
 								</h4>
