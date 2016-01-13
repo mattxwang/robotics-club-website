@@ -61,7 +61,7 @@
 						<td>4</td>
 						<td>5</td>
 						<td>6</td>
-						<td class="bg-success" style="color:white;">7
+						<td class="bg-primary" style="color:white;">7
 							</br><a tabindex="0" role="button" data-trigger="focus" data-toggle="popover" data-container="body" data-placement="auto top" title="Horizons Robotics" data-content="<a href='about_horizons.php'>Horizons Robotics</a> in room 304 gives club members an opportunity to give back to the community, by teaching younger students about Robotics. In order to participate, members must have attended a Horizons training session first." data-html="true" style="color:inherit;"><h6>Horizons Robotics</h6></a>
 						</td>
 						<td>8</td>
@@ -72,7 +72,7 @@
 						<td>11</td>
 						<td>12</td>
 						<td>13</td>
-						<td class="bg-success" style="color:white;">14
+						<td class="bg-primary" style="color:white;">14
 							</br><a tabindex="0" role="button" data-trigger="focus" data-toggle="popover" data-container="body" data-placement="auto top" title="Horizons Robotics" data-content="<a href='about_horizons.php'>Horizons Robotics</a> in room 304 gives club members an opportunity to give back to the community, by teaching younger students about Robotics. In order to participate, members must have attended a Horizons training session first." data-html="true" style="color:inherit;"><h6>Horizons Robotics</h6></a>
 						</td>
 						<td>15</td>
@@ -83,7 +83,7 @@
 						<td>18</td>
 						<td>19</td>
 						<td>20</td>
-						<td class="bg-success" style="color:white;">21
+						<td class="bg-primary" style="color:white;">21
 							</br><a tabindex="0" role="button" data-trigger="focus" data-toggle="popover" data-container="body" data-placement="auto top" title="Horizons Robotics" data-content="<a href='about_horizons.php'>Horizons Robotics</a> in room 304 gives club members an opportunity to give back to the community, by teaching younger students about Robotics. In order to participate, members must have attended a Horizons training session first." data-html="true" style="color:inherit;"><h6>Horizons Robotics</h6></a>
 						</td>
 						<td>22</td>
@@ -96,7 +96,7 @@
 						<td>25</td>
 						<td>26</td>
 						<td>27</td>
-						<td class="bg-success" style="color:white;">28
+						<td class="bg-primary" style="color:white;">28
 							</br><a tabindex="0" role="button" data-trigger="focus" data-toggle="popover" data-container="body" data-placement="auto top" title="Horizons Robotics" data-content="<a href='about_horizons.php'>Horizons Robotics</a> in room 304 gives club members an opportunity to give back to the community, by teaching younger students about Robotics. In order to participate, members must have attended a Horizons training session first." data-html="true" style="color:inherit;"><h6>Horizons Robotics</h6></a>
 						</td>
 						<td>29</td>
