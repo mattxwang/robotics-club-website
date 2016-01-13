@@ -17,9 +17,9 @@
 				<li class="dropdown">
 					<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">About <span class="caret"></span></a>
 					<ul class="dropdown-menu" role="menu">
-						<li><a href="about_us.php">About Us</a></li>
+						<li><a href="club_about.php">About Us</a></li>
 						<li><a href="club_schedule.php">Schedule</a></li>
-						<li><a href="#">Resources</a></li>
+						<li><a href="club_resources">Resources</a></li>
 						<li class="divider"></li>
 						<li><a href="#">Contact Us</a></li>
 					</ul>
