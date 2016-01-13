@@ -1,13 +1,11 @@
 <?php 
-/*
-if(empty($_SESSION['nightmode']) || $_SESSION = False) {
-	var nightmode = False;
-}
-else{
+
+if($_SESSION['nightmode'] = True) {
 	var nightmode = True;
 }
-*/
-$nightmode = False;
+else{
+	var nightmode = False;
+}
 
 if($nightmode == True){
 	echo "<link href='css/bootstrap-night.css' rel='stylesheet'>";
