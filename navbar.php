@@ -60,7 +60,7 @@
 					Welcome <b>User</b> <span class="caret"></span>
 					</button>
 					<ul class="dropdown-menu" role="menu">
-						<li><a href="#">Notifications </a></li>
+						<li><a href="#">Notifications <span class="badge">42</span></a></li>
 						<li class="divider"></li>
 						<li><a href="#">Account Settings</a></li>
 					</ul>
