@@ -15,9 +15,9 @@
 		<?php include_once("footer.php")  ?>
 		<div class="container">
 			<div class="jumbotron">
-				<h2>Upper Canada College Robotics</h2>
-				<h4>"Robotics is more than just a science. It's an art."</h4>
-				<h6>- Kevin Olds, Faculty Supervisor</h6>
+				<h3>Upper Canada College Robotics</h3>
+				<h1>"Robotics is more than just a science. It's an art."</h1>
+				<h4>- Kevin Olds, Faculty Supervisor</h4>
 			</div>
 			<div class="row">
 				<div class="col-lg-6">
