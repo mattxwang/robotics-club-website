@@ -17,7 +17,7 @@
 		<div class="container">
 			<?php include_once("site_wide.php") ?>
 			<div class="jumbotron">
-				<h1 class="page-header">Resources <small>for robotics and other things</small></h1>
+				<h1 class="page-header"><span class="glyphicon glyphicon-wrench" aria-hidden="true"></span> Resources <small>for robotics and other things</small></h1>
 			</div>
 			<div class="row">
 				<div class="col-md-6">
@@ -69,9 +69,9 @@
 				</div>
 
 				<div class="col-md-6">
-					<h2>Help us out!</h2>
+					<h2>Futher Learning</h2>
 					<div class="panel-group" id="accordion2" role="tablist" aria-multiselectable="true">
-						<div class="panel panel-ifno">
+						<div class="panel panel-info">
 							<div class="panel-heading" role="tab" id="headingOne">
 								<h4 class="panel-title">
 								<a role="button" data-toggle="collapse" data-parent="#accordion2" href="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
