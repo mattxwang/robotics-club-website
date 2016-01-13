@@ -22,7 +22,7 @@
 
 			<div class="row">
 				<div class="col-md-4">
-					<div class="panel panel-default">
+					<div class="panel panel-primary">
 						<div class="panel-heading">
 							<h3><span class="glyphicon glyphicon-link" aria-hidden="true"></span> Building Foundations</h3>
 						</div>
@@ -38,7 +38,7 @@
 					</div>
 				</div>
 				<div class="col-md-4">
-					<div class="panel panel-default">
+					<div class="panel panel-info">
 						<div class="panel-heading">
 							<h3><span class="glyphicon glyphicon-home" aria-hidden="true"></span> Building Communities</h3>
 						</div>
@@ -53,7 +53,7 @@
 					</div>
 				</div>
 				<div class="col-md-4">
-					<div class="panel panel-default">
+					<div class="panel panel-success">
 						<div class="panel-heading">
 							<h3><span class="glyphicon glyphicon-road" aria-hidden="true"></span> Building Futures</h3>
 						</div>
