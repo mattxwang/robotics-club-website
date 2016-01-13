@@ -8,7 +8,7 @@
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 			</button>
-			<a class="navbar-brand" href="#">Upper Canada College Robotics</a>
+			<p class="navbar-brand">Upper Canada College Robotics</p>
 		</div>
 
 		<div class="collapse navbar-collapse" id="navbar-collapse-func">
