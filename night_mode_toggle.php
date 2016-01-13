@@ -1,6 +1,6 @@
 <?php
 session_start(); 
-if (empty($_SESSION){
+if (empty($_SESSION['user']){
 	$_SESSION['nightmode'] = 1;
 }
 elseif ($_SESSION['nightmode'] == 0){
