@@ -14,6 +14,7 @@
 		<?php include_once("navbar.php")  ?>
 		<?php include_once("footer.php")  ?>
 		<div class="container">
+			<?php include_once("site_wide.php") ?>
 			<div class="jumbotron">
 				<h2>Hello.</h2>
 				<h1>Welcome to UCC Robotics.</h1>
