@@ -36,15 +36,22 @@
 							<div class="panel-heading" role="tab">
 								<h4 class="panel-title">
 									<a role="button" data-toggle="collapse" data-parent"#information" href="#thumbnailOne">
-										<div class="thumbnail">
-											<img src="img/placeholder.png"></img>
-										</div>
+										Lorem Ipsum
 									</a>
 								</h4>
 							</div>
 							<div id="thumbnailOne" class="panel-collapse collapse in" role="tabpanel">
 								<div class="panel-body">
-									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ultrices, sapien sit amet vestibulum tincidunt, sapien arcu laoreet diam, vel convallis felis tellus a est.
+									<div class="row">
+										<div class="col-sm-8">
+											<div class="thumbnail">
+												<img src="img/placeholder.png"></img>
+											</div>
+										</div>
+										<div class="col-sm-4">
+											Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ultrices, sapien sit amet vestibulum tincidunt, sapien arcu laoreet diam, vel convallis felis tellus a est.
+										</div>
+									</div>
 								</div>
 							</div>
 						</div>
@@ -52,15 +59,22 @@
 							<div class="panel-heading" role="tab">
 								<h4 class="panel-title">
 									<a role="button" data-toggle="collapse" data-parent"#information" href="#thumbnailTwo">
-										<div class="thumbnail">
-											<img src="img/placeholder.png"></img>
-										</div>
+										Lorem Ipsum
 									</a>
 								</h4>
 							</div>
 							<div id="thumbnailTwo" class="panel-collapse collapse in" role="tabpanel">
 								<div class="panel-body">
-									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ultrices, sapien sit amet vestibulum tincidunt, sapien arcu laoreet diam, vel convallis felis tellus a est.
+									<div class="row">
+										<div class="col-sm-8">
+											<div class="thumbnail">
+												<img src="img/placeholder.png"></img>
+											</div>
+										</div>
+										<div class="col-sm-4">
+											Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ultrices, sapien sit amet vestibulum tincidunt, sapien arcu laoreet diam, vel convallis felis tellus a est.
+										</div>
+									</div>
 								</div>
 							</div>
 						</div>
@@ -68,15 +82,22 @@
 							<div class="panel-heading" role="tab">
 								<h4 class="panel-title">
 									<a role="button" data-toggle="collapse" data-parent"#information" href="#thumbnailThree">
-										<div class="thumbnail">
-											<img src="img/placeholder.png"></img>
-										</div>
+										Lorem Ipsum
 									</a>
 								</h4>
 							</div>
 							<div id="thumbnailThree" class="panel-collapse collapse in" role="tabpanel">
 								<div class="panel-body">
-									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ultrices, sapien sit amet vestibulum tincidunt, sapien arcu laoreet diam, vel convallis felis tellus a est.
+									<div class="row">
+										<div class="col-sm-8">
+											<div class="thumbnail">
+												<img src="img/placeholder.png"></img>
+											</div>
+										</div>
+										<div class="col-sm-4">
+											Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ultrices, sapien sit amet vestibulum tincidunt, sapien arcu laoreet diam, vel convallis felis tellus a est.
+										</div>
+									</div>
 								</div>
 							</div>
 						</div>
