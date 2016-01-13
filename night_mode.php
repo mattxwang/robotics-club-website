@@ -7,9 +7,9 @@ else{
 	var nightmode = True;
 }
 */
-var nightmode = True;
+$nightmode = True;
 
-if(nightmode==True){
+if($nightmode == True){
 	echo "<link href='css/bootstrap-night.css' rel='stylesheet'>"
 }
 else{
