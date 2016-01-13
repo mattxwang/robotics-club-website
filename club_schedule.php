@@ -88,7 +88,7 @@
 						</td>
 						<td>22</td>
 						<td class="bg-success" style="color:white;">23
-							</br><a tabindex="0" role="button" data-trigger="focus" data-toggle="popover" data-container="body" data-placement="auto top" title="VEX Competition" data-content="Lorem Ipsum Kappa Keepo." data-html="true" style="color:inherit;"><h6>VEX Competition @ Holy Cross</h6></a>
+							</br><a tabindex="0" role="button" data-trigger="focus" data-toggle="popover" data-container="body" data-placement="auto top" title="VEX Competition @ Holy Cross" data-content="Our competition on the 23rd is our first competition this year! We'll compete in a round-robin, and hopefully the playoffs, of the VEX Nothing But Net competition at Holy Cross. To learn more, contact <a href='mailto:matthew.wang@ucc.on.ca'>Matthew Wang</a>." data-html="true" style="color:inherit;"><h6>VEX Competition @ Holy Cross</h6></a>
 						</td>
 					</tr>
 					<tr> 
