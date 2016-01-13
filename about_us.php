@@ -63,7 +63,7 @@
 									</a>
 								</h4>
 							</div>
-							<div id="thumbnailTwo" class="panel-collapse collapse in" role="tabpanel">
+							<div id="thumbnailTwo" class="panel-collapse collapse" role="tabpanel">
 								<div class="panel-body">
 									<div class="row">
 										<div class="col-sm-8">
@@ -86,7 +86,7 @@
 									</a>
 								</h4>
 							</div>
-							<div id="thumbnailThree" class="panel-collapse collapse in" role="tabpanel">
+							<div id="thumbnailThree" class="panel-collapse collapse" role="tabpanel">
 								<div class="panel-body">
 									<div class="row">
 										<div class="col-sm-8">
