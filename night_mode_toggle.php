@@ -3,7 +3,7 @@ session_start();
 if (empty($_SESSION){
 	$_SESSION['nightmode'] = 1;
 }
-else if ($_SESSION['nightmode'] == 0){
+elseif ($_SESSION['nightmode'] == 0){
 	$_SESSION['nightmode'] = 1;
 }
 else{
