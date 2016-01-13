@@ -29,3 +29,9 @@ body {
 .carousel-control.left, .carousel-control.right {
     background-image: none
 }
+.container{
+    padding-bottom: 0px;
+}
+.container > *:last-child {
+    margin-bottom: 70px;
+}
