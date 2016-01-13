@@ -19,7 +19,7 @@
 					<ul class="dropdown-menu" role="menu">
 						<li><a href="club_about.php">About Us</a></li>
 						<li><a href="club_schedule.php">Schedule</a></li>
-						<li><a href="club_resources">Resources</a></li>
+						<li><a href="club_resources.php">Resources</a></li>
 						<li class="divider"></li>
 						<li><a href="#">Contact Us</a></li>
 					</ul>
