@@ -62,7 +62,9 @@
 					<ul class="dropdown-menu" role="menu">
 						<li><a href="#">Notifications <span class="badge">42</span></a></li>
 						<li class="divider"></li>
-						<li><a href="#">Account Settings</a></li>
+						<li><a href="#">Account Settings <span class="glyphicon glyphicon-cog" aria-hidden="true"></span></a></li>
+						<li class="divider"></li>
+						<li><a href="night_mode_toggle.php">Toggle Nightmode <span class="glyphicon glyphicon-adjust" aria-hidden="true"></span></a></li>
 					</ul>
 				</li>
 			</ul>
