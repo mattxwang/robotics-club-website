@@ -86,7 +86,8 @@
 						<td>20</td>
 						<td>21</td>
 						<td>22</td>
-						<td class="competition">23</br><h6>VEX Competition</td>
+						<td class="competition">23</br><a tabindex="0" role="button" data-trigger="focus" data-toggle="popover" data-container="body" data-placement="auto top" title="VEX Competition" data-content="Lorem Ipsum Kappa Keepo." data-html="true"><h6>VEX Competition @ Holy Cross</h6></a>
+						</td>
 					</tr>
 					<tr> 
 						<td>24</td>
