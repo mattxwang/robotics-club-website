@@ -9,6 +9,11 @@
 		<link rel="icon" href="css/favicon.ico" />
 		<?php include_once("night_mode.php") ?>
 		<link rel="stylesheet" href="css/style.css" />
+		<style>
+			.competition{
+				background-color:#18bc9c;
+			}
+		</style>
 	</head>
 
 	<body>
@@ -81,7 +86,7 @@
 						<td>20</td>
 						<td>21</td>
 						<td>22</td>
-						<td>23</td>
+						<td class="competition">23</br><h6>VEX Competition</td>
 					</tr>
 					<tr> 
 						<td>24</td>
