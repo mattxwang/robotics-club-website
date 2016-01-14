@@ -63,10 +63,11 @@
 						<li class="divider"></li>
 						<li><a href="#">Account Settings <span class="glyphicon glyphicon-cog" aria-hidden="true"></span></a></li>
 						<li class="divider"></li>
-						<li><a href="night_mode_toggle.php">Toggle Nightmode <span class="glyphicon glyphicon-adjust" aria-hidden="true"></span></a></li>
+						<li><a onclick="night_mode()">Toggle Nightmode <span class="glyphicon glyphicon-adjust" aria-hidden="true"></span></a></li>
 					</ul>
 				</li>
 			</ul>
 		</div>
 	</div>
 </nav>
+<script type="text/javascript" src="nightmode.js"></script>
