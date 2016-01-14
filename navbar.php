@@ -20,7 +20,7 @@
 						<li><a href="club_schedule.php">Schedule</a></li>
 						<li><a href="club_resources.php">Resources</a></li>
 						<li class="divider"></li>
-						<li><a href="#">Contact Us</a></li>
+						<li><a href="contactUs.php">Contact Us</a></li>
 					</ul>
 				</li>
 				<li class="dropdown">
@@ -36,7 +36,7 @@
 				<li class="dropdown">
 					<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">Horizons <span class="caret"></span></a>
 					<ul class="dropdown-menu" role="menu">
-						<li><a href="#">About Horizons</a></li>
+						<li><a href="horizons_about.php">About Horizons</a></li>
 						<li><a href="#">Horizons Schedule</a></li>
 						<li><a href="#">Horizons Curriculum</a></li>
 						<li class="divider"></li>
@@ -53,6 +53,12 @@
 				</li>
 			</ul>
 			
+			<div class="collapse navbar-collapse" id="navbar-collapse-func">
+				<ul class="nav navbar-nav">
+					<li><a href="contactUs.php">Contact Us</a></li>
+					<li class="dropdown">
+					</div>
+					
 			<ul class="nav navbar-nav navbar-right" style="padding-right:20px;">
 				<li class="dropdown">
 					<button type="button" class="btn btn-success navbar-btn" href="#" class="dropdown-toggle" data-toggle="dropdown">
