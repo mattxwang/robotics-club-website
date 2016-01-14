@@ -21,8 +21,8 @@
 			<a href="club_schedule"><h3>For a full schedule, visit our club schedule page.</h3>
 			<div class="row">
 				<div class="col-md-6">
-					<div class="well well-lg bg-primary">
-						<a href="http://www.robotevents.com/re-vrc-16-3753.html"><h2>Holy Cross Robotics Tournament</h2></a>
+					<div class="well well-lg">
+						<a href="http://www.robotevents.com/re-vrc-16-3753.html"><h2>Holy Cross CS Robotics Tournament</h2></a>
 						<h3>January 23rd</h3>
 						<h4>Holy Cross Catholic Secondary School</h4>
 						Lorem Ipsum.
@@ -30,7 +30,7 @@
 				</div>
 
 				<div class="col-md-6">
-					<div class="well well-lg bg-success">
+					<div class="well well-lg">
 						<a href="http://www.robotevents.com/re-vrc-16-4019.html"><h2>Rick Hansen SS Robotics Tournament</h2></a>
 						<h3>February 27th</h3>
 						<h4>Rich Hansen Secondary School</h4>
