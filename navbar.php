@@ -8,12 +8,11 @@
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 			</button>
-			<p class="navbar-brand">Upper Canada College Robotics</p>
+			<a href="index.php" class="navbar-text">Upper Canada College Robotics</a>
 		</div>
 
 		<div class="collapse navbar-collapse" id="navbar-collapse-func">
 			<ul class="nav navbar-nav">
-				<li><a href="index.php">Home</a></li>
 				<li class="dropdown">
 					<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">About <span class="caret"></span></a>
 					<ul class="dropdown-menu" role="menu">
