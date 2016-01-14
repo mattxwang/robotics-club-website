@@ -32,3 +32,6 @@
 
 ## Camran Hansen
 * Fill out information in the Horizons About tab [horizons_about.php](horizons_about.php)
+
+## John Mace
+* Add pictures
