@@ -22,6 +22,9 @@
 
 ## Jack Sarick
 * Fill out "Building a Future" index content.
+* Fix/Implement Nightmode
+* Database/backend work
 
 ## Nick O'Brien
-* Create and implement Contact Us Page
+* ~~Create and implement Contact Us Page~~
+* Create a multi-month calendar on [club_calendar.php](club_calendar.php), using pagination
