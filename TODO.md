@@ -5,6 +5,7 @@
 * Implement user login + attendance system
 * Implement database
 * Modularize all import pages
+* Nightmode (night_mode_toggle.php isn't working)
 
 ### User Account
 * Login with email, use passwords
