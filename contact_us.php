@@ -22,12 +22,13 @@
 			</div>	
 				<div class="well well-lg">
 					<h2>Contacts</h2>
+					<!--
 					<p>Jack Sarick <em>(Club Head and Developer)</em>: jack.sarick@ucc.on.ca</p>
 					<p>Matthew Wang <em>(Club Head and Developer)</em>: matthew.wang@ucc.on.ca</p>
 					<p>Camran Hansen <em>(Club Head)</em>: camran.hansen@ucc.on.ca</p>
 					<p>John Mace <em>(Club Head)</em>: john.mace@ucc.on.ca</p>
 					<p>Nicholas O'Brien <em>(Developer)</em>: nicholas.obrien@ucc.on.ca</p>
-
+					-->
 					<table class="table">
 						<tr>
 							<th>Name</th>
@@ -44,7 +45,21 @@
 							<td><em>(Club Head and Developer)</em></td>
 							<td><a href="mailto:matthew.wang@ucc.on.ca">matthew.wang@ucc.on.ca</a></td>
 						</tr>
-
+						<tr>
+							<td>Camran Hansen</td>
+							<td><em>(Club Head)</em></td>
+							<td><a href="mailto:camran.hansen@ucc.on.ca">camran.hansen@ucc.on.ca</a></td>
+						</tr>
+						<tr>
+							<td>John Mace</td>
+							<td><em>(Club Head)</em></td>
+							<td><a href="mailto:john.mace@ucc.on.ca">john.mace@ucc.on.ca</a></td>
+						</tr>
+						<tr>
+							<td>Nicholas O'Brien</td>
+							<td><em>(Developer)</em></td>
+							<td><a href="mailto:nicholas.obrien@ucc.on.ca">nicholas.obrien@ucc.on.ca</a></td>
+						</tr>
 
 					</table>
 				</div>
