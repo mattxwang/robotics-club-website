@@ -27,9 +27,9 @@
 				<li class="dropdown">
 					<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">VEX <span class="caret"></span></a>
 					<ul class="dropdown-menu" role="menu">
-						<li><a href="#">About VEX</a></li>
-						<li><a href="#">Competition Schedule</a></li>
-						<li><a href="#">Competition Resources</a></li>
+						<li><a href="vex_about.php">About VEX</a></li>
+						<li><a href="vex_schedule.php">Competition Schedule</a></li>
+						<li><a href="vex_resources.php">Competition Resources</a></li>
 						<li class="divider"></li>
 						<li><a href="http://www.vexrobotics.com/">VEX Website</a></li>
 					</ul>
