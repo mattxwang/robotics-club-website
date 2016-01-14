@@ -1,4 +1,5 @@
 <!-- Navbar -->
+<script src="nightmode.js"></script>
 <nav class="navbar navbar-default navbar-fixed-top">
 	<div class="container-fluid">
 		<div class="navbar-header">
@@ -70,4 +71,3 @@
 		</div>
 	</div>
 </nav>
-<script type="text/javascript" src="nightmode.js"></script>
