@@ -1,4 +1,5 @@
 <!-- Navbar -->
+<script src="nightmode.js"></script>
 <nav class="navbar navbar-default navbar-fixed-top">
 	<div class="container-fluid">
 		<div class="navbar-header">
@@ -63,7 +64,7 @@
 						<li class="divider"></li>
 						<li><a href="#">Account Settings <span class="glyphicon glyphicon-cog" aria-hidden="true"></span></a></li>
 						<li class="divider"></li>
-						<li><a href="night_mode_toggle.php">Toggle Nightmode <span class="glyphicon glyphicon-adjust" aria-hidden="true"></span></a></li>
+						<li><a onclick="toggle_night()">Toggle Nightmode <span class="glyphicon glyphicon-adjust" aria-hidden="true"></span></a></li>
 					</ul>
 				</li>
 			</ul>
