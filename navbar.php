@@ -39,7 +39,7 @@
 					<ul class="dropdown-menu" role="menu">
 						<li><a href="horizons_about.php">About Horizons</a></li>
 						<li><a href="horizons_schedule.php">Horizons Schedule</a></li>
-						<li><a href="#">Horizons Curriculum</a></li>
+						<li><a href="horizons_curriculum.php">Horizons Curriculum</a></li>
 						<li class="divider"></li>
 						<li><a href="https://bluenet.ucc.on.ca/horizons">Horizons Website</a></li>
 					</ul>
