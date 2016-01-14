@@ -20,7 +20,7 @@
 						<li><a href="club_schedule.php">Schedule</a></li>
 						<li><a href="club_resources.php">Resources</a></li>
 						<li class="divider"></li>
-						<li><a href="contactUs.php">Contact Us</a></li>
+						<li><a href="contact_us.php">Contact Us</a></li>
 					</ul>
 				</li>
 				<li class="dropdown">
@@ -52,12 +52,6 @@
 					</ul>
 				</li>
 			</ul>
-			
-			<div class="collapse navbar-collapse" id="navbar-collapse-func">
-				<ul class="nav navbar-nav">
-					<li><a href="contactUs.php">Contact Us</a></li>
-					<li class="dropdown">
-					</div>
 					
 			<ul class="nav navbar-nav navbar-right" style="padding-right:20px;">
 				<li class="dropdown">
