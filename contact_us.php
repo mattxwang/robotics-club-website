@@ -29,12 +29,12 @@
 							<th>Email</th>
 						</tr>
 						<tr> 
-							<td>Jack Sarick</td>
+							<td><a href="http://jack.antinode.ca">Jack Sarick</a></td>
 							<td><em>(Club Head and Developer)</em></td>
 							<td><a href="mailto:jack.sarick@ucc.on.ca">jack.sarick@ucc.on.ca</a></td>	
 						</tr>
 						<tr>
-							<td>Matthew Wang</td>
+							<td><a href="http://twitter.com/malsf21">Matthew Wang</a></td>
 							<td><em>(Club Head and Developer)</em></td>
 							<td><a href="mailto:matthew.wang@ucc.on.ca">matthew.wang@ucc.on.ca</a></td>
 						</tr>
