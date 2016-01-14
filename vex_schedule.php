@@ -18,7 +18,7 @@
 			<?php include_once("site_wide.php") ?>
 			
 			<h1 class="page-header">Competition List <small>VEX 2016</small></h1>
-			<a href="club_schedule"><h3>For a full schedule, visit our club schedule page.</h3>
+			<a href="club_schedule.php"><h3>For a full schedule, visit our club schedule page.</h3>
 			<div class="row">
 				<div class="col-md-6">
 					<div class="well well-lg">
