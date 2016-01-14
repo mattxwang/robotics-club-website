@@ -22,9 +22,13 @@
 
 ## Jack Sarick
 * Fill out "Building a Future" index content.
+* Fill out "resources" content on club_resources.php
 * Fix/Implement Nightmode
 * Database/backend work
 
 ## Nick O'Brien
 * ~~Create and implement Contact Us Page~~
 * Create a multi-month calendar on [club_calendar.php](club_calendar.php), using pagination
+
+## Camran Hansen
+* Fill out information in the Horizons About tab [horizons_about.php](horizons_about.php)
