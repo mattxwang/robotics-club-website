@@ -42,13 +42,17 @@
 							<div class="panel-heading" role="tab" id="headingTwo">
 								<h4 class="panel-title">
 								<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion1" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-								Lorem Ipsum.
+								Engineering tools.
 								</a>
 								</h4>
 							</div>
 							<div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
 								<div class="panel-body">
-								Lorem Ipsum.
+								<a href="http://www.wolframalpha.com/">Wolfram Alpha</a> is the world's greatest calculator. Also answers other questions, but mostly a calculator.<br>
+
+								<a href="https://en.wikipedia.org/wiki/Kinematics">This wikipedia page</a>, and the links on it, are a gold mine of information, diagrams, and equations. Not all of it is immediately relevant, but it contains some invaluable resources.<br>
+
+								<a href="http://www.printfreegraphpaper.com/">Free graph paper</a>. Because graph paper is expensive.<br>
 								</div>
 							</div>
 						</div>
@@ -82,10 +86,10 @@
 							</div>
 							<div id="collapseFour" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
 								<div class="panel-body">
-								Talk to a club member, or check out the Digital Media and Computer Science club for more information about coding.
-								<a href="https://www.codecademy.com/"> codecademy.com (Start Here)</a><br>
-								<a href="https://learnxinyminutes.com/"> learnxinyminutes.com (Use this once you know a language)</a><br>
-								<a href="https://www.khanacademy.org/computing/computer-programming"> kahnacademy.com (not the best for learning languages, decent CS section)</a><br>
+								Talk to a club member, or check out the Digital Media and Computer Science club for more information about coding.<br>
+								<a href="https://www.codecademy.com/"> codecademy.com</a> (Start Here)<br>
+								<a href="https://learnxinyminutes.com/"> learnxinyminutes.com</a> (Use this once you know a language)<br>
+								<a href="https://www.khanacademy.org/computing/computer-programming"> kahnacademy.com</a> (not the best for learning languages, decent CS section)<br>
 								</div>
 							</div>
 						</div>
