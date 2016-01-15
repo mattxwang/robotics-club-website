@@ -68,7 +68,7 @@
 							</div>
 							<div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
 								<div class="panel-body">
-								Lorem Ipsum.
+									Pay attention is physics class, and ask good questions.
 								</div>
 							</div>
 						</div>
@@ -118,7 +118,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="panel panel-info">
+						<div class="panel panel-info hidden">
 							<div class="panel-heading" role="tab" id="headingThree">
 								<h4 class="panel-title">
 								<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion2" href="#collapseSix" aria-expanded="false" aria-controls="collapseThree">
