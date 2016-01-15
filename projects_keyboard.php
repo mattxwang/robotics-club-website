@@ -5,7 +5,7 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 		<meta name="description" content="UCC Robotics">
-		<title>Resources | UCC Robotics</title>
+		<title>Projects - Keyboards | UCC Robotics</title>
 		<link rel="icon" href="css/favicon.ico" />
 		<?php include_once("night_mode.php") ?>
 		<link rel="stylesheet" href="css/style.css" />
@@ -17,7 +17,7 @@
 		<div class="container">
 			<?php include_once("site_wide.php") ?>
 			<div class="jumbotron">
-				<h1 class="page-header"><span class="glyphicon glyphicon-wrench" aria-hidden="true"></span> Resources <small>for robotics and other things</small></h1>
+				<h1 class="page-header"><span class="glyphicon glyphicon-text-size" aria-hidden="true"></span> Keyboards <small>and how to make them</small></h1>
 			</div>
 			<div class="row">
 				<div class="col-md-6">

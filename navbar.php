@@ -4,10 +4,7 @@
 	<div class="container-fluid">
 		<div class="navbar-header">
 			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-func">
-				<span class="sr-only">Toggle navigation</span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
+				<span class="glyphicon glyphicon-home" aria-hidden="true" style="color:white;"></span>
 			</button>
 			<a href="index.php" class="navbar-brand">Upper Canada College Robotics</a>
 		</div>
@@ -21,7 +18,7 @@
 						<li><a href="club_schedule.php">Schedule</a></li>
 						<li><a href="club_resources.php">Resources</a></li>
 						<li class="divider"></li>
-						<li><a href="contact_us.php">Contact Us</a></li>
+						<li><a href="club_contact.php">Contact Us</a></li>
 					</ul>
 				</li>
 				<li class="dropdown">
@@ -47,9 +44,9 @@
 				<li class="dropdown">
 					<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">Projects <span class="caret"></span></a>
 					<ul class="dropdown-menu" role="menu">
-						<li><a href="#">Arduino</a></li>
-						<li><a href="#">Keyboards</a></li>
-						<li><a href="#">Soldering</a></li>
+						<li><a href="projects_arduino.php">Arduino</a></li>
+						<li><a href="projects_keyboard.php">Keyboards</a></li>
+						<li><a href="projects_soldering.php">Soldering</a></li>
 					</ul>
 				</li>
 			</ul>
