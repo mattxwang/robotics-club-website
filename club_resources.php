@@ -92,6 +92,11 @@
 								<a href="https://www.codecademy.com/"> codecademy.com</a> Start Here!<br>
 								<a href="https://learnxinyminutes.com/"> learnxinyminutes.com</a> Use this once you know a language, or just as a reference sheet<br>
 								<a href="https://www.khanacademy.org/computing/computer-programming"> kahnacademy.com</a> Not the best for learning languages, bu decent CS section)<br>
+								<h2>Python Libraries</h2>
+								<a href="http://brew.sh/">Homebrew</a> is used for installing pretty much any library.
+								<a href="http://www.sympy.org/en/index.html">SymPy library</a>. Awesome python library for doing hard equations.<br>
+								<a href="http://matplotlib.org/">Matplotlib</a> is by far the best library for graphing and plotting data in Python.<br>
+
 								</div>
 							</div>
 						</div>
@@ -109,6 +114,7 @@
 
 									<a href="http://www.sengpielaudio.com/FormulaWheelElectronics.gif">Handy electrical equations chart.</a><br>
 
+									<a href="http://www.asciitohex.com/">Binary/hex/decimal conversion tool</a>. Also some stuff. If you're on OSX, just use the default calculator set to "Programmer".<br>
 								</div>
 							</div>
 						</div>
