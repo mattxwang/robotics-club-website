@@ -4,10 +4,7 @@
 	<div class="container-fluid">
 		<div class="navbar-header">
 			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-func">
-				<span class="sr-only">Toggle navigation</span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
+				<span class="glyphicon glyphicon-home" aria-hidden="true"></span>
 			</button>
 			<a href="index.php" class="navbar-brand">Upper Canada College Robotics</a>
 		</div>
