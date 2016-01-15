@@ -1,11 +1,9 @@
 # To-Do List
 
 ## Matthew Wang
+* Make nightmode not look horrible
 * Implement all the content and pages.
-* Implement user login + attendance system
-* Implement database
 * Modularize all import pages
-* Nightmode (night_mode_toggle.php isn't working)
 
 ### User Account
 * Login with email, use passwords
@@ -21,10 +19,9 @@
 * Users get badges for attending (badges for cumulative, ribbons for streaks, medals/trophies for special events)
 
 ## Jack Sarick
+* Implement user login + attendance system
+* Implement database
 * Fill out "Building a Future" index content.
-* Fill out "resources" content on club_resources.php
-* Fix/Implement Nightmode
-* Database/backend work
 
 ## Nick O'Brien
 * ~~Create and implement Contact Us Page~~
