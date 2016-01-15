@@ -94,7 +94,7 @@
 								<a href="https://learnxinyminutes.com/"> learnxinyminutes.com</a> Use this once you know a language, or just as a reference sheet<br>
 								<a href="https://www.khanacademy.org/computing/computer-programming"> kahnacademy.com</a> Not the best for learning languages, bu decent CS section)<br>
 								<h4>Python Libraries</h2>
-								<a href="http://brew.sh/">Homebrew</a> is used for installing pretty much any library.
+								<a href="http://brew.sh/">Homebrew</a> is used for installing pretty much any library.<br>
 								<a href="http://www.sympy.org/en/index.html">SymPy library</a>. Awesome python library for doing hard equations.<br>
 								<a href="http://matplotlib.org/">Matplotlib</a> is by far the best library for graphing and plotting data in Python.<br>
 
