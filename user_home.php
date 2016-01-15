@@ -26,6 +26,7 @@
 		<?php include_once("footer.php")  ?>
 		<div class="container">
 			<?php include_once("site_wide.php") ?>
+			
 		</div>
 		<script src="js/jquery.js"></script>
 		<script src="js/jquery.easing.min.js"></script>
