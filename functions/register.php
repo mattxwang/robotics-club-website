@@ -89,7 +89,7 @@
 
 		$query = " 
 		INSERT INTO info (
-			email,
+			:email,
 			first_name,
 			last_name,
 			birthday
