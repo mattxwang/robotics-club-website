@@ -54,15 +54,29 @@
 			<ul class="nav navbar-nav navbar-right" style="padding-right:20px;">
 				<li class="dropdown">
 					<button type="button" class="btn btn-success navbar-btn" href="#" class="dropdown-toggle" data-toggle="dropdown">
-					Welcome <b>User</b> <span class="caret"></span>
+					<?php if(empty($_SESSION['user'])) { ?>
+					User Settings <span class="caret"></span>
 					</button>
 					<ul class="dropdown-menu" role="menu">
-						<li><a href="#">Notifications <span class="badge">42</span></a></li>
+						<li><a href="register.php">Register <span class="glyphicon glyphicon-edit" aria-hidden="true"></span></a></li>
 						<li class="divider"></li>
-						<li><a href="#">Account Settings <span class="glyphicon glyphicon-cog" aria-hidden="true"></span></a></li>
+						<li><a href="login.php">Login <span class="glyphicon glyphicon-log-in"></span></a></li>
 						<li class="divider"></li>
 						<li><a onclick="toggle_night()">Toggle Nightmode <span class="glyphicon glyphicon-adjust" aria-hidden="true"></span></a></li>
 					</ul>
+				<?php } else { ?>
+					Welcome <b><?php echo $row_info['first_name'] ?></b> <span class="badge">42</span><!-- IF NO NOTIF <span class="glyphicon glyphicon-ok"></span>--><span class="caret"></span>
+					</button>
+					<ul class="dropdown-menu" role="menu">
+						<li><a href="user_home.php">Notifications <span class="badge">42</span></a></li>
+						<li class="divider"></li>
+						<li><a href="user_account.php">Account Settings <span class="glyphicon glyphicon-cog" aria-hidden="true"></span></a></li>
+						<li class="divider"></li>
+						<li><a onclick="toggle_night()">Toggle Nightmode <span class="glyphicon glyphicon-adjust" aria-hidden="true"></span></a></li>
+						<li class="divider"></li>
+						<li><a href="functions/logout.php">Logout <span class="glyphicon glyphicon-log-out"></span></a></li>
+					</ul>
+				<?php } ?>
 				</li>
 			</ul>
 		</div>

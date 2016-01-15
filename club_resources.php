@@ -26,14 +26,15 @@
 						<div class="panel panel-primary">
 							<div class="panel-heading" role="tab" id="headingOne">
 								<h4 class="panel-title">
-								<a role="button" data-toggle="collapse" data-parent="#accordion1" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-								Lorem Ipsum.
+								<a role="button" data-toggle="collapse" data-parent="#accordion1" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+								Learn C.
 								</a>
 								</h4>
 							</div>
 							<div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
 								<div class="panel-body">
-								Lorem Ipsum.
+								C is the language used to program the VEX robots, and Arduinos.
+								<a href="http://www.learn-c.org/">Here</a> is a good, but short, tutorial that will give you a strong foundation to program with. <a href="http://aelinik.free.fr/c/">This</a> is a much more complete and useful, though not user friendly. For general C/C#/C++ reference, check out <a href="https://learnxinyminutes.com/">learn X in Y minutes</a>.
 								</div>
 							</div>
 						</div>
@@ -41,13 +42,19 @@
 							<div class="panel-heading" role="tab" id="headingTwo">
 								<h4 class="panel-title">
 								<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion1" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-								Lorem Ipsum.
+								Engineering tools.
 								</a>
 								</h4>
 							</div>
 							<div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
 								<div class="panel-body">
-								Lorem Ipsum.
+								<a href="http://www.wolframalpha.com/">Wolfram Alpha</a> is the world's greatest calculator. Also answers other questions, but mostly a calculator.<br>
+
+								<a href="https://en.wikipedia.org/wiki/Kinematics">This Wikipedia page</a>, and the links on it, are a gold mine of information, diagrams, and equations. Not all of it is immediately relevant, but it contains some invaluable resources.<br>
+
+								<a href="http://www.printfreegraphpaper.com/">Free graph paper</a>. Because graph paper is expensive.<br>
+
+								<a href="http://p-fst1.pixstatic.com/5165b2c374c5b60d0a005ccf._w.540_s.fit_.jpg">Fastener and nut identification chart</a>. Very useful, I suggest learning it.<br>
 								</div>
 							</div>
 						</div>
@@ -55,13 +62,13 @@
 							<div class="panel-heading" role="tab" id="headingThree">
 								<h4 class="panel-title">
 								<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion1" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-								Lorem Ipsum.
+								Learning
 								</a>
 								</h4>
 							</div>
 							<div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
 								<div class="panel-body">
-								Lorem Ipsum.
+									Pay attention is physics class, and ask good questions.
 								</div>
 							</div>
 						</div>
@@ -74,14 +81,23 @@
 						<div class="panel panel-info">
 							<div class="panel-heading" role="tab" id="headingOne">
 								<h4 class="panel-title">
-								<a role="button" data-toggle="collapse" data-parent="#accordion2" href="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
-								Lorem Ipsum.
+								<a role="button" data-toggle="collapse" data-parent="#accordion2" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+								Learn to code
 								</a>
 								</h4>
 							</div>
 							<div id="collapseFour" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
 								<div class="panel-body">
-								Lorem Ipsum.
+								Talk to a club member, or check out the Digital Media and Computer Science club for more information about coding.<br>
+								<h4>Learn a language</h4>
+								<a href="https://www.codecademy.com/"> codecademy.com</a> Start Here! Choose python, unless you have a reason.<br>
+								<a href="https://learnxinyminutes.com/"> learnxinyminutes.com</a> Use this once you know a language, or just as a reference sheet<br>
+								<a href="https://www.khanacademy.org/computing/computer-programming"> kahnacademy.com</a> Not the best for learning languages, bu decent CS section)<br>
+								<h4>Python Libraries</h2>
+								<a href="http://brew.sh/">Homebrew</a> is used for installing pretty much any library.<br>
+								<a href="http://www.sympy.org/en/index.html">SymPy library</a>. Awesome python library for doing hard equations.<br>
+								<a href="http://matplotlib.org/">Matplotlib</a> is by far the best library for graphing and plotting data in Python.<br>
+
 								</div>
 							</div>
 						</div>
@@ -89,17 +105,21 @@
 							<div class="panel-heading" role="tab" id="headingTwo">
 								<h4 class="panel-title">
 								<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion2" href="#collapseFive" aria-expanded="false" aria-controls="collapseTwo">
-								Lorem Ipsum.
+								Electrical Engineering Resources
 								</a>
 								</h4>
 							</div>
 							<div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
 								<div class="panel-body">
-								Lorem Ipsum.
+									<a href="https://learn.sparkfun.com/tutorials/resistors/decoding-resistor-markings">Read a resistor</a>. Not exactly life saving, but a neat thing to know.<br>
+
+									<a href="http://www.sengpielaudio.com/FormulaWheelElectronics.gif">Handy electrical equations chart.</a><br>
+
+									<a href="http://www.asciitohex.com/">Binary/hex/decimal conversion tool</a>. Also some stuff. If you're on OSX, just use the default calculator set to "Programmer".<br>
 								</div>
 							</div>
 						</div>
-						<div class="panel panel-info">
+						<div class="panel panel-info hidden">
 							<div class="panel-heading" role="tab" id="headingThree">
 								<h4 class="panel-title">
 								<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion2" href="#collapseSix" aria-expanded="false" aria-controls="collapseThree">
