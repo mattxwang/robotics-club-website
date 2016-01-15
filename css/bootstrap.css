@@ -6,7 +6,7 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
-.light {
+/*.light {*/
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
@@ -7018,4 +7018,4 @@ a.list-group-item-danger.active:focus {
 .popover {
   color: #2c3e50;
 }
-}
+/*}*/
