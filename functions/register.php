@@ -2,7 +2,6 @@
 	require("common.php"); 
 	 
 	if(!empty($_POST)) { 
-		// For later: empty($_POST['firstname']) || empty($_POST['lastname']) || 
 		if( empty($_POST['email'])     ||
 			empty($_POST['password'])  ||
 			empty($_POST['password2']) ||
@@ -86,7 +85,7 @@
 		$email = $_POST['email'];
 		$first_name = $_POST['first_name'];
 		$last_name = $_POST['last_name'];
-		$birthday = $_POST['birthday']
+		$birthday = $_POST['birthday'];
 
 		$query = " 
 		INSERT INTO info (
