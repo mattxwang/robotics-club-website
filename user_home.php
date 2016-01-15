@@ -30,7 +30,7 @@
 			<h5>Here, you can check in for attendance, see your achievements, and get personalized club news!</h3>
 			<div class="row">
 				<div class="col-md-4">
-					<div class="panel panel-success">
+					<div class="panel panel-primary">
 						<div class="panel-heading">
 							<h3>Messages & Notifications <span class="glyphicon glyphicon-envelope"></span></h3>
 						</div>
@@ -38,8 +38,8 @@
 							<li class="list-group-item list-group-item-success">Message #1: Matt is Awesome.</li>
 							<li class="list-group-item list-group-item-danger">Message #2: Robotics is cool!</li>
 							<li class="list-group-item list-group-item-warning">Message #3: We're amazing!</li>
-							<li class="list-group-item list-group-item-primary">Message #4: All the good chem jokes...</li>
-							<li class="list-group-item list-group-item-primary">Message #5: Argon!</li>
+							<li class="list-group-item list-group-item-info">Message #4: All the good chem jokes...</li>
+							<li class="list-group-item list-group-item-info">Message #5: Argon!</li>
 						</ul>
 					</div>
 					<div class="panel panel-info">
