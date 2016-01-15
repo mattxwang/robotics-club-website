@@ -18,7 +18,8 @@
 		<div class="container">
 			<?php include_once("site_wide.php") ?>
 			<h1 class="page-header"><span class="glyphicon glyphicon-calendar" aria-hidden="true"></span> Club Calendar <small>2016</small></h1>
-			<div class= "table-responsive calendar-div">
+			
+			<div class= "calendar-div table-responsive">
 				<nav>
 					<ul class="pagination">
 						<li>
@@ -39,7 +40,6 @@
 					</ul>
 				</nav>
 				<table class= "table calendar-table">
-=======
 			<nav>
 				<ul class="pagination">
 					<li>
@@ -365,7 +365,6 @@
 			</div>
 				<div id="May" class = "table-responsive hidden">
 				<table class = "table">
->>>>>>> 5e20baaf79e73356dbc98591b11c1e7c2999ef77
 					<tr>
 						<td>Sunday</td>
 						<td>Monday</td>
