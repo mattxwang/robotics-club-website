@@ -6,7 +6,9 @@
 		</div>
 		<div class="collapse navbar-collapse" id="footer-navbar">
 			<ul class="nav navbar-nav">
-				<p class="navbar-text">Designed by <a href="http://twitter.com/malsf21"><b>Matthew Wang</b></a>.
+				<p class="navbar-text">
+				Designed by <a href="http://twitter.com/malsf21"><b>Matthew Wang</b></a>,</br>
+				developed by <a href="http://jack.antinode.ca"><b>Jack Sarick</b></a> and <a href="http://twitter.com/malsf21"><b>Matthew Wang</b></a>.
 				</p>
 			</ul>
 			<ul class="nav navbar-nav navbar-right">

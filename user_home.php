@@ -12,7 +12,7 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 		<meta name="description" content="UCC Robotics">
-		<title>Welcome <?php echo $row_info['first_name'] ?> | UCC Robotics</title>
+		<title><?php echo $row_info['first_name'] ?> | UCC Robotics</title>
 		<link rel="icon" href="css/favicon.ico" />
 		<?php include_once("night_mode.php") ?>
 		<link rel="stylesheet" href="css/style.css" />
@@ -39,7 +39,7 @@
 							<li class="list-group-item list-group-item-danger">Message #2: Robotics is cool!</li>
 							<li class="list-group-item list-group-item-warning">Message #3: We're amazing!</li>
 							<li class="list-group-item list-group-item-info">Message #4: All the good chem jokes...</li>
-							<li class="list-group-item list-group-item-info">Message #5: Argon!</li>
+							<li class="list-group-item list-group-item-primary">Message #5: Argon!</li>
 						</ul>
 					</div>
 					<div class="panel panel-info">
