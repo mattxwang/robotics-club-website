@@ -27,5 +27,9 @@
 		<div class="container">
 			<?php include_once("site_wide.php") ?>
 		</div>
+		<script src="js/jquery.js"></script>
+		<script src="js/jquery.easing.min.js"></script>
+		<script src="js/bootstrap.js"></script>
+		<script src="js/nav-collapse.js"></script>
 	</body>
 </html>

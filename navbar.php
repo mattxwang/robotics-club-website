@@ -54,6 +54,17 @@
 			<ul class="nav navbar-nav navbar-right" style="padding-right:20px;">
 				<li class="dropdown">
 					<button type="button" class="btn btn-success navbar-btn" href="#" class="dropdown-toggle" data-toggle="dropdown">
+					<?php if(empty($_SESSION['user'])) { ?>
+					Welcome <b>User</b> <span class="caret"></span>
+					</button>
+					<ul class="dropdown-menu" role="menu">
+						<li><a href="register.php">Register <span class="glyphicon glyphicon-user" aria-hidden="true"></span></a></li>
+						<li class="divider"></li>
+						<li><a href="login.php">Login <span class="glyphicon glyphicon-log-in"></span></a></li>
+						<li class="divider"></li>
+						<li><a onclick="toggle_night()">Toggle Nightmode <span class="glyphicon glyphicon-adjust" aria-hidden="true"></span></a></li>
+					</ul>
+				<?php } else { ?>
 					Welcome <b>User</b> <span class="caret"></span>
 					</button>
 					<ul class="dropdown-menu" role="menu">
@@ -62,7 +73,10 @@
 						<li><a href="#">Account Settings <span class="glyphicon glyphicon-cog" aria-hidden="true"></span></a></li>
 						<li class="divider"></li>
 						<li><a onclick="toggle_night()">Toggle Nightmode <span class="glyphicon glyphicon-adjust" aria-hidden="true"></span></a></li>
+						<li class="divider"></li>
+						<li><a href="function/logout.php">Logout <span class="glyphicon glyphicon-log-out"></span></a></li>
 					</ul>
+				<?php } ?>
 				</li>
 			</ul>
 		</div>
