@@ -18,7 +18,7 @@
 						<li><a href="club_schedule.php">Schedule</a></li>
 						<li><a href="club_resources.php">Resources</a></li>
 						<li class="divider"></li>
-						<li><a href="contact_us.php">Contact Us</a></li>
+						<li><a href="club_contact.php">Contact Us</a></li>
 					</ul>
 				</li>
 				<li class="dropdown">

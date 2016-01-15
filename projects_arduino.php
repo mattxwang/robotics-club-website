@@ -1,4 +1,4 @@
-<?php include_once("import_info.php") ?>
+<?php include_once("functions/import_info.php") ?>
 <!DOCTYPE html>
 <html>
 	<head>
