@@ -83,13 +83,13 @@
 		catch(PDOException $ex) { 
 			die("Failed to run query: " . $ex->getMessage()); 
 		} 
-
+		$email = $_POST['email'];
 		$first_name = $_POST['first_name'];
 		$last_name = $_POST['last_name'];
 
 		$query = " 
 		INSERT INTO info (
-			:email,
+			email,
 			first_name,
 			last_name,
 			birthday

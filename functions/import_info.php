@@ -16,6 +16,6 @@
 			die("Failed to run query: " . $ex->getMessage()); 
 		}  
 
-		$row = $stmt->fetch();
+		$row_info = $stmt->fetch();
 	}
 ?>
