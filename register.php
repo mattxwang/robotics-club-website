@@ -39,7 +39,7 @@
 				</br>
 				<div class = "row">
 					<div class = "col-md-12">
-						<button class="btn btn-lg btn-primary btn-block" type="submit" value="Login" disabled="disabled">Register</button>
+						<button class="btn btn-lg btn-primary btn-block" type="submit" value="Login">Register</button>
 					</div>
 				</div>
 			</form>
