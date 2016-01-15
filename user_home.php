@@ -34,9 +34,13 @@
 						<div class="panel-heading">
 							<h3>Messages & Notifications <span class="glyphicon glyphicon-envelope"></span></h3>
 						</div>
-						<div class="panel-body">
-							Lorem Ipsum.
-						</div>
+						 <ul class="list-group">
+							<li class="list-group-item list-group-item-success">Message #1: Matt is Awesome.</li>
+							<li class="list-group-item list-group-item-danger">Message #2: Robotics is cool!</li>
+							<li class="list-group-item list-group-item-warning">Message #3: We're amazing!</li>
+							<li class="list-group-item list-group-item-primary">Message #4: All the good chem jokes...</li>
+							<li class="list-group-item list-group-item-primary">Message #5: Argon!</li>
+						</ul>
 					</div>
 					<div class="panel panel-info">
 						<div class="panel-heading">
@@ -50,7 +54,13 @@
 				<div class="col-md-8">
 					<div class="well well-lg">
 						<form class="form-signin" action="functions/attendance.php" method="post">
-							Attendance Code: <input type="text" id="attendance" name="attendance" class="form-control" required="">
+							<div class="row">
+								<div class="col-sm-6">
+									<h5>Attendance Code: </h5>
+								</div>
+								<div class="col-sm-6">
+									<input type="text" id="attendance" name="attendance" class="form-control" required="">
+								</div>
 						</form>
 					</div>
 					<div class="well well-lg">
