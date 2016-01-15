@@ -16,7 +16,7 @@
 		<?php include_once("footer.php")  ?>
 		<div class="container">
 			<?php include_once("site_wide.php") ?>
-			<h1 class="page-header"><span class="glyphicon glyphicon-calendar" aria-hidden="true"></span> Horizons Curriculum <small>2016</small></h1>
+			<h1 class="page-header"><span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span> Horizons Curriculum <small>2016</small></h1>
 			<h6>
 				Horizons sessions are held in Room 304, with snacks in room CC3 beforehand. Every session starts at 3:30
 			</h6>
