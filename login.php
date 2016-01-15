@@ -21,7 +21,7 @@
 			<?php include_once("site_wide.php") ?>
 			<h1 class="page-header">Login</h1>
 			<h3>Don't have an account? <b><a href="register.php">Register</a></b>.</h3>
-			<form class="form-signin" action="function/login.php" method="post">
+			<form class="form-signin" action="functions/login.php" method="post">
 				<div class = "row">
 					<div class = "col-md-12">
 						<input type="email" id="email" class="form-control" placeholder="john.smith@ucc.on.ca" name="email" required="" autofocus="">
