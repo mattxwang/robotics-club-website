@@ -65,7 +65,7 @@
 						<li><a onclick="toggle_night()">Toggle Nightmode <span class="glyphicon glyphicon-adjust" aria-hidden="true"></span></a></li>
 					</ul>
 				<?php } else { ?>
-					Welcome <b><?php echo $row_info['first_name'] ?></b> <span class="badge">42</span><span class="glyphicon glyphicon-ok"></span><span class="caret"></span>
+					Welcome <b><?php echo $row_info['first_name'] ?></b> <span class="badge">42</span><!-- IF NO NOTIF <span class="glyphicon glyphicon-ok"></span>--><span class="caret"></span>
 					</button>
 					<ul class="dropdown-menu" role="menu">
 						<li><a href="user_home.php">Notifications <span class="badge">42</span></a></li>
