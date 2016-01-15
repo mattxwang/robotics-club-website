@@ -26,16 +26,22 @@
 		<?php include_once("footer.php")  ?>
 		<div class="container">
 			<?php include_once("site_wide.php") ?>
-			<h1 class="page-header">Welcome <?php echo $row_info['first_name']; echo " "; echo $row_info['last_name']; ?> <small>to your account homepage</small></h1>
-			<h3>Here, you can check in for attendance, see your achievements, and get personalized club news!</h3>
+			<h1 class="page-header">Welcome <b><?php echo $row_info['first_name']; echo " "; echo $row_info['last_name']; ?></b> <small>to your account homepage</small></h1>
+			<h5>Here, you can check in for attendance, see your achievements, and get personalized club news!</h3>
 			<div class="row">
 				<div class="col-md-4">
-					<h2><?php echo $row_info['first_name']; echo " "; echo $row_info['last_name']; ?>'s Account</h2>
+					<div class="panel panel-success">
+						<div class="panel-heading">
+							<h3>Messages & Notifications <span class="glyphicon glyphicon-envelope"></span></h3>
+						</div>
+						<div class="panel-body">
+							Lorem Ipsum.
+						</div>
+					</div>
 					<div class="panel panel-info">
 						<div class="panel-heading">
 							<h3>Achievements <span class="glyphicon glyphicon-certificate"></span></h3>
 						</div>
-
 						<div class="panel-body">
 							Sample text sample text sample text.
 						</div>
@@ -44,7 +50,7 @@
 				<div class="col-md-8">
 					<div class="well well-lg">
 						<form class="form-signin" action="functions/attendance.php" method="post">
-							<input type="text" id="attendance" name="attendance" class="form-control" required="">
+							Attendance Code: <input type="text" id="attendance" name="attendance" class="form-control" required="">
 						</form>
 					</div>
 					<div class="well well-lg">
