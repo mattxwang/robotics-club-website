@@ -55,10 +55,10 @@
 					<div class="well well-lg">
 						<form class="form-signin" action="functions/attendance.php" method="post">
 							<div class="row">
-								<div class="col-sm-6">
+								<div class="col-sm-4">
 									<h5>Attendance Code: </h5>
 								</div>
-								<div class="col-sm-6">
+								<div class="col-sm-8">
 									<input type="text" id="attendance" name="attendance" class="form-control" required="">
 								</div>
 						</form>
