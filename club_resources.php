@@ -27,13 +27,14 @@
 							<div class="panel-heading" role="tab" id="headingOne">
 								<h4 class="panel-title">
 								<a role="button" data-toggle="collapse" data-parent="#accordion1" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-								Lorem Ipsum.
+								Learn C.
 								</a>
 								</h4>
 							</div>
 							<div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
 								<div class="panel-body">
-								Lorem Ipsum.
+								C is the language used to program the VEX robots, and Arduinos.
+								<a href="http://www.learn-c.org/">Here</a> is a good, but short, tutorial that will give you a strong foundation to program with. <a href="http://aelinik.free.fr/c/">This</a> is a much more complete and useful, though not user friendly. For general C/C#/C++ reference, check out <a href="https://learnxinyminutes.com/">learn X in Y minutes</a>.
 								</div>
 							</div>
 						</div>
@@ -81,6 +82,7 @@
 							</div>
 							<div id="collapseFour" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
 								<div class="panel-body">
+								Talk to a club member, or check out the Digital Media and Computer Science club for more information about coding.
 								<a href="https://www.codecademy.com/"> codecademy.com (Start Here)</a><br>
 								<a href="https://learnxinyminutes.com/"> learnxinyminutes.com (Use this once you know a language)</a><br>
 								<a href="https://www.khanacademy.org/computing/computer-programming"> kahnacademy.com (not the best for learning languages, decent CS section)</a><br>
