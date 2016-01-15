@@ -70,7 +70,7 @@
 		<script src="js/nav-collapse.js"></script>
 		<script src="js/bootstrap-datepicker.js"></script>
 		<script type="text/javascript">
-			$('#container .input-group.date').datepicker({
+			$('.input-group .date').datepicker({
 				format: "yyyy-mm-dd",
 				startView: 1
 			});
