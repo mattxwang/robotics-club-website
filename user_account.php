@@ -49,7 +49,7 @@
 							</div>
 							<div class="modal-footer">
 									<button type="button" class="btn btn-danger" data-dismiss="modal">Cancel</button>
-									<button type="submit" class="btn btn-primary" id="submitbutton" value="Login">Change Password</button>
+									<button type="submit" class="btn btn-success" id="submitbutton" value="Login">Change Password</button>
 								</form>
 							</div>
 						</div>
