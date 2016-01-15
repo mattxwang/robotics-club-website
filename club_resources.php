@@ -75,13 +75,15 @@
 							<div class="panel-heading" role="tab" id="headingOne">
 								<h4 class="panel-title">
 								<a role="button" data-toggle="collapse" data-parent="#accordion2" href="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
-								Lorem Ipsum.
+								Learn to code
 								</a>
 								</h4>
 							</div>
 							<div id="collapseFour" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
 								<div class="panel-body">
-								Lorem Ipsum.
+								<a href="https://www.codecademy.com/"> codecademy.com (Start Here)</a><br>
+								<a href="https://learnxinyminutes.com/"> learnxinyminutes.com (Use this once you know a language)</a><br>
+								<a href="https://www.khanacademy.org/computing/computer-programming"> kahnacademy.com (not the best for learning languages, decent CS section)</a><br>
 								</div>
 							</div>
 						</div>
