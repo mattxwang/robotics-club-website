@@ -2,8 +2,8 @@
 <?php
 	require("functions/common.php");
 	if(empty($_SESSION['user'])){ 
-		header("Location: login_page.php"); 
-		die("Redirecting to login_page.php"); 
+		header("Location: login.php"); 
+		die("Redirecting to login.php"); 
 	}
 ?>
 <!DOCTYPE html>
