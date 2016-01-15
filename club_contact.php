@@ -30,32 +30,32 @@
 						</tr>
 						<tr>
 							<td><a href="http://twitter.com/malsf21">Matthew Wang</a></td>
-							<td><em>(Club Head, Web Developer)</em></td>
+							<td><em>Club Head, Web Developer</em></td>
 							<td><a href="mailto:matthew.wang@ucc.on.ca">matthew.wang@ucc.on.ca</a></td>
 						</tr>
 						<tr> 
 							<td><a href="http://jack.antinode.ca">Jack Sarick</a></td>
-							<td><em>(Club Head, Web Developer)</em></td>
+							<td><em>Club Head, Web Developer</em></td>
 							<td><a href="mailto:jack.sarick@ucc.on.ca">jack.sarick@ucc.on.ca</a></td>	
 						</tr>
 						<tr>
 							<td>Alex Roberts</td>
-							<td><em>(Club Head)</em></td>
+							<td><em>Club Head</em></td>
 							<td><a href="mailto:alex.roberts@ucc.on.ca">alex.roberts@ucc.on.ca</a></td>
 						</tr>
 						<tr>
 							<td>Camran Hansen</td>
-							<td><em>(Club Head)</em></td>
+							<td><em>Club Head</em></td>
 							<td><a href="mailto:camran.hansen@ucc.on.ca">camran.hansen@ucc.on.ca</a></td>
 						</tr>
 						<tr>
 							<td>John Mace</td>
-							<td><em>(Secretary)</em></td>
+							<td><em>Secretary</em></td>
 							<td><a href="mailto:john.mace@ucc.on.ca">john.mace@ucc.on.ca</a></td>
 						</tr>
 						<tr>
 							<td>Nicholas O'Brien</td>
-							<td><em>(Web Developer)</em></td>
+							<td><em>Web Developer</em></td>
 							<td><a href="mailto:nicholas.obrien@ucc.on.ca">nicholas.obrien@ucc.on.ca</a></td>
 						</tr>
 
