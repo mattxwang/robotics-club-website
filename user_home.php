@@ -26,11 +26,11 @@
 		<?php include_once("footer.php")  ?>
 		<div class="container">
 			<?php include_once("site_wide.php") ?>
-			<h1 class="page-header">Welcome <?php echo $row_info['first_name'] echo " " echo $row_info['last_name']?> <small>to your account homepage</small></h1>
+			<h1 class="page-header">Welcome <?php echo $row_info['first_name']; echo " "; echo $row_info['last_name']; ?> <small>to your account homepage</small></h1>
 			<h3>Here, you can check in for attendance, see your achievements, and get personalized club news!</h3>
 			<div class="row">
 				<div class="col-md-4">
-					<h2><?php echo $row_info['first_name'] echo " " echo $row_info['last_name']?>'s Account</h2>
+					<h2><?php echo $row_info['first_name']; echo " "; echo $row_info['last_name']; ?>'s Account</h2>
 					<div class="panel panel-info">
 						<div class="panel-heading">
 							<h3>Achievements <span class="glyphicon glyphicon-certificate"></span></h3>
