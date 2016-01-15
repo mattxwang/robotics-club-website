@@ -28,7 +28,7 @@
 							<h3 class="panel-title">What's VEX?</h3>
 						</div>
 						<div class="panel-body">
-							Vex is an international and competetive robotics platform used by high schools and co-curricular teams around the world. It incorperates design, physics, and programming in a simple to use package. Vex can be used for small proof-of-concepts or large, full scale robots. The vex robots that we build are taken to competitions all over Ontario. The competition this year is Nothing but Net (which is explained below). Competitions are the culmination of design and computational knowledge with autonomous and controlled portions to each match. 
+							Vex is an international and competetive robotics platform used by high schools and universitites all around the world. It incorporates design, physics, and programming in a simple-to-use package. VEX can be used for small, proof-of-concept prototypes, or large, full scale robots. The VEX robotis the club utilises are part of the VEX EDR set. Competitions are the culmination of design and computational knowledge with autonomous and controlled portions to each match. 
 						</div>
 					</div>
 					<div class="panel panel-danger">

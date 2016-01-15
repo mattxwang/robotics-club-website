@@ -17,33 +17,31 @@
 		<div class="container">
 			<?php include_once("site_wide.php") ?>
 			<div class="jumbotron">
-				<h1>Give us a shout!</h1>
-				<h3>We are normally available throughout the day</h3>
+				<h1 class="page-header"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> Give us a shout!</h1>
+				<h3>We're normally avaiable throughout the day.</h3>
 			</div>	
 				<div class="well well-lg">
 					<h2>Contacts</h2>
-					<!--
-					<p>Jack Sarick <em>(Club Head and Developer)</em>: jack.sarick@ucc.on.ca</p>
-					<p>Matthew Wang <em>(Club Head and Developer)</em>: matthew.wang@ucc.on.ca</p>
-					<p>Camran Hansen <em>(Club Head)</em>: camran.hansen@ucc.on.ca</p>
-					<p>John Mace <em>(Club Head)</em>: john.mace@ucc.on.ca</p>
-					<p>Nicholas O'Brien <em>(Developer)</em>: nicholas.obrien@ucc.on.ca</p>
-					-->
 					<table class="table">
 						<tr>
 							<th>Name</th>
 							<th>Position</th>
 							<th>Email</th>
 						</tr>
+						<tr>
+							<td><a href="http://twitter.com/malsf21">Matthew Wang</a></td>
+							<td><em>(Club Head, Web Developer)</em></td>
+							<td><a href="mailto:matthew.wang@ucc.on.ca">matthew.wang@ucc.on.ca</a></td>
+						</tr>
 						<tr> 
-							<td>Jack Sarick</td>
-							<td><em>(Club Head and Developer)</em></td>
+							<td><a href="http://jack.antinode.ca">Jack Sarick</a></td>
+							<td><em>(Club Head, Web Developer)</em></td>
 							<td><a href="mailto:jack.sarick@ucc.on.ca">jack.sarick@ucc.on.ca</a></td>	
 						</tr>
 						<tr>
-							<td>Matthew Wang</td>
-							<td><em>(Club Head and Developer)</em></td>
-							<td><a href="mailto:matthew.wang@ucc.on.ca">matthew.wang@ucc.on.ca</a></td>
+							<td>Alex Roberts</td>
+							<td><em>(Club Head)</em></td>
+							<td><a href="mailto:alex.roberts@ucc.on.ca">alex.roberts@ucc.on.ca</a></td>
 						</tr>
 						<tr>
 							<td>Camran Hansen</td>
@@ -52,12 +50,12 @@
 						</tr>
 						<tr>
 							<td>John Mace</td>
-							<td><em>(Club Head)</em></td>
+							<td><em>(Secretary)</em></td>
 							<td><a href="mailto:john.mace@ucc.on.ca">john.mace@ucc.on.ca</a></td>
 						</tr>
 						<tr>
 							<td>Nicholas O'Brien</td>
-							<td><em>(Developer)</em></td>
+							<td><em>(Web Developer)</em></td>
 							<td><a href="mailto:nicholas.obrien@ucc.on.ca">nicholas.obrien@ucc.on.ca</a></td>
 						</tr>
 

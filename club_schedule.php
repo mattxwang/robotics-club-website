@@ -16,7 +16,7 @@
 		<?php include_once("footer.php")  ?>
 		<div class="container">
 			<?php include_once("site_wide.php") ?>
-			<h1 class="page-header"><span class="glyphicon glyphicon-wrench" aria-hidden="true"></span> Club Calendar <small>2016</small></h1>
+			<h1 class="page-header"><span class="glyphicon glyphicon-calendar" aria-hidden="true"></span> Club Calendar <small>2016</small></h1>
 			<nav>
 				<ul class="pagination">
 					<li>
