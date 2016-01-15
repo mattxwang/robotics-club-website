@@ -37,14 +37,15 @@
 		try { 
 			$stmt = $db->prepare($query); 
 			$result = $stmt->execute($query_params);
+
+			header("Location: ../user_account.php"); 
+		 
+			die("Redirecting to ../user_account.php"); 
 		} 
 		catch(PDOException $ex) { 
 			die("Failed to run query: " . $ex->getMessage()); 
 		} 
 		 
-		header("Location: ../user_account.php"); 
-		 
-		die("Redirecting to ../user_account.php"); 
 	}
 
 	else {

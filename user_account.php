@@ -42,10 +42,10 @@
 									<input type="password" id="password" name="password" class="form-control" placeholder="Old Password" required="" autofocus="">
 									<h4>New Password</h4>
 									<label for="inputPassword" class="sr-only">New Password</label>
-									<input type="password_new_1" id="password_new_1" name="password_new_1" class="form-control" placeholder="New Password" required="">
+									<input type="password" id="password_new_1" name="password_new_1" class="form-control" placeholder="New Password" required="">
 									<h4>Confirm New Password</h4>
 									<label for="inputPassword" class="sr-only">Confirm New Password</label>
-									<input type="password_new_2" id="password_new_2" name="password_new_2" class="form-control" placeholder="Confirm New Password" required="">
+									<input type="password" id="password_new_2" name="password_new_2" class="form-control" placeholder="Confirm New Password" required="">
 							</div>
 							<div class="modal-footer">
 									<button type="button" class="btn btn-danger" data-dismiss="modal">Cancel</button>
@@ -64,7 +64,7 @@
 					<div class="panel-body">
 					</div>
 					<li class="list-group-item">
-						<button class="btn btn-warning" type="button" data-toggle="modal" data-target="#changePassword">Change Password</button>
+						<button class="btn btn-danger" type="button" data-toggle="modal" data-target="#changePassword">Change Password</button>
 					</li>
 				</div>
 			</div>
