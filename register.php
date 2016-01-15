@@ -68,5 +68,13 @@
 		<script src="js/jquery.easing.min.js"></script>
 		<script src="js/bootstrap.js"></script>
 		<script src="js/nav-collapse.js"></script>
+		<script src="js/bootstrap-datepicker.js"></script>
+		<script type="text/javascript">
+			$('#container .input-group.date').datepicker({
+				format: "yyyy-mm-dd",
+				startView: 1
+			});
+		</script>
+
 	</body>
 </html>
