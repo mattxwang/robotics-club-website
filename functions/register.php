@@ -86,6 +86,7 @@
 		$email = $_POST['email'];
 		$first_name = $_POST['first_name'];
 		$last_name = $_POST['last_name'];
+		$birthday = $_POST['birthday']
 
 		$query = " 
 		INSERT INTO info (
