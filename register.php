@@ -36,12 +36,29 @@
 						<input type="password" id="password2" name="password2" class="form-control" placeholder="Confirm Password" required="">
 					</div>
 				</div>
+				<div class = "row">
+					<div class = "col-md-12">
+						<input type="text" id="first_name" name="first_name" class="form-control" placeholder="John" required="">
+					</div>
+				</div>
+				<div class = "row">
+					<div class = "col-md-12">
+						<input type="text" id="last_name" name="last_name" class="form-control" placeholder="Smith" required="">
+					</div>
+				</div>
+				<div class="input-group date" data-provide="datepicker">
+					<input type="text" id="birthday" name="birthday" class="form-control" placeholder="2000-01-01"required="">
+					<div class="input-group-addon">
+						<span class="glyphicon glyphicon-th"></span>
+					</div>
+				</div>
 				</br>
 				<div class = "row">
 					<div class = "col-md-12">
 						<button class="btn btn-lg btn-primary btn-block" type="submit" value="Login">Register</button>
 					</div>
 				</div>
+
 			</form>
 			</div>
 
