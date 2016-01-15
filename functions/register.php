@@ -3,7 +3,14 @@
 	 
 	if(!empty($_POST)) { 
 		// For later: empty($_POST['firstname']) || empty($_POST['lastname']) || 
-		if(empty($_POST['password']) ||empty($_POST['password2'])) { 
+		if( empty($_POST['email'])     ||
+			empty($_POST['password'])  ||
+			empty($_POST['password2']) ||
+			empty($_POST['first_name'])||
+			empty($_POST['last_name']) ||
+			empty($_POST['birthday'])
+
+			) { 
 			die("You missed a field"); 
 		} 
 		 
@@ -76,9 +83,34 @@
 		catch(PDOException $ex) { 
 			die("Failed to run query: " . $ex->getMessage()); 
 		} 
-		 
-		header("Location: ../login.php"); 
-		 
-		die("Redirecting to ../login.php"); 
+
+		$first_name = $_POST['first_name'];
+		$last_name = $_POST['last_name'];
+
+		$query = " 
+		INSERT INTO info (
+			email,
+			first_name,
+			last_name,
+			birthday
+		) VALUES (
+			'$email',
+			'$first_name',
+			'$last_name',
+			'$birthday'
+		);";
+
+		try { 
+			$stmt = $db->prepare($query); 
+			$stmt->execute();
+		
+			header("Location: ../login.php"); 		 
+		}
+		
+		catch(PDOException $ex) 
+		{ 
+			die("Failed to run query: " . $ex->getMessage()); 
+			header("Location: ../login.php");
+		}
 	}
 ?> 
