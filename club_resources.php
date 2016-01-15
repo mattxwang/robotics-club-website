@@ -26,7 +26,7 @@
 						<div class="panel panel-primary">
 							<div class="panel-heading" role="tab" id="headingOne">
 								<h4 class="panel-title">
-								<a role="button" data-toggle="collapse" data-parent="#accordion1" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+								<a role="button" data-toggle="collapse" data-parent="#accordion1" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
 								Learn C.
 								</a>
 								</h4>
@@ -81,7 +81,7 @@
 						<div class="panel panel-info">
 							<div class="panel-heading" role="tab" id="headingOne">
 								<h4 class="panel-title">
-								<a role="button" data-toggle="collapse" data-parent="#accordion2" href="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
+								<a role="button" data-toggle="collapse" data-parent="#accordion2" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
 								Learn to code
 								</a>
 								</h4>
@@ -89,10 +89,11 @@
 							<div id="collapseFour" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
 								<div class="panel-body">
 								Talk to a club member, or check out the Digital Media and Computer Science club for more information about coding.<br>
-								<a href="https://www.codecademy.com/"> codecademy.com</a> Start Here!<br>
+								<h4>Learn a language</h4>
+								<a href="https://www.codecademy.com/"> codecademy.com</a> Start Here! Choose python, unless you have a reason.<br>
 								<a href="https://learnxinyminutes.com/"> learnxinyminutes.com</a> Use this once you know a language, or just as a reference sheet<br>
 								<a href="https://www.khanacademy.org/computing/computer-programming"> kahnacademy.com</a> Not the best for learning languages, bu decent CS section)<br>
-								<h2>Python Libraries</h2>
+								<h4>Python Libraries</h2>
 								<a href="http://brew.sh/">Homebrew</a> is used for installing pretty much any library.
 								<a href="http://www.sympy.org/en/index.html">SymPy library</a>. Awesome python library for doing hard equations.<br>
 								<a href="http://matplotlib.org/">Matplotlib</a> is by far the best library for graphing and plotting data in Python.<br>
