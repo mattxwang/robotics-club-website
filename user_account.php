@@ -12,7 +12,7 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 		<meta name="description" content="UCC Robotics">
-		<title>Welcome <?php echo $row_info['first_name'] ?> | UCC Robotics</title>
+		<title><?php echo $row_info['first_name'] ?>'s Account | UCC Robotics</title>
 		<link rel="icon" href="css/favicon.ico" />
 		<?php include_once("night_mode.php") ?>
 		<link rel="stylesheet" href="css/style.css" />
