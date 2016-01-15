@@ -14,7 +14,7 @@
 		<link href='css/bootstrap.css' rel='stylesheet'>
 	</head>
 
-	<body class="light">
+	<body>
 		<?php include_once("navbar.php")  ?>
 		<?php include_once("footer.php")  ?>
 		<div class="container">
