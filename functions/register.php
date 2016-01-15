@@ -51,7 +51,7 @@
 				:password, 
 				:salt, 
 				:email,
-				1
+				0
 			);
 		"; 
 		 
