@@ -55,17 +55,17 @@
 				<li class="dropdown">
 					<button type="button" class="btn btn-success navbar-btn" href="#" class="dropdown-toggle" data-toggle="dropdown">
 					<?php if(empty($_SESSION['user'])) { ?>
-					Welcome <b>User</b> <span class="caret"></span>
+					User Settings <span class="caret"></span>
 					</button>
 					<ul class="dropdown-menu" role="menu">
-						<li><a href="register.php">Register <span class="glyphicon glyphicon-user" aria-hidden="true"></span></a></li>
+						<li><a href="register.php">Register <span class="glyphicon glyphicon-edit" aria-hidden="true"></span></a></li>
 						<li class="divider"></li>
 						<li><a href="login.php">Login <span class="glyphicon glyphicon-log-in"></span></a></li>
 						<li class="divider"></li>
 						<li><a onclick="toggle_night()">Toggle Nightmode <span class="glyphicon glyphicon-adjust" aria-hidden="true"></span></a></li>
 					</ul>
 				<?php } else { ?>
-					Welcome <b><?php echo $row_info['first_name'] ?></b> <span class="caret"></span>
+					Welcome <b><?php echo $row_info['first_name'] ?></b> <span class="badge">42</span><span class="glyphicon glyphicon-ok"></span><span class="caret"></span>
 					</button>
 					<ul class="dropdown-menu" role="menu">
 						<li><a href="user_home.php">Notifications <span class="badge">42</span></a></li>
