@@ -17,7 +17,7 @@
 		<div class="container">
 			<?php include_once("site_wide.php") ?>
 			<div class="jumbotron">
-				<h1 class="page-header"><span class="glyphicon glyphicon-wrench" aria-hidden="true"></span> Keyboards <small>and how to make them</small></h1>
+				<h1 class="page-header"><span class="glyphicon glyphicon-text-size" aria-hidden="true"></span> Keyboards <small>and how to make them</small></h1>
 			</div>
 			<div class="row">
 				<div class="col-md-6">

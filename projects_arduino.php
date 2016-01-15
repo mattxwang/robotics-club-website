@@ -17,7 +17,7 @@
 		<div class="container">
 			<?php include_once("site_wide.php") ?>
 			<div class="jumbotron">
-				<h1 class="page-header"><span class="glyphicon glyphicon-wrench" aria-hidden="true"></span> Using Arduino <small>to make awesome stuff</small></h1>
+				<h1 class="page-header"><span class="glyphicon glyphicon-hdd" aria-hidden="true"></span> Using Arduino <small>to make awesome stuff</small></h1>
 			</div>
 			<div class="row">
 				<div class="col-md-6">

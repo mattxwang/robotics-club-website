@@ -17,7 +17,7 @@
 		<div class="container">
 			<?php include_once("site_wide.php") ?>
 			<div class="jumbotron">
-				<h1 class="page-header"><span class="glyphicon glyphicon-wrench" aria-hidden="true"></span> Teaching Soldering <small> because it's useful</small></h1>
+				<h1 class="page-header"><span class="glyphicon glyphicon-scale" aria-hidden="true"></span> Teaching Soldering <small> because it's useful</small></h1>
 			</div>
 			<div class="row">
 				<div class="col-md-6">
