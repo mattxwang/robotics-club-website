@@ -68,9 +68,9 @@
 					Welcome <b><?php echo $row_info['first_name'] ?></b> <span class="caret"></span>
 					</button>
 					<ul class="dropdown-menu" role="menu">
-						<li><a href="#">Notifications <span class="badge">42</span></a></li>
+						<li><a href="user_home.php">Notifications <span class="badge">42</span></a></li>
 						<li class="divider"></li>
-						<li><a href="#">Account Settings <span class="glyphicon glyphicon-cog" aria-hidden="true"></span></a></li>
+						<li><a href="user_account.php">Account Settings <span class="glyphicon glyphicon-cog" aria-hidden="true"></span></a></li>
 						<li class="divider"></li>
 						<li><a onclick="toggle_night()">Toggle Nightmode <span class="glyphicon glyphicon-adjust" aria-hidden="true"></span></a></li>
 						<li class="divider"></li>
