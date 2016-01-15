@@ -9,6 +9,7 @@
 		<link rel="icon" href="css/favicon.ico" />
 		<?php include_once("night_mode.php") ?>
 		<link rel="stylesheet" href="css/style.css" />
+		<link rel="stylesheet" type="text/css" href="css/calendar_style.css">
 	</head>
 
 	<body>
@@ -36,8 +37,8 @@
 					</li>
 				</ul>
 			</nav>
-			<div class = "table-responsive">
-				<table class = "table">
+			<div class= "table-responsive">
+				<table class= "table calendar-table">
 					<tr>
 						<td>Sunday</td>
 						<td>Monday</td>
