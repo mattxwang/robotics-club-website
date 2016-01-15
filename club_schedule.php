@@ -18,26 +18,27 @@
 		<div class="container">
 			<?php include_once("site_wide.php") ?>
 			<h1 class="page-header"><span class="glyphicon glyphicon-calendar" aria-hidden="true"></span> Club Calendar <small>2016</small></h1>
-			<nav>
-				<ul class="pagination">
-					<li>
-						<a href="#" aria-label="Previous">
-						<span aria-hidden="true">&laquo;</span>
-						</a>
-					</li>
-					<li><a href="#">January</a></li>
-					<li><a href="#">February</a></li>
-					<li><a href="#">March</a></li>
-					<li><a href="#">April</a></li>
-					<li><a href="#">May</a></li>
-					<li>
-						<a href="#" aria-label="Next">
-						<span aria-hidden="true">&raquo;</span>
-						</a>
-					</li>
-				</ul>
-			</nav>
-			<div class= "table-responsive">
+			
+			<div class= "table-responsive calendar-div">
+				<nav>
+					<ul class="pagination">
+						<li>
+							<a href="#" aria-label="Previous">
+							<span aria-hidden="true">&laquo;</span>
+							</a>
+						</li>
+						<li><a href="#">January</a></li>
+						<li><a href="#">February</a></li>
+						<li><a href="#">March</a></li>
+						<li><a href="#">April</a></li>
+						<li><a href="#">May</a></li>
+						<li>
+							<a href="#" aria-label="Next">
+							<span aria-hidden="true">&raquo;</span>
+							</a>
+						</li>
+					</ul>
+				</nav>
 				<table class= "table calendar-table">
 					<tr>
 						<td>Sunday</td>
