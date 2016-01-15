@@ -4,7 +4,7 @@
 	<div class="container-fluid">
 		<div class="navbar-header">
 			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-func">
-				<span class="glyphicon glyphicon-home" aria-hidden="true"></span>
+				<span class="glyphicon glyphicon-home" aria-hidden="true" style="color:white;"></span>
 			</button>
 			<a href="index.php" class="navbar-brand">Upper Canada College Robotics</a>
 		</div>
