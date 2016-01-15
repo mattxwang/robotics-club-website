@@ -42,9 +42,9 @@
 			die("Failed to run query: " . $ex->getMessage()); 
 		} 
 		 
-		header("Location: login_page.php"); 
+		header("Location: ../user_account.php"); 
 		 
-		die("Redirecting to login_page.php"); 
+		die("Redirecting to ../user_account.php"); 
 	}
 
 	else {

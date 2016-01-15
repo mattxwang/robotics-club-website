@@ -27,6 +27,48 @@
 		<div class="container">
 			<?php include_once("site_wide.php") ?>
 		</div>
+
+		<div class="modal fade" tabindex="-1" role="dialog" id="changePassword">
+				<div class="modal-dialog">
+					<div class="modal-content">
+						<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">x</span></button>
+							<h4 class="modal-title">Change Password</h4>
+						</div>
+						<div class="modal-body">
+							<p>	
+							<form action="functions/update_users.php" method="post">
+								<h4>Old Password</h4>
+								<label for="inputPassword" class="sr-only">Old Password</label>
+								<input type="password" id="password" name="password" class="form-control" placeholder="Old Password" required="" autofocus="">
+								<h4>New Password</h4>
+								<label for="inputPassword" class="sr-only">New Password</label>
+								<input type="password_new_1" id="password_new_1" name="password_new_1" class="form-control" placeholder="New Password" required="">
+								<h4>Confirm New Password</h4>
+								<label for="inputPassword" class="sr-only">Confirm New Password</label>
+								<input type="password_new_2" id="password_new_2" name="password_new_2" class="form-control" placeholder="Confirm New Password" required="">
+						</div>
+						<div class="modal-footer">
+								<button type="button" class="btn btn-danger" data-dismiss="modal">Cancel</button>
+								<button type="submit" class="btn btn-primary" id="submitbutton" value="Login">Change Password</button>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="panel panel-warning">
+				<div class="panel-heading">
+				Account Settings
+				</div>
+
+				<div class="panel-body">
+				</div>
+				<li class="list-group-item">
+					<button class="btn btn-warning" type="button" data-toggle="modal" data-target="#changePassword">Change Password</button>
+				</li>
+			</div>
+			
 		<script src="js/jquery.js"></script>
 		<script src="js/jquery.easing.min.js"></script>
 		<script src="js/bootstrap.js"></script>
