@@ -50,9 +50,11 @@
 								<div class="panel-body">
 								<a href="http://www.wolframalpha.com/">Wolfram Alpha</a> is the world's greatest calculator. Also answers other questions, but mostly a calculator.<br>
 
-								<a href="https://en.wikipedia.org/wiki/Kinematics">This wikipedia page</a>, and the links on it, are a gold mine of information, diagrams, and equations. Not all of it is immediately relevant, but it contains some invaluable resources.<br>
+								<a href="https://en.wikipedia.org/wiki/Kinematics">This Wikipedia page</a>, and the links on it, are a gold mine of information, diagrams, and equations. Not all of it is immediately relevant, but it contains some invaluable resources.<br>
 
 								<a href="http://www.printfreegraphpaper.com/">Free graph paper</a>. Because graph paper is expensive.<br>
+
+								<a href="http://p-fst1.pixstatic.com/5165b2c374c5b60d0a005ccf._w.540_s.fit_.jpg">Fastener and nut identification chart</a>. Very useful, I suggest learning it.<br>
 								</div>
 							</div>
 						</div>
@@ -60,7 +62,7 @@
 							<div class="panel-heading" role="tab" id="headingThree">
 								<h4 class="panel-title">
 								<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion1" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-								Lorem Ipsum.
+								Learning
 								</a>
 								</h4>
 							</div>
@@ -87,9 +89,9 @@
 							<div id="collapseFour" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
 								<div class="panel-body">
 								Talk to a club member, or check out the Digital Media and Computer Science club for more information about coding.<br>
-								<a href="https://www.codecademy.com/"> codecademy.com</a> (Start Here)<br>
-								<a href="https://learnxinyminutes.com/"> learnxinyminutes.com</a> (Use this once you know a language)<br>
-								<a href="https://www.khanacademy.org/computing/computer-programming"> kahnacademy.com</a> (not the best for learning languages, decent CS section)<br>
+								<a href="https://www.codecademy.com/"> codecademy.com</a> Start Here!<br>
+								<a href="https://learnxinyminutes.com/"> learnxinyminutes.com</a> Use this once you know a language, or just as a reference sheet<br>
+								<a href="https://www.khanacademy.org/computing/computer-programming"> kahnacademy.com</a> Not the best for learning languages, bu decent CS section)<br>
 								</div>
 							</div>
 						</div>
@@ -97,13 +99,16 @@
 							<div class="panel-heading" role="tab" id="headingTwo">
 								<h4 class="panel-title">
 								<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion2" href="#collapseFive" aria-expanded="false" aria-controls="collapseTwo">
-								Lorem Ipsum.
+								Electrical Engineering Resources
 								</a>
 								</h4>
 							</div>
 							<div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
 								<div class="panel-body">
-								Lorem Ipsum.
+									<a href="https://learn.sparkfun.com/tutorials/resistors/decoding-resistor-markings">Read a resistor</a>. Not exactly life saving, but a neat thing to know.<br>
+
+									<a href="http://www.sengpielaudio.com/FormulaWheelElectronics.gif">Handy electrical equations chart.</a><br>
+
 								</div>
 							</div>
 						</div>
