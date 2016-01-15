@@ -44,9 +44,9 @@
 				<li class="dropdown">
 					<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">Projects <span class="caret"></span></a>
 					<ul class="dropdown-menu" role="menu">
-						<li><a href="#">Arduino</a></li>
-						<li><a href="#">Keyboards</a></li>
-						<li><a href="#">Soldering</a></li>
+						<li><a href="projects_arduino.php">Arduino</a></li>
+						<li><a href="projects_keyboard.php">Keyboards</a></li>
+						<li><a href="projects_soldering.php">Soldering</a></li>
 					</ul>
 				</li>
 			</ul>
