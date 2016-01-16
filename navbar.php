@@ -69,7 +69,7 @@
 						<li><a href="user_admin.php">Admin Panel <span class="glyphicon glyphicon-user"></span></a></li>
 						<li class="divider"></li>
 						<?php } ?>
-						<li><a href="user_home.php"><?php echo $row_info['first_name'] ?>'s' Homepage <span class="badge">42</span></a></li>
+						<li><a href="user_home.php"><?php echo $row_info['first_name'] ?>'s Homepage <span class="badge">42</span></a></li>
 						<li class="divider"></li>
 						<li><a href="user_account.php">Account Settings <span class="glyphicon glyphicon-cog" aria-hidden="true"></span></a></li>
 						<li class="divider"></li>

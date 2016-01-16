@@ -27,14 +27,19 @@
 							<div class="panel-heading" role="tab" id="headingOne">
 								<h4 class="panel-title">
 								<a role="button" data-toggle="collapse" data-parent="#accordion1" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-								Learn C.
+								Learn Computer Science: <b>C</b>
 								</a>
 								</h4>
 							</div>
 							<div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
 								<div class="panel-body">
-								C is the language used to program the VEX robots, and Arduinos.
-								<a href="http://www.learn-c.org/">Here</a> is a good, but short, tutorial that will give you a strong foundation to program with. <a href="http://aelinik.free.fr/c/">This</a> is a much more complete and useful, though not user friendly. For general C/C#/C++ reference, check out <a href="https://learnxinyminutes.com/">learn X in Y minutes</a>.
+									<h2>C</h2>
+									C, one of the foundation languages of Computer Science, is the language used to program the VEX robots. A flavor of C, ArduinoC, is used to program Arduinos. Learning C will give students an understanding of basic modern-day programming, and a useful skillset in all forms of Computer Science.
+									<ul>
+										<li><a href="http://www.learn-c.org">Learn C</a> is a good, but short tutorial that gives a strong foundation and understanding of the language.</li>
+										<li><a href="http://aelinik.free.fr/c/">Teach Yourself C in 24 hours</a> is an in-depth guide on the language, but isn't as user-friendly.</li>
+										<li><a href="https://learnxinyminutes.com">Learn X in Y Minutes</a> is a useful C reference, and also features resources for other programming languages.</li>
+									</ul>
 								</div>
 							</div>
 						</div>
@@ -42,19 +47,20 @@
 							<div class="panel-heading" role="tab" id="headingTwo">
 								<h4 class="panel-title">
 								<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion1" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-								Engineering tools.
+								Prepare for Engineering: <b>Toolkit</b>
 								</a>
 								</h4>
 							</div>
 							<div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
 								<div class="panel-body">
-								<a href="http://www.wolframalpha.com/">Wolfram Alpha</a> is the world's greatest calculator. Also answers other questions, but mostly a calculator.<br>
-
-								<a href="https://en.wikipedia.org/wiki/Kinematics">This Wikipedia page</a>, and the links on it, are a gold mine of information, diagrams, and equations. Not all of it is immediately relevant, but it contains some invaluable resources.<br>
-
-								<a href="http://www.printfreegraphpaper.com/">Free graph paper</a>. Because graph paper is expensive.<br>
-
-								<a href="http://p-fst1.pixstatic.com/5165b2c374c5b60d0a005ccf._w.540_s.fit_.jpg">Fastener and nut identification chart</a>. Very useful, I suggest learning it.<br>
+								<h2>Tools</h2>
+								Engineering often requires a lot of math, physics, and materials. Here are some tools that you can use to your advantage!
+								<ul>
+									<li><a href="http://www.wolframalpha.com/">Wolfram Alpha</a> is a robust search engine that can be used for cacluations, proofs, and formulas! It's a great resource to use along side studying, learning, or experimenting.</li>
+									<li><a href="https://en.wikipedia.org/wiki/Kinematics">Wikipedia</a>, while often ostracized, has some in-depth explanations for many concepts. The linked Kinematics page can help students understand basic concepts used in Robotics.</li>
+									<li><a href="http://www.printfreegraphpaper.com/">Free Graph Paper</a>. Self-explanatory, but graph paper can help students create better diagrams and express their thoughts clearly.</li>
+									<li><a href="http://p-fst1.pixstatic.com/5165b2c374c5b60d0a005ccf._w.540_s.fit_.jpg">Fastener and Nut Identification chart</a>. Useful for budding engineers having trouble following instructions or knowing what parts are which.</li>
+								</ul>
 								</div>
 							</div>
 						</div>
