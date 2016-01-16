@@ -20,7 +20,6 @@
 		<link rel="icon" href="css/favicon.ico" />
 		<?php include_once("night_mode.php") ?>
 		<link rel="stylesheet" href="css/style.css" />
-
 		<link href='css/bootstrap-night.css' rel='stylesheet'>
 		<link href='css/bootstrap.css' rel='stylesheet'>
 	</head>
@@ -81,6 +80,11 @@
 						<div class="tab-content">
 							<div role="tabpanel" class="tab-pane active fade in" id="daily">
 								Here, there will be a graph of attendance of all members per day.
+								<div style="width:100%">
+									<div>
+										<canvas id="daily" height="450" width="600"></canvas>
+									</div>
+								</div>
 							</div>
 							<div role="tabpanel" class="tab-pane fade" id="weekly">
 								Here, there will be a graph of attendance of all members per week.
@@ -99,10 +103,47 @@
 				</div>
 			</div>
 		</div>
-
 		<script src="js/jquery.js"></script>
 		<script src="js/jquery.easing.min.js"></script>
 		<script src="js/bootstrap.js"></script>
 		<script src="js/nav-collapse.js"></script>
+		<script src="js/chart.js"></script>
+		<script>
+			var lineChartData = {
+				labels : ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+				datasets : [
+					{
+						label: "This Week",
+						fillColor : "rgba(220,220,220,0.2)",
+						strokeColor : "rgba(220,220,220,1)",
+						pointColor : "rgba(220,220,220,1)",
+						pointStrokeColor : "#fff",
+						pointHighlightFill : "#fff",
+						pointHighlightStroke : "rgba(220,220,220,1)",
+						data : [1,1,0,1,0]
+					},
+					{
+						label: "Weekly Average",
+						fillColor : "rgba(151,187,205,0.2)",
+						strokeColor : "rgba(151,187,205,1)",
+						pointColor : "rgba(151,187,205,1)",
+						pointStrokeColor : "#fff",
+						pointHighlightFill : "#fff",
+						pointHighlightStroke : "rgba(151,187,205,1)",
+						data : [0.2,0.6,0.1,1,0.3]
+					}
+				]
+
+			}
+
+			window.onload = function(){
+				var ctx = document.getElementById("daily").getContext("2d");
+				window.myLine = new Chart(ctx).Line(lineChartData, {
+					responsive: true
+				});
+			}
+
+
+		</script>
 	</body>
 </html>
