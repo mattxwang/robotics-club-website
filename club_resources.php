@@ -34,7 +34,8 @@
 							<div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
 								<div class="panel-body">
 									<h2>C</h2>
-									C, one of the foundation languages of Computer Science, is the language used to program the VEX robots. A flavor of C, ArduinoC, is used to program Arduinos. Learning C will give students an understanding of basic modern-day programming, and a useful skillset in all forms of Computer Science.
+									C, one of the foundation languages of Computer Science, is the language used to program the VEX robots, as well as Arduinos. Learning C will give students an understanding of basic modern-day programming concepts. Here are some good resources to learn C!
+									</br>
 									<ul>
 										<li><a href="http://www.learn-c.org">Learn C</a> is a good, but short tutorial that gives a strong foundation and understanding of the language.</li>
 										<li><a href="http://aelinik.free.fr/c/">Teach Yourself C in 24 hours</a> is an in-depth guide on the language, but isn't as user-friendly.</li>
@@ -55,6 +56,7 @@
 								<div class="panel-body">
 								<h2>Tools</h2>
 								Engineering often requires a lot of math, physics, and materials. Here are some tools that you can use to your advantage!
+								</br>
 								<ul>
 									<li><a href="http://www.wolframalpha.com/">Wolfram Alpha</a> is a robust search engine that can be used for cacluations, proofs, and formulas! It's a great resource to use along side studying, learning, or experimenting.</li>
 									<li><a href="https://en.wikipedia.org/wiki/Kinematics">Wikipedia</a>, while often ostracized, has some in-depth explanations for many concepts. The linked Kinematics page can help students understand basic concepts used in Robotics.</li>
@@ -88,12 +90,37 @@
 							<div class="panel-heading" role="tab" id="headingOne">
 								<h4 class="panel-title">
 								<a role="button" data-toggle="collapse" data-parent="#accordion2" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-								Learn to code
+								Learn Computer Science: <b>Learning Languages</b>
 								</a>
 								</h4>
 							</div>
 							<div id="collapseFour" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
 								<div class="panel-body">
+								<h2>Programming Languages</h2>
+								Adding more languages to a student's arsenal allows them to tackle problems easier, especially after getting C under their belt. Here are some other languages we recommend learning:
+								</br>
+								<ul>
+									<li><a href="https://www.python.org">Python</a> is a robust, but easy to learn interpreted language with elegant, easy to read syntax and a variety of libraries.</li>
+									<li><a href="https://www.java.com">Java</a> is the world's most used language; it's utility is used in Android devices, Desktop apps, and a variety of other platforms. </li>
+									<li><a href="https://php.net">PHP</a> is a widely used server-side scripting language used in web developement. Even this website uses PHP! </li>
+									<li><a href="https://www.javascript.com">Javascript</a>, while unrelated to Java, is a web-based scripting language used to perfect user interfaces. </li>
+									<li>Javascript also features two major libraries, <a href="https://jquery.com">jQuery</a> and <a href="nodejs.org">Node.js</a>, widely used to enhance user experience. </li>
+								</ul>
+								<h2>Learning Resources</h2>
+								Learning languages may be tough, but with some documented resources, and some mentorship, picking up languages will be a breeze.
+								</br>
+								<ul>
+									<li><a href="https://www.codecademy.com">Codecademy</a> is one of the most well-known and used websites to learn code, featuring a vast amount of languages to learn, including <b>Python, HTML/CSS, Javascript, PHP, and Ruby.</li>
+									<li><a href="https://learnxinyminutes.com">Learn X in Y Minutes</a> is a great reference resource to brush up programming skills. </li>
+								</ul>
+								<h2>Programming Resources</h2>
+								Programming resources to make computer science easier.
+								</br>
+								<ul>
+									<li><a href="http://brew.sh/">Homebrew</a> makes installing libraries a walk in the park.</li>
+									<li><a href="https://www.sublimetext.com/">Sublime Text</a> is an all-in-one text-editor with a robust <a href="https://packagecontrol.io/">addons</a> to supercharge your text editor.</li>
+									<li><a href="http://github.com/">Github</a> is the most widely used <a href="https://en.wikipedia.org/wiki/Version_control">version control</a> software that makes working with others a breeze. </li>
+								</ul>
 								Talk to a club member, or check out the Digital Media and Computer Science club for more information about coding.<br>
 								<h4>Learn a language</h4>
 								<a href="https://www.codecademy.com/"> codecademy.com</a> Start Here! Choose python, unless you have a reason.<br>
