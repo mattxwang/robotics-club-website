@@ -83,8 +83,25 @@
 								</tr>
 								<tr>
 									<td>Nicholas O'Brien</td>
-									<td><em>Junior Web Developer</em></td>
+									<td>Junior Web Developer</td>
 									<td><a href="mailto:nicholas.obrien@ucc.on.ca">nicholas.obrien@ucc.on.ca</a></td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+					<h2>Faculty Supervisors</h2>
+					<div class="table-responsive">
+						<table class="table">
+							<thead>
+								<tr>
+									<th>Name</th>
+									<th>Email</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>Kevin Olds</td>
+									<td><a href="mailto:kolds@ucc.on.ca">kolds@ucc.on.ca</a></td>
 								</tr>
 							</tbody>
 						</table>
