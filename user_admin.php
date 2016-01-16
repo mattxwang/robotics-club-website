@@ -22,7 +22,6 @@
 		<link rel="stylesheet" href="css/style.css" />
 		<link href='css/bootstrap-night.css' rel='stylesheet'>
 		<link href='css/bootstrap.css' rel='stylesheet'>
-		<script src="js/chart.js"></script>
 	</head>
 
 	<body>
@@ -104,6 +103,11 @@
 				</div>
 			</div>
 		</div>
+		<script src="js/chart.js"></script>
+		<script src="js/jquery.js"></script>
+		<script src="js/jquery.easing.min.js"></script>
+		<script src="js/bootstrap.js"></script>
+		<script src="js/nav-collapse.js"></script>
 		<script>
 			var lineChartData = {
 				labels : ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
@@ -141,9 +145,5 @@
 
 
 		</script>
-		<script src="js/jquery.js"></script>
-		<script src="js/jquery.easing.min.js"></script>
-		<script src="js/bootstrap.js"></script>
-		<script src="js/nav-collapse.js"></script>
 	</body>
 </html>
