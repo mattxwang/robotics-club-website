@@ -4,13 +4,14 @@
 * Make nightmode not look horrible
 * Implement all the content and pages.
 * Modularize all import pages
+* Work on UI for pages
 
 ### User Account
-* Login with email, use passwords
 * Accounts let you edit your name, etc.
 * Account system is tied in with attendance (still has codes)
 * Accounts feature points (badges for cumulative points, ribbons for streaks)
 * Accounts have an admin level, and admins can edit the attendance code
+* Messaging System (for now, just admins can send messages/notif/alert)
 
 ### Attendance
 * Requires user account
@@ -19,12 +20,13 @@
 * Users get badges for attending (badges for cumulative, ribbons for streaks, medals/trophies for special events)
 
 ## Jack Sarick
-* Implement user login + attendance system
+* Implement attendance system
+* Implement admin panel editing attendance system
+* Implement messaging/notif/alert 
 * Implement database
-* Fill out "Building a Future" index content.
+* Fill out "Building a Future" index content, as well as formalizing all the resources items.
 
 ## Nick O'Brien
-* ~~Create and implement Contact Us Page~~
 * Create a multi-month calendar on [club_calendar.php](club_calendar.php), using pagination
 
 ## Camran Hansen
