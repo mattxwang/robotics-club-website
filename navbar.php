@@ -76,7 +76,7 @@
 						<li><a href="functions/logout.php">Logout <span class="glyphicon glyphicon-log-out"></span></a></li>
 				<?php } ?>
 						<li class="divider"></li>
-						<li><a onclick="toggle_night()">Toggle Nightmode <span class="glyphicon glyphicon-adjust" aria-hidden="true"></span></a></li>
+						<li><a onclick="toggle_night()">Toggle Nightmode <span class="glyphicon glyphicon-adjust" aria-hidden="true" disabled="disabled"></span></a></li>
 					</ul>
 				</li>
 			</ul>
