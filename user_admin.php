@@ -109,7 +109,7 @@
 		<script src="js/nav-collapse.js"></script>
 		<script src="js/chart.js"></script>
 		<script>
-			var lineChartData = {
+			var DailyData = {
 				labels : ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
 				datasets : [
 					{
@@ -135,15 +135,8 @@
 				]
 
 			}
-
-			window.onload = function(){
-				var ctx = $("daily").get(0).getContext("2d");
-				window.myLine = new Chart(ctx).Line(lineChartData, {
-					responsive: true
-				});
-			}
-
-
+			var ctx = $("#daily").get(0).getContext("2d");
+			new Chart(ctx).Line(DailyData, {responsive: true});
 		</script>
 	</body>
 </html>
