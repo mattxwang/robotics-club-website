@@ -136,12 +136,7 @@
 
 			}
 			var ctx = $("#daily").get(0).getContext("2d");
-
-			window.onload = function(){
-				window.myLine = new Chart(ctx).Line(DailyData, {
-					responsive: true
-				});
-			}
+			new Chart(ctx).Line(DailyData, {responsive: true});
 		</script>
 	</body>
 </html>
