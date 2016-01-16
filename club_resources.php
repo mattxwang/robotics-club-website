@@ -96,41 +96,31 @@
 							</div>
 							<div id="collapseFour" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
 								<div class="panel-body">
-								<h2>Programming Languages</h2>
-								Adding more languages to a student's arsenal allows them to tackle problems easier, especially after getting C under their belt. Here are some other languages we recommend learning:
-								</br>
-								<ul>
-									<li><a href="https://www.python.org">Python</a> is a robust, but easy to learn interpreted language with elegant, easy to read syntax and a variety of libraries.</li>
-									<li><a href="https://www.java.com">Java</a> is the world's most used language; it's utility is used in Android devices, Desktop apps, and a variety of other platforms. </li>
-									<li><a href="https://php.net">PHP</a> is a widely used server-side scripting language used in web developement. Even this website uses PHP! </li>
-									<li><a href="https://www.javascript.com">Javascript</a>, while unrelated to Java, is a web-based scripting language used to perfect user interfaces. </li>
-									<li>Javascript also features two major libraries, <a href="https://jquery.com">jQuery</a> and <a href="nodejs.org">Node.js</a>, widely used to enhance user experience. </li>
-								</ul>
-								<h2>Learning Resources</h2>
-								Learning languages may be tough, but with some documented resources, and some mentorship, picking up languages will be a breeze.
-								</br>
-								<ul>
-									<li><a href="https://www.codecademy.com">Codecademy</a> is one of the most well-known and used websites to learn code, featuring a vast amount of languages to learn, including <b>Python, HTML/CSS, Javascript, PHP, and Ruby.</li>
-									<li><a href="https://learnxinyminutes.com">Learn X in Y Minutes</a> is a great reference resource to brush up programming skills. </li>
-								</ul>
-								<h2>Programming Resources</h2>
-								Programming resources to make computer science easier.
-								</br>
-								<ul>
-									<li><a href="http://brew.sh/">Homebrew</a> makes installing libraries a walk in the park.</li>
-									<li><a href="https://www.sublimetext.com/">Sublime Text</a> is an all-in-one text-editor with a robust <a href="https://packagecontrol.io/">addons</a> to supercharge your text editor.</li>
-									<li><a href="http://github.com/">Github</a> is the most widely used <a href="https://en.wikipedia.org/wiki/Version_control">version control</a> software that makes working with others a breeze. </li>
-								</ul>
-								Talk to a club member, or check out the Digital Media and Computer Science club for more information about coding.<br>
-								<h4>Learn a language</h4>
-								<a href="https://www.codecademy.com/"> codecademy.com</a> Start Here! Choose python, unless you have a reason.<br>
-								<a href="https://learnxinyminutes.com/"> learnxinyminutes.com</a> Use this once you know a language, or just as a reference sheet<br>
-								<a href="https://www.khanacademy.org/computing/computer-programming"> kahnacademy.com</a> Not the best for learning languages, bu decent CS section)<br>
-								<h4>Python Libraries</h2>
-								<a href="http://brew.sh/">Homebrew</a> is used for installing pretty much any library.<br>
-								<a href="http://www.sympy.org/en/index.html">SymPy library</a>. Awesome python library for doing hard equations.<br>
-								<a href="http://matplotlib.org/">Matplotlib</a> is by far the best library for graphing and plotting data in Python.<br>
-
+									<h2>Programming Languages</h2>
+									Adding more languages to a student's arsenal allows them to tackle problems easier, especially after getting C under their belt. Here are some other languages we recommend learning:
+									</br>
+									<ul>
+										<li><a href="https://www.python.org">Python</a> is a robust, but easy to learn interpreted language with elegant, easy to read syntax and a variety of libraries.</li>
+										<li><a href="https://www.java.com">Java</a> is the world's most used language; it's utility is used in Android devices, Desktop apps, and a variety of other platforms. </li>
+										<li><a href="https://php.net">PHP</a> is a widely used server-side scripting language used in web developement. Even this website uses PHP! </li>
+										<li><a href="https://www.javascript.com">Javascript</a>, while unrelated to Java, is a web-based scripting language used to perfect user interfaces. </li>
+										<li>Javascript also features two major libraries, <a href="https://jquery.com">jQuery</a> and <a href="nodejs.org">Node.js</a>, widely used to enhance user experience. </li>
+									</ul>
+									<h2>Learning Resources</h2>
+									Learning languages may be tough, but with some documented resources, and some mentorship, picking up languages will be a breeze.
+									</br>
+									<ul>
+										<li><a href="https://www.codecademy.com">Codecademy</a> is one of the most well-known and used websites to learn code, featuring a vast amount of languages to learn, including <b>Python, HTML/CSS, Javascript, PHP, and Ruby.</li>
+										<li><a href="https://learnxinyminutes.com">Learn X in Y Minutes</a> is a great reference resource to brush up programming skills. </li>
+									</ul>
+									<h2>Programming Resources</h2>
+									Programming resources to make computer science easier.
+									</br>
+									<ul>
+										<li><a href="http://brew.sh/">Homebrew</a> makes installing libraries a walk in the park.</li>
+										<li><a href="https://www.sublimetext.com/">Sublime Text</a> is an all-in-one text-editor with a robust <a href="https://packagecontrol.io/">addons</a> to supercharge your text editor.</li>
+										<li><a href="http://github.com/">Github</a> is the most widely used <a href="https://en.wikipedia.org/wiki/Version_control">version control</a> software that makes working with others a breeze. </li>
+									</ul>
 								</div>
 							</div>
 						</div>
