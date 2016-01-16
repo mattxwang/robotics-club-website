@@ -23,7 +23,7 @@
 				<div class="well well-lg">
 					<h2>Executives</h2>
 					<div class="table-responsive">
-						<table class="table table-striped table-hover">
+						<table class="table table-hover">
 							<thead>
 								<tr>
 									<th>Name</th>
@@ -62,7 +62,7 @@
 					</div>
 					<h2>Web Development Team</h2>
 					<div class="table-responsive">
-						<table class="table table-striped">
+						<table class="table table-hover">
 							<thead>
 								<tr>
 									<th>Name</th>
