@@ -5,7 +5,7 @@
 		header("Location: login.php"); 
 		die("Redirecting to login.php"); 
 	}
-	elseif($_SESSION['user'] != 1){
+	elseif($_SESSION['user']['admin'] != 1){
 		header("Location: user_account.php"); 
 		die("Redirecting to user_account.php");
 	}
