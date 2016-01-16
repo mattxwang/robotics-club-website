@@ -18,7 +18,7 @@
 			<?php include_once("site_wide.php") ?>
 			<h1 class="page-header"><span class="glyphicon glyphicon-blackboard" aria-hidden="true"></span> Horizons Curriculum <small>2016</small></h1>
 			<h6>
-				Horizons sessions are held in Room 304, with snacks in room CC3 beforehand. Every session starts at 3:30, and ends at 4:30. Our Schedule is <a href="horizons_schedule">here</a>. 
+				Horizons sessions are held in Room 304, with snacks in room CC3 beforehand. Every session starts at 3:30, and ends at 4:30. Our Schedule is <a href="horizons_schedule.php">here</a>. 
 				</br>
 				</br>
 				The same curriculum is run for both sessions. 
