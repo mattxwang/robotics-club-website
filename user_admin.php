@@ -103,9 +103,13 @@
 				</div>
 			</div>
 		</div>
+		<script src="js/jquery.js"></script>
+		<script src="js/jquery.easing.min.js"></script>
+		<script src="js/bootstrap.js"></script>
+		<script src="js/nav-collapse.js"></script>
 		<script src="js/chart.js"></script>
 		<script>
-			var lineChartData = {
+			var DailyData = {
 				labels : ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
 				datasets : [
 					{
@@ -134,16 +138,10 @@
 			var ctx = $("#daily").get(0).getContext("2d");
 
 			window.onload = function(){
-				window.myLine = new Chart(ctx).Line(lineChartData, {
+				window.myLine = new Chart(ctx).Line(DailyData, {
 					responsive: true
 				});
 			}
-
-
 		</script>
-		<script src="js/jquery.js"></script>
-		<script src="js/jquery.easing.min.js"></script>
-		<script src="js/bootstrap.js"></script>
-		<script src="js/nav-collapse.js"></script>
 	</body>
 </html>
