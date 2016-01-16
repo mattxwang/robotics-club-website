@@ -29,4 +29,5 @@ else{
 <link href='css/bootstrap-night-plain.css' rel='stylesheet'>
 -->
 <link href='css/bootstrap.css' rel='stylesheet'>
+<link href='css/style.css' rel='stylesheet'>
 
