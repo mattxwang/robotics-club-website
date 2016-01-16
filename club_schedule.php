@@ -20,25 +20,6 @@
 			<h1 class="page-header"><span class="glyphicon glyphicon-calendar" aria-hidden="true"></span> Club Calendar <small>2016</small></h1>
 			
 			<div class= "calendar-div table-responsive">
-				<nav>
-					<ul class="pagination">
-						<li>
-							<a href="#" aria-label="Previous">
-							<span aria-hidden="true">&laquo;</span>
-							</a>
-						</li>
-						<li><a href="#">January</a></li>
-						<li><a href="#">February</a></li>
-						<li><a href="#">March</a></li>
-						<li><a href="#">April</a></li>
-						<li><a href="#">May</a></li>
-						<li>
-							<a href="#" aria-label="Next">
-							<span aria-hidden="true">&raquo;</span>
-							</a>
-						</li>
-					</ul>
-				</nav>
 				<table class= "table calendar-table">
 			<nav>
 				<ul class="pagination">
@@ -47,11 +28,11 @@
 						<span aria-hidden="true">&laquo;</span>
 						</a>
 					</li>
-					<li><a href="#">January</a></li>
-					<li><a href="#">February</a></li>
-					<li><a href="#">March</a></li>
-					<li><a href="#">April</a></li>
-					<li><a href="#">May</a></li>
+					<li id="JanButton"><a href="#">January</a></li>
+					<li id="FebButton"><a href="#">February</a></li>
+					<li id="MarButton"><a href="#">March</a></li>
+					<li id="AprButton"><a href="#">April</a></li>
+					<li id="MayButton"><a href="#">May</a></li>
 					<li>
 						<a href="#" aria-label="Next">
 						<span aria-hidden="true">&raquo;</span>
@@ -135,7 +116,7 @@
 						<td></td>
 				</table>
 			</div>
-			<div id="Febuary" class = "table-responsive hidden hidden">
+			<div id="Febuary" class = "table-responsive">
 				<table class = "table">
 					<tr>
 						<td>Sunday</td>
@@ -211,7 +192,7 @@
 						<td></td>
 				</table>
 			</div>
-				<div id="March" class = "table-responsive hidden">
+				<div id="March" class = "table-responsive">
 				<table class = "table">
 					<tr>
 						<td>Sunday</td>
@@ -287,7 +268,7 @@
 						<td></td>
 				</table>
 			</div>
-				<div id="April" class = "table-responsive hidden">
+				<div id="April" class = "table-responsive">
 				<table class = "table">
 					<tr>
 						<td>Sunday</td>
@@ -363,7 +344,7 @@
 						<td></td>
 				</table>
 			</div>
-				<div id="May" class = "table-responsive hidden">
+				<div id="May" class = "table-responsive">
 				<table class = "table">
 					<tr>
 						<td>Sunday</td>
@@ -446,7 +427,7 @@
 			-->
 
 		</div>
-
+		<script src="js/schedule_switch.js"></script>
 		<script src="js/jquery.js"></script>
 		<script src="js/jquery.easing.min.js"></script>
 		<script src="js/bootstrap.js"></script>
