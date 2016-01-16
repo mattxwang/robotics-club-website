@@ -65,19 +65,17 @@
 					</div>
 					<div class="well well-lg">
 						<h3>Track member attendance.</h3>
+						<div class="input-group">
+							<span class="input-group-btn">
+								<button class="btn btn-default" type="button"><span class="glyphicon glyphicon-search"></span></button>
+							</span>
+							<input type="text" class="form-control" placeholder="john.smith@ucc.on.ca">
+						</div>
 						<ul class="nav nav-tabs" role="tablist">
 							<li role="presentation" class="active"><a href="#daily" role="tab" data-toggle="tab">Daily</a></li>
 							<li role="presentation"><a href="#weekly" role="tab" data-toggle="tab">Weekly</a></li>
 							<li role="presentation"><a href="#monthly" role="tab" data-toggle="tab">Monthly</a></li>
 							<li role="presentation"><a href="#spreadsheet" role="tab" data-toggle="tab">Spreadsheet</a></li>
-							<li role="presentation">
-								<div class="input-group">
-									<span class="input-group-btn">
-										<button class="btn btn-default" type="button"><span class="glyphicon glyphicon-search"></span></button>
-									</span>
-									<input type="text" class="form-control" placeholder="john.smith@ucc.on.ca">
-								</div>
-    						</li>
 						</ul>
 
 						<div class="tab-content">
