@@ -1,3 +1,6 @@
+//MY FIRST JS FILE
+//AND IT MIGHT WORK
+//ER MA FERKEN GERD
 /*
 $(window).scroll(function() {
     if ($(".navbar").offset().top > 70) {
