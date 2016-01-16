@@ -99,11 +99,6 @@
 								
 							</div>
 						</div>
-						<div style="width:100%">
-							<div>
-								<canvas id="daily" height="450" width="600"></canvas>
-							</div>
-						</div>
 					</div>
 				</div>
 			</div>
@@ -138,7 +133,7 @@
 			}
 
 			window.onload = function(){
-				var ctx = document.getElementById("daily").getContext("2d");
+				var ctx = $("#daily").get(0).getContext("2d");
 				window.myLine = new Chart(ctx).Line(lineChartData, {
 					responsive: true
 				});
