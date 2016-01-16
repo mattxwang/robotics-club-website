@@ -37,7 +37,7 @@
 						<div class="panel-body">
 							<div class="row">
 								<div class="col-lg-4">
-									<img class="img-responsive" src="img/placeholder.png" style="80%">
+									<img class="img-responsive" src="img/placeholder.png" style="height:50%">
 								</div>
 								<div class="col-lg-8">
 									The UCC Robotics Horizons team and the Horizons students play some games to get to know each other, and brainstorm ideas about what robots are.	
@@ -58,7 +58,7 @@
 						<div class="panel-body">
 							<div class="row">
 								<div class="col-lg-4">
-									<img class="img-responsive" src="img/horizons/makey.jpg" style="80%">
+									<img class="img-responsive" src="img/horizons/makey.jpg" style="height:50%">
 								</div>
 								<div class="col-lg-8">
 									Horizons students learn how to create buttons that can control user input, such as key presses! Using Makey-Makeys, Playdoh, and <a href="http://jack.antinode.ca/asteroids">a game of Asteroids</a>, the students learn about basic electricity and input concepts.

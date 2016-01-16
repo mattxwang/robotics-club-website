@@ -110,7 +110,7 @@
 									Learning languages may be tough, but with some documented resources, and some mentorship, picking up languages will be a breeze.
 									</br>
 									<ul>
-										<li><a href="https://www.codecademy.com">Codecademy</a> is one of the most well-known and used websites to learn code, featuring a vast amount of languages to learn, including <b>Python, HTML/CSS, Javascript, PHP, and Ruby.</li>
+										<li><a href="https://www.codecademy.com">Codecademy</a> is one of the most well-known and used websites to learn code, featuring a vast amount of languages to learn, including <b>Python, HTML/CSS, Javascript, PHP, and Ruby.</b></li>
 										<li><a href="https://learnxinyminutes.com">Learn X in Y Minutes</a> is a great reference resource to brush up programming skills. </li>
 									</ul>
 									<h2>Programming Resources</h2>

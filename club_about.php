@@ -28,7 +28,13 @@
 							<h3 class="panel-title">About Our Club</h3>
 						</div>
 						<div class="panel-body">
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ultrices, sapien sit amet vestibulum tincidunt, sapien arcu laoreet diam, vel convallis felis tellus a est. Nunc in sagittis quam. Aliquam ac ipsum eu velit tempor egestas eget vel leo. Aliquam erat volutpat. Suspendisse lacinia dui at libero tincidunt accumsan. Morbi laoreet dui quam, eu volutpat sapien condimentum ut. Nam cursus aliquet dolor varius cursus. In ut magna augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Praesent vehicula est quam, ac luctus dui iaculis sit amet. Sed tincidunt elementum dui, at molestie turpis feugiat ac. Etiam quis nisi sit amet eros placerat interdum eu vitae tortor. Duis sollicitudin nisi id purus bibendum, sed tempor arcu tempus. Morbi pellentesque fermentum lectus et vehicula.
+							Upper Canada College Robotics is a dedicated group of students working together with the common goal of teaching robotics. Whether it be through the <a href="vex_about.php">VEX Competition</a>, 
+							<a href="horizons_about.php">Horizons Robotics</a>, or <a href="projects_arduino.php">our</a> <a href="projects_keyboard.php">many</a> <a href="projects_soldering.php">projects</a>, our club teaches students 
+							core Computer Science, Engineering, and Robotics skills. 
+							</br>
+							</br>
+							Our club meets everyday afterschool, in room CL2. Members can come in whenever they want, though we suggest that members come in at least once a week. <a href="horizons_schedule.php">Horizons Robotics</a> is held on Thursdays in room CC3 during the winter, 
+							with no robotics being held in room CL2. <a href="vex_schedule.php">VEX Competitions</a> happen thoughout the year on Saturdays.
 						</div>
 					</div>
 					<div class="panel panel-primary">
