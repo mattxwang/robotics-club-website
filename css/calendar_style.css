@@ -1,0 +1,15 @@
+.calendar-div {
+	max-width: 80vw;
+}
+
+.calendar-div nav{
+	width: 100%;
+}
+
+.calendar-table{
+	width: 100%;
+}
+
+.calendar-table td{
+	width: 14.28%;
+}

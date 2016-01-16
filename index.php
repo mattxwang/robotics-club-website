@@ -9,9 +9,6 @@
 		<link rel="icon" href="css/favicon.ico" />
 		<?php include_once("night_mode.php") ?>
 		<link rel="stylesheet" href="css/style.css" />
-
-		<link href='css/bootstrap-night.css' rel='stylesheet'>
-		<link href='css/bootstrap.css' rel='stylesheet'>
 	</head>
 
 	<body>
@@ -28,7 +25,7 @@
 				<div class="col-md-4">
 					<div class="panel panel-primary">
 						<div class="panel-heading">
-							<h3><span class="glyphicon glyphicon-link" aria-hidden="true"></span> Building Foundations</h3>
+							<h3><span class="glyphicon glyphicon-education" aria-hidden="true"></span> Building Foundations</h3>
 						</div>
 						<div class="panel-body">
 							<p>
