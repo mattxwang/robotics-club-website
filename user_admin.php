@@ -99,14 +99,15 @@
 								
 							</div>
 						</div>
+						<div style="width:100%">
+							<div>
+								<canvas id="daily" height="450" width="600"></canvas>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-		<script src="js/jquery.js"></script>
-		<script src="js/jquery.easing.min.js"></script>
-		<script src="js/bootstrap.js"></script>
-		<script src="js/nav-collapse.js"></script>
 		<script src="js/chart.js"></script>
 		<script>
 			var lineChartData = {
@@ -137,7 +138,7 @@
 			}
 
 			window.onload = function(){
-				var ctx = $("daily").get(0).getContext("2d");
+				var ctx = document.getElementById("daily").getContext("2d");
 				window.myLine = new Chart(ctx).Line(lineChartData, {
 					responsive: true
 				});
@@ -145,5 +146,9 @@
 
 
 		</script>
+		<script src="js/jquery.js"></script>
+		<script src="js/jquery.easing.min.js"></script>
+		<script src="js/bootstrap.js"></script>
+		<script src="js/nav-collapse.js"></script>
 	</body>
 </html>
