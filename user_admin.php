@@ -16,7 +16,7 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 		<meta name="description" content="UCC Robotics">
-		<title><?php echo $row_info['first_name'] ?>'s Account | UCC Robotics</title>
+		<title>Admin Panel | UCC Robotics</title>
 		<link rel="icon" href="css/favicon.ico" />
 		<?php include_once("night_mode.php") ?>
 		<link rel="stylesheet" href="css/style.css" />
@@ -37,9 +37,9 @@
 							<h3>Messages, Alerts, and Notifications <span class="glyphicon glyphicon-envelope"></span></h3>
 						</div>
 						 <ul class="list-group">
-							<li class="list-group-item list-group-item-info">Create a new message.</li>
-							<li class="list-group-item list-group-item-warning">Create a new alert.</li>
-							<li class="list-group-item list-group-item-danger">Create a new notifications.</li>
+							<li class="list-group-item list-group-item-info">Create a new message. <span class="glyphicon glyphicon-inbox"></span></li>
+							<li class="list-group-item list-group-item-warning">Create a new alert. <span class="glyphicon glyphicon-bullhorn"></span></li>
+							<li class="list-group-item list-group-item-danger">Create a new notifications. <span class="glyphicon glyphicon-bell"></span></li>
 						</ul>
 					</div>
 					<div class="panel panel-info">

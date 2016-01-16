@@ -25,7 +25,7 @@
 				<div class="col-md-4">
 					<div class="panel panel-primary">
 						<div class="panel-heading">
-							<h3><span class="glyphicon glyphicon-link" aria-hidden="true"></span> Building Foundations</h3>
+							<h3><span class="glyphicon glyphicon-education" aria-hidden="true"></span> Building Foundations</h3>
 						</div>
 						<div class="panel-body">
 							<p>
