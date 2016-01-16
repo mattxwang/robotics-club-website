@@ -42,7 +42,11 @@
 							<h3 class="panel-title">About Our Team</h3>
 						</div>
 						<div class="panel-body">
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ultrices, sapien sit amet vestibulum tincidunt, sapien arcu laoreet diam, vel convallis felis tellus a est. Nunc in sagittis quam. Aliquam ac ipsum eu velit tempor egestas eget vel leo. Aliquam erat volutpat. Suspendisse lacinia dui at libero tincidunt accumsan. Morbi laoreet dui quam, eu volutpat sapien condimentum ut. Nam cursus aliquet dolor varius cursus. In ut magna augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Praesent vehicula est quam, ac luctus dui iaculis sit amet. Sed tincidunt elementum dui, at molestie turpis feugiat ac. Etiam quis nisi sit amet eros placerat interdum eu vitae tortor. Duis sollicitudin nisi id purus bibendum, sed tempor arcu tempus. Morbi pellentesque fermentum lectus et vehicula.
+							Our club is entirely student-run. In the 2015-2016 academic year, we have <a href="club_contact.php">four club heads:</a> <a href="http://jack.antinode.ca/"><b>Jack Sarick</b></a>, <a href="http://twitter.com/malsf21"><b>Matthew Wang</b></a>, 
+							Alex Roberts, and Camran Hansen. John Mace acts as our secretary. Our club itself features over 50 student members, with many coming to competitions, workshops, and daily club meetings.
+							</br>
+							</br>
+							Kevin Olds is our club supervisor: he ensures that our club is safe, organized, and successful. Without him, the club wouldn't be possible. We'd like to thank him for his service to the club, and to the school.
 						</div>
 					</div>
 				</div>
