@@ -6,88 +6,86 @@ $(window).scroll(function() {
         $(".navbar-fixed-top").removeClass("top-nav-collapse");
     }
 }); */
-//Saving elements as vars
 //Calendars
-var janStyle = document.getElementById("#January");
-var febStyle = document.getElementById("#Febuary");
-var marStyle = document.getElementById("#March");
-var aprStyle = document.getElementById("#April");
-var mayStyle = document.getElementById("#May");
+var JanCalendar = document.getElementById("January");
+var FebCalendar = document.getElementById("Febuary");
+var MarCalendar = document.getElementById("March");
+var AprCalendar = document.getElementById("April");
+var MayCalendar = document.getElementById("May");
 //Buttons
-var JanButton = document.getElementById("#JanButton");
-var FebButton = document.getElementById("#FebButton");
-var MarButton = document.getElementById("#MarButton");
-var AprButton = document.getElementById("#AprButton");
-var MayButton = document.getElementById("#MayButton");
+var JanButton = document.getElementById("JanButton");
+var FebButton = document.getElementById("FebButton");
+var MarButton = document.getElementById("MarButton");
+var AprButton = document.getElementById("AprButton");
+var MayButton = document.getElementById("MayButton");
 
-// dw about this
-//janStyle.Style.addClass = " ";
-//Adding hidden class
-febStyle.Style.addClass = "hidden";
-marStyle.Style.addClass = "hidden";
-aprStyle.Style.addClass = "hidden";
-mayStyle.Style.addClass = "hidden";
+//Start with all but Jan hidden
+FebCalendar.addClass("hidden");
+MarCalendar.addClass("hidden");
+AprCalendar.addClass("hidden");
+MayCalendar.addClass("hidden");
 
-//These functions change which calendars are viewable
-//for Jan
-function viewJan(){
-	janStyle.Style.removeClass = "hidden";
-	febStyle.Style.addClass = "hidden";
-	marStyle.Style.addClass = "hidden";
-	aprStyle.Style.addClass = "hidden";
-	mayStyle.Style.addClass = "hidden";
+function JanClicked(){
+	JanCalendar.removeClass("hidden");
+	FebCalendar.addClass("hidden");
+	MarCalendar.addClass("hidden");
+	AprCalendar.addClass("hidden");
+	MayCalendar.addClass("hidden");
 }
-//for Feb
-function viewFeb(){
-	janStyle.Style.addClass = "hidden";
-	febStyle.Style.removeClass = "hidden";
-	marStyle.Style.addClass = "hidden";
-	aprStyle.Style.addClass = "hidden";
-	mayStyle.Style.addClass = "hidden";	
+
+function FebClicked(){
+	JanCalendar.addClass("hidden");
+	FebCalendar.removeClass("hidden");
+	MarCalendar.addClass("hidden");
+	AprCalendar.addClass("hidden");
+	MayCalendar.addClass("hidden");
 }
-//For March
-function viewMar(){
-	janStyle.Style.addClass = "hidden";
-	febStyle.Style.addClass = "hidden";
-	marStyle.Style.removeClass = "hidden";
-	aprStyle.Style.addClass = "hidden";
-	mayStyle.Style.addClass = "hidden";
+
+function MarClicked(){
+	JanCalendar.addClass("hidden");
+	FebCalendar.addClass("hidden");
+	MarCalendar.removeClass("hidden");
+	AprCalendar.addClass("hidden");
+	MayCalendar.addClass("hidden");
 }
-//For April
-function viewApr(){
-	janStyle.Style.addClass = "hidden";
-	febStyle.Style.addClass = "hidden";
-	marStyle.Style.addClass = "hidden";
-	aprStyle.Style.removeClass = "hidden";
-	mayStyle.Style.addClass = "hidden";	
+
+function AprClicked(){
+	JanCalendar.addClass("hidden");
+	FebCalendar.addClass("hidden");
+	MarCalendar.addClass("hidden");
+	AprCalendar.removeClass("hidden");
+	MayCalendar.addClass("hidden");
 }
-//For May
-function viewMay(){
-	janStyle.Style.addClass = "hidden";
-	febStyle.Style.addClass = "hidden";
-	marStyle.Style.addClass = "hidden";
-	aprStyle.Style.addClass = "hidden";
-	mayStyle.Style.removeClass = "hidden";
+
+function MayClicked(){
+	JanCalendar.addClass("hidden");
+	FebCalendar.addClass("hidden");
+	MarCalendar.addClass("hidden");
+	AprCalendar.addClass("hidden");
+	MayCalendar.removeClass("hidden");
 }
-//If statements
-//if button is pressed, run function
-//Shows jan
+
+
 if (JanButton.onClick == true){
-	viewJan();
+	JanClicked();
 }
-//Shows feb
-if (FebButton.onClick == true) {
-	viewFeb();
+
+if (FebButton.onClick == true){
+	FebClicked();
 }
-//Shows mar
-if (MarButton.onClick == true) {
-	viewMar();
+
+if (MarButton.onClick == true){
+	MarClicked();
 }
-//Shows april
-if (AprButton.onClick == true) {
-	viewApr();
+
+if (MarButton.onClick == true){
+	MarClicked();
 }
-//shows may
-if (MayButton.onClick == true) {
-	viewMay();
+
+if (AprButton.onClick == true){
+	AprClicked();
+}
+
+if (MayButton.onClick == true){
+	MayClicked();
 }
