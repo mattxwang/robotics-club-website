@@ -28,7 +28,7 @@
 							<h3 class="panel-title">About Our Club</h3>
 						</div>
 						<div class="panel-body">
-							UCC robotics is a student run club that meets every day after school. It is a perfect oppurtunity for all students to experience physics, engineering, design, and programming. These are all very important skills used in the "real world" on a regular basis and are great help for a students courses. This is also a fantastic way to expand one's horizons in the fields of science and technology. One of our greatest feats is installing linux on a dead badger.
+							UCC robotics is a student run club that meets every day after school. It is a perfect oppurtunity for all students to experience physics, engineering, design, and programming. These are all very important skills used in the "real world" on a regular basis and are great help for a students courses. This is also a fantastic way to expand one's horizons in the fields of science and technology.
 						</div>
 					</div>
 					<div class="panel panel-primary">
