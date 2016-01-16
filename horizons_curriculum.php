@@ -29,13 +29,20 @@
 					<div class="panel-heading" role="tab" id="headingOne">
 						<h4 class="panel-title">
 						<a role="button" data-toggle="collapse" data-parent="#accordion1" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-						Week One: Get to know each other!
+						Week One: Robotics 101!
 						</a>
 						</h4>
 					</div>
 					<div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
 						<div class="panel-body">
-						The UCC Robotics Horizons team and the Horizons students play some games to get to know each other, and brainstorm ideas about what robots are.
+							<div class="row">
+								<div class="col-sm-4">
+									<img class="img-responsive" src="img/placeholder.png" style="80%">
+								</div>
+								<div class="col-sm-8">
+									The UCC Robotics Horizons team and the Horizons students play some games to get to know each other, and brainstorm ideas about what robots are.	
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -51,11 +58,12 @@
 						<div class="panel-body">
 							<div class="row">
 								<div class="col-sm-4">
-									<img class="img-responsive" src="img/horizons/makey.jpg">
+									<img class="img-responsive" src="img/horizons/makey.jpg" style="80%">
 								</div>
 								<div class="col-sm-8">
 									Horizons students learn how to create buttons that can control user input, such as key presses! Using Makey-Makeys, Playdoh, and <a href="http://jack.antinode.ca/asteroids">a game of Asteroids</a>, the students learn about basic electricity and input concepts.
 								</div>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -69,7 +77,14 @@
 					</div>
 					<div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
 						<div class="panel-body">
-						Lorem Ipsum.
+							<div class="row">
+								<div class="col-sm-4">
+									<img class="img-responsive" src="img/placeholder.png" style="80%">
+								</div>
+								<div class="col-sm-8">
+									Coming Soon!
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -83,7 +98,14 @@
 					</div>
 					<div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
 						<div class="panel-body">
-						Lorem Ipsum.
+							<div class="row">
+								<div class="col-sm-4">
+									<img class="img-responsive" src="img/placeholder.png" style="80%">
+								</div>
+								<div class="col-sm-8">
+									Coming Soon!
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
