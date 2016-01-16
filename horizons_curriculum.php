@@ -18,7 +18,10 @@
 			<?php include_once("site_wide.php") ?>
 			<h1 class="page-header"><span class="glyphicon glyphicon-blackboard" aria-hidden="true"></span> Horizons Curriculum <small>2016</small></h1>
 			<h6>
-				Horizons sessions are held in Room 304, with snacks in room CC3 beforehand. Every session starts at 3:30
+				Horizons sessions are held in Room 304, with snacks in room CC3 beforehand. Every session starts at 3:30, and ends at 4:30. Our Schedule is <a href="horizons_schedule">here</a>. 
+				</br>
+				</br>
+				The same curriculum is run for both sessions. 
 			</h6>
 			
 			<div class="panel-group" id="accordion1" role="tablist" aria-multiselectable="true">
@@ -46,7 +49,13 @@
 					</div>
 					<div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
 						<div class="panel-body">
-						Horizons students learn how to create buttons that can control user input, such as key presses! Using Makey-Makeys, Playdoh, and <a href="http://jack.antinode.ca/asteroids">a game of Asteroids</a>, the students learn about basic electricity and input concepts.
+							<div class="row">
+								<div class="col-sm-4">
+									<img class="img-responsive" src="img/horizons/makey.jpg">
+								</div>
+								<div class="col-sm-8">
+									Horizons students learn how to create buttons that can control user input, such as key presses! Using Makey-Makeys, Playdoh, and <a href="http://jack.antinode.ca/asteroids">a game of Asteroids</a>, the students learn about basic electricity and input concepts.
+								</div>
 						</div>
 					</div>
 				</div>
