@@ -70,7 +70,14 @@
 							<li role="presentation"><a href="#weekly" role="tab" data-toggle="tab">Weekly</a></li>
 							<li role="presentation"><a href="#monthly" role="tab" data-toggle="tab">Monthly</a></li>
 							<li role="presentation"><a href="#spreadsheet" role="tab" data-toggle="tab">Spreadsheet</a></li>
-							<li role="presentation">SEARCH INPUT<a href="#search" role="tab" data-toggle="tab">SEARCH BUTTON</a></li>
+							<li role="presentation">
+								<div class="input-group">
+									<span class="input-group-btn">
+										<button class="btn btn-default" type="button"><span class="glyphicon glyphicon-search"></span></button>
+									</span>
+									<input type="text" class="form-control" placeholder="john.smith@ucc.on.ca">
+								</div>
+    						</li>
 						</ul>
 
 						<div class="tab-content">
