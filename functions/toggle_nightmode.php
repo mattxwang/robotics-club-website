@@ -5,7 +5,6 @@
 			$_SESSION['nightmode'] = 1;
 		}
 		else {
-				echo "Hi3";
 			$_SESSION['nightmode'] = 0;
 		}
 	}

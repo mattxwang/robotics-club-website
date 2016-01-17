@@ -9,12 +9,15 @@
 
 	$_POST = filter_var_array($_POST, FILTER_SANITIZE_STRING);
 
+	$email = $_SESSION['user']['email'];
 	$nightmode = $_POST['nightmode_state'];
 
 	$query = " 
 	REPLACE INTO info (
+		email,
 		nightmode
 	) VALUES (
+		'$email',
 		'$nightmode_state'
 	);";
 
