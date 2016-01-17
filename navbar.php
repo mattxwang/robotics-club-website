@@ -75,7 +75,7 @@
 						<li><a href="user_account.php">Account Settings <span class="glyphicon glyphicon-cog" aria-hidden="true"></span></a></li>
 						<li class="divider"></li>
 						<li><a href="functions/logout.php">Logout <span class="glyphicon glyphicon-log-out"></span></a></li>
-						<?php if($row_info['nightmode']==0) || if($row_info['nightmode']==3){ ?>
+						<?php if($row_info['nightmode']==0 || $row_info['nightmode']==3){ ?>
 						<li class="divider"></li>
 						<li><a href="functions/toggle_nightmode.php">Toggle Nightmode (for this session) <span class="glyphicon glyphicon-adjust" aria-hidden="true"></span></a></li>
 						<?php } ?>
