@@ -2,16 +2,16 @@
 <?php
 	function toggle_nightmode(){
 		if (isset($_GET['nightmode'])) {
-			if (!empty($row_info['nightmode'])){
-				if ($row_info['nightmode'] == 0 || $row_info['nightmode'] == 3){
-					$_SESSION['PageStyling'] = "whitemode";
-				}
-				if ($row_info['nightmode'] == 4){
-					$_SESSION['PageStyling'] = "nightmode";
-				}
-			}
 			if (empty($_SESSION['PageStyling'])){
 				$_SESSION['PageStyling'] = "whitemode";
+				if (!empty($row_info['nightmode'])){
+					if ($row_info['nightmode'] == 0 || $row_info['nightmode'] == 3){ // default white
+						$_SESSION['PageStyling'] = "whitemode";
+					}
+					if ($row_info['nightmode'] == 4){ // default black
+						$_SESSION['PageStyling'] = "nightmode";
+					}
+				}
 			}
 
 			if ($_SESSION['PageStyling'] == "whitemode") {
