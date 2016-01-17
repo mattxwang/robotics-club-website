@@ -1,11 +1,5 @@
 # To-Do List
-
-## Matthew Wang
-* Make nightmode not look horrible
-* Implement all the content and pages.
-* Modularize all import pages
-* Work on UI for pages
-
+# Things to do
 ### User Account
 * Accounts let you edit your name, etc.
 * Account system is tied in with attendance (still has codes)
@@ -18,6 +12,13 @@
 * Code changes every day, and is editdable by admins
 * Users can see a display of what days they come in
 * Users get badges for attending (badges for cumulative, ribbons for streaks, medals/trophies for special events)
+
+# People to do them
+
+## Matthew Wang
+* Implement all the content and pages.
+* Modularize all import pages
+* Work on UI for pages
 
 ## Jack Sarick
 * Implement attendance system
