@@ -24,6 +24,7 @@
 	}
 	*/
 	// Cooler code with help from devsnowy.
+	/*
 	if($row_info['nightmode'] == 4){
 		if($_SESSION['toggleWhite']){
 			$_SESSION['toggleWhite'] = false;
@@ -41,4 +42,6 @@
 
 	header("Location: ../index.php"); 
 	die("Redirecting to: ../index.php"); 
+	*/
+	$_SESSION['PageStyling'] = "whitemode";
 ?>

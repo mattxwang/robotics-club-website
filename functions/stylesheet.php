@@ -32,36 +32,41 @@ else{
 }
 */
 
-$PageStyling = "whitemode";
+/*
 
 if ($row_info['nightmode'] == 4){
-	$PageStyling = "nightmode";
+	$_SESSION['PageStyling'] = "nightmode";
 }
 
 else{
-	$PageStyling = "whitemode";
+	$_SESSION['PageStyling'] = "whitemode";
 }
 
 if ($_SESSION['toggleNight']){
-	$PageStyling = "nightmode";
+	$_SESSION['PageStyling'] = "nightmode";
 }
 
 if ($_SESSION['toggleNight']){
-	$PageStyling = "whitemode";
+	$_SESSION['PageStyling'] = "whitemode";
 }
 
 if ($row_info['nightmode'] == 1){
-	$PageStyling = "whitemode";
+	$_SESSION['PageStyling'] = "whitemode";
 }
 elseif ($row_info['nightmode'] == 2){
-	$PageStyling = "nightmode";
+	$_SESSION['PageStyling'] = "nightmode";
 }
 
-if ($PageStyling == "whitemode"){
-	echo "<link href='css/bootstrap.css' rel='stylesheet'>";
+*/
+if (empty($_SESSION['PageStyling'])){
+	$_SESSION['PageStyling'] = "whitemode";
 }
-elseif ($PageStyling == "darkmode"){
+
+if ($_SESSION['PageStyling'] == "darkmode"){
 	echo "<link href='css/bootstrap-night.css' rel='stylesheet'>";
+}
+else {
+	echo "<link href='css/bootstrap.css' rel='stylesheet'>";
 }
 //big shout out to devsnowy for helping me out with this
 ?>
