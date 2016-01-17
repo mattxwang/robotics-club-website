@@ -25,7 +25,7 @@
 	*/
 	// Cooler code with help from devsnowy.
 	if($row_info['nightmode'] == 4){
-		if($toggleWhite){
+		if($_SESSION['toggleWhite']){
 			$_SESSION['toggleWhite'] = false;
 		} else {
 			$_SESSION['toggleWhite'] = true;
