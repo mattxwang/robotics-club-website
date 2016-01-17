@@ -18,7 +18,7 @@
 			<?php include_once("site_wide.php") ?>
 			<div class="jumbotron">
 				<h1 class="page-header"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> Give us a shout!</h1>
-				<h3>We're normally avaiable throughout the day.</h3>
+				<h3>We're normally available throughout the day.</h3>
 			</div>	
 				<div class="well well-lg">
 					<h2>Executives</h2>

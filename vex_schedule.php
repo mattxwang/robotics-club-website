@@ -25,7 +25,7 @@
 						<a href="http://www.robotevents.com/re-vrc-16-3753.html"><h2>Holy Cross CS Robotics Tournament</h2></a>
 						<h3>January 23rd</h3>
 						<h4>Holy Cross Catholic Secondary School</h4>
-						Lorem Ipsum.
+						<a href="https://www.google.com/maps/place/Holy+Cross+Secondary+School/@43.2013027,-79.2197241,17z/data=!3m1!4b1!4m2!3m1!1s0x89d350b47b3a158d:0x4a84706f1d791bfc">460 Linwell Rd, St. Catharines</a>
 					</div>
 				</div>
 
@@ -34,7 +34,7 @@
 						<a href="http://www.robotevents.com/re-vrc-16-4019.html"><h2>Rick Hansen SS Robotics Tournament</h2></a>
 						<h3>February 27th</h3>
 						<h4>Rich Hansen Secondary School</h4>
-						Lorem Ipsum.
+						<a href="https://www.google.com/maps/place/Rick+Hansen+Secondary+School/@43.5888336,-79.6851817,17z/data=!3m1!4b1!4m2!3m1!1s0x882b411cd6d735dd:0x4349d131f34e437">1150 Dream Crest Rd, Mississauga</a>
 					</div>
 				</div>
 			</div>
