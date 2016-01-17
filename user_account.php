@@ -67,10 +67,10 @@
 						<div class="col-md-8">
 							<select class="form-control" id="nightmode_state" name="nightmode_state" required="">
 								<option value="0">Choose an Option.</option>
-								<option value="3">Per Session (Defaults to light mode)</option>
-								<option value="4">Per Session (Defaults to dark mode)</option>
 								<option value="1">Always Light Mode</option>
 								<option value="2">Always Dark Mode</option>
+								<option value="3">Per Session (Defaults to light mode)</option>
+								<option value="4">Per Session (Defaults to dark mode)</option>
 							</select>
 						</div>
 						<button type="submit" class="btn btn-success" id="submitbutton" value="Login" >Save Changes</button>
