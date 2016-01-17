@@ -9,10 +9,12 @@ elseif ($row_info['nightmode'] == 2){
 elseif ($row_info['nightmode'] == 3 && $nightmode != 3 && $nightmode != 4){
 	$nightmode = 3;
 	echo "<link href='css/bootstrap.css' rel='stylesheet'>";
+	$_SESSION['nightmode'] = 3;
 }
 elseif ($row_info['nightmode'] == 4  && $nightmode != 3 && $nightmode != 4){
 	echo "<link href='css/bootstrap-night.css' rel='stylesheet'>";
 	$nightmode = 4;
+	$_SESSION['nightmode'] = 4;
 }
 else{
 	if(!empty($_SESSION['nightmode'])) {
