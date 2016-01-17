@@ -1,7 +1,7 @@
 <!-- Navbar -->
 <?php
 	function toggle_nightmode(){
-		if (isset($_GET['nightmode']) {
+		if (isset($_GET['nightmode'])) {
 			if (!empty($row_info['nightmode'])){
 				if ($row_info['nightmode'] == 0 || $row_info['nightmode'] == 3){
 					$_SESSION['PageStyling'] = "whitemode";
