@@ -32,29 +32,29 @@ else{
 }
 */
 
-$PageStyling = "whitemode"
+$PageStyling = "whitemode";
 
 if ($row_info['nightmode'] == 4){
-	$PageStyling = "nightmode"
+	$PageStyling = "nightmode";
 }
 
 else{
-	$PageStyling = "whitemode"
+	$PageStyling = "whitemode";
 }
 
 if ($_SESSION['toggleNight']){
-	$PageStyling = "nightmode"
+	$PageStyling = "nightmode";
 }
 
 if ($_SESSION['toggleNight']){
-	$PageStyling = "whitemode"
+	$PageStyling = "whitemode";
 }
 
 if ($row_info['nightmode'] == 1){
-	$PageStyling = "whitemode"
+	$PageStyling = "whitemode";
 }
 elseif ($row_info['nightmode'] == 2){
-	$PageStyling = "nightmode"
+	$PageStyling = "nightmode";
 }
 
 if ($PageStyling == "whitemode"){
