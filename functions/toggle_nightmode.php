@@ -44,4 +44,11 @@
 	die("Redirecting to: ../index.php"); 
 	*/
 	$_SESSION['PageStyling'] = "whitemode";
+
+	if ($_SESSION['PageStyling'] == "whitemode") {
+		$_SESSION['PageStyling'] = "nightmode";
+	}
+	else {
+		$_SESSION['PageStyling'] = "whitemode";
+	}
 ?>
