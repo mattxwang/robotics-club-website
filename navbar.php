@@ -28,8 +28,8 @@
 					$_SESSION['PageStyling'] = "nightmode";
 				}
 			}
-		 	header("Location: /"); 
-			die("Redirecting to: /");
+		 	 header("Location: ".$_SERVER['SCRIPT_NAME']);
+			die("Redirecting to: ".$_SERVER['SCRIPT_NAME']);
 		}
 	}
 	toggle_nightmode();
