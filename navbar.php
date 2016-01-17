@@ -29,7 +29,7 @@
 				}
 			}
 		 	 header("Location: ".$_SERVER['SCRIPT_NAME']);
-			die("Redirecting to: ".$_SERVER['SCRIPT_NAME']);
+			die();
 		}
 	}
 	toggle_nightmode();
