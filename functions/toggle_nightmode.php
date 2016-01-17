@@ -1,7 +1,7 @@
 <?php
+	require("common.php");
 	// Old, not so cool code.
 	/* 
-	require("common.php");
 	if (!empty($_SESSION['nightmode'])) {
 		if ($_SESSION['nightmode'] == 1) {
 			$_SESSION['nightmode'] = 2;
@@ -54,4 +54,8 @@
 		$_SESSION['PageStyling'] = "whitemode";
 	}
  	var_dump($_SESSION['PageStyling']);
+ 	/*
+ 	header("Location: ../index.php"); 
+	die("Redirecting to: ../index.php");
+	*/ 
 ?>
