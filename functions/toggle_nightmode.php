@@ -43,7 +43,9 @@
 	header("Location: ../index.php"); 
 	die("Redirecting to: ../index.php"); 
 	*/
-	$_SESSION['PageStyling'] = "whitemode";
+	if (empty($_SESSION['PageStyling'])){
+		$_SESSION['PageStyling'] = "whitemode";
+	}
 
 	if ($_SESSION['PageStyling'] == "whitemode") {
 		$_SESSION['PageStyling'] = "nightmode";
