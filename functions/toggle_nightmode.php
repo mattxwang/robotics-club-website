@@ -65,7 +65,6 @@
 	}
 
 	if (isset($row_info['nightmode'])){
-		echo $row_info['nightmode'];
 		if ($row_info['nightmode'] == 1){ // always white
 			$_SESSION['PageStyling'] = "whitemode";
 		}
@@ -74,7 +73,7 @@
 		}
 	}
 
- 	//header("Location: ../index.php"); 
-	//die("Redirecting to: ../index.php");
+ 	header("Location: ../index.php"); 
+	die("Redirecting to: ../index.php");
 	
 ?>
