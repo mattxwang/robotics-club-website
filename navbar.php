@@ -95,8 +95,6 @@
 						<li><a href="register.php">Register <span class="glyphicon glyphicon-edit" aria-hidden="true"></span></a></li>
 						<li class="divider"></li>
 						<li><a href="login.php">Login <span class="glyphicon glyphicon-log-in"></span></a></li>
-						<li class="divider"></li>
-						<li><a href="functions/toggle_nightmode.php">Toggle Nightmode <span class="glyphicon glyphicon-adjust" aria-hidden="true"></span></a></li>
 				<?php } else { ?>
 					Welcome <b><?php echo $row_info['first_name'] ?></b> <span class="badge">42</span><!-- IF NO NOTIF <span class="glyphicon glyphicon-ok"></span>--><span class="caret"></span>
 					</button>
@@ -110,11 +108,9 @@
 						<li><a href="user_account.php">Account Settings <span class="glyphicon glyphicon-cog" aria-hidden="true"></span></a></li>
 						<li class="divider"></li>
 						<li><a href="functions/logout.php">Logout <span class="glyphicon glyphicon-log-out"></span></a></li>
-						<?php if($row_info['nightmode']==0 || $row_info['nightmode']==3 || $row_info['nightmode']==4){ ?>
+				<?php } ?>
 						<li class="divider"></li>
 						<li><a href="/?nightmode">Toggle Nightmode (for this session) <span class="glyphicon glyphicon-adjust" aria-hidden="true"></span></a></li>
-						<?php } ?>
-				<?php } ?>
 					</ul>
 				</li>
 			</ul>
