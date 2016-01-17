@@ -2,6 +2,7 @@
 <?php
 	function toggle_nightmode(){
 		if (isset($_GET['nightmode'])) {
+			$_SESSION['nightmode_toggle'] = true;
 			if ($_SESSION['PageStyling'] == "whitemode") {
 				$_SESSION['PageStyling'] = "nightmode";
 			}
