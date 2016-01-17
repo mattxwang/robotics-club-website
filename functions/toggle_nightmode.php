@@ -47,7 +47,7 @@
 	if (empty($_SESSION['PageStyling'])){
 		$_SESSION['PageStyling'] = "whitemode";
 		if (!empty($row_info['nightmode'])){
-			if ($row_info['nightmode'] == 0 && $row_info['nightmode'] == 3){
+			if ($row_info['nightmode'] == 0 || $row_info['nightmode'] == 3){
 				$_SESSION['PageStyling'] = "whitemode";
 			}
 
