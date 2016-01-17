@@ -31,7 +31,7 @@
 		'$first_name',
 		'$last_name',
 		'$birthday',
-		'$nightmode_state'
+		'$nightmode'
 	);";
 
 	try { 
