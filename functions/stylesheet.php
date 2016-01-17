@@ -1,9 +1,9 @@
 <?php 
 if($row_info['nightmode']!=0){
-	if $row_info['nightmode'] == 1{
+	if ($row_info['nightmode'] == 1){
 		echo "<link href='css/bootstrap.css' rel='stylesheet'>";
 	}
-	elseif $row_info['nightmode'] == 2{
+	elseif ($row_info['nightmode'] == 2){
 		echo "<link href='css/bootstrap-night.css' rel='stylesheet'>";
 	}
 }
