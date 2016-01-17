@@ -63,11 +63,11 @@
 		$_SESSION['PageStyling'] = "whitemode";
 	}
 	if (!isset($row_info['nightmode'])){
-		if ($row_info['nightmode'] == 3){ // always white
+		if ($row_info['nightmode'] == 1){ // always white
 			$_SESSION['PageStyling'] = "whitemode";
 		}
 
-		if ($row_info['nightmode'] == 4){ // always dark
+		if ($row_info['nightmode'] == 2){ // always dark
 			$_SESSION['PageStyling'] = "nightmode";
 		}
 	}
