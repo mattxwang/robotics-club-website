@@ -62,7 +62,7 @@ if (empty($_SESSION['PageStyling'])){
 	$_SESSION['PageStyling'] = "whitemode";
 }
 
-if ($_SESSION['PageStyling'] == "darkmode"){
+if ($_SESSION['PageStyling'] == "nightmode"){
 	echo "<link href='css/bootstrap-night.css' rel='stylesheet'>";
 }
 else {
