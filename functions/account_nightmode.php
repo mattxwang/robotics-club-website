@@ -6,6 +6,7 @@
 		empty($_POST['nightmode_state'])
 	) { 
 		die("You missed a field"); 
+		header("Location: ../user_account.php");
 	}
 
 	$_POST = filter_var_array($_POST, FILTER_SANITIZE_STRING);
