@@ -8,10 +8,6 @@
 		<title>Register | UCC Robotics</title>
 		<link rel="icon" href="css/favicon.ico" />
 		<?php include_once("functions/stylesheet.php") ?>
-		
-
-		<link href='css/bootstrap-night.css' rel='stylesheet'>
-		<link href='css/bootstrap.css' rel='stylesheet'>
 		<link href='css/bootstrap-datepicker3.css' rel='stylesheet'>
 	</head>
 
@@ -25,11 +21,13 @@
 			<form class="form-signin" action="functions/register.php" method="post">
 				<div class = "row">
 					<div class = "col-md-12">
+						<h2>Email</h2>
 						<input type="email" id="email" class="form-control" placeholder="john.smith@ucc.on.ca" name="email" required="" autofocus="">
 					</div>
 				</div>
 				<div class = "row">
 					<div class = "col-md-12">
+						<h2>First Name</h2>
 						<input type="password" id="password" name="password" class="form-control" placeholder="Password" required="">
 					</div>
 				</div>
@@ -48,6 +46,7 @@
 						<input type="text" id="last_name" name="last_name" class="form-control" placeholder="Smith" required="">
 					</div>
 				</div>
+				<h2>Birthday</h2>
 				<div class="input-group date" data-provide="datepicker">
 					<input type="text" id="birthday" name="birthday" class="form-control" placeholder="2000-01-01"required="">
 					<div class="input-group-addon">

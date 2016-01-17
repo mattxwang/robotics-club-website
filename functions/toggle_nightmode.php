@@ -1,4 +1,6 @@
 <?php
+	// Old, not so cool code.
+	/* 
 	require("common.php");
 	if (!empty($_SESSION['nightmode'])) {
 		if ($_SESSION['nightmode'] == 1) {
@@ -20,6 +22,23 @@
 	else {
 		$_SESSION['nightmode'] = 1;
 	}
+	*/
+	// Cooler code with help from devsnowy.
+	if($row_info['nightmode'] == 4){
+		if($toggleWhite){
+			$_SESSION['toggleWhite'] = false;
+		} else {
+			$_SESSION['toggleWhite'] = true;
+		}
+	}
+	else{
+		if($_SESSION['toggleNight']){
+		$_SESSION['toggleNight'] = false;
+		} else {
+			$_SESSION['toggleNight'] = true;
+		}
+	}
+
 	header("Location: ../index.php"); 
 	die("Redirecting to: ../index.php"); 
 ?>
