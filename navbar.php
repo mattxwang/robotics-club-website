@@ -1,5 +1,4 @@
 <!-- Navbar -->
-<script src="nightmode.js"></script>
 <nav class="navbar navbar-default navbar-fixed-top">
 	<div class="container-fluid">
 		<div class="navbar-header">
@@ -61,6 +60,8 @@
 						<li><a href="register.php">Register <span class="glyphicon glyphicon-edit" aria-hidden="true"></span></a></li>
 						<li class="divider"></li>
 						<li><a href="login.php">Login <span class="glyphicon glyphicon-log-in"></span></a></li>
+						<li class="divider"></li>
+						<li><a href="functions/toggle_nightmode.php">Toggle Nightmode <span class="glyphicon glyphicon-adjust" aria-hidden="true"></span></a></li>
 				<?php } else { ?>
 					Welcome <b><?php echo $row_info['first_name'] ?></b> <span class="badge">42</span><!-- IF NO NOTIF <span class="glyphicon glyphicon-ok"></span>--><span class="caret"></span>
 					</button>
@@ -74,12 +75,11 @@
 						<li><a href="user_account.php">Account Settings <span class="glyphicon glyphicon-cog" aria-hidden="true"></span></a></li>
 						<li class="divider"></li>
 						<li><a href="functions/logout.php">Logout <span class="glyphicon glyphicon-log-out"></span></a></li>
-				<?php } ?>
+						<?php if($row_info['nightmode']==0){ ?>
 						<li class="divider"></li>
-						<li><a href="functions/night_mode_toggle.php">Toggle Nightmode <span class="glyphicon glyphicon-adjust" aria-hidden="true"></span></a></li>
-						<!--
-						<li><a onclick="toggle_night()">Toggle Nightmode <span class="glyphicon glyphicon-adjust" aria-hidden="true" disabled="disabled"></span></a></li>
-						-->
+						<li><a href="functions/toggle_nightmode.php">Toggle Nightmode (for this session) <span class="glyphicon glyphicon-adjust" aria-hidden="true"></span></a></li>
+						<?php } ?>
+				<?php } ?>
 					</ul>
 				</li>
 			</ul>

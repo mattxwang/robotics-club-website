@@ -56,6 +56,29 @@
 				</div>
 			</div>
 
+			<div class="panel panel-primary">
+				<div class="panel-heading">
+				Account Features:
+				</div>
+
+				<div class="panel-body">
+				</div>
+				<li class="list-group-item">
+					<form class="form-signin" action="functions/account_nightmode.php" method="post">
+						<div class="col-md-4">
+							Set Nightmode State: 
+						</div>
+						<div class="col-md-8">
+							<select class="form-control" id="nightmode_state">
+								<option value="0">Per Session (Defaults to light mode)</option>
+								<option value="1">Always Light Mode</option>
+								<option value="2">Always Dark Mode</option>
+							</select>
+						</div>
+						<button type="submit" class="btn btn-success" id="submitbutton" value="Login" >Save Changes</button>
+					</form>
+				</li>
+			</div>
 			<div class="panel panel-danger">
 				<div class="panel-heading">
 				Account Settings

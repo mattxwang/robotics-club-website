@@ -1,19 +1,16 @@
 <?php
 	require("common.php");
-	echo "Hi";
 	if (!empty($_SESSION['nightmode'])) {
-		if ($_SESSION['nightmode'] == false) {
-				echo "Hi2";
-			$_SESSION['nightmode'] = true;
+		if ($_SESSION['nightmode'] == 0) {
+			$_SESSION['nightmode'] = 1;
 		}
 		else {
 				echo "Hi3";
-			$_SESSION['nightmode'] = false;
+			$_SESSION['nightmode'] = 0;
 		}
 	}
 	else {
-		echo "Hi1";
-		$_SESSION['nightmode'] = true;
+		$_SESSION['nightmode'] = 1;
 	}
 	header("Location: ../index.php"); 
 	die("Redirecting to: ../index.php"); 
