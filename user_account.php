@@ -69,7 +69,7 @@
 							Set Nightmode State: 
 						</div>
 						<div class="col-md-8">
-							<select class="form-control" id="nightmode_state">
+							<select class="form-control" id="nightmode_state" name="nightmode_state">
 								<option value="0">Per Session (Defaults to light mode)</option>
 								<option value="1">Always Light Mode</option>
 								<option value="2">Always Dark Mode</option>

@@ -9,7 +9,7 @@
 
 	$_POST = filter_var_array($_POST, FILTER_SANITIZE_STRING);
 
-	$email = $_POST['nightmode_state'];
+	$nightmode = $_POST['nightmode_state'];
 
 	$query = " 
 	REPLACE INTO info (
