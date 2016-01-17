@@ -60,6 +60,15 @@ elseif ($row_info['nightmode'] == 2){
 */
 if (empty($_SESSION['PageStyling'])){
 	$_SESSION['PageStyling'] = "whitemode";
+	if (!empty($row_info['nightmode'])){
+		if ($row_info['nightmode'] == 0 || $row_info['nightmode'] == 3){
+			$_SESSION['PageStyling'] = "whitemode";
+		}
+
+		if ($row_info['nightmode'] == 4){
+			$_SESSION['PageStyling'] = "nightmode";
+		}
+	}
 }
 if (isset($row_info['nightmode'])){
 	if ($row_info['nightmode'] == 1){ // always white
