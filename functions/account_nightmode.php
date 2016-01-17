@@ -1,5 +1,6 @@
 <?php 
 	require("common.php"); 
+	include_once("import_info.php");
 	
 	if(
 		empty($_POST['nightmode_state'])
@@ -10,14 +11,26 @@
 	$_POST = filter_var_array($_POST, FILTER_SANITIZE_STRING);
 
 	$email = $_SESSION['user']['email'];
+	$first_name = $row_info['first_name'];
+	$last_name = $row_info['last_name'];
+	$birthday = $row_info['birthday'];
 	$nightmode = $_POST['nightmode_state'];
+	$user_id = $row_info['id'];
 
 	$query = " 
 	REPLACE INTO info (
+		id,
 		email,
+		first_name,
+		last_name,
+		birthday,
 		nightmode
 	) VALUES (
+		'$user_id',
 		'$email',
+		'$first_name',
+		'$last_name',
+		'$birthday',
 		'$nightmode_state'
 	);";
 
