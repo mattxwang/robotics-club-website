@@ -1,20 +1,15 @@
 <?php 
-/*
-session_start(); 
-if(empty($_SESSION['nightmode'])) {
-	$nightmode = 0;
-}
-elseif($_SESSION['nightmode'] == 0){
-	$nightmode = 0;
+if(!empty($_SESSION['nightmode'])) {
+	if($_SESSION['nightmode'] == 0){
+		$nightmode = 0;
+	}
+	else{
+		$nightmode = 1;
+	}
 }
 else{
-	$nightmode = 1;
+	$nightmode = 0;
 }
-
-
-$nightmode = 1;
-
-$nightmode = 0;
 
 if($nightmode == 1){
 	echo "<link href='css/bootstrap-night.css' rel='stylesheet'>";
@@ -22,12 +17,8 @@ if($nightmode == 1){
 else{
 	echo "<link href='css/bootstrap.css' rel='stylesheet'>";
 }
-*/
+
 ?>
-<!--
-<link href='css/bootstrap-night.css' rel='stylesheet'>
-<link href='css/bootstrap-night-plain.css' rel='stylesheet'>
--->
 <link href='css/bootstrap.css' rel='stylesheet'>
 <link href='css/style.css' rel='stylesheet'>
 
