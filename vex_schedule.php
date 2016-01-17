@@ -7,7 +7,7 @@
 		<meta name="description" content="UCC Robotics">
 		<title>Vex Schedule | UCC Robotics</title>
 		<link rel="icon" href="css/favicon.ico" />
-		<?php include_once("stylesheet.php") ?>
+		<?php include_once("functions/stylesheet.php") ?>
 		
 	</head>
 
