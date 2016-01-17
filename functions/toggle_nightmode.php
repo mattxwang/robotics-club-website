@@ -65,10 +65,10 @@
 	}
 
 	if (isset($row_info['nightmode'])){
+		echo $row_info['nightmode'];
 		if ($row_info['nightmode'] == 1){ // always white
 			$_SESSION['PageStyling'] = "whitemode";
 		}
-		echo $row_info['nightmode'];
 		if ($row_info['nightmode'] == 2){ // always dark
 			$_SESSION['PageStyling'] = "nightmode";
 		}
