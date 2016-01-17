@@ -59,7 +59,10 @@
 									<h5>Attendance Code: </h5>
 								</div>
 								<div class="col-sm-8">
-									<input type="text" id="attendance" name="attendance" class="form-control" required="">
+									<input type="text" id="attendance" name="attendance" class="form-control" placeholder="Blank Space." required="">
+									<span class="input-group-btn">
+										<button class="btn btn-default" type="submit" id="submitbutton" value="Login">Go!</button>
+									</span>
 								</div>
 						</form>
 					</div>
