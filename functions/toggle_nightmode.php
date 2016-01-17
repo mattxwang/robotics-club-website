@@ -1,5 +1,6 @@
 <?php
 	require("common.php");
+	include_once("import_info.php")
 	// Old, not so cool code.
 	/* 
 	if (!empty($_SESSION['nightmode'])) {
@@ -47,12 +48,29 @@
 		$_SESSION['PageStyling'] = "whitemode";
 	}
 
+	if ($row_info['nightmode'] == 1){
+		$_SESSION['PageStyling'] = "whitemode";
+	}
+
+	if ($row_info['nightmode'] == 2){
+		$_SESSION['PageStyling'] = "darkmode";
+	}
+
 	if ($_SESSION['PageStyling'] == "whitemode") {
 		$_SESSION['PageStyling'] = "nightmode";
 	}
 	else {
 		$_SESSION['PageStyling'] = "whitemode";
 	}
+
+	if ($row_info['nightmode'] == 3){ // always white
+		$_SESSION['PageStyling'] = "whitemode";
+	}
+
+	if ($row_info['nightmode'] == 4){ // always dark
+		$_SESSION['PageStyling'] = "nightmode";
+	}
+
  	header("Location: ../index.php"); 
 	die("Redirecting to: ../index.php");
 	
