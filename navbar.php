@@ -28,8 +28,8 @@
 					$_SESSION['PageStyling'] = "nightmode";
 				}
 			}
-		 	header("Location: ../index.php"); 
-			die("Redirecting to: ../index.php");
+		 	header("Location: /"); 
+			die("Redirecting to: /");
 		}
 	}
 	toggle_nightmode();
@@ -110,7 +110,7 @@
 						<li><a href="functions/logout.php">Logout <span class="glyphicon glyphicon-log-out"></span></a></li>
 				<?php } ?>
 						<li class="divider"></li>
-						<li><a href="/?nightmode">Toggle Nightmode (for this session) <span class="glyphicon glyphicon-adjust" aria-hidden="true"></span></a></li>
+						<li><a href="?nightmode">Toggle Nightmode (for this session) <span class="glyphicon glyphicon-adjust" aria-hidden="true"></span></a></li>
 					</ul>
 				</li>
 			</ul>
