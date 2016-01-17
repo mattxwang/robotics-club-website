@@ -1,6 +1,6 @@
 <?php
 	require("common.php");
-	include_once("import_info.php")
+	include_once("import_info.php");
 	// Old, not so cool code.
 	/* 
 	if (!empty($_SESSION['nightmode'])) {
@@ -53,7 +53,7 @@
 	}
 
 	if ($row_info['nightmode'] == 2){
-		$_SESSION['PageStyling'] = "darkmode";
+		$_SESSION['PageStyling'] = "nightmode";
 	}
 
 	if ($_SESSION['PageStyling'] == "whitemode") {
