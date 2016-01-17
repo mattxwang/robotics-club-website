@@ -53,9 +53,7 @@
 	else {
 		$_SESSION['PageStyling'] = "whitemode";
 	}
- 	var_dump($_SESSION['PageStyling']);
- 	/*
  	header("Location: ../index.php"); 
 	die("Redirecting to: ../index.php");
-	*/ 
+	
 ?>
