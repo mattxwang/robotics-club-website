@@ -56,13 +56,15 @@
 			}
 		}
 	}
+
 	if ($_SESSION['PageStyling'] == "whitemode") {
 		$_SESSION['PageStyling'] = "nightmode";
 	}
 	else {
 		$_SESSION['PageStyling'] = "whitemode";
 	}
-	if (!isset($row_info['nightmode'])){
+
+	if (!empty($row_info['nightmode'])){
 		if ($row_info['nightmode'] == 1){ // always white
 			$_SESSION['PageStyling'] = "whitemode";
 		}
