@@ -14,8 +14,8 @@
 		<meta name="description" content="UCC Robotics">
 		<title><?php echo $row_info['first_name'] ?> | UCC Robotics</title>
 		<link rel="icon" href="css/favicon.ico" />
-		<?php include_once("night_mode.php") ?>
-		<link rel="stylesheet" href="css/style.css" />
+		<?php include_once("functions/stylesheet.php") ?>
+		
 
 		<link href='css/bootstrap-night.css' rel='stylesheet'>
 		<link href='css/bootstrap.css' rel='stylesheet'>
@@ -59,7 +59,12 @@
 									<h5>Attendance Code: </h5>
 								</div>
 								<div class="col-sm-8">
-									<input type="text" id="attendance" name="attendance" class="form-control" required="">
+									<div class="input-group">
+										<input type="text" id="attendance" name="attendance" class="form-control" placeholder="Blank Space." required="">
+										<span class="input-group-btn">
+											<button class="btn btn-default" type="submit" id="submitbutton" value="Login">Go!</button>
+										</span>
+									</div>
 								</div>
 						</form>
 					</div>

@@ -7,8 +7,8 @@
 		<meta name="description" content="UCC Robotics">
 		<title>Schedule | UCC Robotics</title>
 		<link rel="icon" href="css/favicon.ico" />
-		<?php include_once("night_mode.php") ?>
-		<link rel="stylesheet" href="css/style.css" />
+		<?php include_once("functions/stylesheet.php") ?>
+		
 		<link rel="stylesheet" type="text/css" href="css/calendar_style.css">
 	</head>
 

@@ -7,8 +7,8 @@
 		<meta name="description" content="UCC Robotics">
 		<title>About Us | UCC Robotics</title>
 		<link rel="icon" href="css/favicon.ico" />
-		<?php include_once("night_mode.php") ?>
-		<link rel="stylesheet" href="css/style.css" />
+		<?php include_once("functions/stylesheet.php") ?>
+		
 	</head>
 
 	<body>
@@ -28,7 +28,17 @@
 							<h3 class="panel-title">About Our Club</h3>
 						</div>
 						<div class="panel-body">
+<<<<<<< HEAD
 							UCC robotics is a student run club that meets every day after school. It is a perfect oppurtunity for all students to experience physics, engineering, design, and programming. These are all very important skills used in the "real world" on a regular basis and are great help for a students courses. This is also a fantastic way to expand one's horizons in the fields of science and technology.
+=======
+							Upper Canada College Robotics is a dedicated group of students working together with the common goal of teaching robotics. Whether it be through the <a href="vex_about.php">VEX Competition</a>, 
+							<a href="horizons_about.php">Horizons Robotics</a>, or <a href="projects_arduino.php">our</a> <a href="projects_keyboard.php">many</a> <a href="projects_soldering.php">projects</a>, our club teaches students 
+							core Computer Science, Engineering, and Robotics skills. 
+							</br>
+							</br>
+							Our club meets everyday afterschool, in room CL2. Members can come in whenever they want, though we suggest that members come in at least once a week. <a href="horizons_schedule.php">Horizons Robotics</a> is held on Thursdays in room CC3 during the winter, 
+							with no robotics being held in room CL2. <a href="vex_schedule.php">VEX Competitions</a> happen thoughout the year on Saturdays.
+>>>>>>> malsf21/master
 						</div>
 					</div>
 					<div class="panel panel-primary">
@@ -36,16 +46,20 @@
 							<h3 class="panel-title">About Our Team</h3>
 						</div>
 						<div class="panel-body">
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ultrices, sapien sit amet vestibulum tincidunt, sapien arcu laoreet diam, vel convallis felis tellus a est. Nunc in sagittis quam. Aliquam ac ipsum eu velit tempor egestas eget vel leo. Aliquam erat volutpat. Suspendisse lacinia dui at libero tincidunt accumsan. Morbi laoreet dui quam, eu volutpat sapien condimentum ut. Nam cursus aliquet dolor varius cursus. In ut magna augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Praesent vehicula est quam, ac luctus dui iaculis sit amet. Sed tincidunt elementum dui, at molestie turpis feugiat ac. Etiam quis nisi sit amet eros placerat interdum eu vitae tortor. Duis sollicitudin nisi id purus bibendum, sed tempor arcu tempus. Morbi pellentesque fermentum lectus et vehicula.
+							Our club is entirely student-run. In the 2015-2016 academic year, we have <a href="club_contact.php">four club heads:</a> <a href="http://jack.antinode.ca/"><b>Jack Sarick</b></a>, <a href="http://twitter.com/malsf21"><b>Matthew Wang</b></a>, 
+							<b>Alex Roberts</b>, and <b>Camran Hansen</b>. John Mace acts as our secretary. Our club itself features over 50 student members, with many coming to competitions, workshops, and daily club meetings.
+							</br>
+							</br>
+							Kevin Olds is our club supervisor: he ensures that our club is safe, organized, and successful. Without him, the club wouldn't be possible. We'd like to thank him for his service to the club, and to the school.
 						</div>
 					</div>
 				</div>
 				<div class="col-lg-6">
-					<div class="panel-group" id="information" role="tablist">
+					<div class="panel-group" id="accordion1" role="tablist">
 						<div class="panel panel-success">
 							<div class="panel-heading" role="tab">
 								<h4 class="panel-title">
-									<a role="button" data-toggle="collapse" data-parent"#information" href="#thumbnailOne">
+									<a role="button" data-toggle="collapse" data-parent"accordion1" href="#thumbnailOne">
 										Lorem Ipsum
 									</a>
 								</h4>
@@ -68,7 +82,7 @@
 						<div class="panel panel-success">
 							<div class="panel-heading" role="tab">
 								<h4 class="panel-title">
-									<a role="button" class="collapsed" data-toggle="collapse" data-parent"#information" href="#thumbnailTwo">
+									<a role="button" class="collapsed" data-toggle="collapse" data-parent"accordion1" href="#thumbnailTwo">
 										Lorem Ipsum
 									</a>
 								</h4>
@@ -91,7 +105,7 @@
 						<div class="panel panel-success">
 							<div class="panel-heading" role="tab">
 								<h4 class="panel-title">
-									<a role="button" class="collapsed" data-toggle="collapse" data-parent"#information" href="#thumbnailThree">
+									<a role="button" class="collapsed" data-toggle="collapse" data-parent"accordion1" href="#thumbnailThree">
 										Lorem Ipsum
 									</a>
 								</h4>

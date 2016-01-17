@@ -18,10 +18,8 @@
 		<meta name="description" content="UCC Robotics">
 		<title>Admin Panel | UCC Robotics</title>
 		<link rel="icon" href="css/favicon.ico" />
-		<?php include_once("night_mode.php") ?>
-		<link rel="stylesheet" href="css/style.css" />
-		<link href='css/bootstrap-night.css' rel='stylesheet'>
-		<link href='css/bootstrap.css' rel='stylesheet'>
+		<?php include_once("functions/stylesheet.php") ?>
+		
 	</head>
 
 	<body>

@@ -7,8 +7,8 @@
 		<meta name="description" content="UCC Robotics">
 		<title>About VEX | UCC Robotics</title>
 		<link rel="icon" href="css/favicon.ico" />
-		<?php include_once("night_mode.php") ?>
-		<link rel="stylesheet" href="css/style.css" />
+		<?php include_once("functions/stylesheet.php") ?>
+		
 	</head>
 
 	<body>
@@ -49,11 +49,11 @@
 					</div>
 				</div>
 				<div class="col-lg-6">
-					<div class="panel-group" id="information" role="tablist">
+					<div class="panel-group" id="accordion1" role="tablist">
 						<div class="panel panel-primary">
 							<div class="panel-heading" role="tab">
 								<h4 class="panel-title">
-									<a role="button" data-toggle="collapse" data-parent"#information" href="#thumbnailOne">
+									<a role="button" data-toggle="collapse" data-parent"#accordion1" href="#thumbnailOne">
 										Lorem Ipsum
 									</a>
 								</h4>
@@ -76,7 +76,7 @@
 						<div class="panel panel-primary">
 							<div class="panel-heading" role="tab">
 								<h4 class="panel-title">
-									<a role="button" class="collapsed" data-toggle="collapse" data-parent"#information" href="#thumbnailTwo">
+									<a role="button" class="collapsed" data-toggle="collapse" data-parent"#accordion1" href="#thumbnailTwo">
 										Lorem Ipsum
 									</a>
 								</h4>
@@ -99,7 +99,7 @@
 						<div class="panel panel-primary">
 							<div class="panel-heading" role="tab">
 								<h4 class="panel-title">
-									<a role="button" class="collapsed" data-toggle="collapse" data-parent"#information" href="#thumbnailThree">
+									<a role="button" class="collapsed" data-toggle="collapse" data-parent"#accordion1" href="#thumbnailThree">
 										Lorem Ipsum
 									</a>
 								</h4>
