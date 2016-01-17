@@ -1,7 +1,7 @@
 <?php
 	require("common.php");
 	echo "Hi";
-	if (!empty($_SESSION['nightmode']) {
+	if (!empty($_SESSION['nightmode'])) {
 		if ($_SESSION['nightmode'] == false) {
 				echo "Hi2";
 			$_SESSION['nightmode'] = true;
