@@ -29,8 +29,11 @@
 						</div>
 						<div class="panel-body">
 <<<<<<< HEAD
+<<<<<<< HEAD
 							UCC robotics is a student run club that meets every day after school. It is a perfect oppurtunity for all students to experience physics, engineering, design, and programming. These are all very important skills used in the "real world" on a regular basis and are great help for a students courses. This is also a fantastic way to expand one's horizons in the fields of science and technology.
 =======
+=======
+>>>>>>> malsf21/master
 							Upper Canada College Robotics is a dedicated group of students working together with the common goal of teaching robotics. Whether it be through the <a href="vex_about.php">VEX Competition</a>, 
 							<a href="horizons_about.php">Horizons Robotics</a>, or <a href="projects_arduino.php">our</a> <a href="projects_keyboard.php">many</a> <a href="projects_soldering.php">projects</a>, our club teaches students 
 							core Computer Science, Engineering, and Robotics skills. 
@@ -38,6 +41,9 @@
 							</br>
 							Our club meets everyday afterschool, in room CL2. Members can come in whenever they want, though we suggest that members come in at least once a week. <a href="horizons_schedule.php">Horizons Robotics</a> is held on Thursdays in room CC3 during the winter, 
 							with no robotics being held in room CL2. <a href="vex_schedule.php">VEX Competitions</a> happen thoughout the year on Saturdays.
+<<<<<<< HEAD
+>>>>>>> malsf21/master
+=======
 >>>>>>> malsf21/master
 						</div>
 					</div>
