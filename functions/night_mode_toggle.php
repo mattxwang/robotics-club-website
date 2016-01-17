@@ -15,6 +15,6 @@
 		echo "Hi1";
 		$_SESSION['nightmode'] = true;
 	}
-	header("Location: index.php"); 
-	die("Redirecting to: index.php"); 
+	header("Location: ../index.php"); 
+	die("Redirecting to: ../index.php"); 
 ?>
