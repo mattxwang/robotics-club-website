@@ -1,5 +1,6 @@
 <!-- Navbar -->
 <?php
+	//big shout out to devsnowy for helping me out with this
 	function toggle_nightmode(){
 		if (isset($_GET['nightmode'])) {
 			$_SESSION['nightmode_toggle'] = true;
