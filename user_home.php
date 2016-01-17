@@ -15,10 +15,6 @@
 		<title><?php echo $row_info['first_name'] ?> | UCC Robotics</title>
 		<link rel="icon" href="css/favicon.ico" />
 		<?php include_once("functions/stylesheet.php") ?>
-		
-
-		<link href='css/bootstrap-night.css' rel='stylesheet'>
-		<link href='css/bootstrap.css' rel='stylesheet'>
 	</head>
 
 	<body>
@@ -62,7 +58,7 @@
 									<div class="input-group">
 										<input type="text" id="attendance" name="attendance" class="form-control" placeholder="Blank Space." required="">
 										<span class="input-group-btn">
-											<button class="btn btn-default" type="submit" id="submitbutton" value="Login">Go!</button>
+											<button class="btn btn-default" type="submit" id="submitbutton" value="Login"><span class="glyphicon glyphicon-ok"></span></button>
 										</span>
 									</div>
 								</div>

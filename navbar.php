@@ -1,5 +1,21 @@
 <!-- Navbar -->
-<script src="nightmode.js"></script>
+<?php
+	//big shout out to devsnowy for helping me out with this
+	function toggle_nightmode(){
+		if (isset($_GET['nightmode'])) {
+			$_SESSION['nightmode_toggle'] = true;
+			if ($_SESSION['PageStyling'] == "whitemode") {
+				$_SESSION['PageStyling'] = "nightmode";
+			}
+			else {
+				$_SESSION['PageStyling'] = "whitemode";
+			}
+		 	header("Location: ".$_SERVER['SCRIPT_NAME']);
+			die();
+		}
+	}
+	toggle_nightmode();
+?>
 <nav class="navbar navbar-default navbar-fixed-top">
 	<div class="container-fluid">
 		<div class="navbar-header">
@@ -76,10 +92,7 @@
 						<li><a href="functions/logout.php">Logout <span class="glyphicon glyphicon-log-out"></span></a></li>
 				<?php } ?>
 						<li class="divider"></li>
-						<li><a href="functions/night_mode_toggle.php">Toggle Nightmode <span class="glyphicon glyphicon-adjust" aria-hidden="true"></span></a></li>
-						<!--
-						<li><a onclick="toggle_night()">Toggle Nightmode <span class="glyphicon glyphicon-adjust" aria-hidden="true" disabled="disabled"></span></a></li>
-						-->
+						<li><a href="?nightmode">Toggle Nightmode (for this session) <span class="glyphicon glyphicon-adjust" aria-hidden="true"></span></a></li>
 					</ul>
 				</li>
 			</ul>

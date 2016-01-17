@@ -45,7 +45,7 @@
 								<tr>
 									<td>Alex Roberts</td>
 									<td>Club Head, Head of Programming</td>
-									<td><a href="mailto:alex.roberts@ucc.on.ca">alex.roberts@ucc.on.ca</a></td>
+									<td><a href="mailto:alexander.roberts@ucc.on.ca">alexander.roberts@ucc.on.ca</a></td>
 								</tr>
 								<tr>
 									<td>Camran Hansen</td>

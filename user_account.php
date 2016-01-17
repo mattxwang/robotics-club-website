@@ -15,10 +15,6 @@
 		<title><?php echo $row_info['first_name'] ?>'s Account | UCC Robotics</title>
 		<link rel="icon" href="css/favicon.ico" />
 		<?php include_once("functions/stylesheet.php") ?>
-		
-
-		<link href='css/bootstrap-night.css' rel='stylesheet'>
-		<link href='css/bootstrap.css' rel='stylesheet'>
 	</head>
 
 	<body>
@@ -56,6 +52,31 @@
 				</div>
 			</div>
 
+			<div class="panel panel-primary">
+				<div class="panel-heading">
+				Account Features:
+				</div>
+
+				<div class="panel-body">
+				</div>
+				<li class="list-group-item">
+					<form class="form-signin" action="functions/account_nightmode.php" method="post">
+						<div class="col-md-4">
+							Set Nightmode State: 
+						</div>
+						<div class="col-md-8">
+							<select class="form-control" id="nightmode_state" name="nightmode_state" required="">
+								<option value="0">Choose an Option.</option>
+								<option value="1">Always Light Mode</option>
+								<option value="2">Always Dark Mode</option>
+								<option value="3">Per Session (Defaults to light mode)</option>
+								<option value="4">Per Session (Defaults to dark mode)</option>
+							</select>
+						</div>
+						<button type="submit" class="btn btn-success" id="submitbutton" value="Login" >Save Changes</button>
+					</form>
+				</li>
+			</div>
 			<div class="panel panel-danger">
 				<div class="panel-heading">
 				Account Settings
