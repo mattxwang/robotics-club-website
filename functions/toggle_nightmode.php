@@ -46,20 +46,19 @@
 	*/
 	if (empty($_SESSION['PageStyling'])){
 		$_SESSION['PageStyling'] = "whitemode";
-			if (!empty($row_info['nightmode'])){
-
-				if ($row_info['nightmode'] == 0){
-					$_SESSION['PageStyling'] = "whitemode";
-				}
-
-				if ($row_info['nightmode'] == 1){
-					$_SESSION['PageStyling'] = "whitemode";
-				}
-
-				if ($row_info['nightmode'] == 2){
-					$_SESSION['PageStyling'] = "nightmode";
-				}
+		if (!empty($row_info['nightmode'])){
+			if ($row_info['nightmode'] == 0){
+				$_SESSION['PageStyling'] = "whitemode";
 			}
+
+			if ($row_info['nightmode'] == 1){
+				$_SESSION['PageStyling'] = "whitemode";
+			}
+
+			if ($row_info['nightmode'] == 2){
+				$_SESSION['PageStyling'] = "nightmode";
+			}
+		}
 	}
 	if ($_SESSION['PageStyling'] == "whitemode") {
 		$_SESSION['PageStyling'] = "nightmode";
@@ -67,13 +66,14 @@
 	else {
 		$_SESSION['PageStyling'] = "whitemode";
 	}
+	if (!isset($row_info)){
+		if ($row_info['nightmode'] == 3){ // always white
+			$_SESSION['PageStyling'] = "whitemode";
+		}
 
-	if ($row_info['nightmode'] == 3){ // always white
-		$_SESSION['PageStyling'] = "whitemode";
-	}
-
-	if ($row_info['nightmode'] == 4){ // always dark
-		$_SESSION['PageStyling'] = "nightmode";
+		if ($row_info['nightmode'] == 4){ // always dark
+			$_SESSION['PageStyling'] = "nightmode";
+		}
 	}
 	var_dump($_SESSION['PageStyling']);
 	/*
