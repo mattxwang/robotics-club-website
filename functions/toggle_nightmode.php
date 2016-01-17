@@ -47,11 +47,7 @@
 	if (empty($_SESSION['PageStyling'])){
 		$_SESSION['PageStyling'] = "whitemode";
 		if (!empty($row_info['nightmode'])){
-			if ($row_info['nightmode'] == 0){
-				$_SESSION['PageStyling'] = "whitemode";
-			}
-
-			if ($row_info['nightmode'] == 1){
+			if ($row_info['nightmode'] == 0 && $row_info['nightmode'] == 1){
 				$_SESSION['PageStyling'] = "whitemode";
 			}
 
@@ -75,9 +71,8 @@
 			$_SESSION['PageStyling'] = "nightmode";
 		}
 	}
-	var_dump($_SESSION['PageStyling']);
-	/*
+
  	header("Location: ../index.php"); 
 	die("Redirecting to: ../index.php");
-	*/
+	
 ?>
