@@ -4,9 +4,15 @@
 		if ($_SESSION['nightmode'] == 0) {
 			$_SESSION['nightmode'] = 1;
 		}
-		else {
+		elseif ($_SESSION['nightmode'] == 1) {
 			$_SESSION['nightmode'] = 0;
 		}
+		elseif ($_SESSION['nightmode'] == 3){
+			$_SESSION['nightmode'] = 4;
+		} 
+		elseif ($_SESSION['nightmode'] == 4){
+			$_SESSION['nightmode'] = 3;
+		} 
 	}
 	else {
 		$_SESSION['nightmode'] = 1;
