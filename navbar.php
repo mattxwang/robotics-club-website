@@ -1,4 +1,39 @@
 <!-- Navbar -->
+<?php
+	function toggle_nightmode(){
+		if (isset($_GET['nightmode']) {
+			if (!empty($row_info['nightmode'])){
+				if ($row_info['nightmode'] == 0 || $row_info['nightmode'] == 3){
+					$_SESSION['PageStyling'] = "whitemode";
+				}
+				if ($row_info['nightmode'] == 4){
+					$_SESSION['PageStyling'] = "nightmode";
+				}
+			}
+			if (empty($_SESSION['PageStyling'])){
+				$_SESSION['PageStyling'] = "whitemode";
+			}
+
+			if ($_SESSION['PageStyling'] == "whitemode") {
+				$_SESSION['PageStyling'] = "nightmode";
+			}
+			else {
+				$_SESSION['PageStyling'] = "whitemode";
+			}
+			if (isset($row_info['nightmode'])){
+				if ($row_info['nightmode'] == 1){ // always white
+					$_SESSION['PageStyling'] = "whitemode";
+				}
+				if ($row_info['nightmode'] == 2){ // always dark
+					$_SESSION['PageStyling'] = "nightmode";
+				}
+			}
+		 	header("Location: ../index.php"); 
+			die("Redirecting to: ../index.php");
+		}
+	}
+	toggle_nightmode();
+?>
 <nav class="navbar navbar-default navbar-fixed-top">
 	<div class="container-fluid">
 		<div class="navbar-header">
@@ -77,7 +112,7 @@
 						<li><a href="functions/logout.php">Logout <span class="glyphicon glyphicon-log-out"></span></a></li>
 						<?php if($row_info['nightmode']==0 || $row_info['nightmode']==3 || $row_info['nightmode']==4){ ?>
 						<li class="divider"></li>
-						<li><a href="functions/toggle_nightmode.php">Toggle Nightmode (for this session) <span class="glyphicon glyphicon-adjust" aria-hidden="true"></span></a></li>
+						<li><a href="/?nightmode">Toggle Nightmode (for this session) <span class="glyphicon glyphicon-adjust" aria-hidden="true"></span></a></li>
 						<?php } ?>
 				<?php } ?>
 					</ul>
