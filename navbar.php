@@ -2,33 +2,13 @@
 <?php
 	function toggle_nightmode(){
 		if (isset($_GET['nightmode'])) {
-			if (empty($_SESSION['PageStyling'])){
-				$_SESSION['PageStyling'] = "whitemode";
-				if (!empty($row_info['nightmode'])){
-					if ($row_info['nightmode'] == 0 || $row_info['nightmode'] == 3){ // default white
-						$_SESSION['PageStyling'] = "whitemode";
-					}
-					if ($row_info['nightmode'] == 4){ // default black
-						$_SESSION['PageStyling'] = "nightmode";
-					}
-				}
-			}
-
 			if ($_SESSION['PageStyling'] == "whitemode") {
 				$_SESSION['PageStyling'] = "nightmode";
 			}
 			else {
 				$_SESSION['PageStyling'] = "whitemode";
 			}
-			if (isset($row_info['nightmode'])){
-				if ($row_info['nightmode'] == 1){ // always white
-					$_SESSION['PageStyling'] = "whitemode";
-				}
-				if ($row_info['nightmode'] == 2){ // always dark
-					$_SESSION['PageStyling'] = "nightmode";
-				}
-			}
-		 	 header("Location: ".$_SERVER['SCRIPT_NAME']);
+		 	header("Location: ".$_SERVER['SCRIPT_NAME']);
 			die();
 		}
 	}
