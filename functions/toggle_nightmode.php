@@ -70,8 +70,9 @@
 	if ($row_info['nightmode'] == 4){ // always dark
 		$_SESSION['PageStyling'] = "nightmode";
 	}
-
+	var_dump($_SESSION['PageStyling']);
+	/*
  	header("Location: ../index.php"); 
 	die("Redirecting to: ../index.php");
-	
+	*/
 ?>
