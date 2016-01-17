@@ -1,6 +1,6 @@
 <?php 
 if(!empty($_SESSION['nightmode'])) {
-	if($_SESSION['nightmode'] == 0){
+	if($_SESSION['nightmode'] == false){
 		$nightmode = 0;
 	}
 	else{
