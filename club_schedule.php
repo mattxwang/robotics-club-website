@@ -28,11 +28,11 @@
 						<span aria-hidden="true">&laquo;</span>
 						</a>
 					</li>
-					<li id="JanButton"><a href="#">January</a></li>
-					<li id="FebButton"><a href="#">February</a></li>
-					<li id="MarButton"><a href="#">March</a></li>
-					<li id="AprButton"><a href="#">April</a></li>
-					<li id="MayButton"><a href="#">May</a></li>
+					<li><a id="JanButton" href="#">January</a></li>
+					<li><a id="FebButton" href="#">February</a></li>
+					<li><a id="MarButton" href="#">March</a></li>
+					<li><a id="AprButton" href="#">April</a></li>
+					<li><a id="MayButton" href="#">May</a></li>
 					<li>
 						<a href="#" aria-label="Next">
 						<span aria-hidden="true">&raquo;</span>
@@ -427,11 +427,12 @@
 			-->
 
 		</div>
-		<script src="js/schedule_switch.js"></script>
+		
 		<script src="js/jquery.js"></script>
 		<script src="js/jquery.easing.min.js"></script>
 		<script src="js/bootstrap.js"></script>
 		<script src="js/nav-collapse.js"></script>
+		<script src="js/schedule_switch.js"></script>
 		<script>
 			$(function () {
 				$('[data-toggle="popover"]').popover()
