@@ -35,3 +35,6 @@
 
 ## John Mace
 * Add pictures
+
+## Simon Guo
+* Add Descriptions for Arduino page.
