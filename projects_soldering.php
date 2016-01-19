@@ -17,17 +17,25 @@
 		<div class="container">
 			<?php include_once("site_wide.php") ?>
 			<div class="jumbotron">
-				<h1 class="page-header"><span class="glyphicon glyphicon-scale" aria-hidden="true"></span> Teaching Soldering <small> because it's useful</small></h1>
+				<h1 class="page-header"><span class="glyphicon glyphicon-scale" aria-hidden="true"></span> Soldering Workshops<small> creating budding engineers</small></h1>
 			</div>
 			<div class="row">
 				<div class="col-md-6">
-					<h2>Recommended Resources</h2>
+					<h2>What is Soldering?</h2>
 					<div class="panel-group" id="accordion1" role="tablist" aria-multiselectable="true">
 						<div class="panel panel-primary">
 							<div class="panel-heading" role="tab" id="headingOne">
 								<h4 class="panel-title">
 								<a role="button" data-toggle="collapse" data-parent="#accordion1" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-								Lorem Ipsum.
+								Soldering <a href="https://en.wikipedia.org/wiki/Soldering">(sädər)</a> is the process of connecting two wires using a third medium, often called solder. 
+								This medium is heated up with a soldering iron, and carefully placed on the connection between two wires. 
+								An invaluable electrical engineering skill, soldering has many applications: connecting electrical joints, fix broken wires, and more recently, computer engineering and electronics. 
+								In the modern production world, most industry-level products use machine soldering; hand soldering still remains popular among hobbyists and small companies.
+								Soldering is extremely popular because, unlike welding, soldering doesn't melt any of the working parts; instead, only the filler metal (solder) is melted.
+								</br> 
+								</br> 
+								While soldering itself isn't too hard, learning it properly and safely with proper guidance is rare. That's why UCC Robotics holds periodical soldering workshops; 
+								we believe that teaching kids how to solder, not only efficiently but safely, is a core fundamental of electrical engineering and hands-on procedures.
 								</a>
 								</h4>
 							</div>
