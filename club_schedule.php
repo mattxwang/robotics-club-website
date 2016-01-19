@@ -29,10 +29,35 @@
 						</a>
 					</li>
 					<li><a id="JanButton" href="#">January</a></li>
+						<script>
+							if (JanButton.onClick == true){ 
+								JanClicked(); 
+							}
+						</script>
 					<li><a id="FebButton" href="#">February</a></li>
+						<script>
+							if (FebButton.onClick == true){ 
+								FebClicked(); 
+							}
+						</script>
 					<li><a id="MarButton" href="#">March</a></li>
+						<script>
+							if (MarButton.onClick == true){ 
+								MarClicked(); 
+							}
+						</script>
 					<li><a id="AprButton" href="#">April</a></li>
+						<script>
+							if (AprButton.onClick == true){ 
+								AprClicked(); 
+							}
+						</script>
 					<li><a id="MayButton" href="#">May</a></li>
+						<script>
+							if (MayButton.onClick == true){ 
+								MayClicked(); 
+							}
+						</script>
 					<li>
 						<a href="#" aria-label="Next">
 						<span aria-hidden="true">&raquo;</span>
