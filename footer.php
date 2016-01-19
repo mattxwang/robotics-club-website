@@ -8,7 +8,7 @@
 			<ul class="nav navbar-nav">
 				<p class="navbar-text" style="font-size:12px;">
 				Designed by <a href="http://twitter.com/malsf21"><b>Matthew Wang</b></a>,</br>
-				developed by <a href="http://jack.antinode.ca"><b>Jack Sarick</b></a> and <a href="http://twitter.com/malsf21"><b>Matthew Wang</b></a>.
+				developed by <a href="http://jack.antinode.ca"><b>Jack Sarick</b></a>, <a href="http://twitter.com/malsf21"><b>Matthew Wang</b></a>, and <a href="#">Nicholas O'Brien</a> <!-- I helped... -->
 				</p>
 			</ul>
 			<ul class="nav navbar-nav navbar-right">
