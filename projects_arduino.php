@@ -27,7 +27,7 @@
 							<div class="panel-heading" role="tab" id="headingOne">
 								<h4 class="panel-title">
 								<a role="button" data-toggle="collapse" data-parent="#accordion1" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-								Lorem Ipsum.
+								What is Arduino?
 								</a>
 								</h4>
 							</div>
