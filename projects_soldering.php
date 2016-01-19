@@ -21,12 +21,18 @@
 			</div>
 			<div class="row">
 				<div class="col-md-6">
-					<h2>What is Soldering?</h2>
+					<h2>Soldering Overview</h2>
 					<div class="panel-group" id="accordion1" role="tablist" aria-multiselectable="true">
 						<div class="panel panel-primary">
 							<div class="panel-heading" role="tab" id="headingOne">
 								<h4 class="panel-title">
 								<a role="button" data-toggle="collapse" data-parent="#accordion1" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+								What is Soldering?
+								</a>
+								</h4>
+							</div>
+							<div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+								<div class="panel-body">
 								Soldering <a href="https://en.wikipedia.org/wiki/Soldering">(sädər)</a> is the process of connecting two wires using a third medium, often called solder. 
 								This medium is heated up with a soldering iron, and carefully placed on the connection between two wires. 
 								An invaluable electrical engineering skill, soldering has many applications: connecting electrical joints, fix broken wires, and more recently, computer engineering and electronics. 
@@ -36,12 +42,7 @@
 								</br> 
 								While soldering itself isn't too hard, learning it properly and safely with proper guidance is rare. That's why UCC Robotics holds periodical soldering workshops; 
 								we believe that teaching kids how to solder, not only efficiently but safely, is a core fundamental of electrical engineering and hands-on procedures.
-								</a>
-								</h4>
-							</div>
-							<div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
-								<div class="panel-body">
-								Lorem Ipsum.
+								
 								</div>
 							</div>
 						</div>
