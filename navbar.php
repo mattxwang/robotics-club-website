@@ -35,6 +35,8 @@
 						<li><a href="club_resources.php">Resources</a></li>
 						<li class="divider"></li>
 						<li><a href="club_contact.php">Contact Us</a></li>
+						<li class="divider"></li>
+						<li><a href="notes/index.php">Meeting Notes</a></li>
 					</ul>
 				</li>
 				<li class="dropdown">
@@ -67,7 +69,7 @@
 					</ul>
 				</li>
 			</ul>
-					
+
 			<ul class="nav navbar-nav navbar-right" style="padding-right:20px;">
 				<li class="dropdown">
 					<button type="button" class="btn btn-success navbar-btn" href="#" class="dropdown-toggle" data-toggle="dropdown">
