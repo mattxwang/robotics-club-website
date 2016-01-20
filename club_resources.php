@@ -117,7 +117,7 @@
 									Programming resources to make computer science easier.
 									</br>
 									<ul>
-										<li><a href="http://brew.sh/">Homebrew</a> makes installing libraries a walk in the park.</li>
+										<li><a href="http://brew.sh/">Homebrew</a> makes installing mac libraries a walk in the park.</li>
 										<li><a href="http://github.com/">Github</a> is the most widely used <a href="https://en.wikipedia.org/wiki/Version_control">version control</a> software that makes working with others a breeze. </li>
 										<li><a href="https://www.sublimetext.com/">Sublime Text</a> is an all-in-one text-editor with a robust <a href="https://packagecontrol.io/">addons</a> to supercharge your text editor.</li>
 										<li><a href="https://atom.io/">Atom</a> is a heavily modifiable text-editor with a variety of personalized <a href="">packages</a>, and with lots of support for <a href="http://github.com/">Github</a>.</li>
@@ -143,11 +143,11 @@
 								</div>
 							</div>
 						</div>
-						<div class="panel panel-info hidden">
+						<div class="panel panel-info">
 							<div class="panel-heading" role="tab" id="headingThree">
 								<h4 class="panel-title">
 								<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion2" href="#collapseSix" aria-expanded="false" aria-controls="collapseThree">
-								Lorem Ipsum.
+								Further Education: <b>Self-Teaching</b>
 								</a>
 								</h4>
 							</div>
