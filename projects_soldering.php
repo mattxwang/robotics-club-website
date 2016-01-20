@@ -8,7 +8,6 @@
 		<title>Projects - Soldering | UCC Robotics</title>
 		<link rel="icon" href="css/favicon.ico" />
 		<?php include_once("functions/stylesheet.php") ?>
-		
 	</head>
 
 	<body>
@@ -17,23 +16,32 @@
 		<div class="container">
 			<?php include_once("site_wide.php") ?>
 			<div class="jumbotron">
-				<h1 class="page-header"><span class="glyphicon glyphicon-scale" aria-hidden="true"></span> Teaching Soldering <small> because it's useful</small></h1>
+				<h1 class="page-header"><span class="glyphicon glyphicon-scale" aria-hidden="true"></span> Soldering Workshops<small> creating budding engineers</small></h1>
 			</div>
 			<div class="row">
 				<div class="col-md-6">
-					<h2>Recommended Resources</h2>
+					<h2>Soldering Overview</h2>
 					<div class="panel-group" id="accordion1" role="tablist" aria-multiselectable="true">
 						<div class="panel panel-primary">
 							<div class="panel-heading" role="tab" id="headingOne">
 								<h4 class="panel-title">
 								<a role="button" data-toggle="collapse" data-parent="#accordion1" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-								Lorem Ipsum.
+								What is Soldering?
 								</a>
 								</h4>
 							</div>
 							<div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
 								<div class="panel-body">
-								Lorem Ipsum.
+								Soldering <a href="https://en.wikipedia.org/wiki/Soldering">(sädər)</a> is the process of connecting two wires using a third medium, often called solder. 
+								This medium is heated up with a soldering iron, and carefully placed on the connection between two wires. 
+								An invaluable electrical engineering skill, soldering has many applications: connecting electrical joints, fix broken wires, and more recently, computer engineering and electronics. 
+								In the modern production world, most industry-level products use machine soldering; hand soldering still remains popular among hobbyists and small companies.
+								Soldering is extremely popular because, unlike welding, soldering doesn't melt any of the working parts; instead, only the filler metal (solder) is melted.
+								</br> 
+								</br> 
+								While soldering itself isn't too hard, learning it properly and safely with proper guidance is rare. That's why UCC Robotics holds periodical soldering workshops; 
+								we believe that teaching kids how to solder, not only efficiently but safely, is a core fundamental of electrical engineering and hands-on procedures.
+								
 								</div>
 							</div>
 						</div>
@@ -41,13 +49,24 @@
 							<div class="panel-heading" role="tab" id="headingTwo">
 								<h4 class="panel-title">
 								<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion1" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-								Lorem Ipsum.
+								What Happens in Soldering Workshops?
 								</a>
 								</h4>
 							</div>
 							<div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
 								<div class="panel-body">
-								Lorem Ipsum.
+								Experienced robotics instructors will go over technique, safety rules, and the task at hand for the workshop. 
+								After that, attendees are split into groups, where they will be working on a specific task (such as wiring a speaker to a breadboard). 
+								Throughout the workshop, instructors will supervise the attendees, ensuring they are following safety procedure and are completing the task at hand.
+								</br>
+								</br>
+								Activities that will be part of workshops will include:
+								<ul>
+									<li>Connecting two wires.</li>
+									<li>Connecting wires to breadboards.</li>
+									<li>Connecting electronic components to breadboards.</li>
+									<li>Desoldering components from breadboards.</li>
+								</ul>
 								</div>
 							</div>
 						</div>
@@ -55,13 +74,14 @@
 							<div class="panel-heading" role="tab" id="headingThree">
 								<h4 class="panel-title">
 								<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion1" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-								Lorem Ipsum.
+								When is the Next Soldering Workshop?
 								</a>
 								</h4>
 							</div>
 							<div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
 								<div class="panel-body">
-								Lorem Ipsum.
+								While we don't have a definitve date yet, the club plans to hold two more soldering workshops in the year: one for general students, 
+								and one for more advanced soldering work. A tentative date has been set for 2 weeks after March Break, but that is yet to be confirmed.
 								</div>
 							</div>
 						</div>

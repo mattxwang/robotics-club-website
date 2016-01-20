@@ -62,6 +62,7 @@
 										</span>
 									</div>
 								</div>
+							</div>
 						</form>
 					</div>
 					<div class="well well-lg">
