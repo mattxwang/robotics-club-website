@@ -8,7 +8,6 @@
 		<title>Projects - Soldering | UCC Robotics</title>
 		<link rel="icon" href="css/favicon.ico" />
 		<?php include_once("functions/stylesheet.php") ?>
-		
 	</head>
 
 	<body>
@@ -50,13 +49,24 @@
 							<div class="panel-heading" role="tab" id="headingTwo">
 								<h4 class="panel-title">
 								<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion1" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-								Lorem Ipsum.
+								What Happens in Soldering Workshops?
 								</a>
 								</h4>
 							</div>
 							<div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
 								<div class="panel-body">
-								Lorem Ipsum.
+								Experienced robotics instructors will go over technique, safety rules, and the task at hand for the workshop. 
+								After that, attendees are split into groups, where they will be working on a specific task (such as wiring a speaker to a breadboard). 
+								Throughout the workshop, instructors will supervise the attendees, ensuring they are following safety procedure and are completing the task at hand.
+								</br>
+								</br>
+								Activities that will be part of workshops will include:
+								<ul>
+									<li>Connecting two wires.</li>
+									<li>Connecting wires to breadboards.</li>
+									<li>Connecting electronic components to breadboards.</li>
+									<li>Desoldering components from breadboards.</li>
+								</ul>
 								</div>
 							</div>
 						</div>
@@ -64,13 +74,14 @@
 							<div class="panel-heading" role="tab" id="headingThree">
 								<h4 class="panel-title">
 								<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion1" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-								Lorem Ipsum.
+								When is the Next Soldering Workshop?
 								</a>
 								</h4>
 							</div>
 							<div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
 								<div class="panel-body">
-								Lorem Ipsum.
+								While we don't have a definitve date yet, the club plans to hold two more soldering workshops in the year: one for general students, 
+								and one for more advanced soldering work. A tentative date has been set for 2 weeks after March Break, but that is yet to be confirmed.
 								</div>
 							</div>
 						</div>
