@@ -36,7 +36,7 @@
 						<li class="divider"></li>
 						<li><a href="club_contact.php">Contact Us</a></li>
 						<li class="divider"></li>
-						<li><a href="notes/index.php">Meeting Notes</a></li>
+						<li><a href="club_notes.php">Meeting Notes</a></li>
 					</ul>
 				</li>
 				<li class="dropdown">
