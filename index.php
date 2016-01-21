@@ -30,6 +30,8 @@
 						<div class="panel-body">
 							<blockquote><h3>Robotics is more than just a science. It's an art.</h3></blockquote>
 							<h5 style="text-align:right;">- Kevin Olds, Faculty Supervisor</h5>
+						</div>
+						<div class="panel-footer"
 							<a class="btn btn-primary" href="club_about.php" role="button">Learn why <span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></a>
 						</div>
 					</div>

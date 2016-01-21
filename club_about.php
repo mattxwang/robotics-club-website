@@ -58,12 +58,12 @@
 						<div class="panel panel-success">
 							<div class="panel-heading" role="tab">
 								<h4 class="panel-title">
-									<a role="button" data-toggle="collapse" data-parent"accordion1" href="#thumbnailOne">
+									<a role="button" data-toggle="collapse" data-parent="accordion1" href="#panelOne">
 										<h3><span class="glyphicon glyphicon-education" aria-hidden="true"></span> Building Foundations</h3>
 									</a>
 								</h4>
 							</div>
-							<div id="thumbnailOne" class="panel-collapse collapse in" role="tabpanel">
+							<div id="panelOne" class="panel-collapse collapse in" role="tabpanel">
 								<div class="panel-body">
 									<p>
 									UCC Robotics provides students a foundation for engineering, computer science, and the applied sciences.
@@ -78,12 +78,12 @@
 						<div class="panel panel-success">
 							<div class="panel-heading" role="tab">
 								<h4 class="panel-title">
-									<a role="button" class="collapsed" data-toggle="collapse" data-parent"accordion1" href="#thumbnailTwo">
+									<a role="button" class="collapsed" data-toggle="collapse" data-parent="accordion1" href="#panelTwo">
 										<h3><span class="glyphicon glyphicon-home" aria-hidden="true"></span> Building Communities</h3>
 									</a>
 								</h4>
 							</div>
-							<div id="thumbnailTwo" class="panel-collapse collapse" role="tabpanel">
+							<div id="panelTwo" class="panel-collapse collapse" role="tabpanel">
 								<div class="panel-body">
 									<p>
 									Our Robotics Club isn't just vehicle for kids to learn; robotics club is a community. Club members work with each other, mentor each other, and create long-lasting friendships. We emphasize learning how to work as a cohesive team, a skill that presents itself many times in careers througout the world. This includes skills such as communication, leadership, and organisation. Furthermore, we encourage members to mentor each other. Every single member has something to bring to the table; we just want students to share it. Our club also features a strong community. Our club heads, club alumni, as well as our faculty advisors, present a multitude of opportunities to further enrich each student's learning experiences, especially when looking forward to University. We have graduates at Carnegie-Mellon University, Waterloo Mechatronics, and UofT Engineering. Ultimately, our robotics club allows students to join and support a community that has much to offer.
@@ -97,12 +97,12 @@
 						<div class="panel panel-success">
 							<div class="panel-heading" role="tab">
 								<h4 class="panel-title">
-									<a role="button" class="collapsed" data-toggle="collapse" data-parent"accordion1" href="#thumbnailThree">
+									<a role="button" class="collapsed" data-toggle="collapse" data-parent="accordion1" href="#panelThree">
 										<h3><span class="glyphicon glyphicon-road" aria-hidden="true"></span> Building Futures</h3>
 									</a>
 								</h4>
 							</div>
-							<div id="thumbnailThree" class="panel-collapse collapse" role="tabpanel">
+							<div id="panelThree" class="panel-collapse collapse" role="tabpanel">
 								<div class="panel-body">
 									<p>
 									Robotics and Computer Science are some of the most innovative and sought-after careers, simply due to the ever-changing needs of companies, institutions, and society. UCC Robotics provides this experience to our
