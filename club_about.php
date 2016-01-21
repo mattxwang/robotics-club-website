@@ -22,8 +22,8 @@
 				<h4 style="text-align:right;">- Kevin Olds, Faculty Supervisor</h4>
 			</div>
 			<div class="row">
-				<h2>Club Information</h2>
-				<div class="col-lg-6">
+				<div class="col-md-6">
+					<h2>Club Information</h2>
 					<div class="panel panel-primary">
 						<div class="panel-heading">
 							<h3 class="panel-title">About Our Club</h3>
@@ -52,7 +52,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-lg-6">
+				<div class="col-md-6">
 					<h2>Club Philosophy</h2>
 					<div class="panel-group" id="accordion1" role="tablist">
 						<div class="panel panel-success">

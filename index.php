@@ -25,11 +25,12 @@
 				<div class="col-md-4">
 					<div class="panel panel-primary">
 						<div class="panel-heading">
-							<h3><span class="glyphicon glyphicon-education" aria-hidden="true"></span> Building Foundations</h3>
+							<h3><span class="glyphicon glyphicon-blackboard" aria-hidden="true"></span> About Our Club</h3>
 						</div>
 						<div class="panel-body">
-							<blockquote><h1>Robotics is more than just a science. It's an art.</h1></blockquote>
-							<a class="btn btn-primary" href="club_about.php" role="button">Learn why.</a>
+							<blockquote><h3>Robotics is more than just a science. It's an art.</h3></blockquote>
+							<h5 style="text-align:right;">- Kevin Olds, Faculty Supervisor</h5>
+							<a class="btn btn-primary" href="club_about.php" role="button">Learn why <span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></a>
 						</div>
 					</div>
 				</div>
