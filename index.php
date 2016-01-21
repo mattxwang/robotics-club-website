@@ -53,14 +53,14 @@
 				<div class="col-md-4">
 					<div class="panel panel-success">
 						<div class="panel-heading">
-							<h3><span class="glyphicon glyphicon-user" aria-hidden="true"></span> About Our Members</h3>
+							<h3><span class="glyphicon glyphicon-user" aria-hidden="true"></span> About Our Projects</h3>
 						</div>
 						<div class="panel-body">
 							<blockquote><h3>I do not fear computers. I fear the lack of them.</h3></blockquote>
 							<h5 style="text-align:right;">- Isaac Asimov, </br>Science Fiction Writer</h5>
 						</div>
 						<div class="panel-footer">
-							<a class="btn btn-primary" href="projects_arduino.php" role="button">Learn how we make that happen <span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></a>
+							<a class="btn btn-success" href="projects_arduino.php" role="button">Learn how we make that happen <span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></a>
 						</div>
 					</div>
 				</div>
