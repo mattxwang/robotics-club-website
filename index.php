@@ -29,7 +29,7 @@
 						</div>
 						<div class="panel-body">
 							<blockquote><h3>Robotics is more than just a science. It's an art.</h3></blockquote>
-							<h5 style="text-align:right;">- Kevin Olds, Faculty Supervisor</h5>
+							<h5 style="text-align:right;">- Kevin Olds, </br>Faculty Supervisor</h5>
 						</div>
 						<div class="panel-footer">
 							<a class="btn btn-primary" href="club_about.php" role="button">Learn why <span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></a>
@@ -43,7 +43,7 @@
 						</div>
 						<div class="panel-body">
 							<blockquote><h3>Every child deserves the right to an education.</h3></blockquote>
-							<h5 style="text-align:right;">- Barack Obama, 44th President of the United States</h5>
+							<h5 style="text-align:right;">- Barack Obama, </br>44th President of the United States</h5>
 						</div>
 						<div class="panel-footer">
 							<a class="btn btn-info" href="horizons_about.php" role="button">Learn how we spread that message <span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></a>
@@ -57,7 +57,7 @@
 						</div>
 						<div class="panel-body">
 							<blockquote><h3>I do not fear computers. I fear the lack of them.</h3></blockquote>
-							<h5 style="text-align:right;">- Isaac Asimov, Science Fiction Writer</h5>
+							<h5 style="text-align:right;">- Isaac Asimov, </br>Science Fiction Writer</h5>
 						</div>
 						<div class="panel-footer">
 							<a class="btn btn-primary" href="projects_arduino.php" role="button">Learn how we make that happen <span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></a>
