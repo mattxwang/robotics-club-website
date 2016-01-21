@@ -28,13 +28,8 @@
 							<h3><span class="glyphicon glyphicon-education" aria-hidden="true"></span> Building Foundations</h3>
 						</div>
 						<div class="panel-body">
-							<p>
-							UCC Robotics provides students a foundation for engineering, computer science, and the applied sciences.
-							Building upon what is taught in the school curriculum, club members learn in the fields of math, physics, chemistry, and computer science, as well as skillsets including creating and presenting ideas, documentation and reports, and teamwork skills. We offer an extensive education program, through lessons, mentoring, club workshops, and competitions. Our education program goes beyond simply robotics: basic engineering skills such as soldering, and introductory computer science are a cornerstone of our club. Club members become immersed into the worlds of computer science, engineering, and robotics; and with that, all of the invaluable skills that go along with it.
-							</br>
-							</br>
-							Furthermore, our club provides students with the experience of mentorship and leadership. The club is entirely student-run, which requires members to step up and take leadership roles. Our club teaches students how to manage projects, students, and responsibilities of an orgnaisation. Through these ideals, robotics club members aren't only well-versed in the world of robotics; they also become strong leaders in the process.
-							</p>
+							<blockquote><h1>Robotics is more than just a science. It's an art.</h1></blockquote>
+							<a class="btn btn-primary" href="club_about.php" role="button">Learn why.</a>
 						</div>
 					</div>
 				</div>
