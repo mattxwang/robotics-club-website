@@ -70,13 +70,13 @@
 							<div class="panel-heading" role="tab" id="headingThree">
 								<h4 class="panel-title">
 								<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion1" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-								Learning
+								Lorem Ipsum
 								</a>
 								</h4>
 							</div>
 							<div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
 								<div class="panel-body">
-									Pay attention is physics class, and ask good questions.
+									Lorem Ipsum
 								</div>
 							</div>
 						</div>
