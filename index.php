@@ -57,7 +57,7 @@
 						</div>
 						<div class="panel-body">
 							<blockquote><h3>I do not fear computers. I fear the lack of them.</h3></blockquote>
-							<h5 style="text-align:right;">- Isaac Asimov</h5>
+							<h5 style="text-align:right;">- Isaac Asimov, Science Fiction Writer</h5>
 						</div>
 						<div class="panel-footer">
 							<a class="btn btn-primary" href="projects_arduino.php" role="button">Learn how we make that happen <span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></a>
