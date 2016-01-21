@@ -35,6 +35,7 @@
 							</br>
 							Our club meets everyday afterschool, in room CL2. Members can come in whenever they want, though we suggest that members come in at least once a week. <a href="horizons_schedule.php">Horizons Robotics</a> is held on Thursdays in room CC3 during the winter, 
 							with no robotics being held in room CL2. <a href="vex_schedule.php">VEX Competitions</a> happen thoughout the year on Saturdays.
+
 						</div>
 					</div>
 					<div class="panel panel-primary">

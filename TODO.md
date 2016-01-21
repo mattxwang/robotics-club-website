@@ -1,5 +1,21 @@
 # To-Do List
 # Things to do
+
+### Content
+* club_about: pictures on right-hand column
+* club_schedule: add all content and make calendar work
+* club_resources: formalize resources
+* vex_about: fill out content and pictures
+* vex_resources: fill out content and pictures
+* horizons_about: fill out content and pictures
+* horizons_curriculum: fill out content and pictures
+* projects_arduino: fill out content and pictures
+* projects_keyboard: fill out content and pictures
+* projects_soldering: fill out content and pictures
+* user_home: implement attendance, "game", and messages features
+* user_admin: implement attendance, "game", and messages features
+* user_account: implement more account editing features
+
 ### User Account
 * Accounts let you edit your name, etc.
 * Account system is tied in with attendance (still has codes)
@@ -12,12 +28,15 @@
 * Code changes every day, and is editdable by admins
 * Users can see a display of what days they come in
 * Users get badges for attending (badges for cumulative, ribbons for streaks, medals/trophies for special events)
+* Possible leaderboard
 
 # People to do them
 
 ## Matthew Wang
 * Implement all the content and pages.
+* Import images
 * Modularize all import pages
+* Change functions folder to PHP functions
 * Work on UI for pages
 
 ## Jack Sarick
@@ -25,6 +44,7 @@
 * Implement admin panel editing attendance system
 * Implement messaging/notif/alert 
 * Implement database
+* Implement gamification of attendance
 * Fill out "Building a Future" index content, as well as formalizing all the resources items.
 
 ## Nick O'Brien
@@ -32,6 +52,10 @@
 
 ## Camran Hansen
 * Fill out information in the Horizons About tab [horizons_about.php](horizons_about.php)
+* Fill out information in the Horizons Curriculum tab [horizons_curriculum.php](horizons_curriculum.php)
 
 ## John Mace
 * Add pictures
+
+## Simon Guo
+* Add Descriptions for [Arduino page](projects_arduino.php).

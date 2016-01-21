@@ -5,7 +5,7 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 		<meta name="description" content="UCC Robotics">
-		<title>Projects - Keyboards | UCC Robotics</title>
+		<title>PROJECT: Keyboard | UCC Robotics</title>
 		<link rel="icon" href="css/favicon.ico" />
 		<?php include_once("functions/stylesheet.php") ?>
 		
@@ -17,23 +17,34 @@
 		<div class="container">
 			<?php include_once("site_wide.php") ?>
 			<div class="jumbotron">
-				<h1 class="page-header"><span class="glyphicon glyphicon-text-size" aria-hidden="true"></span> Keyboards <small>and how to make them</small></h1>
+				<h1 class="page-header"><span class="glyphicon glyphicon-text-size" aria-hidden="true"></span> PROJECT: Keyboard<small> pet project 2016-2017</small></h1>
 			</div>
 			<div class="row">
 				<div class="col-md-6">
-					<h2>Recommended Resources</h2>
+					<h2>PROJECT: Keyboard</h2>
 					<div class="panel-group" id="accordion1" role="tablist" aria-multiselectable="true">
 						<div class="panel panel-primary">
 							<div class="panel-heading" role="tab" id="headingOne">
 								<h4 class="panel-title">
 								<a role="button" data-toggle="collapse" data-parent="#accordion1" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-								Lorem Ipsum.
+								What's PROJECT: Keyboard?
 								</a>
 								</h4>
 							</div>
 							<div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
 								<div class="panel-body">
-								Lorem Ipsum.
+								User interfacing and user input is one of the largest realms of computer science and computer engineering. 
+								Understanding both the software and hardware sides of user input provides an invaluable asset to developing and innovating 
+								new forms of user interfacing, such as the Google Glass or Oculus Rift. At UCC Robotics, we ensure that students can get 
+								the full experience, starting from the bottom core foundations. The classic keyboard is the perfect representation of the bridge 
+								between software and hardware: a mechanical switch relaying information to a microcontroller, that magically gets transformed 
+								into letters on a screen. That's why we chose keyboards as the 2016-2017 UCC Robotics pet project. 
+								</br>
+								</br>
+								Throughout the 2016-2017 year, UCC Robotics will slowly teach members how to assemble, program, and customize their own keyboards. 
+								Along the way, students will improve on a wide assortment of skills, including <a href="projects_soldering">soldering</a>, programming, 
+								and user input design. Our end goal is to provide club members both hardware and software knowledge of the inner workings of a keyboard, 
+								and the mechanisms that create commonplace user interfaces.
 								</div>
 							</div>
 						</div>
@@ -41,13 +52,18 @@
 							<div class="panel-heading" role="tab" id="headingTwo">
 								<h4 class="panel-title">
 								<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion1" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-								Lorem Ipsum.
+								What's in PROJECT: Keyboard?
 								</a>
 								</h4>
 							</div>
 							<div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
 								<div class="panel-body">
-								Lorem Ipsum.
+								While we haven't finalized a curriculum just yet, we anticipate that the steps will most likely be:
+								<ol>
+									<li>Gather all parts.</li>
+									<li>Create keyboard layout.</li>
+									<li>Modify breadboards to match layout.</li>
+								</ol>
 								</div>
 							</div>
 						</div>
@@ -55,13 +71,19 @@
 							<div class="panel-heading" role="tab" id="headingThree">
 								<h4 class="panel-title">
 								<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion1" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-								Lorem Ipsum.
+								How Do I Sign Up?
 								</a>
 								</h4>
 							</div>
 							<div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
 								<div class="panel-body">
-								Lorem Ipsum.
+								In the 2015-2016 year, we are looking towards finalizing our curriculum, and having skilled instructors to teach for the next year. 
+								If you'd like to help out, please <a href="club_contact.php">contact us</a>! There are no prerequisites required, though we do recommend 
+								regularly attending the club.
+								</br>
+								</br>
+								Signing up for the actual project will commence in the 2016 school year. A registration fee will be required, as parts need to be purchased. 
+								The estimated cost is around $30.
 								</div>
 							</div>
 						</div>

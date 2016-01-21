@@ -65,27 +65,3 @@ function MayClicked(){
 	MayCalendar.removeClass("hidden");
 }
 
-
-if (JanButton.onClick == true){
-	JanClicked();
-}
-
-if (FebButton.onClick == true){
-	FebClicked();
-}
-
-if (MarButton.onClick == true){
-	MarClicked();
-}
-
-if (MarButton.onClick == true){
-	MarClicked();
-}
-
-if (AprButton.onClick == true){
-	AprClicked();
-}
-
-if (MayButton.onClick == true){
-	MayClicked();
-}
