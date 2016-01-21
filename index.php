@@ -8,7 +8,7 @@
 		<title>Home | UCC Robotics</title>
 		<link rel="icon" href="css/favicon.ico" />
 		<?php include_once("functions/stylesheet.php") ?>
-		
+
 	</head>
 
 	<body>
@@ -29,7 +29,7 @@
 						</div>
 						<div class="panel-body">
 							<p>
-							UCC Robotics provides students a foundation for engineering, computer science, and the applied sciences. 
+							UCC Robotics provides students a foundation for engineering, computer science, and the applied sciences.
 							Building upon what is taught in the school curriculum, club members learn in the fields of math, physics, chemistry, and computer science, as well as skillsets including creating and presenting ideas, documentation and reports, and teamwork skills. We offer an extensive education program, through lessons, mentoring, club workshops, and competitions. Our education program goes beyond simply robotics: basic engineering skills such as soldering, and introductory computer science are a cornerstone of our club. Club members become immersed into the worlds of computer science, engineering, and robotics; and with that, all of the invaluable skills that go along with it.
 							</br>
 							</br>
@@ -60,7 +60,22 @@
 						</div>
 						<div class="panel-body">
 							<p>
-							The future is in technology. 
+							Robotics and Computer Science are some of the most innovative and sought-after careers, simply due to the ever-changing needs of companies, institutions, and society. UCC Robotics provides this experience to our
+							club members, through three core fundamentals that are carried on to their professional lives. Firstly, our club encourages creative problem solving. Through the <a href="vex_about.php">VEX competition</a>,
+							we provide students with a problem to solve (scoring points), restrictions (regulations as well as money and time), and a planning methodology (prototyping, testing, and bug fixing). Through in-house Computer Science
+							problems and tasks, we force members to utilise their brain's creative side to jump over numerous logical hurdles.
+							These skills not only help club members with creating awesome robots now, but gives them valuable problem solving skills for future careers.
+							</br>
+							</br>
+							Secondly, our club gives students opportunities to adapt to new technology.
+							Through projects such as our <a href="projects_arduino.php">Arduino sessions</a>, we give our members the ability to learn about innovative technologies, how to use them, and how to apply them in the real world.
+							In the future, club members will be better suited to use this type of technology, as well as learning how to quickly integrate new technology into their current workflow.
+							</br>
+							</br>
+							Finally, we teach students valuable work management, organisation, and leadership skills. Modelling our club's project system after <a href="https://investor.google.com/corporate/2004/ipo-founders-letter.html">Google's 20%  Time</a>, we let students run and present their own projects to the club, while still contributing to club events. Examples include <a href="https://github.com/malsf21/robotics-club-website">this very own website</a>,
+							<a href="horizons_about.php">Horizons Robotics</a>, and <a href="projects_arduino.php">Arduino sessions</a>, all of which are completely student organized and student run. This gives members better understand how
+							professional workflow functions: gathering materials, creating a sales pitch, organizing and managing human resources, setting goals and plans, and ultimately polishing them up for release. The use of resources such as
+							<a href="http://github.com">github</a> get members accquainted with real-world code-management software, immersing them into a true work environment. Ultimately, we create the new engineers, coders, and project managers of tomorrow.
 							</p>
 						</div>
 					</div>
