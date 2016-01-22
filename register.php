@@ -118,6 +118,7 @@
 			}
 		}
 	}
+	register();
 ?>
 <!DOCTYPE html>
 <html>
