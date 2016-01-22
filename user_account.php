@@ -8,7 +8,7 @@
 ?>
 <?php
 function accountNightmode(){
-	if (isset($_GET['nightmode'])) {
+	if (isset($_GET['accountNightmode'])) {
 		if(empty($_POST['nightmode_state'])) {
 			die("You missed a field");
 			header("Location: ../user_account.php");
