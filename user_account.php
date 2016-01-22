@@ -114,6 +114,7 @@
 			}
 		}
 	}
+	changePassword();
 ?>
 <!DOCTYPE html>
 <html>
