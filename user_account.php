@@ -8,7 +8,6 @@
 ?>
 <?php
 function accountNightmode(){
-	require("functions/common.php");
 	if (isset($_GET['accountNightmode'])) {
 		if(empty($_POST['nightmode_state'])) {
 			die("You missed a field");
