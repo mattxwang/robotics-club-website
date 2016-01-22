@@ -7,7 +7,6 @@
 ?>
 <?php
 	function viewedAlert(){
-
 		if (isset($_GET['viewedAlert'])) {
 	    $alert_value = $_GET['viewedAlert'];
 			if ($alert_value == 1){
@@ -16,6 +15,7 @@
 			elseif ($alert_value == 2){
 				$_SESSION['alerts']['alert2'] == True;
 			}
+			header("Location: ".$_SERVER['SCRIPT_NAME']);
 		}
 	}
 	viewedAlert();
