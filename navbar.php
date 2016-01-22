@@ -14,7 +14,16 @@
 			die();
 		}
 	}
+	function logout(){
+		if (isset($_GET['logout'])){
+			require("common.php");
+			unset($_SESSION['user']);
+			header("Location: ".$_SERVER['SCRIPT_NAME']);
+			die("Location: ".$_SERVER['SCRIPT_NAME']);
+		}
+	}
 	toggle_nightmode();
+	logout();
 ?>
 <nav class="navbar navbar-default navbar-fixed-top">
 	<div class="container-fluid">
@@ -92,7 +101,7 @@
 						<li class="divider"></li>
 						<li><a href="user_account.php">Account Settings <span class="glyphicon glyphicon-cog" aria-hidden="true"></span></a></li>
 						<li class="divider"></li>
-						<li><a href="functions/logout.php">Logout <span class="glyphicon glyphicon-log-out"></span></a></li>
+						<li><a href="?logout">Logout <span class="glyphicon glyphicon-log-out"></span></a></li>
 				<?php } ?>
 						<li class="divider"></li>
 						<li><a href="?nightmode">Toggle Nightmode (for this session) <span class="glyphicon glyphicon-adjust" aria-hidden="true"></span></a></li>
