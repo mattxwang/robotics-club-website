@@ -1,7 +1,12 @@
 <?php
 	require("functions/common.php");
 	if (empty($_SESSION['alerts'])){
+		$_SESSION['alerts'] = ['alert1','alert2'];
+	}
+	if (empty($_SESSION['alerts']['alerts1'])){
 		$_SESSION['alerts']['alert1'] == False;
+	}
+	if (empty($_SESSION['alerts']['alerts2'])){
 		$_SESSION['alerts']['alert2'] == False;
 	}
 ?>
