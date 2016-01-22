@@ -16,7 +16,7 @@
 	}
 	function logout(){
 		if (isset($_GET['logout'])){
-			require("common.php");
+			require("functions/common.php");
 			unset($_SESSION['user']);
 			header("Location: ".$_SERVER['SCRIPT_NAME']);
 			die("Location: ".$_SERVER['SCRIPT_NAME']);
