@@ -20,37 +20,56 @@
 			<h3>Already have an account? <a href="login.php">Login</a>.
 			<form class="form-signin" action="functions/register.php" method="post">
 				<div class = "row">
-					<div class = "col-md-12">
+					<div class = "col-md-3">
 						<h2>Email</h2>
+					</div>
+					<div class = "col-md-9">
 						<input type="email" id="email" class="form-control" placeholder="john.smith@ucc.on.ca" name="email" required="" autofocus="">
 					</div>
 				</div>
 				<div class = "row">
-					<div class = "col-md-12">
-						<h2>First Name</h2>
+					<div class = "col-md-3">
+						<h2>Password</h2>
+					</div>
+					<div class = "col-md-9">
 						<input type="password" id="password" name="password" class="form-control" placeholder="Password" required="">
 					</div>
 				</div>
 				<div class = "row">
-					<div class = "col-md-12">
+					<div class = "col-md-3">
+						<h2>Confirm Password</h2>
+					</div>
+					<div class = "col-md-9">
 						<input type="password" id="password2" name="password2" class="form-control" placeholder="Confirm Password" required="">
 					</div>
 				</div>
 				<div class = "row">
-					<div class = "col-md-12">
+					<div class = "col-md-3">
+						<h2>First Name</h2>
+					</div>
+					<div class = "col-md-9">
 						<input type="text" id="first_name" name="first_name" class="form-control" placeholder="John" required="">
 					</div>
 				</div>
 				<div class = "row">
-					<div class = "col-md-12">
+					<div class = "col-md-3">
+						<h2>Last Name</h2>
+					</div>
+					<div class = "col-md-9">
 						<input type="text" id="last_name" name="last_name" class="form-control" placeholder="Smith" required="">
 					</div>
 				</div>
-				<h2>Birthday</h2>
-				<div class="input-group date" data-provide="datepicker">
-					<input type="text" id="birthday" name="birthday" class="form-control" placeholder="2000-01-01"required="">
-					<div class="input-group-addon">
-						<span class="glyphicon glyphicon-th"></span>
+				<div class = "row">
+					<div class = "col-md-3">
+						<h2>Birthday</h2>
+					</div>
+					<div class = "col-md-9">
+						<div class="input-group date" data-provide="datepicker">
+							<input type="text" id="birthday" name="birthday" class="form-control" placeholder="2000-01-01"required="">
+							<div class="input-group-addon">
+								<span class="glyphicon glyphicon-th"></span>
+							</div>
+						</div>
 					</div>
 				</div>
 				</br>

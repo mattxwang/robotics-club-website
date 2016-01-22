@@ -8,7 +8,7 @@
 		<title>Home | UCC Robotics</title>
 		<link rel="icon" href="css/favicon.ico" />
 		<?php include_once("functions/stylesheet.php") ?>
-		
+
 	</head>
 
 	<body>
@@ -25,43 +25,42 @@
 				<div class="col-md-4">
 					<div class="panel panel-primary">
 						<div class="panel-heading">
-							<h3><span class="glyphicon glyphicon-education" aria-hidden="true"></span> Building Foundations</h3>
+							<h3><span class="glyphicon glyphicon-blackboard" aria-hidden="true"></span> About Our Club</h3>
 						</div>
 						<div class="panel-body">
-							<p>
-							UCC Robotics provides students a foundation for engineering, computer science, and the applied sciences. 
-							Building upon what is taught in the school curriculum, club members learn in the fields of math, physics, chemistry, and computer science, as well as skillsets including creating and presenting ideas, documentation and reports, and teamwork skills. We offer an extensive education program, through lessons, mentoring, club workshops, and competitions. Our education program goes beyond simply robotics: basic engineering skills such as soldering, and introductory computer science are a cornerstone of our club. Club members become immersed into the worlds of computer science, engineering, and robotics; and with that, all of the invaluable skills that go along with it.
-							</br>
-							</br>
-							Furthermore, our club provides students with the experience of mentorship and leadership. The club is entirely student-run, which requires members to step up and take leadership roles. Our club teaches students how to manage projects, students, and responsibilities of an orgnaisation. Through these ideals, robotics club members aren't only well-versed in the world of robotics; they also become strong leaders in the process.
-							</p>
+							<blockquote><h3>Robotics is more than just a science. It's an art.</h3></blockquote>
+							<h5 style="text-align:right;">- Kevin Olds, </br>Faculty Supervisor</h5>
+						</div>
+						<div class="panel-footer">
+							<a class="btn btn-primary" href="club_about.php" role="button">Learn why <span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></a>
 						</div>
 					</div>
 				</div>
 				<div class="col-md-4">
 					<div class="panel panel-info">
 						<div class="panel-heading">
-							<h3><span class="glyphicon glyphicon-home" aria-hidden="true"></span> Building Communities</h3>
+							<h3><span class="glyphicon glyphicon-education" aria-hidden="true"></span> About Horizons Robotics</h3>
 						</div>
 						<div class="panel-body">
-							<p>
-							Our Robotics Club isn't just vehicle for kids to learn; robotics club is a community. Club members work with each other, mentor each other, and create long-lasting friendships. We emphasize learning how to work as a cohesive team, a skill that presents itself many times in careers througout the world. This includes skills such as communication, leadership, and organisation. Furthermore, we encourage members to mentor each other. Every single member has something to bring to the table; we just want students to share it. Our club also features a strong community. Our club heads, club alumni, as well as our faculty advisors, present a multitude of opportunities to further enrich each student's learning experiences, especially when looking forward to University. We have graduates at Carnegie-Mellon University, Waterloo Mechatronics, and UofT Engineering. Ultimately, our robotics club allows students to join and support a community that has much to offer.
-							</br>
-							</br>
-							Upper Canada College Robotics isn't just a community: we strive to foster one. Through UCC'S Horizons program, we bring robotics to hundreds of under-privileged kids in Toronto. Not only do students gain the valuable experience of learning to teach, we give back to the community. We understand the joys and benefits of robotics. Why not spread them around?
-							</p>
+							<blockquote><h3>Every child deserves the right to an education.</h3></blockquote>
+							<h5 style="text-align:right;">- Barack Obama, </br>44th President of the United States</h5>
+						</div>
+						<div class="panel-footer">
+							<a class="btn btn-info" href="horizons_about.php" role="button">Learn how we spread that message <span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></a>
 						</div>
 					</div>
 				</div>
 				<div class="col-md-4">
 					<div class="panel panel-success">
 						<div class="panel-heading">
-							<h3><span class="glyphicon glyphicon-road" aria-hidden="true"></span> Building Futures</h3>
+							<h3><span class="glyphicon glyphicon-user" aria-hidden="true"></span> About Our Projects</h3>
 						</div>
 						<div class="panel-body">
-							<p>
-							The future is in technology. 
-							</p>
+							<blockquote><h3>I do not fear computers. I fear the lack of them.</h3></blockquote>
+							<h5 style="text-align:right;">- Isaac Asimov, </br>Science Fiction Writer</h5>
+						</div>
+						<div class="panel-footer">
+							<a class="btn btn-success" href="projects_arduino.php" role="button">Learn how we make that happen <span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></a>
 						</div>
 					</div>
 				</div>
