@@ -1,59 +1,10 @@
 <?php include_once("functions/import_info.php") ?>
 <?php
 	require("functions/common.php");
-	if(empty($_SESSION['user'])){
-		header("Location: login.php");
-		die("Redirecting to login.php");
+	if(empty($_SESSION['user'])){ 
+		header("Location: login.php"); 
+		die("Redirecting to login.php"); 
 	}
-?>
-<?php
-function accountNightmode(){
-	if (isset($_GET['nightmode'])) {
-		if(empty($_POST['nightmode_state'])) {
-			die("You missed a field");
-			header("Location: ../user_account.php");
-		}
-
-		$_POST = filter_var_array($_POST, FILTER_SANITIZE_STRING);
-
-		$email = $_SESSION['user']['email'];
-		$first_name = $row_info['first_name'];
-		$last_name = $row_info['last_name'];
-		$birthday = $row_info['birthday'];
-		$nightmode = $_POST['nightmode_state'];
-		$user_id = $row_info['id'];
-
-		$query = "
-		REPLACE INTO info (
-			id,
-			email,
-			first_name,
-			last_name,
-			birthday,
-			nightmode
-		) VALUES (
-			'$user_id',
-			'$email',
-			'$first_name',
-			'$last_name',
-			'$birthday',
-			'$nightmode'
-		);";
-
-		try {
-			$stmt = $db->prepare($query);
-			$stmt->execute();
-
-			header("Location: ".$_SERVER['SCRIPT_NAME']);
-		}
-
-		catch(PDOException $ex)
-		{
-			die("Failed to run query: " . $ex->getMessage());
-			header("Location: ".$_SERVER['SCRIPT_NAME']);
-		}
-	}
-}
 ?>
 <!DOCTYPE html>
 <html>
@@ -80,7 +31,7 @@ function accountNightmode(){
 							<h4 class="modal-title">Change Password</h4>
 						</div>
 						<div class="modal-body">
-							<p>
+							<p>	
 							<form action="functions/update_users.php" method="post">
 								<h4>Old Password</h4>
 								<label for="inputPassword" class="sr-only">Old Password</label>
@@ -109,9 +60,9 @@ function accountNightmode(){
 				<div class="panel-body">
 				</div>
 				<li class="list-group-item">
-					<form class="form-signin" action="?accountNightmode" method="post">
+					<form class="form-signin" action="functions/account_nightmode.php" method="post">
 						<div class="col-md-4">
-							Set Nightmode State:
+							Set Nightmode State: 
 						</div>
 						<div class="col-md-8">
 							<select class="form-control" id="nightmode_state" name="nightmode_state" required="">
