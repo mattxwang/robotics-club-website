@@ -9,10 +9,11 @@
 <?php
 	function accountNightmode(){
 		require("functions/common.php");
+		require("functions/import_info.php");
 		if (isset($_GET['accountNightmode'])) {
 			if(empty($_POST['nightmode_state'])) {
 				die("You missed a field");
-				header("Location: ../user_account.php");
+				header("Location: ".$_SERVER['SCRIPT_NAME']);
 			}
 
 			$_POST = filter_var_array($_POST, FILTER_SANITIZE_STRING);
