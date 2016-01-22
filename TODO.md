@@ -36,7 +36,7 @@
 * Implement all the content and pages.
 * Import images
 * Modularize all import pages
-* Change functions folder to PHP functions
+* ~~Change functions folder to PHP functions~~
 * Work on UI for pages
 
 ## Jack Sarick
