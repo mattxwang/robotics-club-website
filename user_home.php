@@ -17,6 +17,8 @@ function checkIn(){
 			die("You forgot to enter a code!");
 			header("Location: ".$_SERVER['SCRIPT_NAME']);
 		}
+		$timestamp = getdate();
+		$date = (string) $timestamp['year'] .  "-" . (string) $timestamp['mon'] . "-" . (string) $timestamp['mday'];
 
 		$_POST = filter_var_array($_POST, FILTER_SANITIZE_STRING);
 
