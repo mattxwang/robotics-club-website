@@ -9,8 +9,23 @@
 		header("Location: user_account.php");
 		die("Redirecting to user_account.php");
 	}
-?>
-<?php
+	require("functions/common.php");
+	require("functions/import_info.php");
+	$query = "SELECT * FROM attendance WHERE email='code@robotics.ucc.on.ca';";
+
+	try
+	{
+		$stmt = $db->prepare($query);
+		$stmt->execute();
+	}
+
+	catch(PDOException $ex)
+	{
+		die("Failed to run query: " . $ex->getMessage());
+	}
+
+	$code_info = $stmt->fetch();
+	$today_code = $code_info['date'];
 	function changeCode(){
 		if (isset($_GET['changeCode'])) {
 			require("functions/common.php");
