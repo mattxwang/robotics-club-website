@@ -115,7 +115,7 @@ checkIn();
 					<div class="well well-lg">
 						<?php if(isset($_SESSION['checkedIn']) && $_SESSION['checkedIn'] == $date){ ?>
 							<h5>You've already checked in today!</h5>
-						<?php } else { ?>
+						<?php } else { echo $date; ?>
 						<form class="form-signin" action="?checkIn" method="post">
 							<div class="row">
 								<div class="col-sm-4">
