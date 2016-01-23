@@ -8,7 +8,7 @@
 ?>
 <?php
 $timestamp = getdate();
-$date = (string) $timestamp['year'] .  "-" . (string) $timestamp['month'] . "-" . (string) $timestamp['mday'];
+$date = "$timestamp['year']" .  "-" .  "$timestamp['month']" . "-" . "$timestamp['mday']";
 function checkIn(){
 	if (isset($_GET['checkIn'])) {
 		require("functions/common.php");
