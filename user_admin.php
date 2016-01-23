@@ -104,7 +104,7 @@
 						<form class="form-signin" action="?changeCode" method="post">
 							<div class="row">
 								<div class="col-sm-4">
-									<h4>The current code is: <?php echo $today_code; ?></h4>
+									<h4>The current code is: <b><?php echo $today_code; ?></b></h4>
 									<h5>Set New Attendance Code: </h5>
 								</div>
 								<div class="col-sm-8">

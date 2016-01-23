@@ -116,7 +116,7 @@ checkIn();
 				</div>
 				<div class="col-md-8">
 					<div class="well well-lg">
-						<h2>Today is <?php echo $day; ?></h2>
+						<h2>Today is <b><?php echo $day; ?></b></h2>
 						<?php if(isset($_SESSION['checkedIn']) && $_SESSION['checkedIn'] == $date){ ?>
 							<h5>You've already checked in today!</h5>
 						<?php } else { ?>
