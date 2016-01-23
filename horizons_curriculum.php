@@ -58,7 +58,7 @@
 						<div class="panel-body">
 							<div class="row">
 								<div class="col-lg-4">
-									<img src="img/horizons/makey.jpg" height="256px">
+									<img src="img/horizons/makey.jpg" height="128px">
 								</div>
 								<div class="col-lg-8">
 									Horizons students learn how to create buttons that can control user input, such as key presses! Using Makey-Makeys, Playdoh, and <a href="http://jack.antinode.ca/asteroids">a game of Asteroids</a>, the students learn about basic electricity and input concepts.
@@ -79,14 +79,12 @@
 						<div class="panel-body">
 							<div class="row">
 								<div class="col-lg-4">
-									<img src="img/horizons/mbot.jpg" height="256px">
+									<img src="img/horizons/mbot.jpg" height="128px">
 								</div>
 								<div class="col-lg-8">
 									Students work together to create an MBot! While doing this, they build teamwork, the ability to use an instruction resource as well as how to use mechanical tools such as screwdrivers.
 									</br>
 									In addition to the instruction manual included with the kit, a slideshow of each of the steps occuring in real life as done by a UCC mentor beforehand is projected to the board. See it <a href="https://docs.google.com/presentation/d/1LvC0mSOVVTLJn28_7iAjtWjzSpRUnXzez3Pl7zegY54/edit?usp=sharing"> here </a>
-
-
 								</div>
 							</div>
 						</div>
