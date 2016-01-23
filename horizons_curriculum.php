@@ -71,7 +71,7 @@
 					<div class="panel-heading" role="tab" id="headingThree">
 						<h4 class="panel-title">
 						<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion1" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-						Week Three: Coming Soon!
+						Week Three: Create an MBot!
 						</a>
 						</h4>
 					</div>
@@ -79,10 +79,14 @@
 						<div class="panel-body">
 							<div class="row">
 								<div class="col-lg-4">
-									<img src="img/placeholder.png" style="80%">
+									<img src="img/horizons/mbot.jpg">
 								</div>
 								<div class="col-lg-8">
-									Coming Soon!
+									Students work together to create an MBot! While doing this, they build teamwork, the ability to use an instruction resource as well as how to use mechanical tools such as screwdrivers. 
+									</br>
+									In addition to the instruction manual included with the kit, a slideshow of each of the steps occuring in real life as done by a UCC mentor beforehand is projected to the board. See it <a href="https://docs.google.com/presentation/d/1LvC0mSOVVTLJn28_7iAjtWjzSpRUnXzez3Pl7zegY54/edit?usp=sharing"> here </a>
+
+
 								</div>
 							</div>
 						</div>
@@ -92,7 +96,7 @@
 					<div class="panel-heading" role="tab" id="headingFour">
 						<h4 class="panel-title">
 						<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion1" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-						Week Four: Coming Soon!
+						Week Four: Program Mbot
 						</a>
 						</h4>
 					</div>
