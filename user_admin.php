@@ -37,7 +37,7 @@
 			$_POST = filter_var_array($_POST, FILTER_SANITIZE_STRING);
 			$new_code = $_POST['new_code'];
 			$query = "
-			REPLACE INTO attendance WHERE email='code@robotics.ucc.on.ca' (
+			REPLACE INTO attendance (
 				email,
 				date,
 				id
