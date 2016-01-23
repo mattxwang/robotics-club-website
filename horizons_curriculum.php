@@ -40,7 +40,7 @@
 									<img src="img/placeholder.png">
 								</div>
 								<div class="col-lg-8">
-									The UCC Robotics Horizons team and the Horizons students play some games to get to know each other, and brainstorm ideas about what robots are.
+									The Robotics Horizons team and the Horizons students play some games to get to know each other, and brainstorm ideas about what robots are. Mentees discuss what something requires to be called a robot.
 								</div>
 							</div>
 						</div>
@@ -61,7 +61,7 @@
 									<img src="img/horizons/makey.jpg" height="128px">
 								</div>
 								<div class="col-lg-8">
-									Horizons students learn how to create buttons that can control user input, such as key presses! Using Makey-Makeys, Playdoh, and <a href="http://jack.antinode.ca/asteroids">a game of Asteroids</a>, the students learn about basic electricity and input concepts.
+									Horizons students learn how to create buttons that can control user input, such as key presses! Using Makey-Makeys, Playdoh, and <a href="http://jack.antinode.ca/asteroids">a game of Asteroids</a>, the students learn about electrical circuits and input concepts.
 								</div>
 							</div>
 						</div>
@@ -71,7 +71,7 @@
 					<div class="panel-heading" role="tab" id="headingThree">
 						<h4 class="panel-title">
 						<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion1" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-						Week Three: Create an MBot!
+						Week Three: Create an mBot!
 						</a>
 						</h4>
 					</div>
@@ -82,9 +82,10 @@
 									<img src="img/horizons/mbot.jpg" height="128px">
 								</div>
 								<div class="col-lg-8">
-									Students work together to create an MBot! While doing this, they build teamwork, the ability to use an instruction resource as well as how to use mechanical tools such as screwdrivers.
+									Students work together to create an mBot, a moveable Arduino-powered car. Mentees learn about assembly etiquette, how to use mechanical tools, using instruction resources, and the components of an electrical car.
 									</br>
-									In addition to the instruction manual included with the kit, a slideshow of each of the steps occuring in real life as done by a UCC mentor beforehand is projected to the board. See it <a href="https://docs.google.com/presentation/d/1LvC0mSOVVTLJn28_7iAjtWjzSpRUnXzez3Pl7zegY54/edit?usp=sharing">here</a>.
+									</br>
+									In addition to the instruction manual included with the kit, a slideshow containing photos of each step will be projected to the board, which can be found <a href="https://docs.google.com/presentation/d/1LvC0mSOVVTLJn28_7iAjtWjzSpRUnXzez3Pl7zegY54/edit?usp=sharing">here</a>. Through the building process, mentors will be assisting the mentees on constructing the mBot properly.
 								</div>
 							</div>
 						</div>

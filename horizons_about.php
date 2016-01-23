@@ -8,7 +8,7 @@
 		<title>About Horizons | UCC Robotics</title>
 		<link rel="icon" href="css/favicon.ico" />
 		<?php include_once("functions/stylesheet.php") ?>
-		
+
 	</head>
 
 	<body>
@@ -25,10 +25,10 @@
 				<div class="col-lg-6">
 					<div class="panel panel-success">
 						<div class="panel-heading">
-							<h3 class="panel-title">What's Horizons?</h3>
+							<h3 class="panel-title">What's the Horizons Program?</h3>
 						</div>
 						<div class="panel-body">
-							Horizons is a program hosted at UCC that allows the students of outside schools that may not have as many opportunities to learn an a skill while fostering an important mentor-mentee relationship. Horizons is committed to allowing students to have equal opportunity to learn skills. 
+							Horizons, a peer tutoring program at Upper Canada College, gives students from all over Toronto the opportunity to use UCC's facilities, resources, and students to further expand their learning. Duirng this process, UCC students mentor younger students, refining their own mentorship skills, while providing younger students an older mentor and a resource to their education. Horizons is committed to giving students opportunities to further their education and skillset.
 						</div>
 					</div>
 					<div class="panel panel-success">
@@ -36,7 +36,7 @@
 							<h3 class="panel-title">What's Horizons Robotics?</h3>
 						</div>
 						<div class="panel-body">
-							Horizons Robotics is a program at UCC in which the mentees learn and utilize the skills of computer science, electrical engineering and teamwork to create the final product of a robot. The full curriculum is described in the <a href="horizons_curriculum.php">curriculum tab</a> .
+							Horizons Robotics is one of the many Horizons programs that aims to bring important skills to students in Toronto. At Horizons Robotics, mentees learn about and build on computer science, electrical engineering, and teamwork skills to ultimately create a robot. Throughout the 4 week course, mentees learn about the makeup of a robot, creating user input, and how to assemble and program a car-based robot. The full curriculum can be found <a href="horizons_curriculum.php">here</a>.
 						</div>
 					</div>
 					<div class="panel panel-success">
@@ -44,7 +44,10 @@
 							<h3 class="panel-title">How do I participate?</h3>
 						</div>
 						<div class="panel-body">
-							As a student of UCC it is very easy to participate as a mentor. You must respond to an email sent out by Ms. Sehgal or Ms. Ticzon that requests mentors for Horizons Robotics. Horizons robotics meets every Thursday after school from 3:30 to 4:30. There will be a short preparation session the Wednesday before at 9:10 in room CL2. During that meeting the Club Head will ensure that all of the mentors are up to speed with the upcoming lesson plan. 
+							Contrary to the popular perception, UCC students don't need to be part of UCC Robotics to become a Horizons mentor (though we do recommend it). All students need to do is attend a Horizons training session, and sign up for the Horizons Robotics program at the session/by email. You can contact the Horizons Faculty heads Ms. Jyoti Sehgal and Ms. Elaine Ticzon at <a href="mailto:jsehgal@ucc.on.ca">jsehgal@ucc.on.ca</a> and <a href="mailto:eticzon@ucc.on.ca">eticzon@ucc.on.ca</a>.
+							</br>
+							</br>
+							Horizons Robotics meets during the Winter Horizons period, every Thursday afterschool. Every session starts at 3:30 in room CC3, and ends at 4:30 in room 304. We recommend first-time mentors to attend preparation sessions on Wednesdays at 9:10 in room CL2, to familiarize themselves with the course material and resources.
 						</div>
 					</div>
 				</div>
