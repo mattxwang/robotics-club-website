@@ -5,7 +5,7 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 		<meta name="description" content="UCC Robotics">
-		<title>Horizons Curriculum| UCC Robotics</title>
+		<title>Horizons Curriculum | UCC Robotics</title>
 		<link rel="icon" href="css/favicon.ico" />
 		<?php include_once("functions/stylesheet.php") ?>
 
@@ -84,7 +84,7 @@
 								<div class="col-lg-8">
 									Students work together to create an MBot! While doing this, they build teamwork, the ability to use an instruction resource as well as how to use mechanical tools such as screwdrivers.
 									</br>
-									In addition to the instruction manual included with the kit, a slideshow of each of the steps occuring in real life as done by a UCC mentor beforehand is projected to the board. See it <a href="https://docs.google.com/presentation/d/1LvC0mSOVVTLJn28_7iAjtWjzSpRUnXzez3Pl7zegY54/edit?usp=sharing"> here </a>
+									In addition to the instruction manual included with the kit, a slideshow of each of the steps occuring in real life as done by a UCC mentor beforehand is projected to the board. See it <a href="https://docs.google.com/presentation/d/1LvC0mSOVVTLJn28_7iAjtWjzSpRUnXzez3Pl7zegY54/edit?usp=sharing">here</a>.
 								</div>
 							</div>
 						</div>

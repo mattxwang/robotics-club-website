@@ -5,10 +5,10 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 		<meta name="description" content="UCC Robotics">
-		<title>Horizons Schedule| UCC Robotics</title>
+		<title>Horizons Schedule | UCC Robotics</title>
 		<link rel="icon" href="css/favicon.ico" />
 		<?php include_once("functions/stylesheet.php") ?>
-		
+
 	</head>
 
 	<body>
@@ -52,7 +52,7 @@
 					</div>
 				</div>
 			</div>
-			
+
 
 		</div>
 
