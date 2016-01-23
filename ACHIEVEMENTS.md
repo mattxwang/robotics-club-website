@@ -1,14 +1,13 @@
 # Achievements (Badges)
 First bracket is achievement description; second bracket is art idea (if applicable)
-## Attendance Number
+## Attendance
 * **hello world** (Come in Once)
 * **Robotics 101** (Come in 5 times)
 * **Decathalon** (Come in 10 times)
 * **Quartermaster** (Come in 25 times)
 * **Half-A-Cent-tree** (Come in 50 times)(Half of a penny hanging on a tree)
 * **Centurion** (Come in 100 times)
-
-## Special Attendance
+* **
 * **Weekling** (Come once per day in the week)
 * **I (don't) hate Mondays** (Come in on 4 Mondays)
 * **Weekender** (Show up on Friday 5 times in a row)
