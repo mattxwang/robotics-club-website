@@ -8,7 +8,7 @@
 		<title>Horizons Curriculum| UCC Robotics</title>
 		<link rel="icon" href="css/favicon.ico" />
 		<?php include_once("functions/stylesheet.php") ?>
-		
+
 	</head>
 
 	<body>
@@ -18,12 +18,12 @@
 			<?php include_once("site_wide.php") ?>
 			<h1 class="page-header"><span class="glyphicon glyphicon-blackboard" aria-hidden="true"></span> Horizons Curriculum <small>2016</small></h1>
 			<h6>
-				Horizons sessions are held in Room 304, with snacks in room CC3 beforehand. Every session starts at 3:30, and ends at 4:30. Our Schedule is <a href="horizons_schedule.php">here</a>. 
+				Horizons sessions are held in Room 304, with snacks in room CC3 beforehand. Every session starts at 3:30, and ends at 4:30. Our Schedule is <a href="horizons_schedule.php">here</a>.
 				</br>
 				</br>
-				The same curriculum is run for both sessions. 
+				The same curriculum is run for both sessions.
 			</h6>
-			
+
 			<div class="panel-group" id="accordion1" role="tablist" aria-multiselectable="true">
 				<div class="panel panel-primary">
 					<div class="panel-heading" role="tab" id="headingOne">
@@ -40,7 +40,7 @@
 									<img src="img/placeholder.png">
 								</div>
 								<div class="col-lg-8">
-									The UCC Robotics Horizons team and the Horizons students play some games to get to know each other, and brainstorm ideas about what robots are.	
+									The UCC Robotics Horizons team and the Horizons students play some games to get to know each other, and brainstorm ideas about what robots are.
 								</div>
 							</div>
 						</div>
@@ -58,7 +58,7 @@
 						<div class="panel-body">
 							<div class="row">
 								<div class="col-lg-4">
-									<img src="img/horizons/makey.jpg">
+									<img src="img/horizons/makey.jpg" height="256px">
 								</div>
 								<div class="col-lg-8">
 									Horizons students learn how to create buttons that can control user input, such as key presses! Using Makey-Makeys, Playdoh, and <a href="http://jack.antinode.ca/asteroids">a game of Asteroids</a>, the students learn about basic electricity and input concepts.
@@ -79,10 +79,10 @@
 						<div class="panel-body">
 							<div class="row">
 								<div class="col-lg-4">
-									<img src="img/horizons/mbot.jpg">
+									<img src="img/horizons/mbot.jpg" height="256px">
 								</div>
 								<div class="col-lg-8">
-									Students work together to create an MBot! While doing this, they build teamwork, the ability to use an instruction resource as well as how to use mechanical tools such as screwdrivers. 
+									Students work together to create an MBot! While doing this, they build teamwork, the ability to use an instruction resource as well as how to use mechanical tools such as screwdrivers.
 									</br>
 									In addition to the instruction manual included with the kit, a slideshow of each of the steps occuring in real life as done by a UCC mentor beforehand is projected to the board. See it <a href="https://docs.google.com/presentation/d/1LvC0mSOVVTLJn28_7iAjtWjzSpRUnXzez3Pl7zegY54/edit?usp=sharing"> here </a>
 
