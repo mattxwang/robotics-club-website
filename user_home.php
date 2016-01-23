@@ -9,6 +9,7 @@
 <?php
 $timestamp = getdate();
 $date = (string) $timestamp['year'] .  "-" . (string) $timestamp['mon'] . "-" . (string) $timestamp['mday'];
+$day = (string) $timestamp['weekday'] . " " . (string) $timestamp['month'] .  " " . (string) $timestamp['mday'] . " " . (string) $timestamp['year'];
 function checkIn(){
 	if (isset($_GET['checkIn'])) {
 		require("functions/common.php");
@@ -115,9 +116,10 @@ checkIn();
 				</div>
 				<div class="col-md-8">
 					<div class="well well-lg">
+						<h2>Today is <?php echo $day; ?></h2>
 						<?php if(isset($_SESSION['checkedIn']) && $_SESSION['checkedIn'] == $date){ ?>
 							<h5>You've already checked in today!</h5>
-						<?php } else { echo $date; ?>
+						<?php } else { ?>
 						<form class="form-signin" action="?checkIn" method="post">
 							<div class="row">
 								<div class="col-sm-4">
