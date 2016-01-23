@@ -28,7 +28,7 @@
 							<h3 class="panel-title">What's Horizons?</h3>
 						</div>
 						<div class="panel-body">
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ultrices, sapien sit amet vestibulum tincidunt, sapien arcu laoreet diam, vel convallis felis tellus a est. Nunc in sagittis quam. Aliquam ac ipsum eu velit tempor egestas eget vel leo. Aliquam erat volutpat. Suspendisse lacinia dui at libero tincidunt accumsan. Morbi laoreet dui quam, eu volutpat sapien condimentum ut. Nam cursus aliquet dolor varius cursus. In ut magna augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Praesent vehicula est quam, ac luctus dui iaculis sit amet. Sed tincidunt elementum dui, at molestie turpis feugiat ac. Etiam quis nisi sit amet eros placerat interdum eu vitae tortor. Duis sollicitudin nisi id purus bibendum, sed tempor arcu tempus. Morbi pellentesque fermentum lectus et vehicula.
+							Horizons is a program hosted at UCC that allows the students of outside schools that may not have as many opportunities to learn an a skill while fostering an important mentor-mentee relationship. Horizons is committed to allowing students to have equal opportunity to learn skills. 
 						</div>
 					</div>
 					<div class="panel panel-success">
@@ -36,7 +36,7 @@
 							<h3 class="panel-title">What's Horizons Robotics?</h3>
 						</div>
 						<div class="panel-body">
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ultrices, sapien sit amet vestibulum tincidunt, sapien arcu laoreet diam, vel convallis felis tellus a est. Nunc in sagittis quam. Aliquam ac ipsum eu velit tempor egestas eget vel leo. Aliquam erat volutpat. Suspendisse lacinia dui at libero tincidunt accumsan. Morbi laoreet dui quam, eu volutpat sapien condimentum ut. Nam cursus aliquet dolor varius cursus. In ut magna augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Praesent vehicula est quam, ac luctus dui iaculis sit amet. Sed tincidunt elementum dui, at molestie turpis feugiat ac. Etiam quis nisi sit amet eros placerat interdum eu vitae tortor. Duis sollicitudin nisi id purus bibendum, sed tempor arcu tempus. Morbi pellentesque fermentum lectus et vehicula.
+							Horizons Robotics is a program at UCC in which the mentees learn and utilize the skills of computer science, electrical engineering and teamwork to create the final product of a robot. The full curriculum is described in the <a href="horizons_curriculum.php">curriculum tab</a> .
 						</div>
 					</div>
 					<div class="panel panel-success">
@@ -44,7 +44,7 @@
 							<h3 class="panel-title">How do I participate?</h3>
 						</div>
 						<div class="panel-body">
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ultrices, sapien sit amet vestibulum tincidunt, sapien arcu laoreet diam, vel convallis felis tellus a est. Nunc in sagittis quam. Aliquam ac ipsum eu velit tempor egestas eget vel leo. Aliquam erat volutpat. Suspendisse lacinia dui at libero tincidunt accumsan. Morbi laoreet dui quam, eu volutpat sapien condimentum ut. Nam cursus aliquet dolor varius cursus. In ut magna augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Praesent vehicula est quam, ac luctus dui iaculis sit amet. Sed tincidunt elementum dui, at molestie turpis feugiat ac. Etiam quis nisi sit amet eros placerat interdum eu vitae tortor. Duis sollicitudin nisi id purus bibendum, sed tempor arcu tempus. Morbi pellentesque fermentum lectus et vehicula.
+							As a student of UCC it is very easy to participate as a mentor. You must respond to an email sent out by Ms. Sehgal or Ms. Ticzon that requests mentors for Horizons Robotics. Horizons robotics meets every Thursday after school from 3:30 to 4:30. There will be a short preparation session the Wednesday before at 9:10 in room CL2. During that meeting the Club Head will ensure that all of the mentors are up to speed with the upcoming lesson plan. 
 						</div>
 					</div>
 				</div>

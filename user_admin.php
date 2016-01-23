@@ -1,14 +1,65 @@
 <?php include_once("functions/import_info.php") ?>
 <?php
 	require("functions/common.php");
-	if(empty($_SESSION['user'])){ 
-		header("Location: login.php"); 
-		die("Redirecting to login.php"); 
+	if(empty($_SESSION['user'])){
+		header("Location: login.php");
+		die("Redirecting to login.php");
 	}
 	elseif($_SESSION['user']['admin'] != 1){
-		header("Location: user_account.php"); 
+		header("Location: user_account.php");
 		die("Redirecting to user_account.php");
 	}
+	require("functions/common.php");
+	require("functions/import_info.php");
+	$query = "SELECT * FROM attendance WHERE email='code@robotics.ucc.on.ca';";
+
+	try
+	{
+		$stmt = $db->prepare($query);
+		$stmt->execute();
+	}
+
+	catch(PDOException $ex)
+	{
+		die("Failed to run query: " . $ex->getMessage());
+	}
+
+	$code_info = $stmt->fetch();
+	$today_code = $code_info['date'];
+	function changeCode(){
+		if (isset($_GET['changeCode'])) {
+			require("functions/common.php");
+			require("functions/import_info.php");
+			if(empty($_POST['new_code'])) {
+				die("You forgot to enter a code!");
+				header("Location: ".$_SERVER['SCRIPT_NAME']);
+			}
+			$_POST = filter_var_array($_POST, FILTER_SANITIZE_STRING);
+			$new_code = $_POST['new_code'];
+			$query = "
+			REPLACE INTO attendance (
+				email,
+				date,
+				id
+			) VALUES (
+				'code@robotics.ucc.on.ca',
+				'$new_code',
+				1
+			);";
+			try {
+				$stmt = $db->prepare($query);
+				$stmt->execute();
+				header("Location: ".$_SERVER['SCRIPT_NAME']);
+			}
+
+			catch(PDOException $ex)
+			{
+				die("Failed to run query: " . $ex->getMessage());
+				header("Location: ".$_SERVER['SCRIPT_NAME']);
+			}
+		}
+	}
+	changeCode();
 ?>
 <!DOCTYPE html>
 <html>
@@ -19,7 +70,7 @@
 		<title>Admin Panel | UCC Robotics</title>
 		<link rel="icon" href="css/favicon.ico" />
 		<?php include_once("functions/stylesheet.php") ?>
-		
+
 	</head>
 
 	<body>
@@ -50,14 +101,15 @@
 				</div>
 				<div class="col-md-8">
 					<div class="well well-lg">
-						<form class="form-signin" action="functions/attendance.php" method="post">
+						<form class="form-signin" action="?changeCode" method="post">
 							<div class="row">
 								<div class="col-sm-4">
+									<h4>The current code is: <b><?php echo $today_code; ?></b></h4>
 									<h5>Set New Attendance Code: </h5>
 								</div>
 								<div class="col-sm-8">
 									<div class="input-group">
-										<input type="text" id="attendance" name="attendance" class="form-control" placeholder="Blank Space." required="">
+										<input type="text" id="new_code" name="new_code" class="form-control" placeholder="Blank Space." required="">
 										<span class="input-group-btn">
 											<button class="btn btn-default" type="submit" id="submitbutton" value="Login">Set New Code</button>
 										</span>
@@ -100,7 +152,7 @@
 								Here, there will be a table with every single attendance record.
 							</div>
 							<div role="tabpanel" class="tab-pane fade" id="search">
-								
+
 							</div>
 						</div>
 					</div>

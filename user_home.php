@@ -7,7 +7,9 @@
 	}
 ?>
 <?php
-$date = $timestamp['year'] + "-" + $timestamp['month'] + "-" + $timestamp['mday'];
+$timestamp = getdate();
+$date = (string) $timestamp['year'] .  "-" . (string) $timestamp['mon'] . "-" . (string) $timestamp['mday'];
+$day = (string) $timestamp['weekday'] . " " . (string) $timestamp['month'] .  " " . (string) $timestamp['mday'] . " " . (string) $timestamp['year'];
 function checkIn(){
 	if (isset($_GET['checkIn'])) {
 		require("functions/common.php");
@@ -16,12 +18,13 @@ function checkIn(){
 			die("You forgot to enter a code!");
 			header("Location: ".$_SERVER['SCRIPT_NAME']);
 		}
+		$timestamp = getdate();
+		$date = (string) $timestamp['year'] .  "-" . (string) $timestamp['mon'] . "-" . (string) $timestamp['mday'];
 
 		$_POST = filter_var_array($_POST, FILTER_SANITIZE_STRING);
 
 		$email = $_SESSION['user']['email'];
 		$attendance_code = $_POST['attendance_code'];
-		$timestamp = getdate();
 
 		$query = "SELECT * FROM attendance WHERE email='code@robotics.ucc.on.ca';";
 
@@ -113,6 +116,7 @@ checkIn();
 				</div>
 				<div class="col-md-8">
 					<div class="well well-lg">
+						<h2>Today is <b><?php echo $day; ?></b></h2>
 						<?php if(isset($_SESSION['checkedIn']) && $_SESSION['checkedIn'] == $date){ ?>
 							<h5>You've already checked in today!</h5>
 						<?php } else { ?>
