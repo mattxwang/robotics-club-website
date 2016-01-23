@@ -8,7 +8,6 @@
 		<title>Horizons Curriculum | UCC Robotics</title>
 		<link rel="icon" href="css/favicon.ico" />
 		<?php include_once("functions/stylesheet.php") ?>
-
 	</head>
 
 	<body>
@@ -113,7 +112,6 @@
 					</div>
 				</div>
 			</div>
-
 		</div>
 
 		<script src="js/jquery.js"></script>

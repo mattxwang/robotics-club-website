@@ -8,7 +8,6 @@
 		<title>Horizons Schedule | UCC Robotics</title>
 		<link rel="icon" href="css/favicon.ico" />
 		<?php include_once("functions/stylesheet.php") ?>
-
 	</head>
 
 	<body>
