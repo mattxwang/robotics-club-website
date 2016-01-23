@@ -7,6 +7,7 @@
 	}
 ?>
 <?php
+$timestamp = getdate();
 $date = $timestamp['year'] + "-" + $timestamp['month'] + "-" + $timestamp['mday'];
 function checkIn(){
 	if (isset($_GET['checkIn'])) {
@@ -21,7 +22,6 @@ function checkIn(){
 
 		$email = $_SESSION['user']['email'];
 		$attendance_code = $_POST['attendance_code'];
-		$timestamp = getdate();
 
 		$query = "SELECT * FROM attendance WHERE email='code@robotics.ucc.on.ca';";
 
