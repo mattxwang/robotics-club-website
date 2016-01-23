@@ -1,4 +1,4 @@
-# Credit where credit is due.
+# Credit given where credit is due.
 
 ## Design and Development Team
 #### Matthew Wang
@@ -12,12 +12,12 @@
 
 #### Nicholas O'Brien
 * Assistant Web Developer
-* Assistant Web Design
 
 #### Content Contributors
 * Matthew Wang
 * Jack Sarick
 * Nicholas O'Brien
+* Camran Hansen
 
 #### Other helpers
 * DevSnowy
@@ -29,12 +29,12 @@
 * Bootstrap JS Files
 * Glyphicons
 
-#### [Bootstrap Date Picker](https://github.com/eternicode/bootstrap-datepicker)
+#### [Bootstrap Date-Picker](https://github.com/eternicode/bootstrap-datepicker)
 * Modified JS Files
 * Modified CSS Files
 
 #### [Chart.js](http://www.chartjs.org/)
-* Charts JS Files 
+* Charts JS Files
 
 #### [jQuery](https://jquery.com/)
 * jQuery v.11.1 Files
