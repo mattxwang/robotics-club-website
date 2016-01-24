@@ -121,18 +121,11 @@ checkIn();
 							<h5>You've already checked in today!</h5>
 						<?php } else { ?>
 						<form class="form-signin" action="?checkIn" method="post">
-							<div class="row">
-								<div class="col-sm-4">
-									<h5>Attendance Code: </h5>
-								</div>
-								<div class="col-sm-8">
-									<div class="input-group">
-										<input type="text" id="attendance_code" name="attendance_code" class="form-control" placeholder="Blank Space." required="">
-										<span class="input-group-btn">
-											<button class="btn btn-default" type="submit" id="submitbutton" value="Login"><span class="glyphicon glyphicon-ok"></span></button>
-										</span>
-									</div>
-								</div>
+							<div class="input-group">
+								<input type="text" id="attendance_code" name="attendance_code" class="form-control" placeholder="Blank Space." required="">
+								<span class="input-group-btn">
+									<button class="btn btn-default" type="submit" id="submitbutton" value="Login">Check in <span class="glyphicon glyphicon-ok"></span></button>
+								</span>
 							</div>
 						</form>
 						<?php } ?>
