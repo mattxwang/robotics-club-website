@@ -1,7 +1,7 @@
 # Achievements (Badges)
 First bracket is achievement description; second bracket is art idea (if applicable)
 
-Files have to be 256*256 px
+Files have to be 256*256 px, background is transparent
 ## Attendance
 * **hello world** (Come in Once)
 * **Robotics 101** (Come in 5 times)
