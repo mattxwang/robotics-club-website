@@ -58,7 +58,7 @@
 						<div class="panel panel-success">
 							<div class="panel-heading" role="tab">
 								<h4 class="panel-title">
-									<a role="button" data-toggle="collapse" data-parent="accordion1" href="#panelOne">
+									<a role="button" data-toggle="collapse" data-parent="#accordion1" href="#panelOne">
 										<h3><span class="glyphicon glyphicon-education" aria-hidden="true"></span> Building Foundations</h3>
 									</a>
 								</h4>
@@ -78,7 +78,7 @@
 						<div class="panel panel-success">
 							<div class="panel-heading" role="tab">
 								<h4 class="panel-title">
-									<a role="button" class="collapsed" data-toggle="collapse" data-parent="accordion1" href="#panelTwo">
+									<a role="button" class="collapsed" data-toggle="collapse" data-parent="#accordion1" href="#panelTwo">
 										<h3><span class="glyphicon glyphicon-home" aria-hidden="true"></span> Building Communities</h3>
 									</a>
 								</h4>
@@ -97,7 +97,7 @@
 						<div class="panel panel-success">
 							<div class="panel-heading" role="tab">
 								<h4 class="panel-title">
-									<a role="button" class="collapsed" data-toggle="collapse" data-parent="accordion1" href="#panelThree">
+									<a role="button" class="collapsed" data-toggle="collapse" data-parent="#accordion1" href="#panelThree">
 										<h3><span class="glyphicon glyphicon-road" aria-hidden="true"></span> Building Futures</h3>
 									</a>
 								</h4>
