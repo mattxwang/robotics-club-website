@@ -66,7 +66,7 @@
 									<div class="row">
 										<div class="col-sm-8">
 											<div class="thumbnail">
-												<img src="img/horizons/mbot+box.jpg" height="256px"></img>
+												<img src="img/horizons/mbot+box.JPG" height="256px"></img>
 											</div>
 										</div>
 										<div class="col-sm-4">
