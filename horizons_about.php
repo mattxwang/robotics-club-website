@@ -57,7 +57,7 @@
 							<div class="panel-heading" role="tab">
 								<h4 class="panel-title">
 									<a role="button" data-toggle="collapse" data-parent"#information" href="#thumbnailOne">
-										Lorem Ipsum
+										mBots: Technology Made Accessible
 									</a>
 								</h4>
 							</div>
