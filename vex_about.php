@@ -8,7 +8,7 @@
 		<title>About VEX | UCC Robotics</title>
 		<link rel="icon" href="css/favicon.ico" />
 		<?php include_once("functions/stylesheet.php") ?>
-		
+
 	</head>
 
 	<body>
@@ -28,7 +28,7 @@
 							<h3 class="panel-title">What's VEX?</h3>
 						</div>
 						<div class="panel-body">
-							Vex is an international and competetive robotics platform used by high schools and universitites all around the world. It incorporates design, physics, and programming in a simple-to-use package. VEX can be used for small, proof-of-concept prototypes, or large, full scale robots. The VEX robotis the club utilises are part of the VEX EDR set. Competitions are the culmination of design and computational knowledge with autonomous and controlled portions to each match. 
+							Vex is an international and competetive robotics platform used by high schools and universitites all around the world. It incorporates design, physics, and programming in a simple-to-use package. VEX can be used for small, proof-of-concept prototypes, or large, full scale robots. The VEX robotis the club utilises are part of the VEX EDR set. Competitions are the culmination of design and computational knowledge with autonomous and controlled portions to each match.
 						</div>
 					</div>
 					<div class="panel panel-danger">
@@ -53,7 +53,7 @@
 						<div class="panel panel-primary">
 							<div class="panel-heading" role="tab">
 								<h4 class="panel-title">
-									<a role="button" data-toggle="collapse" data-parent"#accordion1" href="#thumbnailOne">
+									<a role="button" data-toggle="collapse" data-parent="#accordion1" href="#thumbnailOne">
 										Lorem Ipsum
 									</a>
 								</h4>
@@ -76,7 +76,7 @@
 						<div class="panel panel-primary">
 							<div class="panel-heading" role="tab">
 								<h4 class="panel-title">
-									<a role="button" class="collapsed" data-toggle="collapse" data-parent"#accordion1" href="#thumbnailTwo">
+									<a role="button" class="collapsed" data-toggle="collapse" data-parent="#accordion1" href="#thumbnailTwo">
 										Lorem Ipsum
 									</a>
 								</h4>
@@ -99,7 +99,7 @@
 						<div class="panel panel-primary">
 							<div class="panel-heading" role="tab">
 								<h4 class="panel-title">
-									<a role="button" class="collapsed" data-toggle="collapse" data-parent"#accordion1" href="#thumbnailThree">
+									<a role="button" class="collapsed" data-toggle="collapse" data-parent="#accordion1" href="#thumbnailThree">
 										Lorem Ipsum
 									</a>
 								</h4>

@@ -56,7 +56,7 @@
 						<div class="panel panel-primary">
 							<div class="panel-heading" role="tab">
 								<h4 class="panel-title">
-									<a role="button" data-toggle="collapse" data-parent"#information" href="#thumbnailOne">
+									<a role="button" data-toggle="collapse" data-parent="#information" href="#thumbnailOne">
 										mBots: Technology Made Accessible
 									</a>
 								</h4>
@@ -79,7 +79,7 @@
 						<div class="panel panel-primary">
 							<div class="panel-heading" role="tab">
 								<h4 class="panel-title">
-									<a role="button" class="collapsed" data-toggle="collapse" data-parent"#information" href="#thumbnailTwo">
+									<a role="button" class="collapsed" data-toggle="collapse" data-parent="#information" href="#thumbnailTwo">
 										Lorem Ipsum
 									</a>
 								</h4>
@@ -102,7 +102,7 @@
 						<div class="panel panel-primary">
 							<div class="panel-heading" role="tab">
 								<h4 class="panel-title">
-									<a role="button" class="collapsed" data-toggle="collapse" data-parent"#information" href="#thumbnailThree">
+									<a role="button" class="collapsed" data-toggle="collapse" data-parent="#information" href="#thumbnailThree">
 										Lorem Ipsum
 									</a>
 								</h4>
