@@ -42,5 +42,5 @@ Files have to be 256*256 px, background is transparent
 * **Pull a Matthew Wang** (Make a Starbucks run during a meeting)
 * **Pull a Jack Sarick** (Mentor a younger member)
 * **Pull a John Mace** (Recruit another member)
-* **Pull a Camran Hansen** (Push the secret button.)(Button that inherits background colour; modal pops up when clicked)
+* **Pull a Camran Hansen** (Push the secret button.)(Badge is full transparent, white text (contact matt about this one))(Button that inherits background colour; modal pops up when clicked)
 * **I Want It All** (Get every other achievement)
