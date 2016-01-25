@@ -8,7 +8,7 @@
 		<title>VEX Resources | UCC Robotics</title>
 		<link rel="icon" href="css/favicon.ico" />
 		<?php include_once("functions/stylesheet.php") ?>
-		
+
 	</head>
 
 	<body>
@@ -73,12 +73,17 @@
 						<img src="img/vex_field.jpg"></img>
 						<div class="caption">
 							<h3>VEX Competition Field</h3>
-							<p>Lorem Ipsum.</p>
+							<p>
+								This is a picture of the official VEX Nothing but Net Competition field. The Blue Alliance robots start on the two blue squares, while the two Red Alliance robots start on the two red squares. The Alliance robots need to score the balls into their respective Alliance scoring areas: scoring into the lower portion, or the higher net.
+								</br>
+								</br>
+								Balls are placed on the field; in addition, robots can start with up to two balls pre-loaded into the bot (with four total for the Alliance). In addition, each Alliance can hand-load 24 balls into their robots during driver period.
+							</p>
 						</div>
 					</div>
 				</div>
 			</div>
-		</div>	
+		</div>
 		<script src="js/jquery.js"></script>
 		<script src="js/jquery.easing.min.js"></script>
 		<script src="js/bootstrap.js"></script>
