@@ -66,11 +66,11 @@
 									<div class="row">
 										<div class="col-sm-8">
 											<div class="thumbnail">
-												<img src="img/placeholder.png"></img>
+												<img src="img/horizons/mbot+box.jpg" height="256px"></img>
 											</div>
 										</div>
 										<div class="col-sm-4">
-											Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ultrices, sapien sit amet vestibulum tincidunt, sapien arcu laoreet diam, vel convallis felis tellus a est.
+											A picture of the mBots that Horizons mentees build with their students. The mBots feature a robust Arduino-based CPU, ultrasonic and colour-detecting sensors, and motor configurations, allowing mentees to experience different parts of robotics.
 										</div>
 									</div>
 								</div>
