@@ -1,5 +1,7 @@
 # Achievements (Badges)
 First bracket is achievement description; second bracket is art idea (if applicable)
+
+Files have to be 256*256 px, background is transparent
 ## Attendance
 * **hello world** (Come in Once)
 * **Robotics 101** (Come in 5 times)
@@ -7,7 +9,6 @@ First bracket is achievement description; second bracket is art idea (if applica
 * **Quartermaster** (Come in 25 times)
 * **Half-A-Cent-tree** (Come in 50 times)(Half of a penny hanging on a tree)
 * **Centurion** (Come in 100 times)
-* **
 * **Weekling** (Come once per day in the week)
 * **I (don't) hate Mondays** (Come in on 4 Mondays)
 * **Weekender** (Show up on Friday 5 times in a row)
@@ -41,5 +42,5 @@ First bracket is achievement description; second bracket is art idea (if applica
 * **Pull a Matthew Wang** (Make a Starbucks run during a meeting)
 * **Pull a Jack Sarick** (Mentor a younger member)
 * **Pull a John Mace** (Recruit another member)
-* **Pull a Camran Hansen** (Push the secret button.)(Button that inherits background colour; modal pops up when clicked)
+* **Pull a Camran Hansen** (Push the secret button.)(Badge is full transparent, white text (contact matt about this one))(Button that inherits background colour; modal pops up when clicked)
 * **I Want It All** (Get every other achievement)
