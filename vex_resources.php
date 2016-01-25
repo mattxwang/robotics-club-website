@@ -21,19 +21,22 @@
 			</div>
 			<div class="row">
 				<div class="col-md-6">
-					<h2>Recommended Resources</h2>
+					<h2>VEX Competitoin Resources</h2>
 					<div class="panel-group" id="accordion1" role="tablist" aria-multiselectable="true">
 						<div class="panel panel-primary">
 							<div class="panel-heading" role="tab" id="headingOne">
 								<h4 class="panel-title">
 								<a role="button" data-toggle="collapse" data-parent="#accordion1" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-								Lorem Ipsum.
+									Engineering Notebook
 								</a>
 								</h4>
 							</div>
 							<div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
 								<div class="panel-body">
-								Lorem Ipsum.
+									Documenting all the changes made to a robot is important, and dually important for the VEX Design Award. The club keeps an engineering design notebook, detailing the brainstorming processes and innovative ideas that go into the bot.
+									</br>
+									</br>
+									Unfortunately, accessing the notebook online is a bit of a hassle (we'll work on that later); that being said, you can check out the design notebook from the club. Simply contact one of our <a href="club_contact.php">club heads</a> to check out the notebook for the day, or the weekend.
 								</div>
 							</div>
 						</div>
