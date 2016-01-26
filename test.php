@@ -136,11 +136,7 @@
 						<div class="tab-content">
 							<div role="tabpanel" class="tab-pane active fade in" id="daily">
 								Here, there will be a graph of attendance of all members per day.-->
-								<div style="width:100%">
-									<div>
-										<canvas id="daily" height="450" width="600"></canvas>
-									</div>
-								</div>
+  							<div id="daily" style="width:600px;height:250px;"></div>
 						<!--	</div>
 							<div role="tabpanel" class="tab-pane fade" id="weekly">
 								Here, there will be a graph of attendance of all members per week.
@@ -163,8 +159,14 @@
 		<script src="js/jquery.easing.min.js"></script>
 		<script src="js/bootstrap.js"></script>
 		<script src="js/nav-collapse.js"></script>
-		<script src="js/chart.js"></script>
+		<script src="js/plotly.js"></script>
 		<script>
+    DAILY = document.getElementById('daily');
+    Plotly.plot( DAILY, [{
+    x: [1, 2, 3, 4, 5],
+    y: [1, 2, 4, 8, 16] }], {
+    margin: { t: 0 } } );
+    /*
 			var DailyData = {
 				labels : ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
 				datasets : [
@@ -196,7 +198,7 @@
 				window.myLine = new Chart(ctx).Line(DailyData, {
 					responsive: true
 				});
-			}
+			}*/
 		</script>
 	</body>
 </html>
