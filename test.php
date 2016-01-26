@@ -163,9 +163,11 @@
 		<script>
       var trace1 = {
         x: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
-        y: [10, 15, 13, 17],
+        y: [5, 6, 7, 1, 5],
         type: 'scatter',
-        name: 'User',
+        name: 'This Week',
+        fill: 'tozeroy',
+        fillcolor: 'rgb(220, 220, 220)',
         line: {
           color: 'rgb(220, 220, 220)',
           width: 3,
@@ -175,9 +177,11 @@
 
       var trace2 = {
         x: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
-        y: [16, 5, 11, 9],
+        y: [16, 5, 11, 9, 23],
         type: 'scatter',
-        name: 'Club Total',
+        name: 'Monthly Average',
+        fill: 'tozeroy',
+        fillcolor: 'rgb(151, 187, 205)',
         line: {
           color: 'rgb(151, 187, 205)',
           width: 3,
@@ -185,7 +189,21 @@
         }
       };
 
-      var data = [trace1, trace2];
+      var trace3 = {
+        x: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+        y: [6,23,18,4,10],
+        type: 'scatter',
+        name: 'Yearly Average',
+        fill: 'tozeroy',
+        fillcolor: 'rgb(33, 33, 33)',
+        line: {
+          color: 'rgb(33, 33, 33)',
+          width: 3,
+          shape: 'spline'
+        }
+      };
+
+      var data = [trace1, trace2, trace3];
 
       var layout = {
         title: 'Attendance Line Graph',
@@ -197,7 +215,15 @@
         }
       };
 
-      Plotly.newPlot('graph', data, layout, {showLink: false});
+      var tweaks = {
+        /*
+        showLink: false,
+        displaylogo: false
+        */
+        displayModeBar: false
+      }
+
+      Plotly.newPlot('graph', data, layout, tweaks);
     /*
 			var DailyData = {
 				labels : ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
