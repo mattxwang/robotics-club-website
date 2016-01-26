@@ -7,7 +7,6 @@
 * club_resources: formalize resources
 * vex_about: fill out content and pictures
 * vex_resources: fill out content and pictures
-* ~~horizons_about: fill out content and pictures~~
 * horizons_curriculum: fill out content and pictures
 * projects_arduino: fill out content and pictures
 * projects_keyboard: fill out content and pictures
@@ -30,33 +29,39 @@
 * Users get badges for attending (badges for cumulative, ribbons for streaks, medals/trophies for special events)
 * Possible leaderboard
 
+### Achievements and Ribbons
+* Achievements are earned through reaching a milestone (listed in Achievements.md)
+* Ribbons are earned through streaks (listed in Ribbons.md)
+* Achievements and Ribbons have their own tab on the User Homepage
+* User Admin page can give users Achievements and Ribbons
+* Attendance Achievements are calculated off of attendance; everything else is admin-assigned
+
 # People to do them
 
 ## Matthew Wang
 * Implement all the content and pages.
-* Import images
 * Modularize all import pages
-* ~~Change functions folder to PHP functions~~
 * Work on UI for pages
-* ~~Implement attendance~~
+* Create front-end for Achievemnts/Ribbons
 
 ## Jack Sarick
-* ~~Implement attendance system~~
-* ~~Implement admin panel editing attendance system~~
 * Implement messaging/notif/alert 
 * Implement database
 * Implement gamification of attendance
-* Fill out "Building a Future" index content, as well as formalizing all the resources items.
+* Formalize the resources items.
 
 ## Nick O'Brien
 * Create a multi-month calendar on [club_calendar.php](club_calendar.php), using pagination
 
 ## Camran Hansen
-* ~~Fill out information in the Horizons About tab [horizons_about.php](horizons_about.php)~~
 * Fill out information in the Horizons Curriculum tab [horizons_curriculum.php](horizons_curriculum.php)
 
 ## John Mace
 * Add pictures
+* Work On Achievements Pictures
+
+## Tyler Tam
+* Work on Achievements Pictures
 
 ## Simon Guo
 * Add Descriptions for [Arduino page](projects_arduino.php).
