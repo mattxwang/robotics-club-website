@@ -166,8 +166,6 @@
         y: [5, 6, 7, 1, 5],
         type: 'scatter',
         name: 'This Week',
-        fill: 'tozeroy',
-        fillcolor: 'rgba(220, 220, 220, 0.1)',
         line: {
           color: 'rgb(220, 220, 220)',
           width: 3,
@@ -180,8 +178,6 @@
         y: [16, 5, 11, 9, 23],
         type: 'scatter',
         name: 'Monthly Average',
-        fill: 'tozeroy',
-        fillcolor: 'rgba(151, 187, 205, 0.1)',
         line: {
           color: 'rgb(151, 187, 205)',
           width: 3,
@@ -194,8 +190,6 @@
         y: [6,23,18,4,10],
         type: 'scatter',
         name: 'Yearly Average',
-        fill: 'tozeroy',
-        fillcolor: 'rgba(33, 33, 33, 0.1)',
         line: {
           color: 'rgb(33, 33, 33)',
           width: 3,
@@ -212,7 +206,12 @@
         },
         yaxis: {
           title: 'Attendance Numbers'
-        }
+        },
+        font: {
+          family: '"Lato","Open Sans", verdana, arial, sans-serif'
+        },
+        paper_bgcolor: 'rgba(0,0,0,0)',
+        plot_bgcolor: 'rgba(0,0,0,0)'
       };
 
       var tweaks = {
