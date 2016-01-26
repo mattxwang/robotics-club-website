@@ -77,7 +77,6 @@
 		<?php include_once("footer.php")  ?>
 		<div class="container">
 			<?php include_once("site_wide.php") ?>
-      <!--
 			<div class="row">
 				<div class="col-md-4">
 					<div class="panel panel-primary">
@@ -117,6 +116,7 @@
 							</div>
 						</form>
 					</div>
+          <!--
 					<div class="well well-lg">
 						<h3>Track member attendance.</h3>
 						<div class="input-group">
@@ -155,8 +155,8 @@
 							</div>
 						</div>
 					</div>
-				</div>
-			</div>-->
+				</div>-->
+			</div>
 		</div>
 		<script src="js/jquery.js"></script>
 		<script src="js/jquery.easing.min.js"></script>
