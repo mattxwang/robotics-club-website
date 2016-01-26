@@ -167,7 +167,7 @@
         type: 'scatter',
         name: 'This Week',
         fill: 'tozeroy',
-        fillcolor: 'rgb(220, 220, 220)',
+        fillcolor: 'rgba(220, 220, 220, 0.1)',
         line: {
           color: 'rgb(220, 220, 220)',
           width: 3,
@@ -181,7 +181,7 @@
         type: 'scatter',
         name: 'Monthly Average',
         fill: 'tozeroy',
-        fillcolor: 'rgb(151, 187, 205)',
+        fillcolor: 'rgba(151, 187, 205, 0.1)',
         line: {
           color: 'rgb(151, 187, 205)',
           width: 3,
@@ -195,7 +195,7 @@
         type: 'scatter',
         name: 'Yearly Average',
         fill: 'tozeroy',
-        fillcolor: 'rgb(33, 33, 33)',
+        fillcolor: 'rgba(33, 33, 33, 0.1)',
         line: {
           color: 'rgb(33, 33, 33)',
           width: 3,
