@@ -116,7 +116,7 @@
 							</div>
 						</form>
 					</div>
-          <!--
+
 					<div class="well well-lg">
 						<h3>Track member attendance.</h3>
 						<div class="input-group">
@@ -125,6 +125,7 @@
 							</span>
 							<input type="text" class="form-control" placeholder="john.smith@ucc.on.ca">
 						</div>
+            <!--
 						<ul class="nav nav-tabs" role="tablist">
 							<li role="presentation" class="active"><a href="#daily" role="tab" data-toggle="tab">Daily</a></li>
 							<li role="presentation"><a href="#weekly" role="tab" data-toggle="tab">Weekly</a></li>
@@ -154,8 +155,8 @@
 
 							</div>
 						</div>
-					</div>
-				</div>-->
+					</div>-->
+				</div>
 			</div>
 		</div>
 		<script src="js/jquery.js"></script>
