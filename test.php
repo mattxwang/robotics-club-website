@@ -136,7 +136,7 @@
 						<div class="tab-content">
 							<div role="tabpanel" class="tab-pane active fade in" id="daily">
 								Here, there will be a graph of attendance of all members per day.-->
-  							<div id="daily" style="width:600px;height:250px;"></div>
+  							<div id="graph" style="width:600px;height:250px;"></div>
 						<!--	</div>
 							<div role="tabpanel" class="tab-pane fade" id="weekly">
 								Here, there will be a graph of attendance of all members per week.
@@ -161,11 +161,21 @@
 		<script src="js/nav-collapse.js"></script>
 		<script src="js/plotly.js"></script>
 		<script>
-    DAILY = document.getElementById('daily');
-    Plotly.plot( DAILY, [{
-    x: [1, 2, 3, 4, 5],
-    y: [1, 2, 4, 8, 16] }], {
-    margin: { t: 0 } } );
+    var trace1 = {
+      x: [1, 2, 3, 4],
+      y: [10, 15, 13, 17],
+      type: 'scatter'
+    };
+
+    var trace2 = {
+      x: [1, 2, 3, 4],
+      y: [16, 5, 11, 9],
+      type: 'scatter'
+    };
+
+    var data = [trace1, trace2];
+
+    Plotly.newPlot('graph', data);
     /*
 			var DailyData = {
 				labels : ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
