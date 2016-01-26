@@ -63,16 +63,10 @@
 							</div>
 							<div id="thumbnailOne" class="panel-collapse collapse in" role="tabpanel">
 								<div class="panel-body">
-									<div class="row">
-										<div class="col-sm-8">
-											<div class="thumbnail">
-												<img src="img/horizons/mbot+box.JPG" height="256px"></img>
-											</div>
-										</div>
-										<div class="col-sm-4" style="text-align:justify;">
-											A picture of the mBots that Horizons mentees build with their students. The mBots feature a robust Arduino-based CPU, ultrasonic and colour-detecting sensors, and motor configurations, allowing mentees to experience different parts of robotics.
-										</div>
+									<div class="thumbnail">
+										<img src="img/horizons/mbot+box.JPG" height="256px"></img>
 									</div>
+									A picture of the mBots that Horizons mentees build with their mentors. The mBots feature a robust Arduino-based CPU, ultrasonic and colour-detecting sensors, and motor configurations, allowing mentees to experience different parts of robotics.
 								</div>
 							</div>
 						</div>
@@ -80,22 +74,16 @@
 							<div class="panel-heading" role="tab">
 								<h4 class="panel-title">
 									<a role="button" class="collapsed" data-toggle="collapse" data-parent="#information" href="#thumbnailTwo">
-										Lorem Ipsum
+										Learning to code
 									</a>
 								</h4>
 							</div>
 							<div id="thumbnailTwo" class="panel-collapse collapse" role="tabpanel">
 								<div class="panel-body">
-									<div class="row">
-										<div class="col-sm-8">
-											<div class="thumbnail">
-												<img src="img/placeholder.png"></img>
-											</div>
-										</div>
-										<div class="col-sm-4">
-											Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ultrices, sapien sit amet vestibulum tincidunt, sapien arcu laoreet diam, vel convallis felis tellus a est.
-										</div>
+									<div class="thumbnail">
+										<img src="img/placeholder.png"></img>
 									</div>
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ultrices, sapien sit amet vestibulum tincidunt, sapien arcu laoreet diam, vel convallis felis tellus a est.
 								</div>
 							</div>
 						</div>
@@ -103,29 +91,22 @@
 							<div class="panel-heading" role="tab">
 								<h4 class="panel-title">
 									<a role="button" class="collapsed" data-toggle="collapse" data-parent="#information" href="#thumbnailThree">
-										Lorem Ipsum
+										The UCC Horizons Robotics Team
 									</a>
 								</h4>
 							</div>
 							<div id="thumbnailThree" class="panel-collapse collapse" role="tabpanel">
 								<div class="panel-body">
-									<div class="row">
-										<div class="col-sm-8">
-											<div class="thumbnail">
-												<img src="img/placeholder.png"></img>
-											</div>
-										</div>
-										<div class="col-sm-4">
-											Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ultrices, sapien sit amet vestibulum tincidunt, sapien arcu laoreet diam, vel convallis felis tellus a est.
-										</div>
+									<div class="thumbnail">
+										<img src="img/placeholder.png"></img>
 									</div>
+									Here are all the Horizons mentors that made this year's Horizons Robotics program awesome!
 								</div>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
-
 		</div>
 
 		<script src="js/jquery.js"></script>
