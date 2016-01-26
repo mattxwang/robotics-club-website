@@ -190,7 +190,7 @@
 
 			}
 			window.onload = function(){
-				var ctx = $("#daily").get(0).getContext("2d");
+				var ctx = $("#daily").get[0].getContext("2d");
 				window.myLine = new Chart(ctx).Line(lineChartData, {
 					responsive: true
 				});
