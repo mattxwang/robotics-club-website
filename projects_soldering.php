@@ -32,16 +32,16 @@
 							</div>
 							<div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
 								<div class="panel-body">
-								Soldering <a href="https://en.wikipedia.org/wiki/Soldering">(sädər)</a> is the process of connecting two wires using a third medium, often called solder. 
-								This medium is heated up with a soldering iron, and carefully placed on the connection between two wires. 
-								An invaluable electrical engineering skill, soldering has many applications: connecting electrical joints, fix broken wires, and more recently, computer engineering and electronics. 
+								Soldering <a href="https://en.wikipedia.org/wiki/Soldering">(sädər)</a> is the process of connecting two wires using a third medium, often called solder.
+								This medium is heated up with a soldering iron, and carefully placed on the connection between two wires.
+								An invaluable electrical engineering skill, soldering has many applications: connecting electrical joints, fix broken wires, and more recently, computer engineering and electronics.
 								In the modern production world, most industry-level products use machine soldering; hand soldering still remains popular among hobbyists and small companies.
 								Soldering is extremely popular because, unlike welding, soldering doesn't melt any of the working parts; instead, only the filler metal (solder) is melted.
-								</br> 
-								</br> 
-								While soldering itself isn't too hard, learning it properly and safely with proper guidance is rare. That's why UCC Robotics holds periodical soldering workshops; 
+								</br>
+								</br>
+								While soldering itself isn't too hard, learning it properly and safely with proper guidance is rare. That's why UCC Robotics holds periodical soldering workshops;
 								we believe that teaching kids how to solder, not only efficiently but safely, is a core fundamental of electrical engineering and hands-on procedures.
-								
+
 								</div>
 							</div>
 						</div>
@@ -55,18 +55,18 @@
 							</div>
 							<div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
 								<div class="panel-body">
-								Experienced robotics instructors will go over technique, safety rules, and the task at hand for the workshop. 
-								After that, attendees are split into groups, where they will be working on a specific task (such as wiring a speaker to a breadboard). 
-								Throughout the workshop, instructors will supervise the attendees, ensuring they are following safety procedure and are completing the task at hand.
-								</br>
-								</br>
-								Activities that will be part of workshops will include:
-								<ul>
-									<li>Connecting two wires.</li>
-									<li>Connecting wires to breadboards.</li>
-									<li>Connecting electronic components to breadboards.</li>
-									<li>Desoldering components from breadboards.</li>
-								</ul>
+									Experienced robotics instructors will go over technique, safety rules, and the task at hand for the workshop.
+									After that, attendees are split into groups, where they will be working on a specific task (such as wiring a speaker to a breadboard).
+									Throughout the workshop, instructors will supervise the attendees, ensuring they are following safety procedure and are completing the task at hand.
+									</br>
+									</br>
+									Activities that will be part of workshops will include:
+									<ul>
+										<li>Connecting two wires.</li>
+										<li>Connecting wires to breadboards.</li>
+										<li>Connecting electronic components to breadboards.</li>
+										<li>Desoldering components from breadboards.</li>
+									</ul>
 								</div>
 							</div>
 						</div>
@@ -80,7 +80,7 @@
 							</div>
 							<div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
 								<div class="panel-body">
-								While we don't have a definitve date yet, the club plans to hold two more soldering workshops in the year: one for general students, 
+								While we don't have a definitve date yet, the club plans to hold two more soldering workshops in the year: one for general students,
 								and one for more advanced soldering work. A tentative date has been set for 2 weeks after March Break, but that is yet to be confirmed.
 								</div>
 							</div>
@@ -136,7 +136,7 @@
 					</div>
 				</div>
 			</div>
-		</div>	
+		</div>
 		<script src="js/jquery.js"></script>
 		<script src="js/jquery.easing.min.js"></script>
 		<script src="js/bootstrap.js"></script>

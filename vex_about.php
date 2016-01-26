@@ -8,7 +8,7 @@
 		<title>About VEX | UCC Robotics</title>
 		<link rel="icon" href="css/favicon.ico" />
 		<?php include_once("functions/stylesheet.php") ?>
-		
+
 	</head>
 
 	<body>
@@ -28,7 +28,7 @@
 							<h3 class="panel-title">What's VEX?</h3>
 						</div>
 						<div class="panel-body">
-							Vex is an international and competetive robotics platform used by high schools and universitites all around the world. It incorporates design, physics, and programming in a simple-to-use package. VEX can be used for small, proof-of-concept prototypes, or large, full scale robots. The VEX robotis the club utilises are part of the VEX EDR set. Competitions are the culmination of design and computational knowledge with autonomous and controlled portions to each match. 
+							Vex is an international and competetive robotics platform used by high schools and universitites all around the world. It incorporates design, physics, and programming in a simple-to-use package. VEX can be used for small, proof-of-concept prototypes, or large, full scale robots. The VEX robotis the club utilises are part of the VEX EDR set. Competitions are the culmination of design and computational knowledge with autonomous and controlled portions to each match.
 						</div>
 					</div>
 					<div class="panel panel-danger">
@@ -39,7 +39,7 @@
 							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ultrices, sapien sit amet vestibulum tincidunt, sapien arcu laoreet diam, vel convallis felis tellus a est. Nunc in sagittis quam. Aliquam ac ipsum eu velit tempor egestas eget vel leo. Aliquam erat volutpat. Suspendisse lacinia dui at libero tincidunt accumsan. Morbi laoreet dui quam, eu volutpat sapien condimentum ut. Nam cursus aliquet dolor varius cursus. In ut magna augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Praesent vehicula est quam, ac luctus dui iaculis sit amet. Sed tincidunt elementum dui, at molestie turpis feugiat ac. Etiam quis nisi sit amet eros placerat interdum eu vitae tortor. Duis sollicitudin nisi id purus bibendum, sed tempor arcu tempus. Morbi pellentesque fermentum lectus et vehicula.
 						</div>
 					</div>
-					<div class="panel panel-danger">
+					<div class="panel panel-danger hidden">
 						<div class="panel-heading">
 							<h3 class="panel-title">What's Nothing but Net?</h3>
 						</div>
@@ -53,7 +53,7 @@
 						<div class="panel panel-primary">
 							<div class="panel-heading" role="tab">
 								<h4 class="panel-title">
-									<a role="button" data-toggle="collapse" data-parent"#accordion1" href="#thumbnailOne">
+									<a role="button" data-toggle="collapse" data-parent="#accordion1" href="#thumbnailOne">
 										Lorem Ipsum
 									</a>
 								</h4>
@@ -76,7 +76,7 @@
 						<div class="panel panel-primary">
 							<div class="panel-heading" role="tab">
 								<h4 class="panel-title">
-									<a role="button" class="collapsed" data-toggle="collapse" data-parent"#accordion1" href="#thumbnailTwo">
+									<a role="button" class="collapsed" data-toggle="collapse" data-parent="#accordion1" href="#thumbnailTwo">
 										Lorem Ipsum
 									</a>
 								</h4>
@@ -99,7 +99,7 @@
 						<div class="panel panel-primary">
 							<div class="panel-heading" role="tab">
 								<h4 class="panel-title">
-									<a role="button" class="collapsed" data-toggle="collapse" data-parent"#accordion1" href="#thumbnailThree">
+									<a role="button" class="collapsed" data-toggle="collapse" data-parent="#accordion1" href="#thumbnailThree">
 										Lorem Ipsum
 									</a>
 								</h4>

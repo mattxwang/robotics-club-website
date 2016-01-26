@@ -14,7 +14,16 @@
 			die();
 		}
 	}
+	function logout(){
+		if (isset($_GET['logout'])){
+			require("functions/common.php");
+			unset($_SESSION['user']);
+			header("Location: ".$_SERVER['SCRIPT_NAME']);
+			die("Location: ".$_SERVER['SCRIPT_NAME']);
+		}
+	}
 	toggle_nightmode();
+	logout();
 ?>
 <nav class="navbar navbar-default navbar-fixed-top">
 	<div class="container-fluid">
@@ -35,6 +44,8 @@
 						<li><a href="club_resources.php">Resources</a></li>
 						<li class="divider"></li>
 						<li><a href="club_contact.php">Contact Us</a></li>
+						<li class="divider"></li>
+						<li><a href="club_notes.php">Meeting Notes</a></li>
 					</ul>
 				</li>
 				<li class="dropdown">
@@ -67,7 +78,7 @@
 					</ul>
 				</li>
 			</ul>
-					
+
 			<ul class="nav navbar-nav navbar-right" style="padding-right:20px;">
 				<li class="dropdown">
 					<button type="button" class="btn btn-success navbar-btn" href="#" class="dropdown-toggle" data-toggle="dropdown">
@@ -90,7 +101,7 @@
 						<li class="divider"></li>
 						<li><a href="user_account.php">Account Settings <span class="glyphicon glyphicon-cog" aria-hidden="true"></span></a></li>
 						<li class="divider"></li>
-						<li><a href="functions/logout.php">Logout <span class="glyphicon glyphicon-log-out"></span></a></li>
+						<li><a href="?logout">Logout <span class="glyphicon glyphicon-log-out"></span></a></li>
 				<?php } ?>
 						<li class="divider"></li>
 						<li><a href="?nightmode">Toggle Nightmode (for this session) <span class="glyphicon glyphicon-adjust" aria-hidden="true"></span></a></li>

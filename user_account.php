@@ -1,10 +1,120 @@
 <?php include_once("functions/import_info.php") ?>
 <?php
 	require("functions/common.php");
-	if(empty($_SESSION['user'])){ 
-		header("Location: login.php"); 
-		die("Redirecting to login.php"); 
+	if(empty($_SESSION['user'])){
+		header("Location: login.php");
+		die("Redirecting to login.php");
 	}
+?>
+<?php
+	function accountNightmode(){
+		require("functions/common.php");
+		require("functions/import_info.php");
+		if (isset($_GET['accountNightmode'])) {
+			if(empty($_POST['nightmode_state'])) {
+				die("You missed a field");
+				header("Location: ".$_SERVER['SCRIPT_NAME']);
+			}
+
+			$_POST = filter_var_array($_POST, FILTER_SANITIZE_STRING);
+
+			$email = $_SESSION['user']['email'];
+			$first_name = $row_info['first_name'];
+			$last_name = $row_info['last_name'];
+			$birthday = $row_info['birthday'];
+			$nightmode = $_POST['nightmode_state'];
+			$user_id = $row_info['id'];
+
+			$query = "
+			REPLACE INTO info (
+				id,
+				email,
+				first_name,
+				last_name,
+				birthday,
+				nightmode
+			) VALUES (
+				'$user_id',
+				'$email',
+				'$first_name',
+				'$last_name',
+				'$birthday',
+				'$nightmode'
+			);";
+
+			try {
+				$stmt = $db->prepare($query);
+				$stmt->execute();
+
+				header("Location: ".$_SERVER['SCRIPT_NAME']);
+			}
+
+			catch(PDOException $ex)
+			{
+				die("Failed to run query: " . $ex->getMessage());
+				header("Location: ".$_SERVER['SCRIPT_NAME']);
+			}
+		}
+	}
+	accountNightmode();
+
+	function changePassword(){
+		require("functions/common.php");
+		require("functions/import_info.php");
+		if (isset($_GET['changePassword'])) {
+			if(!empty($_POST)) {
+				if(empty($_POST['password']) || empty($_POST['password_new_1']) || empty($_POST['password_new_2'])) {
+					die("You missed a field");
+				}
+
+				if($_POST['password_new_1'] != $_POST['password_new_2']) {
+					die("New Password Mismatch");
+				}
+
+				$salt = dechex(mt_rand(0, 2147483647)) . dechex(mt_rand(0, 2147483647));
+
+				$password = hash('sha256', $_POST['password_new_1'] . $salt);
+
+				for($round = 0; $round < 65536; $round++) {
+					$password = hash('sha256', $password . $salt);
+				}
+
+				$email = $_SESSION['user']['email'];
+				$admin = $_SESSION['user']['admin'];
+
+				$query = "
+				REPLACE INTO users (
+					email,
+					password,
+					salt,
+					admin
+				) VALUES (
+					'$email',
+					'$password',
+					'$salt',
+					'$admin'
+				);";
+
+				try {
+					$stmt = $db->prepare($query);
+					$result = $stmt->execute($query_params);
+
+					header("Location: ".$_SERVER['SCRIPT_NAME']);
+
+					die();
+				}
+				catch(PDOException $ex) {
+					die("Failed to run query: " . $ex->getMessage());
+				}
+
+			}
+
+			else {
+				echo "No password was submitted.";
+			}
+		}
+	}
+	changePassword();
 ?>
 <!DOCTYPE html>
 <html>
@@ -31,8 +141,8 @@
 							<h4 class="modal-title">Change Password</h4>
 						</div>
 						<div class="modal-body">
-							<p>	
-							<form action="functions/update_users.php" method="post">
+							<p>
+							<form action="?changePassword" method="post">
 								<h4>Old Password</h4>
 								<label for="inputPassword" class="sr-only">Old Password</label>
 								<input type="password" id="password" name="password" class="form-control" placeholder="Old Password" required="" autofocus="">
@@ -60,9 +170,9 @@
 				<div class="panel-body">
 				</div>
 				<li class="list-group-item">
-					<form class="form-signin" action="functions/account_nightmode.php" method="post">
+					<form class="form-signin" action="?accountNightmode" method="post">
 						<div class="col-md-4">
-							Set Nightmode State: 
+							Set Nightmode State:
 						</div>
 						<div class="col-md-8">
 							<select class="form-control" id="nightmode_state" name="nightmode_state" required="">

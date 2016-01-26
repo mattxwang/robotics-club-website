@@ -1,10 +1,77 @@
 <?php include_once("functions/import_info.php") ?>
 <?php
 	require("functions/common.php");
-	if(empty($_SESSION['user'])){ 
-		header("Location: login.php"); 
-		die("Redirecting to login.php"); 
+	if(empty($_SESSION['user'])){
+		header("Location: login.php");
+		die("Redirecting to login.php");
 	}
+?>
+<?php
+$timestamp = getdate();
+$date = (string) $timestamp['year'] .  "-" . (string) $timestamp['mon'] . "-" . (string) $timestamp['mday'];
+$day = (string) $timestamp['weekday'] . " " . (string) $timestamp['month'] .  " " . (string) $timestamp['mday'] . " " . (string) $timestamp['year'];
+function checkIn(){
+	if (isset($_GET['checkIn'])) {
+		require("functions/common.php");
+		require("functions/import_info.php");
+		if(empty($_POST['attendance_code'])) {
+			die("You forgot to enter a code!");
+			header("Location: ".$_SERVER['SCRIPT_NAME']);
+		}
+		$timestamp = getdate();
+		$date = (string) $timestamp['year'] .  "-" . (string) $timestamp['mon'] . "-" . (string) $timestamp['mday'];
+
+		$_POST = filter_var_array($_POST, FILTER_SANITIZE_STRING);
+
+		$email = $_SESSION['user']['email'];
+		$attendance_code = $_POST['attendance_code'];
+
+		$query = "SELECT * FROM attendance WHERE email='code@robotics.ucc.on.ca';";
+
+		try
+		{
+			$stmt = $db->prepare($query);
+			$stmt->execute();
+		}
+
+		catch(PDOException $ex)
+		{
+			die("Failed to run query: " . $ex->getMessage());
+		}
+
+		$code_info = $stmt->fetch();
+		$today_code = $code_info['date'];
+
+		if($today_code != $attendance_code) {
+			die("You entered the wrong code!");
+			header("Location: ".$_SERVER['SCRIPT_NAME']);
+		}
+
+		$query = "
+		INSERT INTO attendance (
+			email,
+			date
+		) VALUES (
+			'$email',
+			'$date'
+		);";
+
+		try {
+			$stmt = $db->prepare($query);
+			$stmt->execute();
+			$_SESSION['checkedIn'] = $date;
+			header("Location: ".$_SERVER['SCRIPT_NAME']);
+		}
+
+		catch(PDOException $ex)
+		{
+			die("Failed to run query: " . $ex->getMessage());
+			header("Location: ".$_SERVER['SCRIPT_NAME']);
+		}
+
+	}
+}
+checkIn();
 ?>
 <!DOCTYPE html>
 <html>
@@ -49,21 +116,19 @@
 				</div>
 				<div class="col-md-8">
 					<div class="well well-lg">
-						<form class="form-signin" action="functions/attendance.php" method="post">
-							<div class="row">
-								<div class="col-sm-4">
-									<h5>Attendance Code: </h5>
-								</div>
-								<div class="col-sm-8">
-									<div class="input-group">
-										<input type="text" id="attendance" name="attendance" class="form-control" placeholder="Blank Space." required="">
-										<span class="input-group-btn">
-											<button class="btn btn-default" type="submit" id="submitbutton" value="Login"><span class="glyphicon glyphicon-ok"></span></button>
-										</span>
-									</div>
-								</div>
+						<h2>Today is <b><?php echo $day; ?></b></h2>
+						<?php if(isset($_SESSION['checkedIn']) && $_SESSION['checkedIn'] == $date){ ?>
+							<h5>You've already checked in today!</h5>
+						<?php } else { ?>
+						<form class="form-signin" action="?checkIn" method="post">
+							<div class="input-group">
+								<input type="text" id="attendance_code" name="attendance_code" class="form-control" placeholder="Blank Space." required="">
+								<span class="input-group-btn">
+									<button class="btn btn-default" type="submit" id="submitbutton" value="Login">Check in <span class="glyphicon glyphicon-ok"></span></button>
+								</span>
 							</div>
 						</form>
+						<?php } ?>
 					</div>
 					<div class="well well-lg">
 						<h3>Track your attendance!</h3>
