@@ -38,7 +38,7 @@ Files have to be 256*256 px, background is transparent
 * **Pull an Alex Roberts** (Write code for the competition robot)
 
 ## Easter Eggs/Special
-* **Take the Torch** (Become a part of the Robotics Executive)
+* **Take the Torch** (Become a part of the Robotics Executive) ( A torch)
 * **Pull a Matthew Wang** (Make a Starbucks run during a meeting)
 * **Pull a Jack Sarick** (Mentor a younger member)
 * **Pull a John Mace** (Recruit another member)
