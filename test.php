@@ -150,8 +150,8 @@
 							<div role="tabpanel" class="tab-pane fade" id="search">
 
 							</div>
-						</div>
-					</div>-->
+						</div>-->
+					</div>
 				</div>
 			</div>
 		</div>
@@ -162,7 +162,7 @@
 		<script src="js/plotly.js"></script>
 		<script>
       var trace1 = {
-        x: [1, 2, 3, 4],
+        x: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
         y: [10, 15, 13, 17],
         type: 'scatter',
         name: 'User',
@@ -174,7 +174,7 @@
       };
 
       var trace2 = {
-        x: [1, 2, 3, 4],
+        x: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
         y: [16, 5, 11, 9],
         type: 'scatter',
         name: 'Club Total',
@@ -188,10 +188,16 @@
       var data = [trace1, trace2];
 
       var layout = {
-        title: 'Attendance Line Graph'
+        title: 'Attendance Line Graph',
+        xaxis: {
+          title: 'Day of the Week'
+        },
+        yaxis: {
+          title: 'Attendance Numbers'
+        }
       };
 
-      Plotly.newPlot('graph', data, layout);
+      Plotly.newPlot('graph', data, layout, {showLink: false});
     /*
 			var DailyData = {
 				labels : ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
