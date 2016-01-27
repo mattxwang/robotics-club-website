@@ -71,8 +71,11 @@
 				    <div class="item active">
 							<div class="row">
 								<div class="col-md-8">
-									<h1 class="page-header">Student Spotlight</h1>
+									<h1>Student Spotlight</h1>
 									<h3>Matthew Wang</h3>
+									<p>
+										Lorem Ipsum Kappa Ipsum Quatro Lorem Ipsum Kappa Ipsum Quatro Lorem Ipsum Kappa Ipsum Quatro Lorem Ipsum Kappa Ipsum Quatro.
+									</p>
 								</div>
 								<div class="col-md-4">
 									<div class="thumbnail">
@@ -84,8 +87,11 @@
 				    <div class="item">
 							<div class="row">
 								<div class="col-md-8">
-									<h1 class="page-header">Student Spotlight</h1>
-									<h3>Matthew Wang</h3>
+									<h1>Student Spotlight</h1>
+									<h3>Jack Sarick</h3>
+									<p>
+										Lorem Ipsum Kappa Ipsum Quatro Lorem Ipsum Kappa Ipsum Quatro Lorem Ipsum Kappa Ipsum Quatro Lorem Ipsum Kappa Ipsum Quatro.
+									</p>
 								</div>
 								<div class="col-md-4">
 									<div class="thumbnail">
@@ -97,12 +103,15 @@
 						<div class="item">
 							<div class="row">
 								<div class="col-md-8">
-									<h1 class="page-header">Student Spotlight</h1>
-									<h3>Matthew Wang</h3>
+									<h1>Student Spotlight</h1>
+									<h3>Nicholas O'Brien</h3>
+									<p>
+										Lorem Ipsum Kappa Ipsum Quatro Lorem Ipsum Kappa Ipsum Quatro Lorem Ipsum Kappa Ipsum Quatro Lorem Ipsum Kappa Ipsum Quatro.
+									</p>
 								</div>
 								<div class="col-md-4">
 									<div class="thumbnail">
-										<img src="img/placeholder.png" height="256px"></img>
+										<img src="img/members/nick_2.JPG" height="256px"></img>
 									</div>
 								</div>
 							</div>
