@@ -67,12 +67,13 @@
 			</div>
 			<div class="jumbotron">
 				<div id="student-spotlight-carousel" class="carousel slide" data-ride="carousel">
+					<h2 style="text-align:center;">Student Spotlight</h2>
 					<div class="carousel-inner" role="listbox">
 				    <div class="item active">
 							<div class="row">
 								<div class="col-md-8">
-									<h1>Student Spotlight</h1>
-									<h3>Matthew Wang</h3>
+									<h1>Matthew Wang</h1>
+									<h3>Club Head</h3>
 									<p>
 										Lorem Ipsum Kappa Ipsum Quatro Lorem Ipsum Kappa Ipsum Quatro Lorem Ipsum Kappa Ipsum Quatro Lorem Ipsum Kappa Ipsum Quatro.
 									</p>
@@ -87,8 +88,8 @@
 				    <div class="item">
 							<div class="row">
 								<div class="col-md-8">
-									<h1>Student Spotlight</h1>
-									<h3>Jack Sarick</h3>
+									<h1>Jack Sarick</h1>
+									<h3>Club Head</h3>
 									<p>
 										Lorem Ipsum Kappa Ipsum Quatro Lorem Ipsum Kappa Ipsum Quatro Lorem Ipsum Kappa Ipsum Quatro Lorem Ipsum Kappa Ipsum Quatro.
 									</p>
@@ -103,8 +104,8 @@
 						<div class="item">
 							<div class="row">
 								<div class="col-md-8">
-									<h1>Student Spotlight</h1>
-									<h3>Nicholas O'Brien</h3>
+									<h1>Nicholas O'Brien</h1>
+									<h3>Assistant Developer and Builder</h3>
 									<p>
 										Lorem Ipsum Kappa Ipsum Quatro Lorem Ipsum Kappa Ipsum Quatro Lorem Ipsum Kappa Ipsum Quatro Lorem Ipsum Kappa Ipsum Quatro.
 									</p>
