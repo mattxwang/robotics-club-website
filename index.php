@@ -73,9 +73,12 @@
 							<div class="row">
 								<div class="col-md-8">
 									<h1>Matthew Wang</h1>
-									<h3>Club Head</h3>
+									<h3>Administrative and Media Head</h3>
 									<p>
-										Lorem Ipsum Kappa Ipsum Quatro Lorem Ipsum Kappa Ipsum Quatro Lorem Ipsum Kappa Ipsum Quatro Lorem Ipsum Kappa Ipsum Quatro.
+										"I love Robotics. It's so fascinating: not the moving parts, or electronics, or computer program, even though they're awesome; but seeing the faces of the kids light up after they learn, for the first time, how electronics, or robots, or computers work. That's a job well done."
+										</br>
+										</br>
+										Matthew is a Robotics Club Head, as well as an avid debater and Model UN delegate. He is currently in Foundation Year. You can contact him by <a href="mailto:matthew.wang@ucc.on.ca">email</a> or on <a href="http://twitter.com/malsf21">twitter</a>.
 									</p>
 								</div>
 								<div class="col-md-4">
@@ -118,6 +121,7 @@
 							</div>
 				    </div>
 				  </div>
+					<!--
 					<a class="left carousel-control" href="#student-spotlight-carousel" role="button" data-slide="prev">
 				    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
 				    <span class="sr-only">Previous</span>
@@ -126,6 +130,7 @@
 				    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
 				    <span class="sr-only">Next</span>
 				  </a>
+				-->
 				</div>
 			</div>
 		</div>
