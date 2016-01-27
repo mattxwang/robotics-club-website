@@ -82,12 +82,31 @@
 							</div>
 				    </div>
 				    <div class="item">
-				      <img src="..." alt="...">
-				      <div class="carousel-caption">
-				        ...
-				      </div>
+							<div class="row">
+								<div class="col-md-8">
+									<h1 class="page-header">Student Spotlight</h1>
+									<h3>Matthew Wang</h3>
+								</div>
+								<div class="col-md-4">
+									<div class="thumbnail">
+										<img src="img/placeholder.png" height="256px"></img>
+									</div>
+								</div>
+							</div>
 				    </div>
-				    ...
+						<div class="item">
+							<div class="row">
+								<div class="col-md-8">
+									<h1 class="page-header">Student Spotlight</h1>
+									<h3>Matthew Wang</h3>
+								</div>
+								<div class="col-md-4">
+									<div class="thumbnail">
+										<img src="img/placeholder.png" height="256px"></img>
+									</div>
+								</div>
+							</div>
+				    </div>
 				  </div>
 					<a class="left carousel-control" href="#student-spotlight-carousel" role="button" data-slide="prev">
 				    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
@@ -98,6 +117,7 @@
 				    <span class="sr-only">Next</span>
 				  </a>
 				</div>
+			</div>
 		</div>
 
 		<script src="js/jquery.js"></script>
