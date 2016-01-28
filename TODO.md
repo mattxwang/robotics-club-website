@@ -20,14 +20,30 @@
 * Account system is tied in with attendance (still has codes)
 * Accounts feature points (badges for cumulative points, ribbons for streaks)
 * Accounts have an admin level, and admins can edit the attendance code
-* Messaging System (for now, just admins can send messages/notif/alert)
+* Messaging System (for now, just admins can send messages/alerts/bulletins)
 
 ## Bulletin
 * At User Homepage
 * ~~Admins can submit bulletin announcements~~
 * Users can see bulletins in the past 2 weeks
 * Bulletins are tagged by type (news, horizons, club events, admin)
-* Bulletin info stored on database
+* Bulletin info stored on database.
+* (Possible) on bulletin unread, pop a notification 
+
+## Alerts
+* Site wide
+* Admins can submit site wide alerts
+* Admins can also remove site wide alerts
+* Users can see alerts whether or not they are logged in
+* Once an alert is dismissed during a session, it doesn't pop up until the session is over
+
+## Messages
+* User Homepage
+* Admins (and eventually users) can send messages to each other
+* Senders will fill out a modal to send a message to a specific user (probably by email)
+* Recipients will get a new notification and can read the Messages
+* On message read, remove notification and mark as read.
+* Messages can also be deleted.
 
 ### Attendance
 * ~~Requires user account~~
