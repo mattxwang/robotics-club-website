@@ -125,7 +125,7 @@
 							</span>
 							<input type="text" class="form-control" placeholder="john.smith@ucc.on.ca">
 						</div>
-            <!--
+
 						<ul class="nav nav-tabs" role="tablist">
 							<li role="presentation" class="active"><a href="#daily" role="tab" data-toggle="tab">Daily</a></li>
 							<li role="presentation"><a href="#weekly" role="tab" data-toggle="tab">Weekly</a></li>
@@ -135,9 +135,9 @@
 
 						<div class="tab-content">
 							<div role="tabpanel" class="tab-pane active fade in" id="daily">
-								Here, there will be a graph of attendance of all members per day.-->
+								Here, there will be a graph of attendance of all members per day.
   							<div id="graph" style="width:600px;height:250px;"></div>
-						<!--	</div>
+							</div>
 							<div role="tabpanel" class="tab-pane fade" id="weekly">
 								Here, there will be a graph of attendance of all members per week.
 							</div>
@@ -150,7 +150,7 @@
 							<div role="tabpanel" class="tab-pane fade" id="search">
 
 							</div>
-						</div>-->
+						</div>
 					</div>
 				</div>
 			</div>
