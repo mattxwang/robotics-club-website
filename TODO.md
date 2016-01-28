@@ -11,8 +11,8 @@
 * projects_arduino: fill out content and pictures
 * projects_keyboard: fill out content and pictures
 * projects_soldering: fill out content and pictures
-* user_home: implement ~~attendance~~, "game", and messages features
-* user_admin: implement ~~attendance~~, "game", and messages features
+* user_home: implement ~~attendance~~, "game", and messages/bulletin features
+* user_admin: implement ~~attendance~~, "game", and messages/~~bulletin~~ features
 * user_account: implement more account editing features
 
 ### User Account
@@ -21,6 +21,13 @@
 * Accounts feature points (badges for cumulative points, ribbons for streaks)
 * Accounts have an admin level, and admins can edit the attendance code
 * Messaging System (for now, just admins can send messages/notif/alert)
+
+## Bulletin
+* At User Homepage
+* ~~Admins can submit bulletin announcements~~
+* Users can see bulletins in the past 2 weeks
+* Bulletins are tagged by type (news, horizons, club events, admin)
+* Bulletin info stored on database
 
 ### Attendance
 * ~~Requires user account~~
@@ -40,12 +47,14 @@
 
 ## Matthew Wang
 * Implement all the content and pages.
-* Modularize all import pages
+* ~~Modularize all import pages~~
+* ~~Bulletin submit~~
+* Bulletin display on userhome
 * Work on UI for pages
 * Create front-end for Achievemnts/Ribbons
 
 ## Jack Sarick
-* Implement messaging/notif/alert 
+* Implement messaging/alert
 * Implement database
 * Implement gamification of attendance
 * Formalize the resources items.
