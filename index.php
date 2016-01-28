@@ -83,7 +83,7 @@
 								</div>
 								<div class="col-md-4">
 									<div class="thumbnail">
-										<img src="img/placeholder.png" height="256px"></img>
+										<img src="img/members/matt_1.JPG" height="256px"></img>
 									</div>
 								</div>
 							</div>
@@ -99,7 +99,7 @@
 								</div>
 								<div class="col-md-4">
 									<div class="thumbnail">
-										<img src="img/placeholder.png" height="256px"></img>
+										<img src="img/members/sarick_1.jpg" height="256px"></img>
 									</div>
 								</div>
 							</div>
