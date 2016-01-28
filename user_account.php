@@ -169,10 +169,10 @@
 
 				<div class="panel-body">
 					<div class="row">
-						<div class="col-md-8">
-							<h3>Have an idea for a feature?</h3>
-						</div>
 						<div class="col-md-4">
+							<h4>Have an idea for a feature?</h4>
+						</div>
+						<div class="col-md-8">
 							You can submit feature requests on the <a href="https://github.com/malsf21/robotics-club-website">GitHub repository</a>. You can <a href="https://github.com/malsf21/robotics-club-website">fork our repository</a> and then <a href="https://github.com/malsf21/robotics-club-website/pulls">submit a pull request</a> and we'll take a look!
 						</div>
 					</div>
