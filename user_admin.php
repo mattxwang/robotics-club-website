@@ -86,7 +86,7 @@
 						 <ul class="list-group">
 							<li class="list-group-item list-group-item-info">Create a new message. <span class="glyphicon glyphicon-inbox"></span></li>
 							<li class="list-group-item list-group-item-warning">Create a new alert. <span class="glyphicon glyphicon-bullhorn"></span></li>
-							<li class="list-group-item list-group-item-danger">Create a new notifications. <span class="glyphicon glyphicon-bell"></span></li>
+							<li class="list-group-item list-group-item-danger">Create a new notification. <span class="glyphicon glyphicon-bell"></span></li>
 						</ul>
 					</div>
 					<div class="panel panel-info">
@@ -116,6 +116,7 @@
 							</div>
 						</form>
 					</div>
+
 					<div class="well well-lg">
 						<h3>Track member attendance.</h3>
 						<div class="input-group">
@@ -124,21 +125,17 @@
 							</span>
 							<input type="text" class="form-control" placeholder="john.smith@ucc.on.ca">
 						</div>
+
 						<ul class="nav nav-tabs" role="tablist">
-							<li role="presentation" class="active"><a href="#daily" role="tab" data-toggle="tab">Daily</a></li>
-							<li role="presentation"><a href="#weekly" role="tab" data-toggle="tab">Weekly</a></li>
+							<li role="presentation" class="active"><a href="#clubday" role="tab" data-toggle="tab">Daily Club Attendance</a></li>
+							<li role="presentation"><a href="#clubmonth" role="tab" data-toggle="tab">Monthly Club Attendance</a></li>
 							<li role="presentation"><a href="#monthly" role="tab" data-toggle="tab">Monthly</a></li>
 							<li role="presentation"><a href="#spreadsheet" role="tab" data-toggle="tab">Spreadsheet</a></li>
 						</ul>
 
 						<div class="tab-content">
-							<div role="tabpanel" class="tab-pane active fade in" id="daily">
-								Here, there will be a graph of attendance of all members per day.
-								<div style="width:100%">
-									<div>
-										<canvas id="daily" height="450" width="600"></canvas>
-									</div>
-								</div>
+							<div role="tabpanel" class="tab-pane active fade in" id="clubday">
+  							<div id="graph_clubday" style="width:600px;height:250px;"></div>
 							</div>
 							<div role="tabpanel" class="tab-pane fade" id="weekly">
 								Here, there will be a graph of attendance of all members per week.
@@ -161,40 +158,70 @@
 		<script src="js/jquery.easing.min.js"></script>
 		<script src="js/bootstrap.js"></script>
 		<script src="js/nav-collapse.js"></script>
-		<script src="js/chart.js"></script>
+		<script src="js/plotly.js"></script>
 		<script>
-			var DailyData = {
-				labels : ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
-				datasets : [
-					{
-						label: "This Week",
-						fillColor : "rgba(220,220,220,0.2)",
-						strokeColor : "rgba(220,220,220,1)",
-						pointColor : "rgba(220,220,220,1)",
-						pointStrokeColor : "#fff",
-						pointHighlightFill : "#fff",
-						pointHighlightStroke : "rgba(220,220,220,1)",
-						data : [1,1,0,1,0]
-					},
-					{
-						label: "Weekly Average",
-						fillColor : "rgba(151,187,205,0.2)",
-						strokeColor : "rgba(151,187,205,1)",
-						pointColor : "rgba(151,187,205,1)",
-						pointStrokeColor : "#fff",
-						pointHighlightFill : "#fff",
-						pointHighlightStroke : "rgba(151,187,205,1)",
-						data : [0.2,0.6,0.1,1,0.3]
-					}
-				]
+      var trace1_clubday = {
+        x: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+        y: [5, 6, 7, 1, 5],
+        type: 'scatter',
+        name: 'This Week',
+        line: {
+          color: 'rgb(220, 220, 220)',
+          width: 3,
+          shape: 'spline'
+        }
+      };
 
-			}
-			window.onload = function(){
-				var ctx = $("#daily").get(0).getContext("2d");
-				window.myLine = new Chart(ctx).Line(DailyData, {
-					responsive: true
-				});
-			}
+      var trace2_clubday = {
+        x: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+        y: [16, 5, 11, 9, 23],
+        type: 'scatter',
+        name: 'Monthly Average',
+        line: {
+          color: 'rgb(151, 187, 205)',
+          width: 3,
+          shape: 'spline'
+        }
+      };
+
+      var trace3_clubday = {
+        x: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+        y: [6,23,18,4,10],
+        type: 'scatter',
+        name: 'Yearly Average',
+        line: {
+          color: 'rgb(33, 33, 33)',
+          width: 3,
+          shape: 'spline'
+        }
+      };
+
+      var data_clubday = [trace1_clubday, trace2_clubday, trace3_clubday];
+
+      var layout_clubday = {
+        title: 'Club Attendance Per Day',
+        xaxis: {
+          title: 'Day of the Week'
+        },
+        yaxis: {
+          title: 'Member Attendance'
+        },
+        font: {
+          family: '"Lato","Open Sans", verdana, arial, sans-serif'
+        },
+        paper_bgcolor: 'rgba(0,0,0,0)',
+        plot_bgcolor: 'rgba(0,0,0,0)'
+      };
+
+      var tweaks = {
+        /*
+        showLink: false,
+        displaylogo: false
+        */
+        displayModeBar: false
+      }
+
+      Plotly.newPlot('graph_clubday', data_clubday, layout_clubday, tweaks);
 		</script>
 	</body>
 </html>
