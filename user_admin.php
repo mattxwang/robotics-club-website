@@ -81,17 +81,17 @@
 				<div class="col-md-4">
 					<div class="panel panel-primary">
 						<div class="panel-heading">
-							<h3>Messages, Alerts, and Notifications <span class="glyphicon glyphicon-envelope"></span></h3>
+							<h4><span class="glyphicon glyphicon-envelope"></span> Messages, Alerts, and Notifications</h4>
 						</div>
 						 <ul class="list-group">
-							<li class="list-group-item list-group-item-info">Create a new message. <span class="glyphicon glyphicon-inbox"></span></li>
-							<li class="list-group-item list-group-item-warning">Create a new alert. <span class="glyphicon glyphicon-bullhorn"></span></li>
-							<li class="list-group-item list-group-item-danger">Create a new notification. <span class="glyphicon glyphicon-bell"></span></li>
+							<li class="list-group-item list-group-item-info"><span class="glyphicon glyphicon-inbox"></span> Create a new message.</li>
+							<li class="list-group-item list-group-item-warning"><span class="glyphicon glyphicon-bullhorn"></span> Create a new alert.</li>
+							<li class="list-group-item list-group-item-danger"><span class="glyphicon glyphicon-bell"></span> Create a new notification.</li>
 						</ul>
 					</div>
 					<div class="panel panel-info">
 						<div class="panel-heading">
-							<h3>Achievements <span class="glyphicon glyphicon-certificate"></span></h3>
+							<h4><span class="glyphicon glyphicon-certificate"></span> Achievement Control</h4>
 						</div>
 						<div class="panel-body">
 							Sample text sample text sample text.
