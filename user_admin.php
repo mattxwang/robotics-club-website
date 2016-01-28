@@ -178,9 +178,9 @@
 							<h4><span class="glyphicon glyphicon-envelope"></span> Messages, Alerts, and Notifications</h4>
 						</div>
 						 <ul class="list-group">
-							<li class="list-group-item list-group-item-info"><span class="glyphicon glyphicon-inbox"></span> Create a new message.</li>
-							<li class="list-group-item list-group-item-warning"><button class="btn btn-warning" type="button" data-toggle="modal" data-target="#newBulletin"><span class="glyphicon glyphicon-bullhorn"></span> Create a new bulletin annoucement.</button></li>
-							<li class="list-group-item list-group-item-danger"><span class="glyphicon glyphicon-bell"></span> Create a new site alert.</li>
+							<li class="list-group-item list-group-item-info"><button class="btn btn-info" type="button" data-toggle="modal" data-target="#newAnnouncement"><span class="glyphicon glyphicon-inbox"></span> Create a new message.</button></li>
+							<li class="list-group-item list-group-item-warning"><button class="btn btn-warning" type="button" data-toggle="modal" data-target="#newAnnouncement"><span class="glyphicon glyphicon-bullhorn"></span> Create a new bulletin annoucement.</button></li>
+							<li class="list-group-item list-group-item-danger"><button class="btn btn-danger" type="button" data-toggle="modal" data-target="#newAnnouncement"><span class="glyphicon glyphicon-bell"></span> Create a new site alert.</button></li>
 						</ul>
 					</div>
 					<div class="panel panel-info">
