@@ -140,27 +140,27 @@ checkIn();
 						<h2><span class="glyphicon glyphicon-bullhorn"></span> Bulletin Board</h2>
 						<div class="bulletin">
 							<div class="panel panel-info">
-									<div class="panel-heading">
-										<h3>HCCS Competiton Summary <span class="label label-default">News</span></h3>
-									</div>
-									<div class="panel-body">
-										We went to Holy Cross with high hopes, testing out a brand new and innovative ramp-bot design. Unfortunately, due to some faulty gear (mainly our cortex), our robot only started up three out of six matches; and we only winded up winning three out of six round robin matches. Only being a few spots away from qualifying, we took what we learned (bring a spare cortex!), and hopefully we'll take home some hardware at Rick Hansen!
-									</div>
-								<div class="panel panel-info">
-									<div class="panel-heading">
-										<h3>Horizons Robotics <span class="label label-warning">Horizons</span></h3>
-									</div>
-									<div class="panel-body">
-										Just a reminder that Horizons is on Thursdays afterschool, and replaces normal club. Horizons is in room CC3 and 304. We start promptly at 3:30 PM.
-									</div>
+								<div class="panel-heading">
+									<h3>HCCS Competiton Summary <span class="label label-default">News</span></h3>
 								</div>
-								<div class="panel panel-info">
-									<div class="panel-heading">
-										<h3>Hackathon <span class="label label-primary">Club Events</span></h3>
-									</div>
-									<div class="panel-body">
-										UofT is hosting a hackathon! Learn more <a href="https://www.uofthacks.com/">here</a>.
-									</div>
+								<div class="panel-body">
+									We went to Holy Cross with high hopes, testing out a brand new and innovative ramp-bot design. Unfortunately, due to some faulty gear (mainly our cortex), our robot only started up three out of six matches; and we only winded up winning three out of six round robin matches. Only being a few spots away from qualifying, we took what we learned (bring a spare cortex!), and hopefully we'll take home some hardware at Rick Hansen!
+								</div>
+							</div>
+							<div class="panel panel-info">
+								<div class="panel-heading">
+									<h3>Horizons Robotics <span class="label label-warning">Horizons</span></h3>
+								</div>
+								<div class="panel-body">
+									Just a reminder that Horizons is on Thursdays afterschool, and replaces normal club. Horizons is in room CC3 and 304. We start promptly at 3:30 PM.
+								</div>
+							</div>
+							<div class="panel panel-info">
+								<div class="panel-heading">
+									<h3>Hackathon <span class="label label-primary">Club Events</span></h3>
+								</div>
+								<div class="panel-body">
+									UofT is hosting a hackathon! Learn more <a href="https://www.uofthacks.com/">here</a>.
 								</div>
 							</div>
 						</div>
