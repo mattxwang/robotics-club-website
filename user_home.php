@@ -168,15 +168,62 @@ checkIn();
 					<div class="well well-lg">
 						<h3>Track your attendance!</h3>
 						<ul class="nav nav-tabs" role="tablist">
-							<li role="presentation" class="active"><a href="#daily" role="tab" data-toggle="tab">Daily</a></li>
-							<li role="presentation"><a href="#monthly" role="tab" data-toggle="tab">Monthly</a></li>
+							<li role="presentation" class="active"><a href="#daily" role="tab" data-toggle="tab">Daily Average</a></li>
+							<li role="presentation"><a href="#monthly" role="tab" data-toggle="tab">Monthly Average</a></li>
 							<li role="presentation"><a href="#weekly" role="tab" data-toggle="tab">Stats</a></li>
 						</ul>
 
 						<div class="tab-content">
-							<div role="tabpanel" class="tab-pane active fade in" id="daily">...</div>
-							<div role="tabpanel" class="tab-pane fade" id="monthly">...</div>
-							<div role="tabpanel" class="tab-pane fade" id="stats">...</div>
+							<div role="tabpanel" class="tab-pane active fade in" id="daily">
+								<div id="graph_memberday" style="width:600px;height:250px;"></div>
+							</div>
+							<div role="tabpanel" class="tab-pane fade" id="monthly">
+								<div id="graph_membermonth" style="width:600px;height:250px;"></div>
+							</div>
+							<div role="tabpanel" class="tab-pane fade" id="stats">
+								<table class="table table-condensed">
+									<tr>
+										<td>Times attended in the past week</td>
+										<td>3</td>
+									</tr>
+									<tr>
+										<td>Times attended in the past month</td>
+										<td>13</td>
+									</tr>
+									<tr>
+										<td>Times attended in the past year</td>
+										<td>42</td>
+									</tr>
+									<tr>
+										<td></td>
+										<td></td>
+									</tr>
+									<tr>
+										<td>Average attended in the past week</td>
+										<td>3</td>
+									</tr>
+									<tr>
+										<td>Average attended in the past month</td>
+										<td>18</td>
+									</tr>
+									<tr>
+										<td>Average attended in the past year</td>
+										<td>83</td>
+									</tr>
+									<tr>
+										<td></td>
+										<td></td>
+									</tr>
+									<tr>
+										<td>Current attendance streak</td>
+										<td>2</td>
+									</tr>
+									<tr>
+										<td>Longest attendance streak</td>
+										<td>4</td>
+									</tr>
+								</table>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -186,5 +233,103 @@ checkIn();
 		<script src="js/jquery.easing.min.js"></script>
 		<script src="js/bootstrap.js"></script>
 		<script src="js/nav-collapse.js"></script>
+		<script src="js/plotly.js"></script>
+		<script>
+			//club day info
+      var trace1_memberday = {
+        x: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+        y: [5, 6, 7, 1, 5],
+        type: 'scatter',
+        name: 'This Week',
+        line: {
+          color: 'rgb(220, 220, 220)',
+          width: 3,
+          shape: 'spline'
+        }
+      };
+
+      var trace2_memberday = {
+        x: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+        y: [16, 5, 11, 9, 23],
+        type: 'scatter',
+        name: 'Monthly Average',
+        line: {
+          color: 'rgb(151, 187, 205)',
+          width: 3,
+          shape: 'spline'
+        }
+      };
+
+      var trace3_memberday = {
+        x: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+        y: [6,23,18,4,10],
+        type: 'scatter',
+        name: 'Yearly Average',
+        line: {
+          color: 'rgb(33, 33, 33)',
+          width: 3,
+          shape: 'spline'
+        }
+      };
+
+      var data_memberday = [trace1_memberday, trace2_memberday, trace3_memberday];
+
+      var layout_memberday = {
+        title: 'Club Attendance Per Day',
+        xaxis: {
+          title: 'Day of the Week'
+        },
+        yaxis: {
+          title: 'Member Attendance'
+        },
+        font: {
+          family: '"Lato","Open Sans", verdana, arial, sans-serif'
+        },
+        paper_bgcolor: 'rgba(0,0,0,0)',
+        plot_bgcolor: 'rgba(0,0,0,0)'
+      };
+
+			//club month info
+			var trace1_membermonth = {
+				x: ["September", "October", "November", "December", "January", "February", "March", "April", "May", "June"],
+				y: [35,56,49,23,58,63,14,33,32,29],
+				type: 'scatter',
+				name: 'This Week',
+				line: {
+					color: 'rgb(220, 220, 220)',
+					width: 3,
+					shape: 'spline'
+				}
+			};
+
+			var data_membermonth = [trace1_membermonth];
+
+			var layout_membermonth = {
+				title: 'Club Attendance Per Month',
+				xaxis: {
+					title: 'Month'
+				},
+				yaxis: {
+					title: 'Member Attendance'
+				},
+				font: {
+					family: '"Lato","Open Sans", verdana, arial, sans-serif'
+				},
+				paper_bgcolor: 'rgba(0,0,0,0)',
+				plot_bgcolor: 'rgba(0,0,0,0)'
+			};
+
+			//global info
+      var tweaks = {
+        /*
+        showLink: false,
+        displaylogo: false
+        */
+        displayModeBar: false
+      }
+
+      Plotly.newPlot('graph_memberday', data_memberday, layout_memberday, tweaks);
+			Plotly.newPlot('graph_membermonth', data_membermonth, layout_membermonth, tweaks);
+		</script>
 	</body>
 </html>
