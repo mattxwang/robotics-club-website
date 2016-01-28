@@ -169,26 +169,11 @@
 
 				<div class="panel-body">
 					<div class="row">
-						<div class="col-md-4">
-							Set Nightmode State:
-							</br>
-							</br>
-						</div>
 						<div class="col-md-8">
-							<form class="form-signin" action="?accountNightmode" method="post">
-								<div class="input-group">
-									<select class="form-control" id="nightmode_state" name="nightmode_state" required="">
-										<option value="0">Choose an Option.</option>
-										<option value="1">Always Light Mode</option>
-										<option value="2">Always Dark Mode</option>
-										<option value="3">Per Session (Defaults to light mode)</option>
-										<option value="4">Per Session (Defaults to dark mode)</option>
-									</select>
-									<span class="input-group-btn">
-										<button type="submit" class="btn btn-success" id="submitbutton" value="Login" >Save Changes</button>
-									</span>
-								</div>
-							</form>
+							<h3>Have an idea for a feature?</h3>
+						</div>
+						<div class="col-md-4">
+							You can submit feature requests on the <a href="https://github.com/malsf21/robotics-club-website">GitHub repository</a>. You can <a href="https://github.com/malsf21/robotics-club-website">fork our repository</a> and then <a href="https://github.com/malsf21/robotics-club-website/pulls">submit a pull request</a> and we'll take a look!
 						</div>
 					</div>
 				</div>
