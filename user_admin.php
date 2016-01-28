@@ -127,10 +127,11 @@
 						</div>
 
 						<ul class="nav nav-tabs" role="tablist">
-							<li role="presentation" class="active"><a href="#clubday" role="tab" data-toggle="tab">Daily Club Attendance</a></li>
-							<li role="presentation"><a href="#clubmonth" role="tab" data-toggle="tab">Monthly Club Attendance</a></li>
-							<li role="presentation"><a href="#monthly" role="tab" data-toggle="tab">Monthly</a></li>
-							<li role="presentation"><a href="#spreadsheet" role="tab" data-toggle="tab">Spreadsheet</a></li>
+							<li role="presentation" class="active"><a href="#clubday" role="tab" data-toggle="tab">Daily Attendance</a></li>
+							<li role="presentation"><a href="#clubmonth" role="tab" data-toggle="tab">Monthly Attendance</a></li>
+							<li role="presentation"><a href="#clubstats" role="tab" data-toggle="tab">Statistics</a></li>
+							<li role="presentation"><a href="#clubtable" role="tab" data-toggle="tab">Attendance Table</a></li>
+							<li role="presentation"><a href="#search" role="tab" data-toggle="tab">Individual Attendance</a></li>
 						</ul>
 
 						<div class="tab-content">
@@ -140,14 +141,35 @@
 							<div role="tabpanel" class="tab-pane fade" id="clubmonth">
 								<div id="graph_clubmonth" style="width:600px;height:250px;"></div>
 							</div>
-							<div role="tabpanel" class="tab-pane fade" id="monthly">
-								Here, there will be a graph of attendance of all members per month.
+							<div role="tabpanel" class="tab-pane fade" id="clubstats">
+								<table class="table table-condensed">
+									<tr>
+										<td>Members Logged Today</td>
+										<td>3</td>
+									</tr>
+									<tr>
+										<td>Members Logged This Week</td>
+										<td>13</td>
+									</tr>
+									<tr>
+										<td>Members Logged This Month</td>
+										<td>42</td>
+									</tr>
+									<tr>
+										<td>Members Logged This Year</td>
+										<td>255</td>
+									</tr>
+									<tr>
+										<td>Total Members Logged</td>
+										<td>747</td>
+									</tr>
+								</table>
 							</div>
-							<div role="tabpanel" class="tab-pane fade" id="spreadsheet">
+							<div role="tabpanel" class="tab-pane fade" id="clubtable">
 								Here, there will be a table with every single attendance record.
 							</div>
 							<div role="tabpanel" class="tab-pane fade" id="search">
-
+								Here, there will be a search bar + a table (or graph) of the attendance record of said student.
 							</div>
 						</div>
 					</div>
