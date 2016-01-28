@@ -132,7 +132,7 @@ checkIn();
 					</div>
 					<div class="well well-lg">
 						<h2><span class="glyphicon glyphicon-bullhorn"></span> Bulletin Board</h2>
-						<div class="panel panel-primary">
+						<div class="panel panel-info">
 								<div class="panel-heading">
 									<h3>HCCS Competiton Summary <span class="label label-primary">News</span></h3>
 								</div>
