@@ -137,8 +137,8 @@
 							<div role="tabpanel" class="tab-pane active fade in" id="clubday">
   							<div id="graph_clubday" style="width:600px;height:250px;"></div>
 							</div>
-							<div role="tabpanel" class="tab-pane fade" id="weekly">
-								Here, there will be a graph of attendance of all members per week.
+							<div role="tabpanel" class="tab-pane fade" id="clubmonth">
+								<div id="graph_clubmonth" style="width:600px;height:250px;"></div>
 							</div>
 							<div role="tabpanel" class="tab-pane fade" id="monthly">
 								Here, there will be a graph of attendance of all members per month.
@@ -160,6 +160,7 @@
 		<script src="js/nav-collapse.js"></script>
 		<script src="js/plotly.js"></script>
 		<script>
+			//club day info
       var trace1_clubday = {
         x: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
         y: [5, 6, 7, 1, 5],
@@ -213,6 +214,37 @@
         plot_bgcolor: 'rgba(0,0,0,0)'
       };
 
+			//club month info
+			var trace1_clubmonth = {
+				x: ["September", "October", "November", "December", "January", "February", "March", "April", "May", "June"],
+				y: [35,56,49,23,58,63,14,33,32,29],
+				type: 'scatter',
+				name: 'This Week',
+				line: {
+					color: 'rgb(220, 220, 220)',
+					width: 3,
+					shape: 'spline'
+				}
+			};
+
+			var data_clubmonth = [trace1_clubmonth];
+
+			var layout_clubmonth = {
+				title: 'Club Attendance Per Month',
+				xaxis: {
+					title: 'Month'
+				},
+				yaxis: {
+					title: 'Member Attendance'
+				},
+				font: {
+					family: '"Lato","Open Sans", verdana, arial, sans-serif'
+				},
+				paper_bgcolor: 'rgba(0,0,0,0)',
+				plot_bgcolor: 'rgba(0,0,0,0)'
+			};
+
+			//global info
       var tweaks = {
         /*
         showLink: false,
@@ -222,6 +254,7 @@
       }
 
       Plotly.newPlot('graph_clubday', data_clubday, layout_clubday, tweaks);
+			Plotly.newPlot('graph_clubmonth', data_clubmonth, layout_clubmonth, tweaks);
 		</script>
 	</body>
 </html>
