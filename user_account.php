@@ -174,6 +174,8 @@
 				<li class="list-group-item">
 					<div class="col-md-4">
 						Set Nightmode State:
+						</br>
+						</br>
 					</div>
 					<div class="col-md-8">
 						<form class="form-signin" action="?accountNightmode" method="post">
