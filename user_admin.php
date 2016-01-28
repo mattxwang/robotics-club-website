@@ -179,7 +179,7 @@
 						</div>
 						 <ul class="list-group">
 							<li class="list-group-item list-group-item-info"><span class="glyphicon glyphicon-inbox"></span> Create a new message.</li>
-							<li class="list-group-item list-group-item-warning"><span class="glyphicon glyphicon-bullhorn"></span> Create a new bulletin annoucement.</li>
+							<li class="list-group-item list-group-item-warning"><a data-toggle="modal" data-target="#changePassword"><span class="glyphicon glyphicon-bullhorn"></span> Create a new bulletin annoucement.</a></li>
 							<li class="list-group-item list-group-item-danger"><span class="glyphicon glyphicon-bell"></span> Create a new site alert.</li>
 						</ul>
 					</div>
