@@ -168,13 +168,15 @@
 				</div>
 
 				<div class="panel-body">
+
 				</div>
+
 				<li class="list-group-item">
-					<form class="form-signin" action="?accountNightmode" method="post">
-						<div class="col-md-4">
-							Set Nightmode State:
-						</div>
-						<div class="col-md-8">
+					<div class="col-md-4">
+						Set Nightmode State:
+					</div>
+					<div class="col-md-8">
+						<form class="form-signin" action="?accountNightmode" method="post">
 							<div class="input-group">
 								<select class="form-control" id="nightmode_state" name="nightmode_state" required="">
 									<option value="0">Choose an Option.</option>
@@ -187,8 +189,8 @@
 									<button type="submit" class="btn btn-success" id="submitbutton" value="Login" >Save Changes</button>
 								</span>
 							</div>
-						</div>
-					</form>
+						</form>
+					</div>
 				</li>
 			</div>
 			<div class="panel panel-danger">
