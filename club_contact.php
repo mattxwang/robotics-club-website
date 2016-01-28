@@ -8,7 +8,7 @@
 		<title>Contact Us | UCC Robotics</title>
 		<link rel="icon" href="css/favicon.ico" />
 		<?php include_once("functions/stylesheet.php") ?>
-		
+
 	</head>
 
 	<body>
@@ -19,7 +19,7 @@
 			<div class="jumbotron">
 				<h1 class="page-header"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> Give us a shout!</h1>
 				<h3>We're normally available throughout the day.</h3>
-			</div>	
+			</div>
 				<div class="well well-lg">
 					<h2>Executives</h2>
 					<div class="table-responsive">
@@ -34,13 +34,13 @@
 							<tbody>
 								<tr>
 									<td><a href="http://twitter.com/malsf21">Matthew Wang</a></td>
-									<td>Club Head, Head of Operations and Public Relations</td>
+									<td>Club Head, Head of Operations and Media</td>
 									<td><a href="mailto:matthew.wang@ucc.on.ca">matthew.wang@ucc.on.ca</a></td>
 								</tr>
-								<tr> 
+								<tr>
 									<td><a href="http://jack.antinode.ca">Jack Sarick</a></td>
-									<td>Club Head, Head of Mechanics and Competitions </td>
-									<td><a href="mailto:jack.sarick@ucc.on.ca">jack.sarick@ucc.on.ca</a></td>	
+									<td>Club Head, Head of Mechanics and Competitions</td>
+									<td><a href="mailto:jack.sarick@ucc.on.ca">jack.sarick@ucc.on.ca</a></td>
 								</tr>
 								<tr>
 									<td>Alex Roberts</td>
@@ -76,10 +76,10 @@
 									<td>Lead Web Designer</td>
 									<td><a href="mailto:matthew.wang@ucc.on.ca">matthew.wang@ucc.on.ca</a></td>
 								</tr>
-								<tr> 
+								<tr>
 									<td><a href="http://jack.antinode.ca">Jack Sarick</a></td>
 									<td>Lead Web Developer</td>
-									<td><a href="mailto:jack.sarick@ucc.on.ca">jack.sarick@ucc.on.ca</a></td>	
+									<td><a href="mailto:jack.sarick@ucc.on.ca">jack.sarick@ucc.on.ca</a></td>
 								</tr>
 								<tr>
 									<td>Nicholas O'Brien</td>
@@ -107,7 +107,7 @@
 						</table>
 					</div>
 				</div>
-				
+
 		</div>
 
 		<script src="js/jquery.js"></script>

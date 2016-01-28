@@ -53,7 +53,7 @@
 				<div class="col-md-4">
 					<div class="panel panel-success">
 						<div class="panel-heading">
-							<h3><span class="glyphicon glyphicon-user" aria-hidden="true"></span> About Our Projects</h3>
+							<h3><span class="glyphicon glyphicon-wrench" aria-hidden="true"></span> About Our Projects</h3>
 						</div>
 						<div class="panel-body">
 							<blockquote><h3>I do not fear computers. I fear the lack of them.</h3></blockquote>
@@ -73,7 +73,7 @@
 							<div class="row">
 								<div class="col-md-8">
 									<h1>Matthew Wang</h1>
-									<h3>Administrative and Media Head</h3>
+									<h3>Operations and Media Head</h3>
 									<p>
 										"I love Robotics. It's so fascinating: not the moving parts, or electronics, or computer program, even though they're awesome; but seeing the faces of the kids light up after they learn, for the first time, how electronics, or robots, or computers work. That's a job well done."
 										</br>
@@ -92,9 +92,12 @@
 							<div class="row">
 								<div class="col-md-8">
 									<h1>Jack Sarick</h1>
-									<h3>Club Head</h3>
+									<h3>Mechanics and Competition Head</h3>
 									<p>
-										Lorem Ipsum Kappa Ipsum Quatro Lorem Ipsum Kappa Ipsum Quatro Lorem Ipsum Kappa Ipsum Quatro Lorem Ipsum Kappa Ipsum Quatro.
+										Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut molestie molestie purus non convallis. Pellentesque erat augue, dignissim non leo eu, mollis vulputate nibh. Nullam varius maximus libero, ac consequat ante sollicitudin sit amet. Mauris at tincidunt eros. Ut fermentum metus vel leo laoreet aliquam. Aliquam fermentum lacinia metus. Aliquam nec tellus nulla.
+										</br>
+										</br>
+										Jack is a Robotics Club Head, as well as a Computer Science club head and a hobbyist web developer/programmer. Jack is an IB1 boarder at UCC. You can contact him by <a href="mailto:jack.sarick@ucc.on.ca">email</a> or on <a href="http://jack.antinode.ca">his website</a>.
 									</p>
 								</div>
 								<div class="col-md-4">
@@ -110,7 +113,10 @@
 									<h1>Nicholas O'Brien</h1>
 									<h3>Assistant Developer and Builder</h3>
 									<p>
-										Lorem Ipsum Kappa Ipsum Quatro Lorem Ipsum Kappa Ipsum Quatro Lorem Ipsum Kappa Ipsum Quatro Lorem Ipsum Kappa Ipsum Quatro.
+										Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut molestie molestie purus non convallis. Pellentesque erat augue, dignissim non leo eu, mollis vulputate nibh. Nullam varius maximus libero, ac consequat ante sollicitudin sit amet. Mauris at tincidunt eros. Ut fermentum metus vel leo laoreet aliquam. Aliquam fermentum lacinia metus. Aliquam nec tellus nulla.
+										</br>
+										</br>
+										Nick is a Robotics Club Assistant Developer, Builder, and Programmer, as well as a competitive rower and sailor. Nick is currently in Year 2. You can contact him by <a href="nicholas.obrien@ucc.on.ca">email</a>.
 									</p>
 								</div>
 								<div class="col-md-4">
