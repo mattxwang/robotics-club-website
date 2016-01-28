@@ -127,11 +127,11 @@
 						</div>
 
 						<ul class="nav nav-tabs" role="tablist">
-							<li role="presentation" class="active"><a href="#clubday" role="tab" data-toggle="tab">Daily Attendance</a></li>
-							<li role="presentation"><a href="#clubmonth" role="tab" data-toggle="tab">Monthly Attendance</a></li>
+							<li role="presentation" class="active"><a href="#clubday" role="tab" data-toggle="tab">Daily </a></li>
+							<li role="presentation"><a href="#clubmonth" role="tab" data-toggle="tab">Monthly</a></li>
 							<li role="presentation"><a href="#clubstats" role="tab" data-toggle="tab">Statistics</a></li>
+							<li role="presentation"><a href="#search" role="tab" data-toggle="tab">Individual</a></li>
 							<li role="presentation"><a href="#clubtable" role="tab" data-toggle="tab">Attendance Table</a></li>
-							<li role="presentation"><a href="#search" role="tab" data-toggle="tab">Individual Attendance</a></li>
 						</ul>
 
 						<div class="tab-content">
@@ -165,11 +165,11 @@
 									</tr>
 								</table>
 							</div>
-							<div role="tabpanel" class="tab-pane fade" id="clubtable">
-								Here, there will be a table with every single attendance record.
-							</div>
 							<div role="tabpanel" class="tab-pane fade" id="search">
 								Here, there will be a search bar + a table (or graph) of the attendance record of said student.
+							</div>
+							<div role="tabpanel" class="tab-pane fade" id="clubtable">
+								Here, there will be a table with every single attendance record.
 							</div>
 						</div>
 					</div>
