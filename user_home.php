@@ -131,17 +131,28 @@ checkIn();
 						<?php } ?>
 					</div>
 					<div class="well well-lg">
+						<h2><span class="glyphicon glyphicon-bullhorn"></span> Bulletin Board</h2>
+						<div class="panel panel-primary">
+								<div class="panel-heading">
+									<h3>HCCS Competiton Summary <span class="label label-primary">News</span></h3>
+								</div>
+								<div class="panel-body">
+									We went to Holy Cross with high hopes, testing out a brand new and innovative ramp-bot design. Unfortunately, due to some faulty gear (mainly our cortex), our robot only started up three out of six matches; and we only winded up winning three out of six round robin matches. Only being a few spots away from qualifying, we took what we learned (bring a spare cortex!), and hopefully we'll take home some hardware at Rick Hansen!
+								</div>
+						</div>
+					</div>
+					<div class="well well-lg">
 						<h3>Track your attendance!</h3>
 						<ul class="nav nav-tabs" role="tablist">
 							<li role="presentation" class="active"><a href="#daily" role="tab" data-toggle="tab">Daily</a></li>
-							<li role="presentation"><a href="#weekly" role="tab" data-toggle="tab">Weekly</a></li>
 							<li role="presentation"><a href="#monthly" role="tab" data-toggle="tab">Monthly</a></li>
+							<li role="presentation"><a href="#weekly" role="tab" data-toggle="tab">Stats</a></li>
 						</ul>
 
 						<div class="tab-content">
 							<div role="tabpanel" class="tab-pane active fade in" id="daily">...</div>
-							<div role="tabpanel" class="tab-pane fade" id="weekly">...</div>
 							<div role="tabpanel" class="tab-pane fade" id="monthly">...</div>
+							<div role="tabpanel" class="tab-pane fade" id="stats">...</div>
 						</div>
 					</div>
 				</div>
