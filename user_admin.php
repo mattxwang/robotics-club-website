@@ -150,17 +150,15 @@
 									<div class="col-md-4">
 										<h4>Announcement Tag</h4>
 										<select class="form-control" id="tag" name="tag" required="">
-											<option value="default"><span style="text-default">News</span></option>
-											<option value="primary"><span style="text-primary">Club Events</span></option>
-											<option value="warning"><span style="text-warning">Horizons</span></option>
-											<option value="danger"><span style="text-danger">Administrative</span></option>
+											<option value="default">News</option>
+											<option value="primary">Club Events</option>
+											<option value="warning">Horizons</option>
+											<option value="danger">Administrative</option>
 										</select>
 									</div>
 								</div>
 								<h4>Announcement Content</h4>
-								<textarea class="form-control" rows="4" id="content" name="content" required="">
-									Hey guys, we have an announcement for you...
-								</textarea>
+								<textarea class="form-control" rows="4" id="content" name="content" required="">Hey guys, we have an announcement for you...</textarea>
 						</div>
 						<div class="modal-footer">
 								<button type="button" class="btn btn-danger" data-dismiss="modal">Cancel</button>
