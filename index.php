@@ -18,7 +18,7 @@
 			<?php include_once("site_wide.php") ?>
 			<div class="jumbotron">
 				<h1>Welcome to UCC Robotics.</h1>
-				<h6>Beep Boop.</h6>
+				<h3>We hope you enjoy your stay.</h3>
 			</div>
 
 			<div class="row">
