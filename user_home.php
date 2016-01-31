@@ -143,7 +143,7 @@ checkIn();
 					</div>
 					<div class="well well-lg">
 						<h2><span class="glyphicon glyphicon-bullhorn"></span> Bulletin Board</h2>
-						<?php echo $row_bulletin; ?>
+						<?php echo $row_bulletin['content']; ?>
 						<div class="bulletin">
 							<div class="panel panel-info">
 								<div class="panel-heading">

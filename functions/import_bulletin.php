@@ -1,6 +1,7 @@
 <?php
 	require("common.php");
-	$query = "SELECT * FROM bulletin;";
+  $unixtime = time();
+	$query = "SELECT * FROM bulletin WHERE expire>='$unixtime';";
 
 	try
 	{
