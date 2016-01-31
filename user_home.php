@@ -1,4 +1,5 @@
 <?php include_once("functions/import_info.php") ?>
+<?php include_once("functions/import_bulletin.php") ?>
 <?php
 	require("functions/common.php");
 	if(empty($_SESSION['user'])){
@@ -89,7 +90,7 @@ checkIn();
 			}
 			.author{
 				font-style: italic;
-				
+
 			}
 		</style>
 	</head>
@@ -142,6 +143,7 @@ checkIn();
 					</div>
 					<div class="well well-lg">
 						<h2><span class="glyphicon glyphicon-bullhorn"></span> Bulletin Board</h2>
+						<?php echo $row_bulletin; ?>
 						<div class="bulletin">
 							<div class="panel panel-info">
 								<div class="panel-heading">
