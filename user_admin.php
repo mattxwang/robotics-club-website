@@ -75,7 +75,7 @@
 			$title = $_POST['title'];
 			$tag = $_POST['tag'];
 			$content = $_POST['content'];
-			$expire = $timestamp; //+ 2weeks of Unix time converted to YYYY MM DD
+			$expire = $timestamp[0]+604800; //+ 2weeks of Unix time converted to YYYY MM DD
 
 			$query = "
 		 	INSERT INTO bulletin (
