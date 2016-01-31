@@ -8,9 +8,11 @@
 	}
 ?>
 <?php
+// string declarations
 $timestamp = getdate();
 $date = (string) $timestamp['year'] .  "-" . (string) $timestamp['mon'] . "-" . (string) $timestamp['mday'];
 $day = (string) $timestamp['weekday'] . " " . (string) $timestamp['month'] .  " " . (string) $timestamp['mday'] . " " . (string) $timestamp['year'];
+//attendance check in
 function checkIn(){
 	if (isset($_GET['checkIn'])) {
 		require("functions/common.php");
@@ -19,6 +21,7 @@ function checkIn(){
 			die("You forgot to enter a code!");
 			header("Location: ".$_SERVER['SCRIPT_NAME']);
 		}
+		//string redeclarations (doesn't work without these)
 		$timestamp = getdate();
 		$date = (string) $timestamp['year'] .  "-" . (string) $timestamp['mon'] . "-" . (string) $timestamp['mday'];
 
@@ -26,7 +29,7 @@ function checkIn(){
 
 		$email = $_SESSION['user']['email'];
 		$attendance_code = $_POST['attendance_code'];
-
+		// gets the correct code
 		$query = "SELECT * FROM attendance WHERE email='code@robotics.ucc.on.ca';";
 
 		try
@@ -43,11 +46,13 @@ function checkIn(){
 		$code_info = $stmt->fetch();
 		$today_code = $code_info['date'];
 
+		//checks if code is correct
 		if($today_code != $attendance_code) {
 			die("You entered the wrong code!");
 			header("Location: ".$_SERVER['SCRIPT_NAME']);
 		}
 
+		//inserts attendance record
 		$query = "
 		INSERT INTO attendance (
 			email,
@@ -89,8 +94,8 @@ checkIn();
 				overflow-y:auto;
 			}
 			.author{
-				font-style: italic;
-
+				font-style:italic;
+				font-weight:bold;
 			}
 		</style>
 	</head>

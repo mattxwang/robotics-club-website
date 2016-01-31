@@ -1,4 +1,5 @@
 <?php
+  //this snippet of code imports all bulletins that haven't expired yet
 	require("common.php");
   $unixtime = time();
 	$query = "SELECT * FROM bulletin WHERE expire>='$unixtime';";
