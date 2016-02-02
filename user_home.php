@@ -94,10 +94,6 @@ checkIn();
 				height:256px;
 				overflow-y:auto;
 			}
-			.author{
-				font-style:italic;
-				font-weight:bold;
-			}
 		</style>
 	</head>
 

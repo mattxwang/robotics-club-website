@@ -35,3 +35,7 @@ body {
 .container > *:last-child {
     margin-bottom: 100px;
 }
+.author{
+	font-style:italic;
+	font-weight:bold;
+}

@@ -76,9 +76,9 @@
 			$_POST = filter_var_array($_POST, FILTER_SANITIZE_STRING);
 
 			$creator = $row_info['first_name'] . ' ' . $row_info['last_name'];
-			$title = $_POST['title'];
-			$tag = $_POST['tag'];
-			$content = $_POST['content'];
+			$title = $_POST['bulletin-title'];
+			$tag = $_POST['bulletin-tag'];
+			$content = $_POST['bulletin-content'];
 			$expire = time()+604800; //+ 2weeks of Unix time converted to YYYY MM DD
 
 			$query = "
@@ -190,20 +190,36 @@
 								<div class="row">
 									<div class="col-md-8">
 										<h4>Announcement Title</h4>
-										<input type="text" id="title" name="title" class="form-control" placeholder="Bulletin Announcement!" required="">
+										<input type="text" id="bulletin-title" name="bulletin-title" class="form-control" placeholder="Bulletin Announcement!" required="">
 									</div>
 									<div class="col-md-4">
 										<h4>Announcement Tag</h4>
-										<select class="form-control" id="tag" name="tag" required="">
-											<option value="default">News</option>
-											<option value="primary">Club Events</option>
-											<option value="warning">Horizons</option>
-											<option value="danger">Administrative</option>
+										<select class="form-control" id="bulletin-tag" name="bulletin-tag" required="">
+											<option value="label-default">News</option>
+											<option value="label-primary">Club Events</option>
+											<option value="label-warning">Horizons</option>
+											<option value="label-danger">Administrative</option>
 										</select>
 									</div>
 								</div>
 								<h4>Announcement Content</h4>
-								<textarea class="form-control" rows="4" id="content" name="content" required="">Hey guys, we have an announcement for you...</textarea>
+								<textarea class="form-control" rows="4" id="bulletin-content" name="bulletin-content" required="">Hey guys, we have an announcement for you...</textarea>
+
+								</br>
+								<h2>Bulletin Preview</h2>
+								<h6>Use this to make sure everything looks right before you submit!</h6>
+								<div class="panel panel-info">
+									<div class="panel-heading">
+										<h3><span class="bulletin-title"></span> <span class="label label-default" id="bulletin-preview-tag">News</span></h3>
+									</div>
+									<div class="panel-body">
+										<div class="author">
+											From <?php echo $row_info['first_name'] . ' ' . $row_info['last_name']; ?>
+										</div>
+										<span class="bulletin-content"></span>
+									</div>
+								</div>
+
 						</div>
 						<div class="modal-footer">
 								<button type="button" class="btn btn-danger" data-dismiss="modal">Cancel</button>
