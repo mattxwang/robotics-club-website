@@ -1,4 +1,5 @@
 <!-- StackOverflow http://stackoverflow.com/questions/13408244/using-bootstrap-have-alert-box-remember-close-action -->
+<script src="js/jquery.js"></script>
 <script src="js/js.cookie.min.js"></script>
 <script>
 jQuery(function( $ ){
