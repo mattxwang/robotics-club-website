@@ -193,8 +193,8 @@
 									<div class="col-md-6">
 										<h4>Alert Type</h4>
 										<select class="form-control live-preview" id="alert-type" name="alert-type" required="">
-											<option value="alert-primary" selected="selected">Administrative/Default</option>
-											<option value="alert-info">Information/Ads</option>
+											<option value="alert-success" selected="selected">News/Updates</option>
+											<option value="alert-info">Site Info/Site Related</option>
 											<option value="alert-warning">Warning/Bugs</option>
 											<option value="alert-danger">Urgent/Security</option>
 										</select>
