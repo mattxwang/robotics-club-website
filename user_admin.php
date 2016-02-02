@@ -215,7 +215,7 @@
 								<h2>Alert Preview</h2>
 								<h6>Use this to make sure everything looks right before you submit!</h6>
 								<div class="alert alert-warning" id="alert-preview-alert">
-									<button type="button" class="close" data-dismiss="alert">x</button>
+									<button type="button" class="close">x</button>
 									<p><span class="alert-glyph"></span><span class="alert-content">Hey, here's an alert...</span></p>
 								</div>
 						</div>
