@@ -210,7 +210,7 @@
 								<h6>Use this to make sure everything looks right before you submit!</h6>
 								<div class="panel panel-info">
 									<div class="panel-heading">
-										<h3><span class="bulletin-title">Bulletin Title</span> <span class="label label-default" id="bulletin-preview-tag">
+										<h3><span class="bulletin-title">Bulletin Announcement</span> <span class="label label-default" id="bulletin-preview-tag">
 											News
 										</span></h3>
 									</div>
