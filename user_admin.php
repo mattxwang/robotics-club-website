@@ -277,7 +277,7 @@
 								<div class="alert alert-success" id="alert-preview-alert">
 									<button type="button" class="close">x</button>
 									<p><span class="glyphicon"
-									id="alert-preview-glyph"></span><span class="alert-content">Hey, here's an alert...</span></p>
+									id="alert-preview-glyph"></span> <span class="alert-content">Hey, here's an alert...</span></p>
 								</div>
 						</div>
 						<div class="modal-footer">
