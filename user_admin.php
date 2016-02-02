@@ -214,7 +214,7 @@
 								</br>
 								<h2>Alert Preview</h2>
 								<h6>Use this to make sure everything looks right before you submit!</h6>
-								<span class="type"><div class='alert alert-dismissible alert-primary fade in'></span>
+								<div class="type"><div class='alert alert-dismissible alert-primary fade in'></div>
 									<button type="button" class="close" data-dismiss="alert">x</button>
 									<p><span class="glyph"></span><span class="content">Hey, here's an alert...</span></p>
 								</div>
