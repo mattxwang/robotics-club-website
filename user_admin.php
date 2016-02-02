@@ -193,10 +193,10 @@
 									<div class="col-md-6">
 										<h4>Alert Type</h4>
 										<select class="form-control live-preview" id="type" name="type" required="">
-											<option value="<div class='alert alert-dismissible alert-primary fade in'>" selected="selected">Administrative/Default</option>
-											<option value="<div class='alert alert-dismissible alert-info fade in'>">Information/Ads</option>
-											<option value="<div class='alert alert-dismissible alert-warning fade in'>">Warning/Bugs</option>
-											<option value="<div class='alert alert-danger alert-warning fade in'>">Urgent/Security</option>
+											<option value="alert-primary" selected="selected">Administrative/Default</option>
+											<option value="alert-info">Information/Ads</option>
+											<option value="alert-warning">Warning/Bugs</option>
+											<option value="alert-danger">Urgent/Security</option>
 										</select>
 									</div>
 									<div class="col-md-6">
@@ -214,9 +214,7 @@
 								</br>
 								<h2>Alert Preview</h2>
 								<h6>Use this to make sure everything looks right before you submit!</h6>
-								<p id="alert-nest">
-									<div class='alert alert-dismissible alert-primary fade in'>
-								</p>
+								<div class="alert alert-warning" id="alert-preview-alert">
 									<button type="button" class="close" data-dismiss="alert">x</button>
 									<p><span class="glyph"></span><span class="content">Hey, here's an alert...</span></p>
 								</div>
