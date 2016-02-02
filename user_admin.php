@@ -169,6 +169,65 @@
 				</div>
 			</div>
 
+			<!-- New Site Alert -->
+			<div class="modal fade" tabindex="-1" role="dialog" id="newAlert">
+				<div class="modal-dialog">
+					<div class="modal-content">
+						<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">x</span></button>
+							<h4 class="modal-title">New Alert</h4>
+						</div>
+						<div class="modal-body">
+							<p>
+							<form action="?newAlert" method="post">
+								<h2>New Site-wide Alert</h2>
+								<p>
+									Site-wide Alerts appear on a new Session. They can be dismissed.
+									</br>
+									Eventually, alerts will disappear after being closed for the session, or possibly forever if they're logged in.
+									</br>
+									</br>
+									Alerts don't automatically expire, though you can take down alerts (WIP).
+								</p>
+								<div class="row">
+									<div class="col-md-6">
+										<h4>Alert Type</h4>
+										<select class="form-control" id="type" name="type" required="">
+											<option value="primary">Administrative/Default</option>
+											<option value="info">Information/Ads</option>
+											<option value="warning">Warning/Bugs</option>
+											<option value="danger">Urgent/Security</option>
+										</select>
+									</div>
+									<div class="col-md-6">
+										<h4>Alert Glyphicon</h4>
+										<select class="form-control" id="glyph" name="glyph" required="">
+											<option value="pushpin">Default (Pushpin)</option>
+											<option value="alert">Warning Alert</option>
+										</select>
+									</div>
+								</div>
+								<h4>Announcement Content</h4>
+								<h6>You can use HTML tags directly in the text. It will display in the live preview.
+								<textarea class="form-control" rows="2" id="content" name="content" required="">Hey, here's an alert...</textarea>
+								</br>
+								<h2>Alert Preview</h2>
+								<h6>Use this to make sure everything looks right before you submit!</h6>
+								<div class="alert alert-dismissible alert-warning fade in">
+									<button type="button" class="close" data-dismiss="alert">x</button>
+									<p><span class="glyphicon glyphicon-alert"></span> <b>Warning!</b> You're visiting a beta version of this site. Please report any issues, glaring bugs, or utter failures, to the <a href="https://github.com/malsf21/robotics-club-website/issues" class="alert-link">repository</a>.</p>
+								</div>
+						</div>
+						<div class="modal-footer">
+								<button type="button" class="btn btn-danger" data-dismiss="modal">Cancel</button>
+								<button type="submit" class="btn btn-success" id="submitbutton" value="Login">Submit Alert</button>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- Actual Site Content -->
 			<div class="row">
 				<div class="col-md-4">
 					<div class="panel panel-primary">
@@ -178,7 +237,7 @@
 						 <ul class="list-group">
 							<li class="list-group-item list-group-item-info"><button class="btn btn-info" type="button" data-toggle="modal" data-target="#newAnnouncement"><span class="glyphicon glyphicon-inbox"></span> Create a new message.</button></li>
 							<li class="list-group-item list-group-item-warning"><button class="btn btn-warning" type="button" data-toggle="modal" data-target="#newAnnouncement"><span class="glyphicon glyphicon-bullhorn"></span> Create a new bulletin annoucement.</button></li>
-							<li class="list-group-item list-group-item-danger"><button class="btn btn-danger" type="button" data-toggle="modal" data-target="#newAnnouncement"><span class="glyphicon glyphicon-bell"></span> Create a new site alert.</button></li>
+							<li class="list-group-item list-group-item-danger"><button class="btn btn-danger" type="button" data-toggle="modal" data-target="#newAlert"><span class="glyphicon glyphicon-bell"></span> Create a new site alert.</button></li>
 						</ul>
 					</div>
 					<div class="panel panel-info">
