@@ -263,7 +263,8 @@
 								<h6>Use this to make sure everything looks right before you submit!</h6>
 								<div class="alert alert-success" id="alert-preview-alert">
 									<button type="button" class="close">x</button>
-									<p><span class="alert-glyph"></span><span class="alert-content">Hey, here's an alert...</span></p>
+									<p><span class="glypicon"
+									id="alert-preview-glyph"></span><span class="alert-content">Hey, here's an alert...</span></p>
 								</div>
 						</div>
 						<div class="modal-footer">
