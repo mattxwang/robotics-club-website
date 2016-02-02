@@ -3,7 +3,6 @@
 <script src="js/jquery.cookie.min.js"></script>
 <script>
 jQuery(function( $ ){
-
 	if( $.cookie('alert-cookie-1') === 'closed' ){
       $('.alert-1').hide();
   }
@@ -66,7 +65,7 @@ jQuery(function( $ ){
 </div>
 <?php /*} if ($_SESSION['alerts']['alert2'] == false) { */?>
 
-<div class="alert alert-dismissible alert-info fade in alert-1">
+<div class="alert alert-dismissible alert-info fade in alert-2">
 	<button type="button" class="close close-2" data-dismiss="alert">x</button>
 	<p><span class="glyphicon glyphicon-pushpin"></span> <b>Hey there!</b> We're looking for students to help us out with this website! Fork our <a href="https://github.com/malsf21/robotics-club-website" class="alert-link">repository</a> or contact <a href="mailto:matthew.wang@ucc.on.ca" class="alert-link">Matthew Wang</a> for more information.</p>
 </div>
