@@ -8,7 +8,8 @@
 		<title>Schedule | UCC Robotics</title>
 		<link rel="icon" href="css/favicon.ico" />
 		<?php include_once("functions/stylesheet.php") ?>
-		
+		<script src="js/jquery.js"></script>
+
 		<link rel="stylesheet" type="text/css" href="css/calendar_style.css">
 	</head>
 
@@ -18,7 +19,7 @@
 		<div class="container">
 			<?php include_once("site_wide.php") ?>
 			<h1 class="page-header"><span class="glyphicon glyphicon-calendar" aria-hidden="true"></span> Club Calendar <small>2016</small></h1>
-			
+
 			<div class= "calendar-div table-responsive">
 				<table class= "table calendar-table">
 			<nav>
@@ -30,32 +31,32 @@
 					</li>
 					<li><a id="JanButton" href="#">January</a></li>
 						<script>
-							if (JanButton.onClick == true){ 
-								JanClicked(); 
+							if (JanButton.onClick == true){
+								JanClicked();
 							}
 						</script>
 					<li><a id="FebButton" href="#">February</a></li>
 						<script>
-							if (FebButton.onClick == true){ 
-								FebClicked(); 
+							if (FebButton.onClick == true){
+								FebClicked();
 							}
 						</script>
 					<li><a id="MarButton" href="#">March</a></li>
 						<script>
-							if (MarButton.onClick == true){ 
-								MarClicked(); 
+							if (MarButton.onClick == true){
+								MarClicked();
 							}
 						</script>
 					<li><a id="AprButton" href="#">April</a></li>
 						<script>
-							if (AprButton.onClick == true){ 
-								AprClicked(); 
+							if (AprButton.onClick == true){
+								AprClicked();
 							}
 						</script>
 					<li><a id="MayButton" href="#">May</a></li>
 						<script>
-							if (MayButton.onClick == true){ 
-								MayClicked(); 
+							if (MayButton.onClick == true){
+								MayClicked();
 							}
 						</script>
 					<li>
@@ -66,7 +67,7 @@
 				</ul>
 			</nav>
 			<div id="Calendar" class = "table-responsive ">
-				
+
 			</div>
 
 			<!--
@@ -76,8 +77,8 @@
 			-->
 
 		</div>
-		
-		<script src="js/jquery.js"></script>
+
+
 		<script src="js/jquery.easing.min.js"></script>
 		<script src="js/bootstrap.js"></script>
 		<script src="js/nav-collapse.js"></script>

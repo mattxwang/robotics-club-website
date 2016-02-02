@@ -163,6 +163,7 @@
 		<title>Admin Panel | UCC Robotics</title>
 		<link rel="icon" href="css/favicon.ico" />
 		<?php include_once("functions/stylesheet.php") ?>
+		<script src="js/jquery.js"></script>
 	</head>
 
 	<body>
@@ -390,7 +391,7 @@
 				</div>
 			</div>
 		</div>
-		<script src="js/jquery.js"></script>
+
 		<script src="js/jquery.easing.min.js"></script>
 		<script src="js/bootstrap.js"></script>
 		<script src="js/nav-collapse.js"></script>

@@ -8,7 +8,8 @@
 		<title>PROJECT: Keyboard | UCC Robotics</title>
 		<link rel="icon" href="css/favicon.ico" />
 		<?php include_once("functions/stylesheet.php") ?>
-		
+		<script src="js/jquery.js"></script>
+
 	</head>
 
 	<body>
@@ -33,17 +34,17 @@
 							</div>
 							<div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
 								<div class="panel-body">
-								User interfacing and user input is one of the largest realms of computer science and computer engineering. 
-								Understanding both the software and hardware sides of user input provides an invaluable asset to developing and innovating 
-								new forms of user interfacing, such as the Google Glass or Oculus Rift. At UCC Robotics, we ensure that students can get 
-								the full experience, starting from the bottom core foundations. The classic keyboard is the perfect representation of the bridge 
-								between software and hardware: a mechanical switch relaying information to a microcontroller, that magically gets transformed 
-								into letters on a screen. That's why we chose keyboards as the 2016-2017 UCC Robotics pet project. 
+								User interfacing and user input is one of the largest realms of computer science and computer engineering.
+								Understanding both the software and hardware sides of user input provides an invaluable asset to developing and innovating
+								new forms of user interfacing, such as the Google Glass or Oculus Rift. At UCC Robotics, we ensure that students can get
+								the full experience, starting from the bottom core foundations. The classic keyboard is the perfect representation of the bridge
+								between software and hardware: a mechanical switch relaying information to a microcontroller, that magically gets transformed
+								into letters on a screen. That's why we chose keyboards as the 2016-2017 UCC Robotics pet project.
 								</br>
 								</br>
-								Throughout the 2016-2017 year, UCC Robotics will slowly teach members how to assemble, program, and customize their own keyboards. 
-								Along the way, students will improve on a wide assortment of skills, including <a href="projects_soldering">soldering</a>, programming, 
-								and user input design. Our end goal is to provide club members both hardware and software knowledge of the inner workings of a keyboard, 
+								Throughout the 2016-2017 year, UCC Robotics will slowly teach members how to assemble, program, and customize their own keyboards.
+								Along the way, students will improve on a wide assortment of skills, including <a href="projects_soldering">soldering</a>, programming,
+								and user input design. Our end goal is to provide club members both hardware and software knowledge of the inner workings of a keyboard,
 								and the mechanisms that create commonplace user interfaces.
 								</div>
 							</div>
@@ -77,12 +78,12 @@
 							</div>
 							<div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
 								<div class="panel-body">
-								In the 2015-2016 year, we are looking towards finalizing our curriculum, and having skilled instructors to teach for the next year. 
-								If you'd like to help out, please <a href="club_contact.php">contact us</a>! There are no prerequisites required, though we do recommend 
+								In the 2015-2016 year, we are looking towards finalizing our curriculum, and having skilled instructors to teach for the next year.
+								If you'd like to help out, please <a href="club_contact.php">contact us</a>! There are no prerequisites required, though we do recommend
 								regularly attending the club.
 								</br>
 								</br>
-								Signing up for the actual project will commence in the 2016 school year. A registration fee will be required, as parts need to be purchased. 
+								Signing up for the actual project will commence in the 2016 school year. A registration fee will be required, as parts need to be purchased.
 								The estimated cost is around $30.
 								</div>
 							</div>
@@ -138,8 +139,8 @@
 					</div>
 				</div>
 			</div>
-		</div>	
-		<script src="js/jquery.js"></script>
+		</div>
+
 		<script src="js/jquery.easing.min.js"></script>
 		<script src="js/bootstrap.js"></script>
 		<script src="js/nav-collapse.js"></script>
