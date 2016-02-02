@@ -193,7 +193,7 @@
 									<div class="col-md-6">
 										<h4>Alert Type</h4>
 										<select class="form-control live-preview" id="type" name="type" required="">
-											<option value="<div class='alert alert-dismissible alert-primary fade in'>">Administrative/Default</option>
+											<option value="<div class='alert alert-dismissible alert-primary fade in'>" selected="selected">Administrative/Default</option>
 											<option value="<div class='alert alert-dismissible alert-info fade in'>">Information/Ads</option>
 											<option value="<div class='alert alert-dismissible alert-warning fade in'>">Warning/Bugs</option>
 											<option value="<div class='alert alert-danger alert-warning fade in'>">Urgent/Security</option>
@@ -202,7 +202,7 @@
 									<div class="col-md-6">
 										<h4>Alert Glyphicon</h4>
 										<select class="form-control live-preview" id="glyph" name="glyph" required="">
-											<option value="<span></span>"></option>
+											<option value="<span></span>" selected="selected"></option>
 											<option value="<span class='glyphicon glyphicon-pushpin'></span> ">Pushpin</option>
 											<option value="<span class='glyphicon glyphicon-alert'></span> ">Warning</option>
 										</select>
