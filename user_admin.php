@@ -248,7 +248,7 @@
 									</div>
 									<div class="col-md-6">
 										<h4>Alert Glyphicon</h4>
-										<select class="form-control live-preview" id="alert-glyph" name="aler-glyph" required="">
+										<select class="form-control live-preview" id="alert-glyph" name="alert-glyph" required="">
 											<option value="" selected="selected"></option>
 											<option value="glyphicon-pushpin">Pushpin</option>
 											<option value="glyphicon-alert">Warning</option>
