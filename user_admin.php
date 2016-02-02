@@ -1,15 +1,17 @@
 <?php include_once("functions/import_info.php") ?>
 <?php
 	require("functions/common.php");
+	//redir on no login
 	if(empty($_SESSION['user'])){
 		header("Location: login.php");
 		die("Redirecting to login.php");
 	}
+	//redir if not admin
 	elseif($_SESSION['user']['admin'] != 1){
 		header("Location: user_account.php");
 		die("Redirecting to user_account.php");
 	}
-	require("functions/common.php");
+	//gets the correct code
 	require("functions/import_info.php");
 	$query = "SELECT * FROM attendance WHERE email='code@robotics.ucc.on.ca';";
 
@@ -29,6 +31,8 @@
 	$timestamp = getdate();
 	$date = (string) $timestamp['year'] .  "-" . (string) $timestamp['mon'] . "-" . (string) $timestamp['mday'];
 	$day = (string) $timestamp['weekday'] . " " . (string) $timestamp['month'] .  " " . (string) $timestamp['mday'] . " " . (string) $timestamp['year'];
+
+	//change attn code function
 	function changeCode(){
 		if (isset($_GET['changeCode'])) {
 			require("functions/common.php");
@@ -63,10 +67,11 @@
 		}
 	}
 	changeCode();
-	function newAnnouncement(){
+	//create new bulletin announcement function
+	function newBulletin(){
 		require("functions/common.php");
 		require("functions/import_info.php");
-		if (isset($_GET['newAnnouncement'])) {
+		if (isset($_GET['newBulletin'])) {
 
 			$_POST = filter_var_array($_POST, FILTER_SANITIZE_STRING);
 
@@ -108,7 +113,49 @@
 			}
 		}
 	}
-	newAnnouncement();
+	newBulletin();
+
+	//create new alert function
+	function newBulletin(){
+		require("functions/common.php");
+		require("functions/import_info.php");
+		if (isset($_GET['newAlert'])) {
+
+			$_POST = filter_var_array($_POST, FILTER_SANITIZE_STRING);
+
+			$creator = $_SESSION['first_name'] + " " + $_SESSION['last_name'];
+			$type = $_POST['alert-type'];
+			$glyph = $_POST['alert-glyph'];
+			$content = $_POST['alert-content'];
+
+			$query = "
+		 	INSERT INTO alert (
+				type,
+				glyph,
+				content,
+				creator
+			) VALUES (
+				'$type',
+				'$glyph',
+				'$content',
+				'$creator'
+			);";
+
+			try {
+				$stmt = $db->prepare($query);
+				$stmt->execute();
+
+				header("Location: ".$_SERVER['SCRIPT_NAME']);
+			}
+
+			catch(PDOException $ex)
+			{
+				die("Failed to run query: " . $ex->getMessage());
+				header("Location: ".$_SERVER['SCRIPT_NAME']);
+			}
+		}
+	}
+	newAlert();
 ?>
 <!DOCTYPE html>
 <html>
@@ -128,7 +175,7 @@
 			<?php include_once("site_wide.php") ?>
 
 			<!-- New Bulletin Announcement -->
-			<div class="modal fade" tabindex="-1" role="dialog" id="newAnnouncement">
+			<div class="modal fade" tabindex="-1" role="dialog" id="newBulletin">
 				<div class="modal-dialog">
 					<div class="modal-content">
 						<div class="modal-header">
@@ -137,7 +184,7 @@
 						</div>
 						<div class="modal-body">
 							<p>
-							<form action="?newAnnouncement" method="post">
+							<form action="?newBulletin" method="post">
 								<h2>New Bulletin Announcement</h2>
 								<p>
 									Bulletin announcements are displayed on the <a href="user_home.php">bulletin board on the user homepage</a>. They stay active for two weeks, and then disappear.
@@ -236,8 +283,8 @@
 							<h4><span class="glyphicon glyphicon-envelope"></span> Messages, Alerts, and Notifications</h4>
 						</div>
 						 <ul class="list-group">
-							<li class="list-group-item list-group-item-info"><button class="btn btn-info" type="button" data-toggle="modal" data-target="#newAnnouncement"><span class="glyphicon glyphicon-inbox"></span> Create a new message.</button></li>
-							<li class="list-group-item list-group-item-warning"><button class="btn btn-warning" type="button" data-toggle="modal" data-target="#newAnnouncement"><span class="glyphicon glyphicon-bullhorn"></span> Create a new bulletin annoucement.</button></li>
+							<li class="list-group-item list-group-item-info"><button class="btn btn-info" type="button" data-toggle="modal" data-target="#newBulletin"><span class="glyphicon glyphicon-inbox"></span> Create a new message.</button></li>
+							<li class="list-group-item list-group-item-warning"><button class="btn btn-warning" type="button" data-toggle="modal" data-target="#newBulletin"><span class="glyphicon glyphicon-bullhorn"></span> Create a new bulletin annoucement.</button></li>
 							<li class="list-group-item list-group-item-danger"><button class="btn btn-danger" type="button" data-toggle="modal" data-target="#newAlert"><span class="glyphicon glyphicon-bell"></span> Create a new site alert.</button></li>
 						</ul>
 					</div>
