@@ -75,7 +75,7 @@
 
 			$_POST = filter_var_array($_POST, FILTER_SANITIZE_STRING);
 
-			$creator = $_SESSION['first_name'] . ' ' . $_SESSION['last_name'];
+			$creator = $row_info['first_name'] . ' ' . $row_info['last_name'];
 			$title = $_POST['title'];
 			$tag = $_POST['tag'];
 			$content = $_POST['content'];
@@ -120,7 +120,7 @@
 
 			$_POST = filter_var_array($_POST, FILTER_SANITIZE_STRING);
 
-			$creator = $_SESSION['first_name'] . ' ' . $_SESSION['last_name'];
+			$creator = $row_info['first_name'] . ' ' . $row_info['last_name'];
 			$type = $_POST['alert-type'];
 			$glyph = $_POST['alert-glyph'];
 			$content = $_POST['alert-content'];
