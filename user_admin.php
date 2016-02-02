@@ -8,8 +8,8 @@
 	}
 	//redir if not admin
 	elseif($_SESSION['user']['admin'] != 1){
-		header("Location: user_account.php");
-		die("Redirecting to user_account.php");
+		header("Location: user_home.php");
+		die("Redirecting to user_home.php");
 	}
 	//gets the correct code
 	require("functions/import_info.php");
