@@ -119,6 +119,7 @@
 		<title>Admin Panel | UCC Robotics</title>
 		<link rel="icon" href="css/favicon.ico" />
 		<?php include_once("functions/stylesheet.php") ?>
+		<script src="js/live-preview.js"></script>
 	</head>
 
 	<body>
@@ -192,30 +193,30 @@
 								<div class="row">
 									<div class="col-md-6">
 										<h4>Alert Type</h4>
-										<select class="form-control" id="type" name="type" required="">
+										<select class="form-control live-preview" id="type" name="type" required="">
 											<option value="primary">Administrative/Default</option>
-											<option value="info">Information/Ads</option>
-											<option value="warning">Warning/Bugs</option>
+											<option value="<div class="alert alert-dismissible alert-info fade in">">Information/Ads</option>
+											<option value="<div class="alert alert-dismissible alert-warning fade in">">Warning/Bugs</option>
 											<option value="danger">Urgent/Security</option>
 										</select>
 									</div>
 									<div class="col-md-6">
 										<h4>Alert Glyphicon</h4>
-										<select class="form-control" id="glyph" name="glyph" required="">
-											<option value="pushpin">Default (Pushpin)</option>
-											<option value="alert">Warning Alert</option>
+										<select class="form-control live-preview" id="glyph" name="glyph" required="">
+											<option value="<span class="glyphicon glyphicon-pushpin"></span>">Default (Pushpin)</option>
+											<option value="<span class="glyphicon glyphicon-alert"></span>">Warning Alert</option>
 										</select>
 									</div>
 								</div>
 								<h4>Announcement Content</h4>
 								<h6>You can use HTML tags directly in the text. It will display in the live preview.
-								<textarea class="form-control" rows="2" id="content" name="content" required="">Hey, here's an alert...</textarea>
+								<textarea class="form-control live-preview" rows="2" id="content" name="content" required="">Hey, here's an alert...</textarea>
 								</br>
 								<h2>Alert Preview</h2>
 								<h6>Use this to make sure everything looks right before you submit!</h6>
 								<div class="alert alert-dismissible alert-warning fade in">
 									<button type="button" class="close" data-dismiss="alert">x</button>
-									<p><span class="glyphicon glyphicon-alert"></span> <b>Warning!</b> You're visiting a beta version of this site. Please report any issues, glaring bugs, or utter failures, to the <a href="https://github.com/malsf21/robotics-club-website/issues" class="alert-link">repository</a>.</p>
+									<p><span class="glyph"></span><span class="content"></span></p>
 								</div>
 						</div>
 						<div class="modal-footer">
