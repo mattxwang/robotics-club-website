@@ -249,9 +249,9 @@
 									<div class="col-md-6">
 										<h4>Alert Glyphicon</h4>
 										<select class="form-control live-preview" id="alert-glyph" name="aler-glyph" required="">
-											<option value="<span></span>" selected="selected"></option>
-											<option value="<span class='glyphicon glyphicon-pushpin'></span> ">Pushpin</option>
-											<option value="<span class='glyphicon glyphicon-alert'></span> ">Warning</option>
+											<option value="" selected="selected"></option>
+											<option value="glyphicon-pushpin">Pushpin</option>
+											<option value="glyphicon-alert">Warning</option>
 										</select>
 									</div>
 								</div>
@@ -263,7 +263,7 @@
 								<h6>Use this to make sure everything looks right before you submit!</h6>
 								<div class="alert alert-success" id="alert-preview-alert">
 									<button type="button" class="close">x</button>
-									<p><span class="glypicon"
+									<p><span class="glyphicon"
 									id="alert-preview-glyph"></span><span class="alert-content">Hey, here's an alert...</span></p>
 								</div>
 						</div>
