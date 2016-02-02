@@ -75,8 +75,7 @@
 
 			$_POST = filter_var_array($_POST, FILTER_SANITIZE_STRING);
 
-			$first_name = $row_info['first_name'];
-			$last_name = $row_info['last_name'];
+			$creator = $_SESSION['first_name'] + " " + $_SESSION['last_name'];
 			$title = $_POST['title'];
 			$tag = $_POST['tag'];
 			$content = $_POST['content'];
@@ -84,15 +83,13 @@
 
 			$query = "
 		 	INSERT INTO bulletin (
-				first_name,
-				last_name,
+				creator,
 				title,
 				tag,
 				content,
 				expire
 			) VALUES (
-				'$first_name',
-				'$last_name',
+				'$creator',
 				'$title',
 				'$tag',
 				'$content',
