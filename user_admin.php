@@ -247,7 +247,23 @@
 										<h4>Alert Glyphicon</h4>
 										<select class="form-control live-preview" id="alert-glyph" name="alert-glyph" required="">
 											<option value="glyphicon-doesntexist" selected="selected">None</option>
+											<option value="glyphicon-bell">Bell</option>
+											<option value="glyphicon-bullhorn">Bullhorn</option>
+											<option value="glyphicon-calendar">Calendar</option>
+											<option value="glyphicon-time">Clock</option>
+											<option value="glyphicon-cloud">Cloud</option>
+											<option value="glyphicon-download">Download</option>
+											<option value="glyphicon-exclamation-sign">Exclamation</option>
+											<option value="glyphicon-flag">Flag</option>
+											<option value="glyphicon-cog">Gear</option>
+											<option value="glyphicon-heart">Heart</option>
+											<option value="glyphicon-info-sign">Info Sign</option>
+											<option value="glyphicon-phone">Phone</option>
 											<option value="glyphicon-pushpin">Pushpin</option>
+											<option value="glyphicon-question-sign">Question Sign</option>
+											<option value="glyphicon-star">Star</option>
+											<option value="glyphicon-tags">Tags</option>
+											<option value="glyphicon-upload">Upload</option>
 											<option value="glyphicon-alert">Warning</option>
 										</select>
 									</div>
