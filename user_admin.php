@@ -193,17 +193,17 @@
 									<div class="col-md-6">
 										<h4>Alert Type</h4>
 										<select class="form-control live-preview" id="type" name="type" required="">
-											<option value="primary">Administrative/Default</option>
+											<option value="<div class='alert alert-dismissible alert-primary fade in'>">Administrative/Default</option>
 											<option value="<div class='alert alert-dismissible alert-info fade in'>">Information/Ads</option>
 											<option value="<div class='alert alert-dismissible alert-warning fade in'>">Warning/Bugs</option>
-											<option value="danger">Urgent/Security</option>
+											<option value="<div class='alert alert-danger alert-warning fade in'>">Urgent/Security</option>
 										</select>
 									</div>
 									<div class="col-md-6">
 										<h4>Alert Glyphicon</h4>
 										<select class="form-control live-preview" id="glyph" name="glyph" required="">
-											<option value="<span class='glyphicon glyphicon-pushpin'></span>">Default (Pushpin)</option>
-											<option value="<span class='glyphicon glyphicon-alert'></span>">Warning Alert</option>
+											<option value="<span class='glyphicon glyphicon-pushpin'></span> ">Pushpin</option>
+											<option value="<span class='glyphicon glyphicon-alert'></span> ">Warning</option>
 										</select>
 									</div>
 								</div>
@@ -213,9 +213,9 @@
 								</br>
 								<h2>Alert Preview</h2>
 								<h6>Use this to make sure everything looks right before you submit!</h6>
-								<div class="alert alert-dismissible alert-warning fade in">
+								<span class="content"><div></span>
 									<button type="button" class="close" data-dismiss="alert">x</button>
-									<p><span class="glyph"></span><span class="content"></span></p>
+									<p><span class="glyph"><span class='glyphicon glyphicon-pushpin'></span> </span><span class="content">Hey, here's an alert...</span></p>
 								</div>
 						</div>
 						<div class="modal-footer">
