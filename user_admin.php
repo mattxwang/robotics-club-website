@@ -192,7 +192,7 @@
 								<div class="row">
 									<div class="col-md-6">
 										<h4>Alert Type</h4>
-										<select class="form-control live-preview" id="type" name="alert-type" required="">
+										<select class="form-control live-preview" id="alert-type" name="alert-type" required="">
 											<option value="alert-primary" selected="selected">Administrative/Default</option>
 											<option value="alert-info">Information/Ads</option>
 											<option value="alert-warning">Warning/Bugs</option>
@@ -201,7 +201,7 @@
 									</div>
 									<div class="col-md-6">
 										<h4>Alert Glyphicon</h4>
-										<select class="form-control live-preview" id="alert-glyph" name="glyph" required="">
+										<select class="form-control live-preview" id="alert-glyph" name="aler-glyph" required="">
 											<option value="<span></span>" selected="selected"></option>
 											<option value="<span class='glyphicon glyphicon-pushpin'></span> ">Pushpin</option>
 											<option value="<span class='glyphicon glyphicon-alert'></span> ">Warning</option>
@@ -210,7 +210,7 @@
 								</div>
 								<h4>Announcement Content</h4>
 								<h6>You can use HTML tags directly in the text. It will display in the live preview.
-								<textarea class="form-control live-preview" rows="2" id="alert-content" name="content" required="">Hey, here's an alert...</textarea>
+								<textarea class="form-control live-preview" rows="2" id="alert-content" name="alert-content" required="">Hey, here's an alert...</textarea>
 								</br>
 								<h2>Alert Preview</h2>
 								<h6>Use this to make sure everything looks right before you submit!</h6>
