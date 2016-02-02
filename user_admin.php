@@ -210,13 +210,13 @@
 								<h6>Use this to make sure everything looks right before you submit!</h6>
 								<div class="panel panel-info">
 									<div class="panel-heading">
-										<h3><span class="bulletin-title"></span> <span class="label label-default" id="bulletin-preview-tag">News</span></h3>
+										<h3><span class="bulletin-title">Bulletin Title</span> <span class="label label-default" id="bulletin-preview-tag">News</span></h3>
 									</div>
 									<div class="panel-body">
 										<div class="author">
 											From <?php echo $row_info['first_name'] . ' ' . $row_info['last_name']; ?>
 										</div>
-										<span class="bulletin-content"></span>
+										<span class="bulletin-content">Hey guys, we have an announcement for you...</span>
 									</div>
 								</div>
 

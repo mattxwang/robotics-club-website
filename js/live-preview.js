@@ -9,12 +9,12 @@ $('.live-preview').change(function(){
   else if ($this.attr('id') == 'alert-glyph'){
     $alertglyph = $("#alert-preview-glyph");
     $alertglyph.removeClass();
-    $alertglyph.addClass("label " + $this.val());
+    $alertglyph.addClass("glyphicon " + $this.val());
   }
   else if ($this.attr('id') == 'bulletin-tag'){
     $alertglyph = $("#bulletin-preview-tag");
     $alertglyph.removeClass();
-    $alertglyph.addClass("glyphicon " + $this.val());
+    $alertglyph.addClass("label " + $this.val());
   }
   else{
   $('.' + $this.attr('id') + '').html($this.val());
