@@ -18,6 +18,7 @@
 ### User Account
 * Accounts let you edit your name, etc.
 * Account system is tied in with attendance (still has codes)
+* Graphs for accounts, including admin access, account access, and special teacher access
 * Accounts feature points (badges for cumulative points, ribbons for streaks)
 * Accounts have an admin level, and admins can edit the attendance code
 * Messaging System (for now, just admins can send messages/alerts/bulletins)
@@ -25,17 +26,18 @@
 ## Bulletin
 * At User Homepage
 * ~~Admins can submit bulletin announcements~~
+* ~~Live preview during submit~~
 * Users can see bulletins in the past 2 weeks
 * Bulletins are tagged by type (news, horizons, club events, admin)
 * ~~Bulletin info stored on database.~~
-* (Possible) on bulletin unread, pop a notification 
+* (Possible) on bulletin unread, pop a notification
 
 ## Alerts
 * Site wide
 * ~~Admins can submit site wide alerts~~
 * Admins can also remove site wide alerts
 * Users can see alerts whether or not they are logged in
-* Once an alert is dismissed during a session, it doesn't pop up until the session is over
+* ~~Once an alert is dismissed during a session, it doesn't pop up until the session is over~~
 
 ## Messages
 * User Homepage
@@ -66,17 +68,20 @@
 * ~~Modularize all import pages~~
 * ~~Bulletin submit~~
 * Bulletin display on userhome
+* Site-wide Alerts
 * Work on UI for pages
 * Create front-end for Achievemnts/Ribbons
 
 ## Jack Sarick
-* Implement messaging/alert
+* Implement messaging/alert/bulletin
 * Implement database
 * Implement gamification of attendance
 * Formalize the resources items.
+* Fill out quote/bio
 
 ## Nick O'Brien
 * Create a multi-month calendar on [club_calendar.php](club_calendar.php), using pagination
+* Fill out quote/bio
 
 ## Camran Hansen
 * Fill out information in the Horizons Curriculum tab [horizons_curriculum.php](horizons_curriculum.php)
