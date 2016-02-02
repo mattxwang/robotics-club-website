@@ -1,4 +1,5 @@
 //from stackoverflow question
+var labelcontent = "";
 $('.live-preview').change(function(){
   var $this = $(this);
   if ($this.attr('id') == 'alert-type'){
@@ -15,6 +16,19 @@ $('.live-preview').change(function(){
     $alertglyph = $("#bulletin-preview-tag");
     $alertglyph.removeClass();
     $alertglyph.addClass("label " + $this.val());
+    if ($this.val() == "label-default"){
+      labelcontent="News";
+    }
+    else if ($this.val() == "label-primary"){
+      labelcontent="Club Events";
+    }
+    else if ($this.val() == "label-warning"){
+      labelcontent="Horizons";
+    }
+    else if ($this.val() == "label-danger"){
+      labelcontent="Administrative";
+    }
+    document.getElementById("bulletin-preview-tag").innerHTML = labelcontent;
   }
   else{
   $('.' + $this.attr('id') + '').html($this.val());
