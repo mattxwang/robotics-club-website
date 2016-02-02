@@ -6,7 +6,7 @@ $('.live-preview').change(function(){
     $alertpreview.removeClass();
     $alertpreview.addClass("alert " + $this.val());
   }
-  elseif ($this.attr('id') == 'alert-glyph'){
+  else if ($this.attr('id') == 'alert-glyph'){
     $alertglyph = $("#alert-preview-glyph");
     $alertglyph.removeClass();
     $alertglyph.addClass("glyphicon " + $this.val());
