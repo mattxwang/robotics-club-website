@@ -215,7 +215,7 @@
 								<h6>Use this to make sure everything looks right before you submit!</h6>
 								<span class="content"><div></span>
 									<button type="button" class="close" data-dismiss="alert">x</button>
-									<p><span class="glyph"><span class='glyphicon glyphicon-pushpin'></span> </span><span class="content">Hey, here's an alert...</span></p>
+									<p><span class="glyph"></span><span class="content">Hey, here's an alert...</span></p>
 								</div>
 						</div>
 						<div class="modal-footer">
