@@ -75,7 +75,7 @@
 
 			$_POST = filter_var_array($_POST, FILTER_SANITIZE_STRING);
 
-			$creator = $_SESSION['first_name'] + " " + $_SESSION['last_name'];
+			$creator = $_SESSION['first_name'] . " " . $_SESSION['last_name'];
 			$title = $_POST['title'];
 			$tag = $_POST['tag'];
 			$content = $_POST['content'];
@@ -120,7 +120,7 @@
 
 			$_POST = filter_var_array($_POST, FILTER_SANITIZE_STRING);
 
-			$creator = $_SESSION['first_name'] + " " + $_SESSION['last_name'];
+			$creator = $_SESSION['first_name'] . " " . $_SESSION['last_name'];
 			$type = $_POST['alert-type'];
 			$glyph = $_POST['alert-glyph'];
 			$content = $_POST['alert-content'];
@@ -246,7 +246,7 @@
 									<div class="col-md-6">
 										<h4>Alert Glyphicon</h4>
 										<select class="form-control live-preview" id="alert-glyph" name="alert-glyph" required="">
-											<option value="" selected="selected"></option>
+											<option value="glyphicon-doesntexist" selected="selected">None</option>
 											<option value="glyphicon-pushpin">Pushpin</option>
 											<option value="glyphicon-alert">Warning</option>
 										</select>
