@@ -192,7 +192,7 @@
 								<div class="row">
 									<div class="col-md-6">
 										<h4>Alert Type</h4>
-										<select class="form-control live-preview" id="type" name="type" required="">
+										<select class="form-control live-preview" id="type" name="alert-type" required="">
 											<option value="alert-primary" selected="selected">Administrative/Default</option>
 											<option value="alert-info">Information/Ads</option>
 											<option value="alert-warning">Warning/Bugs</option>
@@ -201,7 +201,7 @@
 									</div>
 									<div class="col-md-6">
 										<h4>Alert Glyphicon</h4>
-										<select class="form-control live-preview" id="glyph" name="glyph" required="">
+										<select class="form-control live-preview" id="alert-glyph" name="glyph" required="">
 											<option value="<span></span>" selected="selected"></option>
 											<option value="<span class='glyphicon glyphicon-pushpin'></span> ">Pushpin</option>
 											<option value="<span class='glyphicon glyphicon-alert'></span> ">Warning</option>
@@ -210,13 +210,13 @@
 								</div>
 								<h4>Announcement Content</h4>
 								<h6>You can use HTML tags directly in the text. It will display in the live preview.
-								<textarea class="form-control live-preview" rows="2" id="content" name="content" required="">Hey, here's an alert...</textarea>
+								<textarea class="form-control live-preview" rows="2" id="alert-content" name="content" required="">Hey, here's an alert...</textarea>
 								</br>
 								<h2>Alert Preview</h2>
 								<h6>Use this to make sure everything looks right before you submit!</h6>
 								<div class="alert alert-warning" id="alert-preview-alert">
 									<button type="button" class="close" data-dismiss="alert">x</button>
-									<p><span class="glyph"></span><span class="content">Hey, here's an alert...</span></p>
+									<p><span class="alert-glyph"></span><span class="alert-content">Hey, here's an alert...</span></p>
 								</div>
 						</div>
 						<div class="modal-footer">
