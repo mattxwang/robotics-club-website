@@ -85,7 +85,7 @@ checkIn();
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 		<meta name="description" content="UCC Robotics">
-		<title><?php echo $row_info['first_name'] ?> | UCC Robotics</title>
+		<title><?php echo $row_info['first_name']; ?>'s Homepage | UCC Robotics</title>
 		<link rel="icon" href="css/favicon.ico" />
 		<?php include_once("functions/stylesheet.php") ?>
 		<style>
@@ -111,7 +111,7 @@ checkIn();
 				<div class="col-md-4">
 					<div class="panel panel-primary">
 						<div class="panel-heading">
-							<h3>Messages & Notifications <span class="glyphicon glyphicon-envelope"></span></h3>
+							<h3><?php echo $row_info['first_name']; ?>'s Messages <span class="glyphicon glyphicon-envelope"></span></h3>
 						</div>
 						 <ul class="list-group">
 							<li class="list-group-item list-group-item-success">Message #1: Matt is Awesome.</li>
@@ -123,10 +123,15 @@ checkIn();
 					</div>
 					<div class="panel panel-info">
 						<div class="panel-heading">
-							<h3>Achievements <span class="glyphicon glyphicon-certificate"></span></h3>
+							<h3><?php echo $row_info['first_name']; ?>'s Achievements <span class="glyphicon glyphicon-certificate"></span></h3>
 						</div>
 						<div class="panel-body">
-							Sample text sample text sample text.
+							<div class="row">
+								<div class="col-xs-6 col-md-3 col-lg-2">
+									<img src="img/placeholder.png" class="img-responsive" width="50%">
+									</img>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
