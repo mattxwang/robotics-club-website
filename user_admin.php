@@ -216,10 +216,12 @@
 								<h6>Use this to make sure everything looks right before you submit!</h6>
 								<p id="alert-nest">
 								</p>
+								<script>
+									document.getElementById('alert_nest').innerHTML= "<div class='alert alert-dismissible alert-primary fade in'>";
+								</script>
 									<button type="button" class="close" data-dismiss="alert">x</button>
 									<p><span class="glyph"></span><span class="content">Hey, here's an alert...</span></p>
 								</div>
-								<script>document.getElementById('alert_nest').innerHTML= "<div class='alert alert-dismissible alert-primary fade in'>";</script>
 						</div>
 						<div class="modal-footer">
 								<button type="button" class="btn btn-danger" data-dismiss="modal">Cancel</button>
