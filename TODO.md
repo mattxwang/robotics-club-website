@@ -27,12 +27,12 @@
 * ~~Admins can submit bulletin announcements~~
 * Users can see bulletins in the past 2 weeks
 * Bulletins are tagged by type (news, horizons, club events, admin)
-* Bulletin info stored on database.
+* ~~Bulletin info stored on database.~~
 * (Possible) on bulletin unread, pop a notification 
 
 ## Alerts
 * Site wide
-* Admins can submit site wide alerts
+* ~~Admins can submit site wide alerts~~
 * Admins can also remove site wide alerts
 * Users can see alerts whether or not they are logged in
 * Once an alert is dismissed during a session, it doesn't pop up until the session is over
