@@ -116,7 +116,7 @@
 	newBulletin();
 
 	//create new alert function
-	function newBulletin(){
+	function newAlert(){
 		require("functions/common.php");
 		require("functions/import_info.php");
 		if (isset($_GET['newAlert'])) {
