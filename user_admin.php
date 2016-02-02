@@ -195,8 +195,8 @@
 										<h4>Alert Type</h4>
 										<select class="form-control live-preview" id="type" name="type" required="">
 											<option value="primary">Administrative/Default</option>
-											<option value="<div class="alert alert-dismissible alert-info fade in">">Information/Ads</option>
-											<option value="<div class="alert alert-dismissible alert-warning fade in">">Warning/Bugs</option>
+											<option value="<div class='alert alert-dismissible alert-info fade in'>">Information/Ads</option>
+											<option value="<div class='alert alert-dismissible alert-warning fade in'>">Warning/Bugs</option>
 											<option value="danger">Urgent/Security</option>
 										</select>
 									</div>
