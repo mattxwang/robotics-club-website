@@ -4,7 +4,7 @@ $('.live-preview').change(function(){
   if ($this.attr('id') == 'alert-type'){
     $alertpreview = $("#alert-preview-alert");
     $alertpreview.removeClass();
-    $alertpreview.addClass("alert" + $this.val())
+    $alertpreview.addClass("alert" + $this.val());
   }
   else{
   $('.' + $this.attr('id') + '').html($this.val());
@@ -13,8 +13,9 @@ $('.live-preview').change(function(){
 $('.live-preview').keyup(function(){
   var $this = $(this);
   if ($this.attr('id') == 'alert-type'){
-    $("#alert-preview-alert").removeClass();
-    $("#alert-preview-alert").addClass("alert" + $this.val())
+    $alertpreview = $("#alert-preview-alert");
+    $alertpreview.removeClass();
+    $alertpreview.addClass("alert" + $this.val());
   }
   else{
   $('.' + $this.attr('id') + '').html($this.val());
