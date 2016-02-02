@@ -190,11 +190,11 @@
 								<div class="row">
 									<div class="col-md-8">
 										<h4>Announcement Title</h4>
-										<input type="text" id="bulletin-title" name="bulletin-title" class="form-control" placeholder="Bulletin Announcement!" required="">
+										<input type="text" id="bulletin-title" name="bulletin-title" class="form-control live-preview" placeholder="Bulletin Announcement!" required="">
 									</div>
 									<div class="col-md-4">
 										<h4>Announcement Tag</h4>
-										<select class="form-control" id="bulletin-tag" name="bulletin-tag" required="">
+										<select class="form-control live-preview" id="bulletin-tag" name="bulletin-tag" required="">
 											<option value="label-default">News</option>
 											<option value="label-primary">Club Events</option>
 											<option value="label-warning">Horizons</option>
@@ -203,7 +203,7 @@
 									</div>
 								</div>
 								<h4>Announcement Content</h4>
-								<textarea class="form-control" rows="4" id="bulletin-content" name="bulletin-content" required="">Hey guys, we have an announcement for you...</textarea>
+								<textarea class="form-control live-preview" rows="4" id="bulletin-content" name="bulletin-content" required="">Hey guys, we have an announcement for you...</textarea>
 
 								</br>
 								<h2>Bulletin Preview</h2>
@@ -219,6 +219,7 @@
 										<span class="bulletin-content"></span>
 									</div>
 								</div>
+
 
 						</div>
 						<div class="modal-footer">
