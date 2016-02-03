@@ -155,7 +155,9 @@ checkIn();
 					<div class="well well-lg">
 						<h2><span class="glyphicon glyphicon-bullhorn"></span> Bulletin Board</h2>
 						<div class="bulletin">
+							<!--
 							<?php include_once("functions/import_bulletin.php") ?>
+						-->
 							<div class="panel panel-info">
 								<div class="panel-heading">
 									<h3>HCCS Competiton Summary <span class="label label-default">News</span></h3>
