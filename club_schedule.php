@@ -20,54 +20,9 @@
 			<?php include_once("site_wide.php") ?>
 			<h1 class="page-header"><span class="glyphicon glyphicon-calendar" aria-hidden="true"></span> Club Calendar <small>2016</small></h1>
 
-			<div class= "calendar-div table-responsive">
-				<table class= "table calendar-table">
-			<nav>
-				<ul class="pagination">
-					<li>
-						<a href="#" aria-label="Previous">
-						<span aria-hidden="true">&laquo;</span>
-						</a>
-					</li>
-					<li><a id="JanButton" href="#">January</a></li>
-						<script>
-							if (JanButton.onClick == true){
-								JanClicked();
-							}
-						</script>
-					<li><a id="FebButton" href="#">February</a></li>
-						<script>
-							if (FebButton.onClick == true){
-								FebClicked();
-							}
-						</script>
-					<li><a id="MarButton" href="#">March</a></li>
-						<script>
-							if (MarButton.onClick == true){
-								MarClicked();
-							}
-						</script>
-					<li><a id="AprButton" href="#">April</a></li>
-						<script>
-							if (AprButton.onClick == true){
-								AprClicked();
-							}
-						</script>
-					<li><a id="MayButton" href="#">May</a></li>
-						<script>
-							if (MayButton.onClick == true){
-								MayClicked();
-							}
-						</script>
-					<li>
-						<a href="#" aria-label="Next">
-						<span aria-hidden="true">&raquo;</span>
-						</a>
-					</li>
-				</ul>
-			</nav>
-			<div id="Calendar" class = "table-responsive ">
-
+			<div class="alert alert-dismissible alert-danger fade in">
+				<button type="button" class="close close-1" data-dismiss="alert">x</button>
+				<p><span class="glyphicon glyphicon-remove"></span> <b>Uh-oh!</b></br>This part of the website is still a Work in Progress. In the meantime, shoot our <a href="club_contact.php">club heads</a> an email for when we have robotics. <a href="https://github.com/malsf21/robotics-club-website/issues" class="alert-link">repository</a>.</p>
 			</div>
 
 			<!--
@@ -83,10 +38,5 @@
 		<script src="js/bootstrap.js"></script>
 		<script src="js/nav-collapse.js"></script>
 		<script src="js/schedule_switch.js"></script>
-		<script>
-			$(function () {
-				$('[data-toggle="popover"]').popover()
-			})
-		</script>
 	</body>
 </html>
