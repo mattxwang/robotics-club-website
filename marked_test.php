@@ -12,6 +12,7 @@
 </head>
 <body>
   <div id="content"></div>
+  <?php echo $markdown; ?>
   <script>
     var markdown = <?php echo $markdown; ?>
     document.getElementById('content').innerHTML = marked(markdown);
