@@ -22,7 +22,7 @@
 
 			<div class="alert alert-dismissible alert-danger fade in">
 				<button type="button" class="close close-1" data-dismiss="alert">x</button>
-				<p><span class="glyphicon glyphicon-remove"></span> <b>Uh-oh!</b></br>This part of the website is still a Work in Progress. In the meantime, shoot our <a href="club_contact.php">club heads</a> an email for when we have robotics. <a href="https://github.com/malsf21/robotics-club-website/issues" class="alert-link">repository</a>.</p>
+				<p><span class="glyphicon glyphicon-remove"></span> <b>Uh-oh!</b></br>This part of the website is still a Work in Progress. In the meantime, shoot our <a href="club_contact.php" class="alert-link">club heads</a> an email for when we have robotics.
 			</div>
 
 			<!--
