@@ -1,5 +1,4 @@
 <?php
-  require("common.php");
   $markdown = file_get_contents('CREDITS.md', FILE_USE_INCLUDE_PATH);
 ?>
 <!doctype html>
