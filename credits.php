@@ -25,7 +25,7 @@
 			</div>
 
 			<div class="well well-lg">
-				<h1><a href="https://github.com/malsf21/robotics-club-website/blob/master/CREDITS.md">Markdown File @GitHub</h1>
+				<h1><a href="https://github.com/malsf21/robotics-club-website/blob/master/CREDITS.md">Markdown File @GitHub</a></h1>
 				<div id="credit">
 				</div>
 			</div>
