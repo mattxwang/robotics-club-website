@@ -21,15 +21,16 @@
 			<?php $markdown = file_get_contents('CREDITS.md', FILE_USE_INCLUDE_PATH);	?>
 			<div class="jumbotron">
 				<h3>Making a site is hard work.</h3>
-				<h1>Here's everybody <small>and everything</small> that we've used to make the site awesome.</h1>
+				<h1>Here's everybody <small>(and everything)</small> that we've used to make the site awesome.</h1>
 			</div>
 
 			<div class="well well-lg">
+				<h1><a href="https://github.com/malsf21/robotics-club-website/blob/master/CREDITS.md">Markdown File @GitHub</h1>
 				<div id="credit">
 				</div>
 			</div>
 		</div>
-	</div>
+		</div>
 
 
 		<script src="js/jquery.easing.min.js"></script>
