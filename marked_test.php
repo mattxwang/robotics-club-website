@@ -1,3 +1,7 @@
+<?php
+  require("common.php");
+  $markdown = file_get_contents("CREDITS.md");
+?>
 <!doctype html>
 <html>
 <head>
@@ -9,13 +13,8 @@
 <body>
   <div id="content"></div>
   <script>
-  var client = new XMLHttpRequest();
-  client.open('GET', 'CREDITS.md');
-  client.onreadystatechange = function() {
-  }
-  client.send();
-    document.getElementById('content').innerHTML =
-      marked(client.responseText);
+    var markdown = <?php echo $markdown; ?>
+    document.getElementById('content').innerHTML = marked(markdown);
   </script>
 </body>
 </html>
