@@ -24,7 +24,7 @@
 
 ## Resources
 
-#### [Bootstrap](http://getbootstrap.com)
+#### [Bootstrap 3.3.6](http://getbootstrap.com)
 * Bootstrap CSS Files
 * Bootstrap JS Files
 * Glyphicons
@@ -33,11 +33,14 @@
 * Modified JS Files
 * Modified CSS Files
 
-#### [Chart.js](http://www.chartjs.org/)
-* Charts JS Files
+#### [Plotly.js](https://github.com/plotly/plotly.js)
+* Plotly.js Line Graph files
 
 #### [jQuery](https://jquery.com/)
 * jQuery v.11.1 Files
+
+#### [Marked](https://github.com/chjj/marked)
+* Marked Markdown Compiler
 
 #### [Lato Font](https://www.google.com/fonts#UsePlace:use/Collection:Lato)
 * Site-wide font
