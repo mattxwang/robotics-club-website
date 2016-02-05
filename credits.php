@@ -18,26 +18,25 @@
 
 		<div class="container">
 			<?php include_once("site_wide.php") ?>
-			<?php
-			  $markdown = file_get_contents('CREDITS.md', FILE_USE_INCLUDE_PATH);
-			?>
+			<?php $markdown = file_get_contents('CREDITS.md', FILE_USE_INCLUDE_PATH);	?>
 			<div class="jumbotron">
 				<h3>Making a site is hard work.</h3>
 				<h1>Here's everybody <small>and everything</small> that we've used to make the site awesome.</h1>
 			</div>
+
 			<div class="well well-lg">
 				<div id="credit">
 				</div>
 			</div>
-
-      <script type="text/javascript">
-        document.getElementById('credit').innerHTML = marked(<?php echo json_encode($markdown); ?>);
-      </script>
 		</div>
+	</div>
 
 
 		<script src="js/jquery.easing.min.js"></script>
 		<script src="js/bootstrap.js"></script>
 		<script src="js/nav-collapse.js"></script>
+		<script type="text/javascript">
+			document.getElementById('credit').innerHTML = marked(<?php echo json_encode($markdown); ?>);
+		</script>
 	</body>
 </html>
