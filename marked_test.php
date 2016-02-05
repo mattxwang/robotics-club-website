@@ -1,6 +1,6 @@
 <?php
   require("common.php");
-  $markdown = file_get_contents("CREDITS.md");
+  $markdown = file_get_contents("CREDITS.md", FILE_USE_INCLUDE_PATH);
 ?>
 <!doctype html>
 <html>
@@ -13,7 +13,7 @@
 <body>
   <div id="content"></div>
   <?php echo $markdown; ?>
-  <script>
+  <script type="text/javascript">
     var markdown = <?php echo $markdown; ?>
     document.getElementById('content').innerHTML = marked(markdown);
   </script>
