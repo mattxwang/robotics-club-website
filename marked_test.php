@@ -11,11 +11,11 @@
 </head>
 <body>
   <h1>Hello from the other side</h1>
-  <div id="content"></div>
+  <div id="credit"></div>
   <?php echo $markdown;
   echo "Hello"; ?>
   <script type="text/javascript">
-    document.getElementById('content').innerHTML = marked(<?php echo json_encode($markdown); ?>);
+    document.getElementById('credit').innerHTML = marked(<?php echo json_encode($markdown); ?>);
   </script>
 </body>
 </html>

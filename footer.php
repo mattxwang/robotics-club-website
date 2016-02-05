@@ -14,7 +14,7 @@
 				</br>
 				We use <a href="https://en.wikipedia.org/wiki/HTTP_cookie">cookies</a> and Google Analytics to make your user experience awesome.
 				</br>
-				The source code is available <a href="https://github.com/malsf21/robotics-club-website">here</a>, with a team/resource list <a href="https://github.com/malsf21/robotics-club-website/blob/master/CREDITS.md"> here</a>.
+				The source code is available <a href="https://github.com/malsf21/robotics-club-website">here</a>, with a team/resource list <a href="credits.php"> here</a>.
 				</p>
 			</ul>
 		</div>
