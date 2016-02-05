@@ -15,8 +15,8 @@
   <?php echo $markdown;
   echo "Hello"; ?>
   <script type="text/javascript">
-    var markdown = <?php echo $markdown; ?>
-    document.getElementById('content').innerHTML = marked(markdown);
+    //var markdown = <?php echo $markdown; ?>
+    document.getElementById('content').innerHTML = marked(<?php echo $markdown; ?>);
   </script>
 </body>
 </html>
