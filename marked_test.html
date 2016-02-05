@@ -1,0 +1,20 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8"/>
+  <title>Marked in the browser</title>
+  <script src="js/marked.js"></script>
+</head>
+<body>
+  <div id="content"></div>
+  <script>
+  var client = new XMLHttpRequest();
+  client.open('GET', 'CREDTS.md');
+  client.onreadystatechange = function() {
+  }
+  client.send();
+    document.getElementById('content').innerHTML =
+      marked(client.responseText);
+  </script>
+</body>
+</html>
