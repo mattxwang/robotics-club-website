@@ -5,13 +5,14 @@
 * Lead Web Designer
 * Web Developer
 * Lead Social Media
+* Database Management
 
 #### Jack Sarick
 * Lead Web Developer
-* Database and backend management
+* Lead Database Management
 
 #### Nicholas O'Brien
-* Assistant Web Developer
+* Junior Web Developer
 
 #### Content Contributors
 * Matthew Wang
