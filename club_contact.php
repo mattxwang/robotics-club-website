@@ -90,6 +90,7 @@
 							</tbody>
 						</table>
 					</div>
+					<h4>A full list of credits can be found <a href="credits.php">here</a>.
 					<h2>Faculty Supervisors</h2>
 					<div class="table-responsive">
 						<table class="table">
