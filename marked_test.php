@@ -15,7 +15,7 @@
   <?php echo $markdown;
   echo "Hello"; ?>
   <script type="text/javascript">
-    document.getElementById('content').innerHTML = marked('<?php echo json_encode($markdown); ?>');
+    document.getElementById('content').innerHTML = marked(<?php echo json_encode($markdown); ?>);
   </script>
 </body>
 </html>
