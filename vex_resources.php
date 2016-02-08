@@ -22,7 +22,7 @@
 			</div>
 			<div class="row">
 				<div class="col-md-6">
-					<h2>VEX Competitoin Resources</h2>
+					<h2>VEX Competition Resources</h2>
 					<div class="panel-group" id="accordion1" role="tablist" aria-multiselectable="true">
 						<div class="panel panel-primary">
 							<div class="panel-heading" role="tab" id="headingOne">
@@ -54,7 +54,7 @@
 								We keep all of our RobotC code for our robots on our <a href="https://github.com/malsf21/RobotC">GitHub Repository</a>. If you want to submit something to the repository, <a href="https://help.github.com/articles/fork-a-repo/">fork our repository</a>, make your changes, and then <a href="https://help.github.com/articles/using-pull-requests/">submit a pull request</a>. We'll review your code, and if it looks good, we'll approve the pull request. If you become a frequent contributor, we'll give you push access to the repo.
 								</br>
 								</br>
-								Since our code is on GitHub, <b>you don't need <a href="http://www.robotc.net/">the RobotC IDE</a> to code the robot</b>. We'll test the code through the robotics Windows machine, but you can write code on a Windows computer, Mac, or even Linux! We do suggest budding coders learn or understand C, so they can self-bugfix (since the approval/vetting process will take time). 
+								Since our code is on GitHub, <b>you don't need <a href="http://www.robotc.net/">the RobotC IDE</a> to code the robot</b>. We'll test the code through the robotics Windows machine, but you can write code on a Windows computer, Mac, or even Linux! We do suggest budding coders learn or understand C, so they can self-bugfix (since the approval/vetting process will take time).
 								</div>
 							</div>
 						</div>
