@@ -172,6 +172,77 @@
 		<div class="container">
 			<?php include_once("site_wide.php") ?>
 
+			<!-- New Message -->
+			<div class="modal fade" tabindex="-1" role="dialog" id="newMessage">
+				<div class="modal-dialog">
+					<div class="modal-content">
+						<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">x</span></button>
+							<h4 class="modal-title">New Message</h4>
+						</div>
+						<div class="modal-body">
+							<p>
+							<form action="?newMessage" method="post">
+								<h2>New Message</h2>
+								<p>
+									Messages are displayed as notifications and are part of an individual's <a href="user-home.php">inbox</a>. They include the sender, send date, subject, and of course, the message.
+								</p>
+								<div class="row">
+									<div class="col-md-6">
+										<h4>Recipient</h4>
+										<input type="text" id="message-receiver" name="message-receiver" class="form-control live-preview" placeholder="Delilah" required="">
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-md-6">
+										<h4>Message Subject</h4>
+										<input type="text" id="message-subject" name="message-subject" class="form-control live-preview" placeholder="Hey there!" required="">
+									</div>
+									<div class="col-md-1">
+									</div>
+									<div class="col-md-5">
+										<h4>Message Tag</h4>
+										<select class="form-control live-preview" id="message-tag" name="message-tag" required="">
+											<option value="label-default">News</option>
+											<option value="label-primary">Club Events</option>
+											<option value="label-warning">Horizons</option>
+											<option value="label-danger">Administrative</option>
+										</select>
+									</div>
+								</div>
+								<h4>Message Content</h4>
+								<textarea class="form-control live-preview" rows="4" id="message-content" name="message-content" required="">What's it like in New York City, I'm a thousand miles away but tonight you look so pretty, yes you do...</textarea>
+								</br>
+								<h2>Message Preview</h2>
+								<h6>Use this to make sure everything looks right before you click that send button!</h6>
+								<div class="panel panel-info">
+									<div class="panel-heading">
+										<h3><span class="message-title">Hey there!</span> <span class="label label-default" id="message-preview-tag">
+											News
+										</span></h3>
+									</div>
+									<div class="panel-body">
+										<div class="row">
+											<div class="recipient col-md-3">
+												To: <span class="message-receiver">Hey there!</span>
+											</div>
+											<div class="author col-md-3">
+												From: <?php echo $row_info['first_name'] . ' ' . $row_info['last_name']; ?>
+											</div>
+										</div>
+										<span class="message-content">What's it like in New York City, I'm a thousand miles away but tonight you look so pretty, yes you do...</span>
+									</div>
+								</div>
+						</div>
+						<div class="modal-footer">
+								<button type="button" class="btn btn-danger" data-dismiss="modal">Cancel</button>
+								<button type="submit" class="btn btn-success" id="submitbutton" value="Login">Send Message</button>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+
 			<!-- New Bulletin Announcement -->
 			<div class="modal fade" tabindex="-1" role="dialog" id="newBulletin">
 				<div class="modal-dialog">
@@ -221,8 +292,6 @@
 										<span class="bulletin-content">Hey guys, we have an announcement for you...</span>
 									</div>
 								</div>
-
-
 						</div>
 						<div class="modal-footer">
 								<button type="button" class="btn btn-danger" data-dismiss="modal">Cancel</button>
