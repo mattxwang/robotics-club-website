@@ -52,6 +52,7 @@
 					unset($row['password']);
 
 					$_SESSION['user'] = $row;
+					$_SESSION['user'] = 0;
 
 					header("Location: user_home.php");
 					die("Redirecting to: user_home.php");
