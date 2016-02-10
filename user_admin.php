@@ -379,7 +379,6 @@
 			</div>
 
 			<!-- Actual Site Content -->
-			<!-- Temporary fix
 			<div class="row">
 				<div class="col-md-4">
 					<div class="panel panel-primary">
@@ -479,7 +478,6 @@
 					</div>
 				</div>
 			</div>
-			-->
 		</div>
 
 		<script src="js/jquery.easing.min.js"></script>
