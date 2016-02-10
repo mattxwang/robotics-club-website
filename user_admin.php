@@ -439,10 +439,10 @@
 
 						<div class="tab-content">
 							<div role="tabpanel" class="tab-pane active fade in" id="clubday">
-  							<div id="graph_clubday" style="width:600px;height:250px;"></div>
+  							<div id="graph_clubday" class="img-responsive"></div>
 							</div>
 							<div role="tabpanel" class="tab-pane fade" id="clubmonth">
-								<div id="graph_clubmonth" style="width:600px;height:250px;"></div>
+								<div id="graph_clubmonth" class="img-responsive"></div>
 							</div>
 							<div role="tabpanel" class="tab-pane fade" id="clubstats">
 								<table class="table table-condensed">

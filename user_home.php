@@ -103,7 +103,7 @@ checkIn();
 			<?php include_once("site_wide.php") ?>
 			<h1 class="page-header">Welcome <b><?php echo $row_info['first_name']; echo " "; echo $row_info['last_name']; ?></b> <small>to your account homepage</small></h1>
 			<h5>Here, you can check in for attendance, see your achievements, and get personalized club news!</h3>
-			
+
 			<?php if($_SESSION['user']['admin'] === "1"){ ?>
 			<h3>Need to do admin stuff? <a href="user_admin.php">Click here.</a></h3>
 			<?php }elseif ($_SESSION['user']['admin'] === "2") { ?>
@@ -201,10 +201,10 @@ checkIn();
 
 						<div class="tab-content">
 							<div role="tabpanel" class="tab-pane active fade in" id="daily">
-								<div id="graph_memberday" style="width:600px;height:250px;"></div>
+								<div id="graph_memberday" class="img-responsive"></div>
 							</div>
 							<div role="tabpanel" class="tab-pane fade" id="monthly">
-								<div id="graph_membermonth" style="width:600px;height:250px;"></div>
+								<div id="graph_membermonth" class="img-responsive"></div>
 							</div>
 							<div role="tabpanel" class="tab-pane fade" id="stats">
 								<table class="table table-condensed">
