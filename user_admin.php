@@ -7,7 +7,7 @@
 		die("Redirecting to login.php");
 	}
 	//redir if not admin
-	if($_SESSION['user']['admin'] !== 1){
+	if($_SESSION['user']['admin'] === "1"){
 		header("Location: user_home.php");
 		die("Redirecting to user_home.php");
 	}
