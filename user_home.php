@@ -6,6 +6,9 @@
 		die("Redirecting to login.php");
 	}
 ?>
+<script type="text/javascript">
+	console.log(<?php echo json_encode($_SESSION['user']); ?>);
+</script>
 <?php
 // string declarations
 $timestamp = getdate();
@@ -81,6 +84,9 @@ checkIn();
 <!DOCTYPE html>
 <html>
 	<head>
+		<script type="text/javascript">
+			console.log(<?php echo json_encode($_SESSION['user']); ?>);
+		</script>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 		<meta name="description" content="UCC Robotics">
@@ -105,7 +111,7 @@ checkIn();
 			<h5>Here, you can check in for attendance, see your achievements, and get personalized club news!</h3>
 			
 			<?php if($_SESSION['user']['admin'] == 1){ ?>
-			<h3>Need to do admin stuff? <a href="user_admin.php">Click here. <?php echo $_SESSION['user']['admin'];?></a></h3>
+			<h3>Need to do admin stuff? <a href="user_admin.php">Click here.</a></h3>
 			<?php }elseif ($_SESSION['user']['admin'] == 2) { ?>
 			<h3>Need to view attendance? <a href="user_attendance.php">Click here.</a></h3>
 			<?php }?>
