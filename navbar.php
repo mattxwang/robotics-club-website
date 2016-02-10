@@ -93,7 +93,7 @@
 					Welcome <b><?php echo $row_info['first_name'] ?></b> <span class="badge">42</span><!-- IF NO NOTIF <span class="glyphicon glyphicon-ok"></span>--><span class="caret"></span>
 					</button>
 					<ul class="dropdown-menu" role="menu">
-						<?php if($_SESSION['user']['admin'] === 1){ ?>
+						<?php if($_SESSION['user']['admin'] == 1){ ?>
 						<li><a href="user_admin.php">Admin Panel <span class="glyphicon glyphicon-user"></span></a></li>
 						<li class="divider"></li>
 						<?php } ?>
