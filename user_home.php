@@ -104,9 +104,9 @@ checkIn();
 			<h1 class="page-header">Welcome <b><?php echo $row_info['first_name']; echo " "; echo $row_info['last_name']; ?></b> <small>to your account homepage</small></h1>
 			<h5>Here, you can check in for attendance, see your achievements, and get personalized club news!</h3>
 			
-			<?php if($_SESSION['user']['admin'] == 1){ ?>
+			<?php if($_SESSION['user']['admin'] === "1"){ ?>
 			<h3>Need to do admin stuff? <a href="user_admin.php">Click here.</a></h3>
-			<?php }elseif ($_SESSION['user']['admin'] == 2) { ?>
+			<?php }elseif ($_SESSION['user']['admin'] === "2") { ?>
 			<h3>Need to view attendance? <a href="user_attendance.php">Click here.</a></h3>
 			<?php }?>
 			<div class="row">
