@@ -89,9 +89,10 @@
 						<li><a href="register.php">Register <span class="glyphicon glyphicon-edit" aria-hidden="true"></span></a></li>
 						<li class="divider"></li>
 						<li><a href="login.php">Login <span class="glyphicon glyphicon-log-in"></span></a></li>
-				<?php } else { ?>
+					<?php } else { ?>
 					Welcome <b><?php echo $row_info['first_name'] ?></b> <span class="badge">42</span><!-- IF NO NOTIF <span class="glyphicon glyphicon-ok"></span>--><span class="caret"></span>
 					</button>
+					<?php } ?>
 					<ul class="dropdown-menu" role="menu">
 						<?php if($_SESSION['user']['admin'] === 1){ ?>
 						<li><a href="user_admin.php">Admin Panel <span class="glyphicon glyphicon-user"></span></a></li>
