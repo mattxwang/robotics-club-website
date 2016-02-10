@@ -11,62 +11,10 @@
 		header("Location: user_home.php");
 		die("Redirecting to user_home.php");
 	}
-	//gets the correct code
-	require("functions/import_info.php");
-	$query = "SELECT * FROM attendance WHERE email='code@robotics.ucc.on.ca';";
-
-	try
-	{
-		$stmt = $db->prepare($query);
-		$stmt->execute();
-	}
-
-	catch(PDOException $ex)
-	{
-		die("Failed to run query: " . $ex->getMessage());
-	}
-
-	$code_info = $stmt->fetch();
-	$today_code = $code_info['date'];
+	
 	$timestamp = getdate();
-	$date = (string) $timestamp['year'] .  "-" . (string) $timestamp['mon'] . "-" . (string) $timestamp['mday'];
 	$day = (string) $timestamp['weekday'] . " " . (string) $timestamp['month'] .  " " . (string) $timestamp['mday'] . " " . (string) $timestamp['year'];
 
-	//change attn code function
-	function changeCode(){
-		if (isset($_GET['changeCode'])) {
-			require("functions/common.php");
-			require("functions/import_info.php");
-			if(empty($_POST['new_code'])) {
-				die("You forgot to enter a code!");
-				header("Location: ".$_SERVER['SCRIPT_NAME']);
-			}
-			$_POST = filter_var_array($_POST, FILTER_SANITIZE_STRING);
-			$new_code = $_POST['new_code'];
-			$query = "
-			REPLACE INTO attendance (
-				email,
-				date,
-				id
-			) VALUES (
-				'code@robotics.ucc.on.ca',
-				'$new_code',
-				1
-			);";
-			try {
-				$stmt = $db->prepare($query);
-				$stmt->execute();
-				header("Location: ".$_SERVER['SCRIPT_NAME']);
-			}
-
-			catch(PDOException $ex)
-			{
-				die("Failed to run query: " . $ex->getMessage());
-				header("Location: ".$_SERVER['SCRIPT_NAME']);
-			}
-		}
-	}
-	changeCode();
 ?>
 <!DOCTYPE html>
 <html>
@@ -88,21 +36,6 @@
 			<!-- Actual Site Content -->
 			<div class="jumbotron">
 				<h1 class="page-header">Today is <b><?php echo $day; ?></b></h2>
-				<form class="form-signin" action="?changeCode" method="post">
-					<div class="row">
-						<div class="col-sm-4">
-							<h4>The current code is: <b><?php echo $today_code; ?></b></h4>
-						</div>
-						<div class="col-sm-8">
-							<div class="input-group">
-								<input type="text" id="new_code" name="new_code" class="form-control" placeholder="Blank Space." required="">
-								<span class="input-group-btn">
-									<button class="btn btn-default" type="submit" id="submitbutton" value="Login">Set New Code</button>
-								</span>
-							</div>
-						</div>
-					</div>
-				</form>
 			</div>
 
 			<div class="well well-lg">
