@@ -7,7 +7,7 @@
 		die("Redirecting to login.php");
 	}
 	//redir if not admin
-	if($_SESSION['user']['admin'] === "1"){
+	if($_SESSION['user']['admin'] !== "1"){
 		header("Location: user_home.php");
 		die("Redirecting to user_home.php");
 	}
@@ -379,7 +379,7 @@
 			</div>
 
 			<!-- Actual Site Content -->
-			<!-- Temporary fix 
+			<!-- Temporary fix
 			<div class="row">
 				<div class="col-md-4">
 					<div class="panel panel-primary">
