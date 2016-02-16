@@ -40,7 +40,7 @@
 									<img src="img/placeholder.png">
 								</div>
 								<div class="col-lg-8">
-									The Robotics Horizons Mentees and Mentors get to know each other, and after brainstorming on whiteboards discuss major ideas of robotics. Before the discussion, <a href="https://docs.google.com/presentation/d/1GiFKaW-LMAiWC_KkBrnbGocS1rLxWmSkZMHn5EA-tDY/edit?usp=sharing"> a presentation on "cool robots"</a> is shown to the mentees. The mentors guide this conversation, weaving in important vocabulary and ideas, such as the the <a href="https://en.wikipedia.org/wiki/Three_Laws_of_Robotics">the Three Laws of Robotics</a> and an <a href="https://en.wikipedia.org/wiki/Autonomous_robot"> "autonomous robot"</a>.
+									The Robotics Horizons Mentees and Mentors get to know each other, and after brainstorming on whiteboards discuss major ideas of robotics. Before the discussion, <a href="https://docs.google.com/presentation/d/1GiFKaW-LMAiWC_KkBrnbGocS1rLxWmSkZMHn5EA-tDY/edit?usp=sharing">a presentation on cool robots</a> is shown to the mentees. The mentors guide this conversation, weaving in important vocabulary and ideas, such as <a href="https://en.wikipedia.org/wiki/Three_Laws_of_Robotics">the Three Laws of Robotics</a> and an <a href="https://en.wikipedia.org/wiki/Autonomous_robot">autonomous robot</a>.
 								</div>
 							</div>
 						</div>
