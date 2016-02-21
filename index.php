@@ -114,7 +114,7 @@
 									<h1>Nicholas O'Brien</h1>
 									<h3>Assistant Developer and Builder</h3>
 									<p>
-										Robotics is beyond fascinating. I've learned so much since I came here in Year 1, not just in the field of robotics but also in computer science, physics, engineering, you name it! This is the most amazing way to get involved in UCC and I will never forget the hours I've spent there.
+										"Robotics is beyond fascinating. I've learned so much since I came here in Year 1, not just in the field of robotics but also in computer science, physics, engineering, you name it! This is the most amazing way to get involved in UCC and I will never forget the hours I've spent there."
 										</br>
 										</br>
 										Nick is a Robotics Club Assistant Developer, Builder, and Programmer, as well as a competitive rower and sailor. Nick is currently in Year 2. You can contact him by <a href="nicholas.obrien@ucc.on.ca">email</a>.
