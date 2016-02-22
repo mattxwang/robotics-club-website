@@ -2,6 +2,7 @@
 # Things to do
 
 ### Content
+* index: fill out sarick's quote and bio
 * club_about: pictures on right-hand column
 * club_schedule: add all content and make calendar work
 * club_resources: formalize resources
@@ -33,9 +34,10 @@
 * (Possible) on bulletin unread, pop a notification
 
 ## Alerts
-* Site wide
+* ~~Site wide~~
 * ~~Admins can submit site wide alerts~~
 * Admins can also remove site wide alerts
+* Submitted Alerts are displayed
 * Users can see alerts whether or not they are logged in
 * ~~Once an alert is dismissed during a session, it doesn't pop up until the session is over~~
 
@@ -68,9 +70,9 @@
 * ~~Modularize all import pages~~
 * ~~Bulletin submit~~
 * Bulletin display on userhome
-* Site-wide Alerts
+* ~~Site-wide Alerts~~
 * Work on UI for pages
-* Create front-end for Achievemnts/Ribbons
+* Create front-end for Achievements/Ribbons
 
 ## Jack Sarick
 * Implement messaging/alert/bulletin
@@ -81,7 +83,7 @@
 
 ## Nick O'Brien
 * Create a multi-month calendar on [club_calendar.php](club_calendar.php), using pagination
-* Fill out quote/bio
+* ~~Fill out quote/bio~~
 
 ## Camran Hansen
 * Fill out information in the Horizons Curriculum tab [horizons_curriculum.php](horizons_curriculum.php)
