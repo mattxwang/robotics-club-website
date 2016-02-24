@@ -1,18 +1,21 @@
 <?php
 	include_once("common.php");
 
-	$query = "SELECT * FROM attendance;";
+	$query = "SELECT * FROM robotics.attendance;";
 
-	try
-	{
-		$stmt = $db->prepare($query);
-		$stmt->execute();
+	// execute query
+	$result = mysql_query($query) or die ("Error in query: $query. ".mysql_error());
+
+	$data = [];
+	while($row = mysql_fetch_row($result)) {
+		array_push($data, $row);
 	}
 
-	catch(PDOException $ex)
-	{
-		die("Failed to run query: " . $ex->getMessage());
-	}
+	echo(json_encode($data));
 
-	var_dump($stmt);
-}
+	// free result set memory
+	mysql_free_result($result);
+
+	// close connection
+	mysql_close($connection);
+?>
