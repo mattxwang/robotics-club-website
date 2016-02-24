@@ -1,5 +1,5 @@
 <?php
-	include_once("functions/common.php");
+	include_once("common.php");
 
 	$query = "SELECT * FROM attendance;";
 
