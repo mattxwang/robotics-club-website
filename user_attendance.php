@@ -82,7 +82,7 @@
 							</tr>
 							<tr>
 								<td>Total Members Logged</td>
-								<td>747</td>
+								<td id="total_members_alltime"></td>
 							</tr>
 						</table>
 					</div>
@@ -114,7 +114,7 @@
 			var total_members_month = 0;
 			var total_members_year = 0;
 			var total_members_alltime = attendance_data.length-1;
-
+			$(".total_members_alltime").html = total_members_alltime
 			console.log(total_members_alltime);
 
 
