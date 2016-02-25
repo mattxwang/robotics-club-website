@@ -108,7 +108,7 @@
 				xmlHttp.send( null );
 				return xmlHttp.responseText;
 			}
-			var attendance_data = httpGet("functions/attendance_json.php");
+			var attendance_data = JSON.parse(httpGet("functions/attendance_json.php"));
 			var total_members_day = 0;
 			var total_members_week = 0;
 			var total_members_month = 0;
