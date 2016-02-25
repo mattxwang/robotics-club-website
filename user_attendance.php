@@ -102,7 +102,7 @@
 		<script src="js/live-preview.js"></script>
 		<script src="js/plotly.js"></script>
 		<script>
-			var attendance_data = $.get("function/attendance_json.php");
+			var attendance_data = $.get("functions/attendance_json.php");
 			console.log(attendance_data);
 			//club day info
       var trace1_clubday = {
