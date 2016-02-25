@@ -102,8 +102,14 @@
 		<script src="js/live-preview.js"></script>
 		<script src="js/plotly.js"></script>
 		<script>
-			var attendance_data = $.get("functions/attendance_json.php");
-			console.log(attendance_data.responseText());
+		function httpGet(theUrl){}
+				var xmlHttp = new XMLHttpRequest();
+				xmlHttp.open( "GET", theUrl, false ); // false for synchronous request
+				xmlHttp.send( null );
+				return xmlHttp.responseText;
+			}
+			var attendance_data = httpGet("functions/attendance_json.php");
+			console.log(attendance_data);
 			//club day info
       var trace1_clubday = {
         x: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
