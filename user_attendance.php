@@ -113,7 +113,7 @@
 			var total_members_week = 0;
 			var total_members_month = 0;
 			var total_members_year = 0;
-			var total_members_alltime = attendance_data;
+			var total_members_alltime = attendance_data.length()-1;
 
 			console.log(total_members_alltime);
 
