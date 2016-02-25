@@ -20,5 +20,4 @@
 		// close connection
 		mysql_close($connection);
 	}
-	echo pull_attendance();
 ?>

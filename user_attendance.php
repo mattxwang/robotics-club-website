@@ -198,8 +198,7 @@
 
       Plotly.newPlot('graph_clubday', data_clubday, layout_clubday, tweaks);
 			Plotly.newPlot('graph_clubmonth', data_clubmonth, layout_clubmonth, tweaks);
-		</script>
-		<script>
+
 			var attendance_data = "<?php echo pull_attendance(); ?>";
 			console.log(attendance_data);
 		</script>
