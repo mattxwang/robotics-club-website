@@ -1,5 +1,4 @@
 <?php include_once("functions/import_info.php") ?>
-<?php include_once("functions/import_attendance.php") ?>
 <?php
 	require("functions/common.php");
 	//redir on no login
@@ -103,6 +102,8 @@
 		<script src="js/live-preview.js"></script>
 		<script src="js/plotly.js"></script>
 		<script>
+			var attendance_data = $.get("function/attendance_json.php");
+			console.log(attendance_data);
 			//club day info
       var trace1_clubday = {
         x: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
@@ -198,9 +199,6 @@
 
       Plotly.newPlot('graph_clubday', data_clubday, layout_clubday, tweaks);
 			Plotly.newPlot('graph_clubmonth', data_clubmonth, layout_clubmonth, tweaks);
-
-			var attendance_data = '<?php echo pull_attendance(); ?>';
-			console.log(attendance_data);
 		</script>
 	</body>
 </html>
