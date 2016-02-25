@@ -102,14 +102,22 @@
 		<script src="js/live-preview.js"></script>
 		<script src="js/plotly.js"></script>
 		<script>
-		function httpGet(theUrl){
+			function httpGet(theUrl){
 				var xmlHttp = new XMLHttpRequest();
 				xmlHttp.open( "GET", theUrl, false ); // false for synchronous request
 				xmlHttp.send( null );
 				return xmlHttp.responseText;
 			}
 			var attendance_data = httpGet("functions/attendance_json.php");
-			console.log(attendance_data);
+			var total_members_day = 0;
+			var total_members_week = 0;
+			var total_members_month = 0;
+			var total_members_year = 0;
+			var total_members_alltime = attendance_data.length()-1;
+
+			console.log(total_members_alltime);
+
+
 			//club day info
       var trace1_clubday = {
         x: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
