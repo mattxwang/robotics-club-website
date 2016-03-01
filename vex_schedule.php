@@ -39,7 +39,7 @@
 						<h4>Rich Hansen Secondary School</h4>
 						<a href="https://www.google.com/maps/place/Rick+Hansen+Secondary+School/@43.5888336,-79.6851817,17z/data=!3m1!4b1!4m2!3m1!1s0x882b411cd6d735dd:0x4349d131f34e437">1150 Dream Crest Rd, Mississauga</a>
 						</br>
-						Rick Hansen SS is our last regular season Vex Competition for the year. We'll send out permission forms, among other information, as soon as possible. Stay tuned!
+						We went to Rick Hansen SS with a wonderful robot with a few functionality issues. Unfortunately, issues with VEX Net Keys made us only able to use our robot in two out of six possible matches. Nevertheless, we still got an award: our club faculty adviser, Mr. Kevin Olds, ended up winning the VEX Mentor of the Year Award, out of 60+ coaches in our region. Overall, it was a success for our club, and hopefully we'll be more successful next year!
 					</div>
 				</div>
 			</div>
