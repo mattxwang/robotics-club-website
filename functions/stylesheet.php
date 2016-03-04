@@ -1,4 +1,4 @@
-<?php 
+<?php
 	//big shout out to devsnowy for helping me out with this
 	if (empty($_SESSION['PageStyling'])){
 		$_SESSION['PageStyling'] = "whitemode";
@@ -28,3 +28,4 @@
 	}
 ?>
 <link href='css/style.css' rel='stylesheet'>
+<script src="js/google_analytics.js"></script>
