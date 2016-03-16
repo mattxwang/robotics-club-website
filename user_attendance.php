@@ -99,7 +99,6 @@
 		<script src="js/jquery.easing.min.js"></script>
 		<script src="js/bootstrap.js"></script>
 		<script src="js/nav-collapse.js"></script>
-		<script src="js/live-preview.js"></script>
 		<script src="js/plotly.js"></script>
 		<script>
 			function httpGet(theUrl){

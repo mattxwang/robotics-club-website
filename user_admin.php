@@ -7,7 +7,7 @@
 		die("Redirecting to login.php");
 	}
 	//redir if not admin
-	if($_SESSION['user']['admin'] !== "1"){
+	if($_SESSION['user']['admin'] === 0){
 		header("Location: user_home.php");
 		die("Redirecting to user_home.php");
 	}
@@ -464,7 +464,7 @@
 									</tr>
 									<tr>
 										<td>Total Members Logged</td>
-										<td>747</td>
+										<td><span id="total_members_alltime"></span></td>
 									</tr>
 								</table>
 							</div>
@@ -483,9 +483,24 @@
 		<script src="js/jquery.easing.min.js"></script>
 		<script src="js/bootstrap.js"></script>
 		<script src="js/nav-collapse.js"></script>
-		<script src="js/live-preview.js"></script>
 		<script src="js/plotly.js"></script>
 		<script>
+			function httpGet(theUrl){
+				var xmlHttp = new XMLHttpRequest();
+				xmlHttp.open( "GET", theUrl, false ); // false for synchronous request
+				xmlHttp.send( null );
+				return xmlHttp.responseText;
+			}
+			var attendance_data = JSON.parse(httpGet("functions/attendance_json.php"));
+			var total_members_day = 0;
+			var total_members_week = 0;
+			var total_members_month = 0;
+			var total_members_year = 0;
+			var total_members_alltime = attendance_data.length-1;
+			$("#total_members_alltime").html(total_members_alltime);
+			console.log(total_members_alltime);
+
+
 			//club day info
       var trace1_clubday = {
         x: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
