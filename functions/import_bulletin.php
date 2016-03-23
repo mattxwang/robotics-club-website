@@ -44,16 +44,16 @@
 	*/
 	$log_json = file_get_contents("../bulletin/bulletin.json");
   $log_data = json_decode($log_json, true);
-	for ($i = 0; $i < count($log_data); $i += 1){
+	for ($i = count($log_data); $i > 0; $i -= 1){
 		echo "<div class='panel panel-info'>
 		  <div class='panel-heading'>
-		    <h3>" . $log_data[$i]["title"] . " <span class='label " . $log_data[$i]["tag"] . "'>" . $log_data[$i]["category"] . "</span></h3>
+		    <h3>" . $log_data[$i]["data"]["title"] . " <span class='label " . $log_data[$i]["data"]["tag"] . "'>" . $log_data[$i]["data"]["category"] . "</span></h3>
 		  </div>
 		  <div class='panel-body'>
 		    <div class='author'>
-		      From " . $log_data[$i]["creator"] . "
+		      From " . $log_data[$i]["data"]["creator"] . "
 		    </div>
-		    " . $log_data[$i]["content"] . "
+		    " . $log_data[$i]["data"]["content"] . "
 		  </div>
 		</div>";
 	}
