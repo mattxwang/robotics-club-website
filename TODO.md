@@ -1,6 +1,9 @@
 # To-Do List
 # Things to do
 
+### General
+* Almost all of this code is actually really badly done. Refactor and fix everything up, get rid of file clunk. Probably a summer project.
+
 ### Content
 * index: fill out sarick's quote and bio
 * club_about: pictures on right-hand column
@@ -12,8 +15,8 @@
 * projects_arduino: fill out content and pictures
 * projects_keyboard: fill out content and pictures
 * projects_soldering: fill out content and pictures
-* user_home: implement ~~attendance~~, "game", and messages/bulletin features
-* user_admin: implement ~~attendance~~, "game", and messages/~~bulletin~~ features
+* user_home: implement attendance, "game", and messagesfeatures
+* user_admin: implement attendance, "game", and messages features
 * user_account: implement more account editing features
 
 ### User Account
@@ -25,21 +28,14 @@
 * Messaging System (for now, just admins can send messages/alerts/bulletins)
 
 ## Bulletin
-* At User Homepage
-* ~~Admins can submit bulletin announcements~~
-* ~~Live preview during submit~~
-* Users can see bulletins in the past 2 weeks
-* Bulletins are tagged by type (news, horizons, club events, admin)
-* ~~Bulletin info stored on database.~~
+* At User Homepage/Index
+* Admins can submit bulletin announcements (with new JSON set)
 * (Possible) on bulletin unread, pop a notification
 
 ## Alerts
-* ~~Site wide~~
-* ~~Admins can submit site wide alerts~~
+* Admins can submit site wide alerts
 * Admins can also remove site wide alerts
 * Submitted Alerts are displayed
-* Users can see alerts whether or not they are logged in
-* ~~Once an alert is dismissed during a session, it doesn't pop up until the session is over~~
 
 ## Messages
 * User Homepage
@@ -50,9 +46,8 @@
 * Messages can also be deleted.
 
 ### Attendance
-* ~~Requires user account~~
-* ~~Code changes every day, and is editdable by admins~~
-* Users can see a display of what days they come in
+* Pull Attendance data and parse it!
+* Users can see a display of what days they come in (to graph)
 * Users get badges for attending (badges for cumulative, ribbons for streaks, medals/trophies for special events)
 * Possible leaderboard
 
@@ -67,15 +62,13 @@
 
 ## Matthew Wang
 * Implement all the content and pages.
-* ~~Modularize all import pages~~
-* ~~Bulletin submit~~
-* Bulletin display on userhome
-* ~~Site-wide Alerts~~
+* Code cleanup!
+* Bulletin submit
 * Work on UI for pages
 * Create front-end for Achievements/Ribbons
 
 ## Jack Sarick
-* Implement messaging/alert/bulletin
+* Implement messaging/alert
 * Implement database
 * Implement gamification of attendance
 * Formalize the resources items.
@@ -83,7 +76,6 @@
 
 ## Nick O'Brien
 * Create a multi-month calendar on [club_calendar.php](club_calendar.php), using pagination
-* ~~Fill out quote/bio~~
 
 ## Camran Hansen
 * Fill out information in the Horizons Curriculum tab [horizons_curriculum.php](horizons_curriculum.php)
