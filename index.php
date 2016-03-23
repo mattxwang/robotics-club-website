@@ -141,7 +141,7 @@
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-md-9">
+				<div class="col-md-7">
 					<div class ="well">
 						<h2><span class="glyphicon glyphicon-bullhorn"></span> Bulletin Board</h2>
 						<div class="bulletin">
@@ -149,7 +149,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-md-9">
+				<div class="col-md-5">
 					<div class="well">
 						<h2>What's this website for?</h2>
 						<p>Well, this website obviously gives information. But not only that! You can sign up for an account, which you'll use to check into the club, receive club news, possible email blasts, possible achievements, and a whole other realm of more features coming soon!
