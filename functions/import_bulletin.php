@@ -59,7 +59,7 @@
 		}
 		echo "<div class='panel panel-info'>
 		  <div class='panel-heading'>
-		    <h3>" . $log_data["data"][$i]["title"] . " <span class='label " . $log_data["data"][$i]["tag"] . "'>" . $log_data["data"][$i]["category"] . "</span></h3>
+		    <h3>" . $log_data["data"][$i]["title"] . " <span class='label " . $log_data["data"][$i]["tag"] . "'>" . $category . "</span></h3>
 		  </div>
 		  <div class='panel-body'>
 		    <div class='author'>
