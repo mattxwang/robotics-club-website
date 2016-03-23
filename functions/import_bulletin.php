@@ -45,6 +45,18 @@
 	$log_json = file_get_contents("bulletin/bulletin.json");
   $log_data = json_decode($log_json, true);
 	for ($i = count($log_data["data"]); $i > 0; $i -= 1){
+		if ($log_data["data"][$i]["tag"] == "label-default"){
+			$category = "News";
+		}
+		elseif ($log_data["data"][$i]["tag"]g == "label-primary"){
+			$category = "Club Events";
+		}
+		elseif ($log_data["data"][$i]["tag"] == "label-warning"){
+			$category = "Horizons";
+		}
+		elseif ($log_data["data"][$i]["tag"] == "label-danger"){
+			$category = "Administrative";
+		}
 		echo "<div class='panel panel-info'>
 		  <div class='panel-heading'>
 		    <h3>" . $log_data["data"][$i]["title"] . " <span class='label " . $log_data["data"][$i]["tag"] . "'>" . $log_data["data"][$i]["category"] . "</span></h3>
