@@ -47,13 +47,13 @@
 	for ($i = 0; $i < count($log_data); $i += 1){
 		echo "<div class='panel panel-info'>
 		  <div class='panel-heading'>
-		    <h3>" . $log_data["title"] . " <span class='label " . $log_data["tag"] . "'>" . $log_data["category"] . "</span></h3>
+		    <h3>" . $log_data[$i]["title"] . " <span class='label " . $log_data[$i]["tag"] . "'>" . $log_data[$i]["category"] . "</span></h3>
 		  </div>
 		  <div class='panel-body'>
 		    <div class='author'>
-		      From " . $log_data["creator"] . "
+		      From " . $log_data[$i]["creator"] . "
 		    </div>
-		    " . $log_data["content"] . "
+		    " . $log_data[$i]["content"] . "
 		  </div>
 		</div>";
 	}
