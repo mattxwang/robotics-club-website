@@ -1,5 +1,6 @@
 <?php
-  //this snippet of code imports all bulletins that haven't expired yet
+	/*
+	//this snippet of code imports all bulletins that haven't expired yet
 	require("common.php");
   $unixtime = time();
 	$query = "SELECT creator, title, tag, content FROM bulletin WHERE expire > '$unixtime';";
@@ -37,6 +38,22 @@
 		      From " . $creator . "
 		    </div>
 		    " . $content . "
+		  </div>
+		</div>";
+	}
+	*/
+	$log_json = file_get_contents("../bulletin/bulletin.json");
+  $log_data = json_decode($log_json, true);
+	for ($i = 0; $i < count($log_data); $i += 1){
+		echo "<div class='panel panel-info'>
+		  <div class='panel-heading'>
+		    <h3>" . $log_data["title"] . " <span class='label " . $log_data["tag"] . "'>" . $log_data["category"] . "</span></h3>
+		  </div>
+		  <div class='panel-body'>
+		    <div class='author'>
+		      From " . $log_data["creator"] . "
+		    </div>
+		    " . $log_data["content"] . "
 		  </div>
 		</div>";
 	}
