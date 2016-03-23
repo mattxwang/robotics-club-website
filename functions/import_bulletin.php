@@ -48,7 +48,7 @@
 		if ($log_data["data"][$i]["tag"] == "label-default"){
 			$category = "News";
 		}
-		elseif ($log_data["data"][$i]["tag"]g == "label-primary"){
+		elseif ($log_data["data"][$i]["tag"] == "label-primary"){
 			$category = "Club Events";
 		}
 		elseif ($log_data["data"][$i]["tag"] == "label-warning"){
