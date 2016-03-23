@@ -34,7 +34,7 @@
 							</thead>
 							<tbody>
 								<tr>
-									<td><a href="http://twitter.com/malsf21">Matthew Wang</a></td>
+									<td><a href="http://matthewwang.me">Matthew Wang</a></td>
 									<td>Club Head, Head of Operations and Media</td>
 									<td><a href="mailto:matthew.wang@ucc.on.ca">matthew.wang@ucc.on.ca</a></td>
 								</tr>
@@ -73,7 +73,7 @@
 							</thead>
 							<tbody>
 								<tr>
-									<td><a href="http://twitter.com/malsf21">Matthew Wang</a></td>
+									<td><a href="http://matthewwang.me">Matthew Wang</a></td>
 									<td>Lead Web Designer</td>
 									<td><a href="mailto:matthew.wang@ucc.on.ca">matthew.wang@ucc.on.ca</a></td>
 								</tr>
