@@ -88,12 +88,6 @@ checkIn();
 		<link rel="icon" href="css/favicon.ico" />
 		<?php include_once("functions/stylesheet.php") ?>
 		<script src="js/jquery.js"></script>
-		<style>
-			.bulletin{
-				height:256px;
-				overflow-y:auto;
-			}
-		</style>
 	</head>
 
 	<body>

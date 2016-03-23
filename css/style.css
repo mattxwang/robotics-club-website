@@ -43,3 +43,7 @@ body {
 	font-style:italic;
 	font-weight:bold;
 }
+.bulletin{
+	height:256px;
+	overflow-y:auto;
+}
