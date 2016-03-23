@@ -42,7 +42,7 @@
 		</div>";
 	}
 	*/
-	$log_json = file_get_contents("../bulletin/bulletin.json");
+	$log_json = file_get_contents("bulletin/bulletin.json");
   $log_data = json_decode($log_json, true);
 	for ($i = count($log_data["data"]); $i > 0; $i -= 1){
 		echo "<div class='panel panel-info'>
