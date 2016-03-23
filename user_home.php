@@ -156,7 +156,7 @@ checkIn();
 					<div class="well well-lg">
 						<h2><span class="glyphicon glyphicon-bullhorn"></span> Bulletin Board</h2>
 						<div class="bulletin">
-							<?php include_once("functions/bulletin.php"); ?>
+							<?php include_once("functions/import_bulletin.php"); ?>
 						</div>
 					</div>
 					<div class="well well-lg">
