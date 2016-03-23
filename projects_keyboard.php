@@ -92,19 +92,22 @@
 				</div>
 
 				<div class="col-md-6">
-					<h2>Futher Learning</h2>
+					<h2>Project Noticeboard</h2>
 					<div class="panel-group" id="accordion2" role="tablist" aria-multiselectable="true">
 						<div class="panel panel-info">
 							<div class="panel-heading" role="tab" id="headingOne">
 								<h4 class="panel-title">
 								<a role="button" data-toggle="collapse" data-parent="#accordion2" href="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
-								Lorem Ipsum.
+								Scheduling
 								</a>
 								</h4>
 							</div>
 							<div id="collapseFour" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
 								<div class="panel-body">
-								Lorem Ipsum.
+								<ul>
+									<li>We have planned time for training and assembling the project (Month of April)</li>
+									<li>We <b>have not</b> planned time for workshops</li>
+								</ul>
 								</div>
 							</div>
 						</div>
@@ -112,13 +115,20 @@
 							<div class="panel-heading" role="tab" id="headingTwo">
 								<h4 class="panel-title">
 								<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion2" href="#collapseFive" aria-expanded="false" aria-controls="collapseTwo">
-								Lorem Ipsum.
+								Staff
 								</a>
 								</h4>
 							</div>
 							<div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
 								<div class="panel-body">
-								Lorem Ipsum.
+									<p>
+										If you'd like to participate in the program, feel free to contact <a href="club_contact.php">Matthew Wang</a> for more details.
+									</p>
+									<ul>
+										<li>We <b>do not</b> have any trained teachers</li>
+										<li>We <b>do not</b> have any testers</li>
+										<li>Sign up <b>is not</b> open</li>
+									</ul>
 								</div>
 							</div>
 						</div>
@@ -126,13 +136,23 @@
 							<div class="panel-heading" role="tab" id="headingThree">
 								<h4 class="panel-title">
 								<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion2" href="#collapseSix" aria-expanded="false" aria-controls="collapseThree">
-								Lorem Ipsum.
+								Resources
 								</a>
 								</h4>
 							</div>
 							<div id="collapseSix" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
 								<div class="panel-body">
-								Lorem Ipsum.
+									<p>
+									If there's something that has not been purchased yet, and you'd like to help the club purchase it/donate to the program, please contact <a href="club_contact.php">Matthew Wang</a> for more details.
+									</p>
+									<ul>
+										<li>We have purchased the switches</li>
+										<li>We have purchased some of the cpus/mini-cpus</li>
+										<li>We <b>have not</b> purchased the wiring</li>
+										<li>We <b>have not</b> purchased the breadboard</li>
+										<li>We <b>have not</b> purchased the keyboard material</li>
+										<li>We <b>have not</b> purchased the keycaps</li>
+									</ul>
 								</div>
 							</div>
 						</div>
