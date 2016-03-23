@@ -140,6 +140,26 @@
 				-->
 				</div>
 			</div>
+			<div class="row">
+				<div class="col-md-9">
+					<div class ="well">
+						<h2><span class="glyphicon glyphicon-bullhorn"></span> Bulletin Board</h2>
+						<div class="bulletin">
+							<?php include_once("functions/import_bulletin.php"); ?>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-9">
+					<div class="well">
+						<h2>What's this website for?</h2>
+						<p>Well, this website obviously gives information. But not only that! You can sign up for an account, which you'll use to check into the club, receive club news, possible email blasts, possible achievements, and a whole other realm of more features coming soon!
+						</br>
+						</br>
+						Want to know how we made this site? Click<a href="https://github.com/malsf21/robotics-club-website">here</a>.
+						</p>
+					</div>
+				</div>
+			</div>
 		</div>
 
 
