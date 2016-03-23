@@ -1,4 +1,7 @@
 # To-Do List
+
+## The most important things to do are now on the issue tracker.
+
 # Things to do
 
 ### General
