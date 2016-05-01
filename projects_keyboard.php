@@ -64,6 +64,8 @@
 									<li>Gather all parts.</li>
 									<li>Create keyboard layout.</li>
 									<li>Modify breadboards to match layout.</li>
+									<li>Program mini-arduinos to receive button input.</li>
+									<li>Solder switches to mini-arduinos.</li>
 								</ol>
 								</div>
 							</div>
@@ -105,7 +107,7 @@
 							<div id="collapseFour" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
 								<div class="panel-body">
 								<ul>
-									<li>We have planned time for training and assembling the project (Month of April)</li>
+									<li>We are currently gathering all the parts and prototyping the key layout + housing (as of May 2016).</li>
 									<li>We <b>have not</b> planned time for workshops</li>
 								</ul>
 								</div>
@@ -125,9 +127,9 @@
 										If you'd like to participate in the program, feel free to contact <a href="club_contact.php">Matthew Wang</a> for more details.
 									</p>
 									<ul>
-										<li>We <b>do not</b> have any trained teachers</li>
-										<li>We <b>do not</b> have any testers</li>
-										<li>Sign up <b>is not</b> open</li>
+										<li>We <b>do not</b> have any trained teachers, and are looking for some</li>
+										<li>We <b>do not</b> have any testers, and are looking for some</li>
+										<li>Sign up for the program <b>is not</b> open</li>
 									</ul>
 								</div>
 							</div>
@@ -150,7 +152,7 @@
 										<li>We have purchased some of the cpus/mini-cpus</li>
 										<li>We <b>have not</b> purchased the wiring</li>
 										<li>We <b>have not</b> purchased the breadboard</li>
-										<li>We <b>have not</b> purchased the keyboard material</li>
+										<li>We <b>have not</b> purchased the keyboard housing material</li>
 										<li>We <b>have not</b> purchased the keycaps</li>
 									</ul>
 								</div>
