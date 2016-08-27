@@ -155,7 +155,7 @@
 						<p>Well, this website obviously gives information. But not only that! You can sign up for an account, which you'll use to check into the club, receive club news, possible email blasts, possible achievements, and a whole other realm of more features coming soon!
 						</br>
 						</br>
-						Want to know how we made this site? Click<a href="https://github.com/malsf21/robotics-club-website">here</a>.
+						Want to know how we made this site? Click <a href="https://github.com/malsf21/robotics-club-website">here</a>.
 						</p>
 					</div>
 				</div>

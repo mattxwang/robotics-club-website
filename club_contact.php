@@ -44,9 +44,9 @@
 									<td><a href="mailto:jack.sarick@ucc.on.ca">jack.sarick@ucc.on.ca</a></td>
 								</tr>
 								<tr>
-									<td>Alex Roberts</td>
+									<td>John Mace</td>
 									<td>Club Head, Head of Programming</td>
-									<td><a href="mailto:alexander.roberts@ucc.on.ca">alexander.roberts@ucc.on.ca</a></td>
+									<td><a href="mailto:john.mace@ucc.on.ca">john.mace@ucc.on.ca</a></td>
 								</tr>
 								<tr>
 									<td>Camran Hansen</td>
@@ -54,9 +54,9 @@
 									<td><a href="mailto:camran.hansen@ucc.on.ca">camran.hansen@ucc.on.ca</a></td>
 								</tr>
 								<tr>
-									<td>John Mace</td>
-									<td>Secretary, Junior Club Head</td>
-									<td><a href="mailto:john.mace@ucc.on.ca">john.mace@ucc.on.ca</a></td>
+									<td>Evan Boeckh</td>
+									<td>Secretary</td>
+									<td><a href="mailto:evan.boeckh@ucc.on.ca">evan.boeckh@ucc.on.ca</a></td>
 								</tr>
 							</tbody>
 						</table>
