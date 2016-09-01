@@ -45,8 +45,8 @@
 							<h3 class="panel-title">About Our Team</h3>
 						</div>
 						<div class="panel-body">
-							Our club is entirely student-run. In the 2015-2016 academic year, we have <a href="club_contact.php">four club heads:</a> <a href="http://jack.antinode.ca/"><b>Jack Sarick</b></a>, <a href="http://twitter.com/malsf21"><b>Matthew Wang</b></a>,
-							<b>Alex Roberts</b>, and <b>Camran Hansen</b>. John Mace acts as our secretary. Our club itself features over 50 student members, with many coming to competitions, workshops, and daily club meetings.
+							Our club is entirely student-run. In the 2015-2016 academic year, we have <a href="club_contact.php">four club heads:</a> <a href="https://matthewwang.me/"><b>Matthew Wang</b></a>, <a href="https://sarick.tech"><b>Jack Sarick</b></a>,
+							<b><a href="https://jmace.me/">John Mace</a></b>, and <b>Camran Hansen</b>. Evan Boeckh acts as our secretary. Our club itself features over 50 student members, with many coming to competitions, workshops, and daily club meetings.
 							</br>
 							</br>
 							Kevin Olds is our club supervisor: he ensures that our club is safe, organized, and successful. Without him, the club wouldn't be possible. We'd like to thank him for his service to the club, and to the school.

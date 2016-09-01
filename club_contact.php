@@ -44,7 +44,7 @@
 									<td><a href="mailto:jack.sarick@ucc.on.ca">jack.sarick@ucc.on.ca</a></td>
 								</tr>
 								<tr>
-									<td>John Mace</td>
+									<td><a href="https://jmace.me/">John Mace</a></td>
 									<td>Club Head, Head of Programming</td>
 									<td><a href="mailto:john.mace@ucc.on.ca">john.mace@ucc.on.ca</a></td>
 								</tr>
