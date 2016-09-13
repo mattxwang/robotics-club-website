@@ -1,21 +1,5 @@
 <?php include_once("functions/import_info.php") ?>
-<?php
-	require("functions/common.php");
-	//redir on no login
-	if(empty($_SESSION['user'])){
-		header("Location: login.php");
-		die("Redirecting to login.php");
-	}
-	//redir if no permissions
-	if($_SESSION['user']['admin'] === 0){
-		header("Location: user_home.php");
-		die("Redirecting to user_home.php");
-	}
 
-	$timestamp = getdate();
-	$day = (string) $timestamp['weekday'] . " " . (string) $timestamp['month'] .  " " . (string) $timestamp['mday'] . " " . (string) $timestamp['year'];
-
-?>
 <!DOCTYPE html>
 <html>
 	<head>
